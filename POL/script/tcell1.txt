@@ -1,0 +1,14 @@
+extern void object::Rozwi¹zanie()
+{
+	
+	grab();
+	turn(90);
+	drop();
+	
+	turn(-180);
+	
+	grab();
+	turn(90);
+	drop();
+	
+}
