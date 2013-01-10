@@ -1,9 +1,9 @@
 \b;Exercice
-Programmez le \l;robot\u object\bottr; pour qu'il suive le chemin en forme de spirale. Il faut avancer deux fois de 25 mètres, puis deux fois de 20 mètres. etc., jusqu'à l'arrêt.
+Programmez le \l;robot\u object\bottr; pour qu'il suive le chemin en forme de spirale. Il faut avancer deux fois de 25 mÃ¨tres, puis deux fois de 20 mÃ¨tres. etc., jusqu'Ã  l'arrÃªt.
 
 \image tproc2 8 8;
 \b;Fonction
-On constate que le mouvement est composé de "L" imbriqués. Le premier, en bleu foncé, avance deux fois de 25 mètres. Le deuxième, en bleu clair, avance de 5 mètres de moins, etc. On peut donc commencer par réaliser la \l;fonction\u cbot\function; qui déplace le robot le long d'un "L" dont on donne la longueur¦:
+On constate que le mouvement est composÃ© de "L" imbriquÃ©s. Le premier, en bleu foncÃ©, avance deux fois de 25 mÃ¨tres. Le deuxiÃ¨me, en bleu clair, avance de 5 mÃ¨tres de moins, etc. On peut donc commencer par rÃ©aliser la \l;fonction\u cbot\function; qui dÃ©place le robot le long d'un "L" dont on donne la longueurÂ¦:
 \c;
 \s;void object::Part(float length)
 \s;{
@@ -14,9 +14,9 @@ On constate que le mouvement est composé de "L" imbriqués. Le premier, en bleu f
 \s;	}
 \s;}
 \n;
-Il ne reste plus qu'à écrire la fonction principale, qui fera appel à \c;Part\n;. La variable \c;rest\n; est initialisée au départ à 25 mètres. La boucle \c;while\n; est ensuite répétée tant que \c;rest\n; est plus grand que zéro. A l'intérieur de la boucle, on appelle la fonction \c;Part\n; définie plus haut, puis on enlève 5 mètres à la longueur à parcourir.
+Il ne reste plus qu'Ã  Ã©crire la fonction principale, qui fera appel Ã  \c;Part\n;. La variable \c;rest\n; est initialisÃ©e au dÃ©part Ã  25 mÃ¨tres. La boucle \c;while\n; est ensuite rÃ©pÃ©tÃ©e tant que \c;rest\n; est plus grand que zÃ©ro. A l'intÃ©rieur de la boucle, on appelle la fonction \c;Part\n; dÃ©finie plus haut, puis on enlÃ¨ve 5 mÃ¨tres Ã  la longueur Ã  parcourir.
 \c;
-\s;extern void object::Déplacer( )
+\s;extern void object::DÃ©placer( )
 \s;{
 \s;	float	rest = 25;
 \s;	while ( rest > 0 )
@@ -26,12 +26,12 @@ Il ne reste plus qu'à écrire la fonction principale, qui fera appel à \c;Part\n;
 \s;	}
 \s;}
 \n;
-Le dernier appel de \c;Part\n; a lieu avec la valeur \c;5\n;. Ensuite, l'expression \c;rest-5\n; met la valeur zéro dans la variable \c;rest\n;. La boucle \c;while\n; est donc stoppée.
+Le dernier appel de \c;Part\n; a lieu avec la valeur \c;5\n;. Ensuite, l'expression \c;rest-5\n; met la valeur zÃ©ro dans la variable \c;rest\n;. La boucle \c;while\n; est donc stoppÃ©e.
 
 \b;Remarque
-Vous aurez peut-être remarqué que dans l'exercice précédent, la fonction principale était au début, alors qu'ici elle vient après la fonction secondaire \c;Part\n;. En fait, les deux façons de faire sont possibles et rigoureusement identiques.
+Vous aurez peut-Ãªtre remarquÃ© que dans l'exercice prÃ©cÃ©dent, la fonction principale Ã©tait au dÃ©but, alors qu'ici elle vient aprÃ¨s la fonction secondaire \c;Part\n;. En fait, les deux faÃ§ons de faire sont possibles et rigoureusement identiques.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tproc1; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tproc1; et \l;programmation\u cbot;.

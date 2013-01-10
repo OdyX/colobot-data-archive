@@ -1,28 +1,28 @@
 \b;\button 167; Fabrique de piles
 \image energy 8 8;
-Ce bâtiment transforme un cube de \l;titanium\u object\titan; en une \l;pile\u object\power; chargée, prête à l'emploi.
+Ce bÃ¢timent transforme un cube de \l;titanium\u object\titan; en une \l;pile\u object\power; chargÃ©e, prÃªte Ã  l'emploi.
 
-Une fabrique de piles a besoin d'un sous-sol riche en énergie pour être fonctionnelle. Si le rapport du satellite indique que l'énergie n'est présente que par endroits, il faut au préalable sonder le sous-sol avec un \l;robot renifleur\u object\botsr;. S'il dépose une \l;croix verte\u object\enerspot;, l'endroit est adapté à la construction d'une fabrique de piles ou d'une \l;station de recharge\u object\station;.
+Une fabrique de piles a besoin d'un sous-sol riche en Ã©nergie pour Ãªtre fonctionnelle. Si le rapport du satellite indique que l'Ã©nergie n'est prÃ©sente que par endroits, il faut au prÃ©alable sonder le sous-sol avec un \l;robot renifleur\u object\botsr;. S'il dÃ©pose une \l;croix verte\u object\enerspot;, l'endroit est adaptÃ© Ã  la construction d'une fabrique de piles ou d'une \l;station de recharge\u object\station;.
 
-Si après la construction la grosse pile de la fabrique reste vide (rouge), cela signifie que le sous-sol choisi ne contient pas d'énergie.
+Si aprÃ¨s la construction la grosse pile de la fabrique reste vide (rouge), cela signifie que le sous-sol choisi ne contient pas d'Ã©nergie.
 
 \t;Emplacement requis
-Surface plate de 4 mètres de diamètre riche en énergie.
+Surface plate de 4 mÃ¨tres de diamÃ¨tre riche en Ã©nergie.
 
-\t;Entrée
+\t;EntrÃ©e
 Titanium.
 
 \t;Sortie
 Pile normale.
 
-\t;Energie consommée
+\t;Energie consommÃ©e
 Extraite du sous-sol.
 
-\t;Durée de l'opération
+\t;DurÃ©e de l'opÃ©ration
 12 secondes.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;PowerPlant\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

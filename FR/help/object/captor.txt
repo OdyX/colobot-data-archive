@@ -1,24 +1,24 @@
 \b;\button 174; Paratonnerre
 \image captor 8 8;
-Le paratonnerre protège de la foudre, dans un rayon de 50 mètres. De plus, tous les robots et toutes \l;piles normales\u object\power; placés dessous sont rechargés lorsque le paratonnerre est frappé par la foudre. Les \l;piles atomiques\u object\atomic; ne sont pas rechargées.
+Le paratonnerre protÃ¨ge de la foudre, dans un rayon de 50 mÃ¨tres. De plus, tous les robots et toutes \l;piles normales\u object\power; placÃ©s dessous sont rechargÃ©s lorsque le paratonnerre est frappÃ© par la foudre. Les \l;piles atomiques\u object\atomic; ne sont pas rechargÃ©es.
 
-Dans le vaste cosmos, rares sont les planètes ayant des orages magnétiques. Parmi les planètes visitées, seule Orphéon présente ce phénomène.
+Dans le vaste cosmos, rares sont les planÃ¨tes ayant des orages magnÃ©tiques. Parmi les planÃ¨tes visitÃ©es, seule OrphÃ©on prÃ©sente ce phÃ©nomÃ¨ne.
 
-Pour visualiser la zone de protection d'un paratonnerre, sélectionnez-le, puis utilisez le bouton <rayon d'action> \button 41;. Des points rouges bordent la zone circulaire pendant 20 secondes.
+Pour visualiser la zone de protection d'un paratonnerre, sÃ©lectionnez-le, puis utilisez le bouton <rayon d'action> \button 41;. Des points rouges bordent la zone circulaire pendant 20 secondes.
 
-Votre \l;vaisseau spatial\u object\base; fait également office de paratonnerre. Par contre il ne recharge pas les piles.
+Votre \l;vaisseau spatial\u object\base; fait Ã©galement office de paratonnerre. Par contre il ne recharge pas les piles.
 
 \t;Emplacement requis
-Surface plate quelconque de 10 mètres de diamètre.
+Surface plate quelconque de 10 mÃ¨tres de diamÃ¨tre.
 
-\t;Energie consommée
+\t;Energie consommÃ©e
 Foudre.
 
-\t;Durée de l'opération
+\t;DurÃ©e de l'opÃ©ration
 1 seconde.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;PowerCaptor\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

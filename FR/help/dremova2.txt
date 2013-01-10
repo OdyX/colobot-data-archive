@@ -1,13 +1,13 @@
 \b;Exercice
-Déplacez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivée. On ne connaît pas la position du titanium. En revanche, on sait que la plate-forme est à la position x=10 et y=-60.
+DÃ©placez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivÃ©e. On ne connaÃ®t pas la position du titanium. En revanche, on sait que la plate-forme est Ã  la position x=10 et y=-60.
 
 \b;Instructions utiles
-\c;\l;radar\u cbot\radar;\n; pour détecter le titanium (catégorie \c;\l;Titanium\u object\titan;\n;)
-\c;\l;goto\u cbot\goto;\n; pour déplacer le robot
+\c;\l;radar\u cbot\radar;\n; pour dÃ©tecter le titanium (catÃ©gorie \c;\l;Titanium\u object\titan;\n;)
+\c;\l;goto\u cbot\goto;\n; pour dÃ©placer le robot
 \c;\l;grab\u cbot\grab;\n; pour prendre un objet
-\c;\l;drop\u cbot\drop;\n; pour déposer un objet
+\c;\l;drop\u cbot\drop;\n; pour dÃ©poser un objet
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
 \l;Programmation\u cbot;.

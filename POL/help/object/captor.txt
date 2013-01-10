@@ -1,25 +1,25 @@
 \b;\button 174; Stacja odgromnikowa
 \image captor 8 8;
-Stacja odgromnikowa spe³nia rolê przewodnika wy³adowañ jak i przetwornika energii.
-Zapewnia ochronê przed wy³adowaniami elektrycznymi podczas burz magnetycznych w promieniu 50 metrów. Dodatkowo, w chwili uderzenia pioruna, ³adowane s¹ wszystkie roboty i \l;ogniwa elektryczne\u object\power; umieszczone pod nim, oczywiœcie z wyj¹tkiem \l;atomowych ogniw elektrycznych\u object\atomic;.
+Stacja odgromnikowa speÂ³nia rolÃª przewodnika wyÂ³adowaÃ± jak i przetwornika energii.
+Zapewnia ochronÃª przed wyÂ³adowaniami elektrycznymi podczas burz magnetycznych w promieniu 50 metrÃ³w. Dodatkowo, w chwili uderzenia pioruna, Â³adowane sÂ¹ wszystkie roboty i \l;ogniwa elektryczne\u object\power; umieszczone pod nim, oczywiÂœcie z wyjÂ¹tkiem \l;atomowych ogniw elektrycznych\u object\atomic;.
 
-Aby wyœwietliæ strefê, która jest zabezpieczona przez stacjê odgromnikow¹, nale¿y j¹ zaznaczyæ i klikn¹æ przycisk <zasiêgu> \button 41;. Czerwone kropki otocz¹ kolist¹ strefê na 20 sekund.
+Aby wyÂœwietliÃ¦ strefÃª, ktÃ³ra jest zabezpieczona przez stacjÃª odgromnikowÂ¹, naleÂ¿y jÂ¹ zaznaczyÃ¦ i kliknÂ¹Ã¦ przycisk <zasiÃªgu> \button 41;. Czerwone kropki otoczÂ¹ kolistÂ¹ strefÃª na 20 sekund.
 
-W ca³ym kosmosie, tylko na kilku planetach wystêpuj¹ burze magnetyczne. Wœród odwiedzanych planet ten fenomen wystêpuje jedynie na Orfenii.
+W caÂ³ym kosmosie, tylko na kilku planetach wystÃªpujÂ¹ burze magnetyczne. WÂœrÃ³d odwiedzanych planet ten fenomen wystÃªpuje jedynie na Orfenii.
 
-\l;Statek kosmiczny\u object\base; równie¿ dzia³a jak przewodnik wy³adowañ, jednak¿e nie ³aduje on ogniw elektrycznych.
+\l;Statek kosmiczny\u object\base; rÃ³wnieÂ¿ dziaÂ³a jak przewodnik wyÂ³adowaÃ±, jednakÂ¿e nie Â³aduje on ogniw elektrycznych.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 10 metrów.
+PÂ³aska powierzchnia szeroka na minimum 10 metrÃ³w.
 
-\t;ród³o zasilania
-Wy³adowania elektryczne.
+\t;ÂrÃ³dÂ³o zasilania
+WyÂ³adowania elektryczne.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 1 sekunda.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;PowerCaptor\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

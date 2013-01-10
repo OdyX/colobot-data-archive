@@ -1,36 +1,36 @@
 \b;Sherlock Holmes
-Une vieille pièce mécanique est cachée quelque part. Tu dois jouer au détective et la trouver, afin de la désintégrer.
+Une vieille piÃ¨ce mÃ©canique est cachÃ©e quelque part. Tu dois jouer au dÃ©tective et la trouver, afin de la dÃ©sintÃ©grer.
 
-\b;Un radar génial
-Avancer d'un nombre de centimètres donné pour trouver un boulon n'est pas très utile dans la pratique, car on ne connaît généralement pas sa position exacte.
-Il existe une autre instruction bien plus utile nommée \c;find();\n;. En fait, le robot dispose d'un radar très perfectionné, qui est actionné par cette instruction. Il va chercher l'objet dont on a donné le nom dans les parenthèses, et s'y dirige directement. Par exemple, avec \c;find(Scrap);\n;, le robot va vers le déchet le plus proche. Il est même tellement malin qu'il contournera automatiquement les obstacles sur sa route. Génial, non¦?
+\b;Un radar gÃ©nial
+Avancer d'un nombre de centimÃ¨tres donnÃ© pour trouver un boulon n'est pas trÃ¨s utile dans la pratique, car on ne connaÃ®t gÃ©nÃ©ralement pas sa position exacte.
+Il existe une autre instruction bien plus utile nommÃ©e \c;find();\n;. En fait, le robot dispose d'un radar trÃ¨s perfectionnÃ©, qui est actionnÃ© par cette instruction. Il va chercher l'objet dont on a donnÃ© le nom dans les parenthÃ¨ses, et s'y dirige directement. Par exemple, avec \c;find(Scrap);\n;, le robot va vers le dÃ©chet le plus proche. Il est mÃªme tellement malin qu'il contournera automatiquement les obstacles sur sa route. GÃ©nial, nonÂ¦?
 
 \b;L'instruction \c;find();\n;
-Avec l'instruction \c;move();\n;, par exemple, on donne un nombre entre les parenthèses. Avec l'instruction \c;find();\n;, on donne un nom d'objet. Par exemple \c;Scrap\n; pour un déchet, boulon, pièce mécanique, etc.
+Avec l'instruction \c;move();\n;, par exemple, on donne un nombre entre les parenthÃ¨ses. Avec l'instruction \c;find();\n;, on donne un nom d'objet. Par exemple \c;Scrap\n; pour un dÃ©chet, boulon, piÃ¨ce mÃ©canique, etc.
 
 \s;\c;find(Scrap);\n;
 
-Lorsque la pièce est trouvée et saisie avec \c;grab();\n;, on utilise de nouveau le radar pour retourner vers le désintégrateur en écrivant¦:
+Lorsque la piÃ¨ce est trouvÃ©e et saisie avec \c;grab();\n;, on utilise de nouveau le radar pour retourner vers le dÃ©sintÃ©grateur en Ã©crivantÂ¦:
 
 \s;\c;find(Disintegrator);\n;
 
-Il ne reste plus qu'à déposer la pièce avec \c;drop();\n; puis à reculer de 10 centimètres.
+Il ne reste plus qu'Ã  dÃ©poser la piÃ¨ce avec \c;drop();\n; puis Ã  reculer de 10 centimÃ¨tres.
 
 \b;Programme
-Le programme à écrire est donc¦:
+Le programme Ã  Ã©crire est doncÂ¦:
 
-\s;o  Trouve un déchet
-\s;o  Prend le déchet
-\s;o  Trouve le désintégrateur
-\s;o  Dépose le déchet
-\s;o  Recule de 10 centimètres
+\s;o  Trouve un dÃ©chet
+\s;o  Prend le dÃ©chet
+\s;o  Trouve le dÃ©sintÃ©grateur
+\s;o  DÃ©pose le dÃ©chet
+\s;o  Recule de 10 centimÃ¨tres
 
-Ne mets rien entre les parenthèses des instructions \c;grab();\n; et \c;drop();\n;.
-A toi d'écrire correctement le programme ...
+Ne mets rien entre les parenthÃ¨ses des instructions \c;grab();\n; et \c;drop();\n;.
+A toi d'Ã©crire correctement le programme ...
 
 \b;Un peu d'anglais
 \c;find          = \n;trouver
-\c;Scrap         = \n;déchet
-\c;Disintegrator = \n;désintégrateur
+\c;Scrap         = \n;dÃ©chet
+\c;Disintegrator = \n;dÃ©sintÃ©grateur
 \c;grab          = \n;saisir
 \c;drop          = \n;laisser tomber

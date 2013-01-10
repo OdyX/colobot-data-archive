@@ -9,12 +9,12 @@ Obecnie na orbicie geostacjonarnej planety Orfenia.
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   brak
-\tab;Ruda tytanu:      trochê (niebieska flaga)
+\tab;ÂrÃ³dÂ³o energii:   brak
+\tab;Ruda tytanu:      trochÃª (niebieska flaga)
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Wykryto:          olbrzymie mrówki
-\tab;  - Zagro¿enie:   niebezpoœrednie
-\tab;Wykryto:          gwa³towne burze elektromagnetyczne
+\tab;Wykryto:          olbrzymie mrÃ³wki
+\tab;  - ZagroÂ¿enie:   niebezpoÂœrednie
+\tab;Wykryto:          gwaÂ³towne burze elektromagnetyczne
 \n;

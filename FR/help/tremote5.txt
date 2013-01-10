@@ -1,32 +1,32 @@
 \b;Exercice
-Télécommandez un robot, sans utiliser une \l;borne d'information\u object\exchange;, pour qu'il passe par les 6 croix bleues. Les 2 acteurs principaux de cet exercice sont¦:
+TÃ©lÃ©commandez un robot, sans utiliser une \l;borne d'information\u object\exchange;, pour qu'il passe par les 6 croix bleues. Les 2 acteurs principaux de cet exercice sontÂ¦:
 
-1) Un \l;robot déménageur\u object\botgr; sans pile, donc immobile. C'est lui l'émetteur que vous devez programmer.
-2) Un \l;robot d'entraînement\u object\bottr; qui attend les ordres. Ce robot est déjà programmé.
+1) Un \l;robot dÃ©mÃ©nageur\u object\botgr; sans pile, donc immobile. C'est lui l'Ã©metteur que vous devez programmer.
+2) Un \l;robot d'entraÃ®nement\u object\bottr; qui attend les ordres. Ce robot est dÃ©jÃ  programmÃ©.
 
-Il faudra mémoriser les ordres, afin que le robot émetteur puisse donner tous les ordres sans attendre. Pour cela, le plus simple est d'utiliser un \l;tableau\u cbot\array; d'ordres.
+Il faudra mÃ©moriser les ordres, afin que le robot Ã©metteur puisse donner tous les ordres sans attendre. Pour cela, le plus simple est d'utiliser un \l;tableau\u cbot\array; d'ordres.
 
-\b;Le robot récepteur
-Pour commencer, il faut comprendre le programme du robot d'entraînement qui attend les ordres.
-Une \l;classe\u cbot\class; \c;order\n; contient deux variables: \c;global_type\n; détermine l'ordre à effectuer (avancer ou tourner) et \c;global_param\n; détermine la distance à avancer ou l'angle de rotation¦:
+\b;Le robot rÃ©cepteur
+Pour commencer, il faut comprendre le programme du robot d'entraÃ®nement qui attend les ordres.
+Une \l;classe\u cbot\class; \c;order\n; contient deux variables: \c;global_type\n; dÃ©termine l'ordre Ã  effectuer (avancer ou tourner) et \c;global_param\n; dÃ©termine la distance Ã  avancer ou l'angle de rotationÂ¦:
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; order
 \s;{
 \s;	\l;int\u cbot\int;    global_type;
 \s;	\l;float\u cbot\float;  global_param;
 \s;}
 \n;
-Une deuxième \l;classe\u cbot\class; \c;exchange\n; contient le mécanisme d'échange et de mémorisation des ordres. Il faut d'abord déclarer une variable \c;\l;static\u cbot\static;\n; appelée ici \c;global_fifo[]\n;. Cette variable contient une liste d'ordres à effectuer. Les accolades \c;[]\n; indiquent qu'il s'agit d'un \l;tableau\u cbot\array;. L'instruction \c;static\n; permet à tous les robots d'accéder à la même variable unique.
+Une deuxiÃ¨me \l;classe\u cbot\class; \c;exchange\n; contient le mÃ©canisme d'Ã©change et de mÃ©morisation des ordres. Il faut d'abord dÃ©clarer une variable \c;\l;static\u cbot\static;\n; appelÃ©e ici \c;global_fifo[]\n;. Cette variable contient une liste d'ordres Ã  effectuer. Les accolades \c;[]\n; indiquent qu'il s'agit d'un \l;tableau\u cbot\array;. L'instruction \c;static\n; permet Ã  tous les robots d'accÃ©der Ã  la mÃªme variable unique.
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
 \s;{
 \s;	\l;static\u cbot\static; \l;private\u cbot\private; order global_fifo[] = null;
 \n;
-Une première méthode \c;put\n; sera utilisée par le robot émetteur pour donner un ordre. L'ordre est simplement ajouté à la fin du tableau¦:
+Une premiÃ¨re mÃ©thode \c;put\n; sera utilisÃ©e par le robot Ã©metteur pour donner un ordre. L'ordre est simplement ajoutÃ© Ã  la fin du tableauÂ¦:
 \c;\s;	\l;synchronized\u cbot\synchro; void put(order a)
 \s;	{
 \s;		global_fifo[sizeof(global_fifo)] = a;
 \s;	}
 \n;
-Une deuxième méthode \c;get\n; sera utilisée par le robot récepteur pour prendre connaissance d'un ordre à effectuer. Si la liste est vide, on retourne \c;null\n; et le robot devra attendre. Dans le cas contraire, il faut retourner le premier ordre de la liste, et décaler tout le contenu de la liste vers le haut. Pour cela, il est nécessaire d'utiliser une nouvelle liste intermédiaire \c;copy\n;, car une liste existante n'est jamais raccourcie¦:
+Une deuxiÃ¨me mÃ©thode \c;get\n; sera utilisÃ©e par le robot rÃ©cepteur pour prendre connaissance d'un ordre Ã  effectuer. Si la liste est vide, on retourne \c;null\n; et le robot devra attendre. Dans le cas contraire, il faut retourner le premier ordre de la liste, et dÃ©caler tout le contenu de la liste vers le haut. Pour cela, il est nÃ©cessaire d'utiliser une nouvelle liste intermÃ©diaire \c;copy\n;, car une liste existante n'est jamais raccourcieÂ¦:
 \c;\s;	\l;synchronized\u cbot\synchro; order get()
 \s;	{
 \s;		if ( sizeof(global_fifo) == 0 )  return null;
@@ -41,13 +41,13 @@ Une deuxième méthode \c;get\n; sera utilisée par le robot récepteur pour prendre
 \s;		return a;
 \s;	}
 \n;
-Le programme principal peut maintenant exister. La variable \c;list\n; est de type \c;exchange\n;, qui est une \l;classe\u cbot\class;. Il faut utiliser l'instruction \c;\l;new\u cbot\new;\n; pour créer immédiatement une instance.
+Le programme principal peut maintenant exister. La variable \c;list\n; est de type \c;exchange\n;, qui est une \l;classe\u cbot\class;. Il faut utiliser l'instruction \c;\l;new\u cbot\new;\n; pour crÃ©er immÃ©diatement une instance.
 \c;\s;\l;extern\u cbot\extern; void object::Slave5( )
 \s;{
 \s;	exchange list = new exchange();
 \s;	order    todo;
 \n;
-La première boucle \c;while\n; exécute les ordres à l'infini. La deuxième boucle \c;while\n; attend un ordre en exécutant la méthode \c;get\n; de la classe \c;exchange\n;. Dès qu'un ordre contenant une valeur différente de \c;null\n; est reçu, la boucle est stoppée.
+La premiÃ¨re boucle \c;while\n; exÃ©cute les ordres Ã  l'infini. La deuxiÃ¨me boucle \c;while\n; attend un ordre en exÃ©cutant la mÃ©thode \c;get\n; de la classe \c;exchange\n;. DÃ¨s qu'un ordre contenant une valeur diffÃ©rente de \c;null\n; est reÃ§u, la boucle est stoppÃ©e.
 \c;\s;	\l;while\u cbot\while; ( true )
 \s;	{
 \s;		\l;while\u cbot\while; ( true )
@@ -57,7 +57,7 @@ La première boucle \c;while\n; exécute les ordres à l'infini. La deuxième boucle
 \s;			wait(1);
 \s;		}
 \n;
-Il ne reste plus qu'à exécuter l'ordre reçu¦:
+Il ne reste plus qu'Ã  exÃ©cuter l'ordre reÃ§uÂ¦:
 \c;\s;		if ( todo.global_type == 1 )
 \s;		{
 \s;			move(todo.global_param);
@@ -73,8 +73,8 @@ Il ne reste plus qu'à exécuter l'ordre reçu¦:
 \s;	}
 \s;}
 \n;
-\b;Le robot émetteur
-Dans le robot émetteur, il est plus simple d'écrire une procédure \c;SendOrder\n; qui se charge d'envoyer un ordre au robot récepteur. Il n'est pas nécessaire d'attendre, puisque tous les ordres sont stockés dans une liste¦:
+\b;Le robot Ã©metteur
+Dans le robot Ã©metteur, il est plus simple d'Ã©crire une procÃ©dure \c;SendOrder\n; qui se charge d'envoyer un ordre au robot rÃ©cepteur. Il n'est pas nÃ©cessaire d'attendre, puisque tous les ordres sont stockÃ©s dans une listeÂ¦:
 \c;\s;void object::SendOrder(float order, float param)
 \s;{
 \s;	exchange list = new exchange();
@@ -85,7 +85,7 @@ Dans le robot émetteur, il est plus simple d'écrire une procédure \c;SendOrder\n
 \s;	list.put(todo);
 \s;}
 \n;
-Le programme principal est finalement d'une simplicité enfantine¦:
+Le programme principal est finalement d'une simplicitÃ© enfantineÂ¦:
 \c;\s;extern void object::Remote5( )
 \s;{
 \s;	SendOrder(1, 20);  // move(20);
@@ -99,7 +99,7 @@ Le programme principal est finalement d'une simplicité enfantine¦:
 \s;	SendOrder(1, 10);  // move(10);
 \s;}
 \n;
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tremote4; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tremote4; et \l;programmation\u cbot;.

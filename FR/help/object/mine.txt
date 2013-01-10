@@ -1,14 +1,14 @@
 \b;Mine
 \image mine 8 8;
-Les mines étaient un système d'armement défensif utilisé par la première expédition. Suite aux dangers que cette technologie comporte, elle n'est plus utilisée. Dans quelques exercices, les mines sont utilisées pour vous apprendre à éviter des obstacles. Il n'existe aucun moyen de les supprimer ou de les créer.
+Les mines Ã©taient un systÃ¨me d'armement dÃ©fensif utilisÃ© par la premiÃ¨re expÃ©dition. Suite aux dangers que cette technologie comporte, elle n'est plus utilisÃ©e. Dans quelques exercices, les mines sont utilisÃ©es pour vous apprendre Ã  Ã©viter des obstacles. Il n'existe aucun moyen de les supprimer ou de les crÃ©er.
 
-Avec un \l;robot conventionnel d'entraînement\u object\bottr;, il ne faut pas s'approcher à moins de 2 mètres de la position d'une mine telle qu'elle est donnée par l'instruction \l;radar\u cbot\radar;.
+Avec un \l;robot conventionnel d'entraÃ®nement\u object\bottr;, il ne faut pas s'approcher Ã  moins de 2 mÃ¨tres de la position d'une mine telle qu'elle est donnÃ©e par l'instruction \l;radar\u cbot\radar;.
 
 \t;Transport
 Impossible.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;Mine\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

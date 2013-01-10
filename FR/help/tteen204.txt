@@ -1,15 +1,15 @@
 \b;Dessiner un "\c;L\n;" bicolore
-Dessine maintenant un "\c;L\n;" constitué d'un trait bleu et d'un trait orange de 20 centimètres chacun.
+Dessine maintenant un "\c;L\n;" constituÃ© d'un trait bleu et d'un trait orange de 20 centimÃ¨tres chacun.
 
 \image teen204 8 8;
 \b;Programme
-En français, on pourrait écrire le programme comme cela¦:
+En franÃ§ais, on pourrait Ã©crire le programme comme celaÂ¦:
 
 \s;o  Baisse le crayon bleu
-\s;o  Avance de 20 centimètres
-\s;o  Tourne à gauche de 90 degrés
+\s;o  Avance de 20 centimÃ¨tres
+\s;o  Tourne Ã  gauche de 90 degrÃ©s
 \s;o  Baisse le crayon orange
-\s;o  Avance de 20 centimètres
+\s;o  Avance de 20 centimÃ¨tres
 
 A toi de traduire cela en anglais informatique.
 

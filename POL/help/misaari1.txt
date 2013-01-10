@@ -6,15 +6,15 @@ Obecnie na orbicie geostacjonarnej planety Saari.
 \tab;Atmosfera:        CO2, tlen, azot
 \tab;Wiatr:            2,3 m/s
 \tab;Ruda tytanu:      brak
-\tab;Ruda uranu:       trochê (wierzcho³ek góry)
+\tab;Ruda uranu:       trochÃª (wierzchoÂ³ek gÃ³ry)
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   wszêdzie
+\tab;ÂrÃ³dÂ³o energii:   wszÃªdzie
 \tab;Ruda tytanu:      brak
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Wykryto:          u¿yteczne pozosta³oœci 
-\tab;Wykryto:          olbrzymie mrówki
-\tab;  - Zagro¿enie:   niebezpoœrednie
+\tab;Wykryto:          uÂ¿yteczne pozostaÂ³oÂœci 
+\tab;Wykryto:          olbrzymie mrÃ³wki
+\tab;  - ZagroÂ¿enie:   niebezpoÂœrednie
 \n;

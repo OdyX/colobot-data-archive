@@ -1,22 +1,22 @@
 \b;Nawigacja
-Trzy przyciski w lewej górnej czêœci ekranu pozwalaj¹ na nawigacjê po ró¿nych stronach pliku pomocy:
+Trzy przyciski w lewej gÃ³rnej czÃªÂœci ekranu pozwalajÂ¹ na nawigacjÃª po rÃ³Â¿nych stronach pliku pomocy:
 
 \button 30; Dom
-Wraca do strony g³ównej, czyli wyœwietlonej na pocz¹tku, na przyk³ad po naciœniêciu klawisza \key;\key help;\norm; lub \key;\key prog;\norm;.
+Wraca do strony gÂ³Ã³wnej, czyli wyÂœwietlonej na poczÂ¹tku, na przykÂ³ad po naciÂœniÃªciu klawisza \key;\key help;\norm; lub \key;\key prog;\norm;.
 
 \button 55; Poprzedni
-Wraca do poprzedniej strony, czyli tej która by³a wyœwietlana przed klikniêciem ³¹cza.
+Wraca do poprzedniej strony, czyli tej ktÃ³ra byÂ³a wyÂœwietlana przed klikniÃªciem Â³Â¹cza.
 
-\button 48; Nastêpny
-Wyœwietla ponownie nastêpn¹ stronê, wyœwietlan¹ przed u¿yciem przycisku "Dom" lub "Poprzedni".
+\button 48; NastÃªpny
+WyÂœwietla ponownie nastÃªpnÂ¹ stronÃª, wyÂœwietlanÂ¹ przed uÂ¿yciem przycisku "Dom" lub "Poprzedni".
 
 \t;Uwaga
-Jeœli przycisk jest szary, oznacza to, ¿e w danej chwili nie mo¿e byæ u¿yty. Na przyk³ad na stronie g³ównej przycisk "Dom" jest szary, gdy¿ jego u¿ycie nie mia³oby sensu.
+JeÂœli przycisk jest szary, oznacza to, Â¿e w danej chwili nie moÂ¿e byÃ¦ uÂ¿yty. Na przykÂ³ad na stronie gÂ³Ã³wnej przycisk "Dom" jest szary, gdyÂ¿ jego uÂ¿ycie nie miaÂ³oby sensu.
 
-Uwaga ta dotyczy wszystkich przycisków w grze COLOBOT.
+Uwaga ta dotyczy wszystkich przyciskÃ³w w grze COLOBOT.
 
 \t;Przewijanie tekstu
-Jeœli mysz jest wyposa¿ona w kó³ko, mo¿na go u¿ywaæ do przewijania tekstu w górê i w dó³. Jeœli nie, mo¿na u¿yæ klawiszy strza³ek oraz paska przewijania po prawej stronie ekranu.
+JeÂœli mysz jest wyposaÂ¿ona w kÃ³Â³ko, moÂ¿na go uÂ¿ywaÃ¦ do przewijania tekstu w gÃ³rÃª i w dÃ³Â³. JeÂœli nie, moÂ¿na uÂ¿yÃ¦ klawiszy strzaÂ³ek oraz paska przewijania po prawej stronie ekranu.
 
-\t;Wielkoœæ czcionki
-WskaŸnik w górnej czêœci ekranu umo¿liwia zmianê wielkoœci czcionki tekstu.
+\t;WielkoÂœÃ¦ czcionki
+WskaÂŸnik w gÃ³rnej czÃªÂœci ekranu umoÂ¿liwia zmianÃª wielkoÂœci czcionki tekstu.

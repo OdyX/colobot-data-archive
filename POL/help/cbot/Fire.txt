@@ -1,31 +1,31 @@
 \b;Instrukcja \c;fire\n;
-Instrukcja \c;fire();\n; powoduje wystrza³ z broni pok³adowej robota.
+Instrukcja \c;fire();\n; powoduje wystrzaÂ³ z broni pokÂ³adowej robota.
 
-\b;Podstawowe u¿ycie
-Przewa¿nie instrukcja ta u¿ywana jest do jednosekundowych serii strza³ów:
+\b;Podstawowe uÂ¿ycie
+PrzewaÂ¿nie instrukcja ta uÂ¿ywana jest do jednosekundowych serii strzaÂ³Ã³w:
 \c;
 \s;	fire(1);
 \n;
-\b;Dla specjalistów
-Sk³adnia:
+\b;Dla specjalistÃ³w
+SkÂ³adnia:
 \s;\c;fire ( czas );\n;
 
-Strzela seri¹ trwaj¹c¹ okreœlony czas. Im d³u¿sza seria, tym wiêcej energii jest zu¿ywane. Instrukcja ta mo¿e byæ u¿ywana przez nastêpuj¹ce typy robotów: 
-o \l;Dzia³o\u object\botfr;
-o \l;Dzia³o organiczne\u object\botor;
-o \l;Dzia³o fazowe\u object\botphaz;
+Strzela seriÂ¹ trwajÂ¹cÂ¹ okreÂœlony czas. Im dÂ³uÂ¿sza seria, tym wiÃªcej energii jest zuÂ¿ywane. Instrukcja ta moÂ¿e byÃ¦ uÂ¿ywana przez nastÃªpujÂ¹ce typy robotÃ³w: 
+o \l;DziaÂ³o\u object\botfr;
+o \l;DziaÂ³o organiczne\u object\botor;
+o \l;DziaÂ³o fazowe\u object\botphaz;
 
-Podczas kontrolowania dzia³anie robota przy u¿yciu programu, jedynym sposobem obrócenia lufy w prawo lub w lewo, jest obrócenie ca³ego robota instrukcj¹ \c;\l;turn\u cbot\turn;\n;.
+Podczas kontrolowania dziaÂ³anie robota przy uÂ¿yciu programu, jedynym sposobem obrÃ³cenia lufy w prawo lub w lewo, jest obrÃ³cenie caÂ³ego robota instrukcjÂ¹ \c;\l;turn\u cbot\turn;\n;.
 
-Do celowania w górê lub w dó³, nale¿y u¿ywaæ instrukcji \c;\l;aim\u cbot\aim;\n;.
+Do celowania w gÃ³rÃª lub w dÃ³Â³, naleÂ¿y uÂ¿ywaÃ¦ instrukcji \c;\l;aim\u cbot\aim;\n;.
 
 \t;czas: \c;\l;float\u cbot\float;\n;
-Czas trwania serii. Zwykle jest to 1 sekunda. Krótsze serie pozwalaj¹ zaoszczêdziæ czas i energiê.
+Czas trwania serii. Zwykle jest to 1 sekunda. KrÃ³tsze serie pozwalajÂ¹ zaoszczÃªdziÃ¦ czas i energiÃª.
 
 \t;Typ wyniku: \c;\l;int\u cbot\int;\n;
-Zero w przypadku powodzenia lub inna wartoœæ jeœli wyst¹pi³ b³¹d.
-\c;== 0 \n;uda³o siê wystrzeliæ 
-\c;!= 0 \n;b³¹d, strza³ nie móg³ byc wykonany
+Zero w przypadku powodzenia lub inna wartoÂœÃ¦ jeÂœli wystÂ¹piÂ³ bÂ³Â¹d.
+\c;== 0 \n;udaÂ³o siÃª wystrzeliÃ¦ 
+\c;!= 0 \n;bÂ³Â¹d, strzaÂ³ nie mÃ³gÂ³ byc wykonany
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

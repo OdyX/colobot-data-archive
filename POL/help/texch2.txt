@@ -1,36 +1,36 @@
-\b;Æwiczenie
-W tym æwiczeniu \l;stacje przekaŸnikowe\u object\exchange; wzd³u¿ drogi zawieraj¹ kierunek i odleg³oœæ do nastêpnej stacji. Nie jest znana liczba stacji przekaŸnikowych koniecznych do dotarcia do celu.
+\b;Ã†wiczenie
+W tym Ã¦wiczeniu \l;stacje przekaÂŸnikowe\u object\exchange; wzdÂ³uÂ¿ drogi zawierajÂ¹ kierunek i odlegÂ³oÂœÃ¦ do nastÃªpnej stacji. Nie jest znana liczba stacji przekaÂŸnikowych koniecznych do dotarcia do celu.
 
-\b;Ogólny algorytm
-	Powtarzaj w nieskoñczonoœæ:
-	o  Pobierz kierunek ze \l;stacji przekaŸnikowej\u object\exchange;.
-	o  Pobierz odleg³oœæ ze \l;stacji przekaŸnikowej\u object\exchange;.
-	o  Jeœli nie ma ¿adnych informacji, zatrzymaj program.
-	o  Wykonaj obrót.
-	o  IdŸ do nastêpnej stacji.
+\b;OgÃ³lny algorytm
+	Powtarzaj w nieskoÃ±czonoÂœÃ¦:
+	o  Pobierz kierunek ze \l;stacji przekaÂŸnikowej\u object\exchange;.
+	o  Pobierz odlegÂ³oÂœÃ¦ ze \l;stacji przekaÂŸnikowej\u object\exchange;.
+	o  JeÂœli nie ma Â¿adnych informacji, zatrzymaj program.
+	o  Wykonaj obrÃ³t.
+	o  IdÂŸ do nastÃªpnej stacji.
 
-Do nieskoñczonego powtarzania u¿yj pêtli \c;\l;while\u cbot\while; (true)\n;. Instrukcje pomiêdzy klamrami \c;{ }\n; bêd¹ powtarzane w nieskoñczonoœæ lub do czasu wykonania instrukcji \c;\l;break\u cbot\break;\n;.
+Do nieskoÃ±czonego powtarzania uÂ¿yj pÃªtli \c;\l;while\u cbot\while; (true)\n;. Instrukcje pomiÃªdzy klamrami \c;{ }\n; bÃªdÂ¹ powtarzane w nieskoÃ±czonoÂœÃ¦ lub do czasu wykonania instrukcji \c;\l;break\u cbot\break;\n;.
 \s;\c;	while ( true )
 \n;
-Tym razem potrzebne bêd¹ dwie \l;zmienne\u cbot\var;, jedna dla k¹ta obrotu, druga dla odleg³oœci, na przyk³ad \c;dir\n; i \c;len\n;:
+Tym razem potrzebne bÃªdÂ¹ dwie \l;zmienne\u cbot\var;, jedna dla kÂ¹ta obrotu, druga dla odlegÂ³oÂœci, na przykÂ³ad \c;dir\n; i \c;len\n;:
 \s;\c;	float  dir, len;
 \n;
-Nastêpnie mo¿na pobraæ informacje:
+NastÃªpnie moÂ¿na pobraÃ¦ informacje:
 \s;\c;	dir = receive("Direction");
 \s;\c;	len = receive("Length");
 \n;
-Zmienna \l;typu\u cbot\type; \c;\l;float\u cbot\float;\n; mo¿e równie¿ przyjmowaæ specjaln¹ wartoœæ zwan¹ \c;\l;nan\u cbot\nan;\n;. Oznacza ona, ¿e zmienna nie zawiera liczby (Not A Number).
-Jeœli w pobli¿u nie ma \l;stacji przekaŸnikowej\u object\exchange; z powodu osi¹gniêcia przez robota celu, b¹dŸ zgubienia drogi, dwie zmienne \c;dir\n; i \c;len\n; zawieraj¹ wartoœæ \c;\l;nan\u cbot\nan;\n;. Mo¿esz to sprawdziæ instrukcj¹ \c;\l;if\u cbot\if;\n; i jeœli to konieczne zatrzymaæ program instrukcj¹ \c;\l;break\u cbot\break;\n;:
+Zmienna \l;typu\u cbot\type; \c;\l;float\u cbot\float;\n; moÂ¿e rÃ³wnieÂ¿ przyjmowaÃ¦ specjalnÂ¹ wartoÂœÃ¦ zwanÂ¹ \c;\l;nan\u cbot\nan;\n;. Oznacza ona, Â¿e zmienna nie zawiera liczby (Not A Number).
+JeÂœli w pobliÂ¿u nie ma \l;stacji przekaÂŸnikowej\u object\exchange; z powodu osiÂ¹gniÃªcia przez robota celu, bÂ¹dÂŸ zgubienia drogi, dwie zmienne \c;dir\n; i \c;len\n; zawierajÂ¹ wartoÂœÃ¦ \c;\l;nan\u cbot\nan;\n;. MoÂ¿esz to sprawdziÃ¦ instrukcjÂ¹ \c;\l;if\u cbot\if;\n; i jeÂœli to konieczne zatrzymaÃ¦ program instrukcjÂ¹ \c;\l;break\u cbot\break;\n;:
 \s;\c;	if ( dir == nan )  break;
 \n;
-Jeœli pomyœlnie pobrano informacje ze \l;stacji przekaŸnikowej\u object\exchange; wykonaj obrót:
+JeÂœli pomyÂœlnie pobrano informacje ze \l;stacji przekaÂŸnikowej\u object\exchange; wykonaj obrÃ³t:
 \s;\c;	turn(dir);
 \n;
-I idŸ naprzód:
+I idÂŸ naprzÃ³d:
 \s;\c;	move(len);
 \n;
 \t;Uwaga
-Mo¿esz klikn¹æ na \l;stacji przekaŸnikowej informacji\u object\exchange; aby przeczytaæ zawarte w niej informacje. W tym æwiczeniu, ka¿da stacja przekaŸnikowa zawiera dwie wartoœci \c;"Direction"\n; (kierunek) i \c;"Length"\n; (odleg³oœæ).
+MoÂ¿esz kliknÂ¹Ã¦ na \l;stacji przekaÂŸnikowej informacji\u object\exchange; aby przeczytaÃ¦ zawarte w niej informacje. W tym Ã¦wiczeniu, kaÂ¿da stacja przekaÂŸnikowa zawiera dwie wartoÂœci \c;"Direction"\n; (kierunek) i \c;"Length"\n; (odlegÂ³oÂœÃ¦).
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

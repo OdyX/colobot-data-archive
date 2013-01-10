@@ -1,9 +1,9 @@
-\b;Rozwi¹zanie
-Uruchom natychmiast program \c;KillAnt1\n; na Twoim \l;dziale na ko³ach\u object\botfr; a zajmie siê on pierwsz¹ fal¹ ataku mrówek zmierzaj¹cych z zachodu.
+\b;RozwiÂ¹zanie
+Uruchom natychmiast program \c;KillAnt1\n; na Twoim \l;dziale na koÂ³ach\u object\botfr; a zajmie siÃª on pierwszÂ¹ falÂ¹ ataku mrÃ³wek zmierzajÂ¹cych z zachodu.
 
-Nastêpnie zbuduj dwie \l;wie¿e obronne\u object\tower;, jedn¹ na pó³noc od \l;statku kosmicznego\u object\base;, drug¹ na po³udniu (musisz zrobiæ to BARDZO szybko). Podczas budowania, u¿yj \l;transportera\u object\botgr; do zdobycia \l;ogniwa elektrycznego\u object\power;.
+NastÃªpnie zbuduj dwie \l;wieÂ¿e obronne\u object\tower;, jednÂ¹ na pÃ³Â³noc od \l;statku kosmicznego\u object\base;, drugÂ¹ na poÂ³udniu (musisz zrobiÃ¦ to BARDZO szybko). Podczas budowania, uÂ¿yj \l;transportera\u object\botgr; do zdobycia \l;ogniwa elektrycznego\u object\power;.
 
-Jak tylko poradzisz sobie z kolejnymi falami ataków oko³o piêtnastu \l;mrówek\u object\ant;, zajmij siê pozosta³ymi mrówkami, które nie zaatakowa³y. W celu ich wykrycia zbuduj \l;radar\u object\radar; a tak¿e \l;hutê\u object\convert;, \l;fabrykê robotów \u object\factory;, \l;stacjê energetyczn¹\u object\station; i \l;dzia³o lataj¹ce\u object\botfj; aby siê ich pozbyæ...
+Jak tylko poradzisz sobie z kolejnymi falami atakÃ³w okoÂ³o piÃªtnastu \l;mrÃ³wek\u object\ant;, zajmij siÃª pozostaÂ³ymi mrÃ³wkami, ktÃ³re nie zaatakowaÂ³y. W celu ich wykrycia zbuduj \l;radar\u object\radar; a takÂ¿e \l;hutÃª\u object\convert;, \l;fabrykÃª robotÃ³w \u object\factory;, \l;stacjÃª energetycznÂ¹\u object\station; i \l;dziaÂ³o latajÂ¹ce\u object\botfj; aby siÃª ich pozbyÃ¦...
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

@@ -1,14 +1,14 @@
 \b;Exercice
-Des objets sont dépossés sur 16 plates-formes disposées en carré¦:
+Des objets sont dÃ©possÃ©s sur 16 plates-formes disposÃ©es en carrÃ©Â¦:
 
 \image ttable3 16 16;
-Le but de l'exercice est de changer la position de tous les objets en inversant les axes X et Y¦:
+Le but de l'exercice est de changer la position de tous les objets en inversant les axes X et YÂ¦:
 
 \image ttable4 16 16;
 \b;Indices
-Les plates-formes sont positionnées en X à 0, 10, 20 et 30 et en Y également. Il n'y a pas deux objets semblables.
+Les plates-formes sont positionnÃ©es en X Ã  0, 10, 20 et 30 et en Y Ã©galement. Il n'y a pas deux objets semblables.
 
-Pour aller sur une plate-forme, on peut donc utiliser un \c;\l;goto\u cbot\goto;\n;, par exemple ainsi¦:
+Pour aller sur une plate-forme, on peut donc utiliser un \c;\l;goto\u cbot\goto;\n;, par exemple ainsiÂ¦:
 \s;\c;extern void object::Tableau()
 \s;{
 \s;	errmode(0);
@@ -22,16 +22,16 @@ Pour aller sur une plate-forme, on peut donc utiliser un \c;\l;goto\u cbot\goto;
 \s;			goto(pos);
 \s;			grab();
 \n;
-On peut alors savoir si on a pris quelque chose en testant la variable \c;\l;this.load\u cbot\object;\n; qui est \c;null\n; si on a rien pris. On peut savoir quel est le type d'objet ramassé avec \c;\l;this.load.category\u cbot\object;\n;.
-Le plus simple pour libérer la plate-forme, c'est de reculer un peu et de poser l'objet derrière le robot¦:
+On peut alors savoir si on a pris quelque chose en testant la variable \c;\l;this.load\u cbot\object;\n; qui est \c;null\n; si on a rien pris. On peut savoir quel est le type d'objet ramassÃ© avec \c;\l;this.load.category\u cbot\object;\n;.
+Le plus simple pour libÃ©rer la plate-forme, c'est de reculer un peu et de poser l'objet derriÃ¨re le robotÂ¦:
 \s;\c;			move(-2);
 \s;			drop(Behind);
 \n;
-Pour pouvoir remettre les objets en place, il faut mémoriser leurs positions dans l'espace. Pour cela, on peut utiliser un \l;tableau\u cbot\array;.
-Un tableau à deux dimensions pouvant mémoriser 4 fois 4 valeurs entières se défini ainsi¦:
+Pour pouvoir remettre les objets en place, il faut mÃ©moriser leurs positions dans l'espace. Pour cela, on peut utiliser un \l;tableau\u cbot\array;.
+Un tableau Ã  deux dimensions pouvant mÃ©moriser 4 fois 4 valeurs entiÃ¨res se dÃ©fini ainsiÂ¦:
 \s;\c;	int   table[4][4];
 \n;
-On peut alors y placer les catégories d'objets ramassés à la position \c;x\n; et \c;y\n;¦:
+On peut alors y placer les catÃ©gories d'objets ramassÃ©s Ã  la position \c;x\n; et \c;y\n;Â¦:
 \s;\c;	if ( this.load == null )
 \s;	{
 \s;		table[x][y] = 0;
@@ -41,24 +41,24 @@ On peut alors y placer les catégories d'objets ramassés à la position \c;x\n; et
 \s;		table[x][y] = this.load.category;
 \s;	}
 \n;
-Remarque: Il est nécessaire de mettre \c;table[x][y]¦=¦0;\n; si on a pas d'objet, pour pouvoir utiliser ensuite \c;table[x][y]\n; dans un test.
+Remarque: Il est nÃ©cessaire de mettre \c;table[x][y]Â¦=Â¦0;\n; si on a pas d'objet, pour pouvoir utiliser ensuite \c;table[x][y]\n; dans un test.
 
 \b;Seconde partie
-Une fois les objets enlevés des plates-formes, il faut refaire une seconde boucle en X et Y. Comme il n'y a pas deux objets semblables, on peut utiliser l'instruction \c;\l;radar\u cbot\radar;\n; pour reprendre un objet et faire un \c;\l;goto\u cbot\goto;\n; pour le rechercher¦:
+Une fois les objets enlevÃ©s des plates-formes, il faut refaire une seconde boucle en X et Y. Comme il n'y a pas deux objets semblables, on peut utiliser l'instruction \c;\l;radar\u cbot\radar;\n; pour reprendre un objet et faire un \c;\l;goto\u cbot\goto;\n; pour le rechercherÂ¦:
 \s;\c;			if (table[y][x] == 0) continue;  // rien ici
 \s;			item = radar(table[y][x]);
 \s;			goto(item.position);
 \s;			grab();
 \n;
-On peut alors le remettre sur la plate-forme opposée¦:
+On peut alors le remettre sur la plate-forme opposÃ©eÂ¦:
 \s;\c;			pos.x = 10*x;
 \s;			pos.y = 10*y;
 \s;			goto(pos);
 \s;			drop();
 \n;
-A vous de compléter tout cela.
+A vous de complÃ©ter tout cela.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u ttable2; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u ttable2; et \l;programmation\u cbot;.

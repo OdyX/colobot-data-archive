@@ -1,25 +1,25 @@
 \b;Instructions de Houston
-Ramenez 4 unités de \l;minerai de titanium\u object\titanore; sur votre \l;vaisseau\u object\base;.
-Construisez le matériel nécessaire (robots volants).
+Ramenez 4 unitÃ©s de \l;minerai de titanium\u object\titanore; sur votre \l;vaisseau\u object\base;.
+Construisez le matÃ©riel nÃ©cessaire (robots volants).
 
-Avant de vous lancer dans une mission, consultez toujours le rapport du satellite d'observation en cliquant sur l'icône correspondante ci-contre à gauche \button 186;.
+Avant de vous lancer dans une mission, consultez toujours le rapport du satellite d'observation en cliquant sur l'icÃ´ne correspondante ci-contre Ã  gauche \button 186;.
 
-Nous vous avons envoyé un programme pour vous faciliter la tâche, référez-vous à la page correspondante à l'aide de l'icône \button 53;.
+Nous vous avons envoyÃ© un programme pour vous faciliter la tÃ¢che, rÃ©fÃ©rez-vous Ã  la page correspondante Ã  l'aide de l'icÃ´ne \button 53;.
  
-\b;Marche à suivre
+\b;Marche Ã  suivre
 1) Construisez un \l;centre de recherches\u object\research;.
 2) Effectuez la recherche <robots volants>.
 
-Lorsque la recherche est terminée, de nouveaux types de robots sont ajoutés à la liste que peut produire la fabrique. De plus, le réacteur placé sous votre sac de survie devient opérationnel.
+Lorsque la recherche est terminÃ©e, de nouveaux types de robots sont ajoutÃ©s Ã  la liste que peut produire la fabrique. De plus, le rÃ©acteur placÃ© sous votre sac de survie devient opÃ©rationnel.
 
 3) Construisez une \l;fabrique de robots\u object\factory;.
-4) Fabriquez un \l;robot déménageur volant\u object\botgj;.
-5) Ramenez 4 unités de \l;minerai de titanium\u object\titanore; sur votre \l;vaisseau\u object\base;.
-6) Embarquez le \l;robot déménageur à roues\u object\botgr; et le \l;robot déménageur volant\u object\botgj;, car ils seront peut-être utiles dans la mission suivante.
+4) Fabriquez un \l;robot dÃ©mÃ©nageur volant\u object\botgj;.
+5) Ramenez 4 unitÃ©s de \l;minerai de titanium\u object\titanore; sur votre \l;vaisseau\u object\base;.
+6) Embarquez le \l;robot dÃ©mÃ©nageur Ã  roues\u object\botgr; et le \l;robot dÃ©mÃ©nageur volant\u object\botgj;, car ils seront peut-Ãªtre utiles dans la mission suivante.
 
-Attention à ne pas tomber en panne d'énergie avec votre déménageur volant. Si nécessaire, changez la \l;pile\u object\power; avant de partir au loin (voir le programme envoyé par Houston \button 53;).
+Attention Ã  ne pas tomber en panne d'Ã©nergie avec votre dÃ©mÃ©nageur volant. Si nÃ©cessaire, changez la \l;pile\u object\power; avant de partir au loin (voir le programme envoyÃ© par Houston \button 53;).
 
-Utilisez la mini-carte en bas à droite pour ne pas vous perdre dans les nombreux cratères présents sur la lune.
+Utilisez la mini-carte en bas Ã  droite pour ne pas vous perdre dans les nombreux cratÃ¨res prÃ©sents sur la lune.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

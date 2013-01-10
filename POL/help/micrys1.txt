@@ -5,15 +5,15 @@ Obecnie na orbicie geostacjonarnej planety Krystalia.
 \tab;Temperatura:      5,4C
 \tab;Atmosfera:        azot
 \tab;Wiatr:            0,0 m/s
-\tab;Ruda tytanu:      trochê
+\tab;Ruda tytanu:      trochÃª
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   brak
+\tab;ÂrÃ³dÂ³o energii:   brak
 \tab;Ruda tytanu:      brak danych
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
 \tab;Wykryto:          niezidentyfikowane organizmy
-\tab;  - Zagro¿enie:   ?
+\tab;  - ZagroÂ¿enie:   ?
 \n;

@@ -1,7 +1,7 @@
 \b;En ligne
-Une boucle \c;repeat()\n; peut aussi très bien servir à détruire des bouteilles placées sur une même ligne¦:
+Une boucle \c;repeat()\n; peut aussi trÃ¨s bien servir Ã  dÃ©truire des bouteilles placÃ©es sur une mÃªme ligneÂ¦:
 
 \image teen407 8 8;
-Il faut chaque fois avancer de 30 centimètres pour passer d'une bouteille à l'autre.
+Il faut chaque fois avancer de 30 centimÃ¨tres pour passer d'une bouteille Ã  l'autre.
 
 A toi de jouer ...

@@ -1,8 +1,8 @@
-\b;Æwiczenie
-IdŸ drog¹ w kszta³cie spirali. Robot musi przejœæ 2 razy 25 metrów naprzód i skrêciæ, a nastêpnie 2 razy przejœæ po 20 metrów naprzód i skrêciæ, itd.
+\b;Ã†wiczenie
+IdÂŸ drogÂ¹ w ksztaÂ³cie spirali. Robot musi przejÂœÃ¦ 2 razy 25 metrÃ³w naprzÃ³d i skrÃªciÃ¦, a nastÃªpnie 2 razy przejÂœÃ¦ po 20 metrÃ³w naprzÃ³d i skrÃªciÃ¦, itd.
 \image tproc2 8 8;
 \b;Funkcja
-Warto zauwa¿yæ, ¿e "L"-kszta³tne czêœci pasuj¹ do siebie. Pierwsza czêœæ (ciemno niebieska) ma rozmiar dwa razy po 25 metrów. Druga (jasno niebieska) jest 5 metrów krótsza. Zacznijmy od napisania \l;funkcji\u cbot\function; która bêdzie poruszaæ robotem po "L"-kszta³tnej czêœci o d³ugoœci podanej jako parametr:
+Warto zauwaÂ¿yÃ¦, Â¿e "L"-ksztaÂ³tne czÃªÂœci pasujÂ¹ do siebie. Pierwsza czÃªÂœÃ¦ (ciemno niebieska) ma rozmiar dwa razy po 25 metrÃ³w. Druga (jasno niebieska) jest 5 metrÃ³w krÃ³tsza. Zacznijmy od napisania \l;funkcji\u cbot\function; ktÃ³ra bÃªdzie poruszaÃ¦ robotem po "L"-ksztaÂ³tnej czÃªÂœci o dÂ³ugoÂœci podanej jako parametr:
 \c;
 \s;void object::Part(float length)
 \s;{
@@ -13,7 +13,7 @@ Warto zauwa¿yæ, ¿e "L"-kszta³tne czêœci pasuj¹ do siebie. Pierwsza czêœæ (ciemno
 \s;	}
 \s;}
 \n;
-Teraz wystarczy tylko napisaæ g³ówn¹ funkcjê, która bêdzie wywo³ywa³a funkcjê \c;Part\n;. Na pocz¹tku zmienna \c;rest\n; bêdzie mia³a wartoœæ 25m. Pêtla \c;while\n; bêdzie powtarza³a instrukcje wewn¹trz bloku tak d³ugo, jak d³ugo zmienna \c;rest\n; bêdzie wiêksza od zera. Wewn¹trz pêtli najpierw nale¿y wywo³aæ funkcjê \c;Part\n; (zobacz powy¿ej), a nastêpnie odj¹æ 5m od d³ugoœci L.
+Teraz wystarczy tylko napisaÃ¦ gÂ³Ã³wnÂ¹ funkcjÃª, ktÃ³ra bÃªdzie wywoÂ³ywaÂ³a funkcjÃª \c;Part\n;. Na poczÂ¹tku zmienna \c;rest\n; bÃªdzie miaÂ³a wartoÂœÃ¦ 25m. PÃªtla \c;while\n; bÃªdzie powtarzaÂ³a instrukcje wewnÂ¹trz bloku tak dÂ³ugo, jak dÂ³ugo zmienna \c;rest\n; bÃªdzie wiÃªksza od zera. WewnÂ¹trz pÃªtli najpierw naleÂ¿y wywoÂ³aÃ¦ funkcjÃª \c;Part\n; (zobacz powyÂ¿ej), a nastÃªpnie odjÂ¹Ã¦ 5m od dÂ³ugoÂœci L.
 \c;
 \s;extern void object::Funkcja2( )
 \s;{
@@ -25,10 +25,10 @@ Teraz wystarczy tylko napisaæ g³ówn¹ funkcjê, która bêdzie wywo³ywa³a funkcjê \c
 \s;	}
 \s;}
 \n;
-Funkcja \c;Part\n; zostanie po raz ostatni wywo³ana z wartoœci¹ \c;5\n;. Nastêpnie wyra¿enie \c;rest-5\n; przypisze zmiennej \c;rest\n; wartoœæ zero i pêtla \c;while\n; zatrzyma siê.
+Funkcja \c;Part\n; zostanie po raz ostatni wywoÂ³ana z wartoÂœciÂ¹ \c;5\n;. NastÃªpnie wyraÂ¿enie \c;rest-5\n; przypisze zmiennej \c;rest\n; wartoÂœÃ¦ zero i pÃªtla \c;while\n; zatrzyma siÃª.
 
 \b;Uwaga
-Mo¿na zauwa¿yæ, ¿e w poprzednim æwiczeniu g³ówna funkcja by³a na pocz¹tku programu, podczas gdy w tym æwiczeniu jest ona na koñcu programu, za funkcj¹ \c;Part\n;. Kolejnoœæ funkcji w programie nie ma znaczenia, mo¿na je uszeregowaæ dowolnie.
+MoÂ¿na zauwaÂ¿yÃ¦, Â¿e w poprzednim Ã¦wiczeniu gÂ³Ã³wna funkcja byÂ³a na poczÂ¹tku programu, podczas gdy w tym Ã¦wiczeniu jest ona na koÃ±cu programu, za funkcjÂ¹ \c;Part\n;. KolejnoÂœÃ¦ funkcji w programie nie ma znaczenia, moÂ¿na je uszeregowaÃ¦ dowolnie.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,15 +1,15 @@
-\b;Rozwi¹zanie
-1) ZnajdŸ \l;czarn¹ skrzynkê\u object\bbox; osobiœcie. Mo¿esz j¹ dostrzec z góry, korzystaj¹c z silnika odrzutowego lub nurkuj¹c w wodzie.
-2) Zbuduj \l;hutê\u object\convert; w pobli¿u kawa³ków rudy tytanu. Znajdziesz je obok statku kosmicznego, na wschodzie.
+\b;RozwiÂ¹zanie
+1) ZnajdÂŸ \l;czarnÂ¹ skrzynkÃª\u object\bbox; osobiÂœcie. MoÂ¿esz jÂ¹ dostrzec z gÃ³ry, korzystajÂ¹c z silnika odrzutowego lub nurkujÂ¹c w wodzie.
+2) Zbuduj \l;hutÃª\u object\convert; w pobliÂ¿u kawaÂ³kÃ³w rudy tytanu. Znajdziesz je obok statku kosmicznego, na wschodzie.
 3) Wyprodukuj dwie \l;kostki tytanu\u object\titan;.
-4) Zbuduj \l;fabrykê robotów\u object\factory; w pobli¿u czarnej skrzynki.
+4) Zbuduj \l;fabrykÃª robotÃ³w\u object\factory; w pobliÂ¿u czarnej skrzynki.
 5) Zbuduj robota \l;nurka\u object\botsub;.
-6) Dostarcz czarn¹ skrzynkê na pok³ad.
-7) Odleæ.
+6) Dostarcz czarnÂ¹ skrzynkÃª na pokÂ³ad.
+7) OdleÃ¦.
 
-Czarna skrzynka le¿y na dnie ma³ego jeziora, na pó³nocny wschód od statku kosmicznego.
+Czarna skrzynka leÂ¿y na dnie maÂ³ego jeziora, na pÃ³Â³nocny wschÃ³d od statku kosmicznego.
 
-Fabrykê robotów mo¿esz zbudowaæ tu¿ przy jeziorze, na jego po³udniowym brzegu.
+FabrykÃª robotÃ³w moÂ¿esz zbudowaÃ¦ tuÂ¿ przy jeziorze, na jego poÂ³udniowym brzegu.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

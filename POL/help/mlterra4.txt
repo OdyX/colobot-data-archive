@@ -1,44 +1,44 @@
-\b;Programy przys³ane z Houston
-Poni¿ej znajdziesz jeden z programów napisanych przez naszych in¿ynierów.
+\b;Programy przysÂ³ane z Houston
+PoniÂ¿ej znajdziesz jeden z programÃ³w napisanych przez naszych inÂ¿ynierÃ³w.
 
-Poleca on \l;os³aniaczowi\u object\botshld; œledzenie i ochronê \l;dzia³a fazowego\u object\botphaz;.
+Poleca on \l;osÂ³aniaczowi\u object\botshld; Âœledzenie i ochronÃª \l;dziaÂ³a fazowego\u object\botphaz;.
 \c;
 \s;extern void object::FollowPhazer()
 \s;{
 \s;	\l;object\u cbot\type;    item;              // informacje o dziale fazowym
 \s;	\l;point\u cbot\type;     dest;              // pozycja docelowa
-\s;	\l;float\u cbot\type;     dist;              // odleg³oœæ do dzia³a fazowego
+\s;	\l;float\u cbot\type;     dist;              // odlegÂ³oÂœÃ¦ do dziaÂ³a fazowego
 \s;	
 \s;	item = \l;radar\u cbot\radar;(\l;PhazerShooter\u cbot\category;);
 \s;	\l;if\u cbot\if; ( item == null )
 \s;	{
-\s;		\l;message\u cbot\message;("Nie znaleziono dzia³a fazowego");
+\s;		\l;message\u cbot\message;("Nie znaleziono dziaÂ³a fazowego");
 \s;		\l;return\u cbot\return;;                  // zatrzymaj program
 \s;	}
-\s;	\l;shield\u cbot\shield;(1, 25);               // aktywuj os³onê
+\s;	\l;shield\u cbot\shield;(1, 25);               // aktywuj osÂ³onÃª
 \s;	
-\s;	\l;while\u cbot\while; ( true )               // powtarzaj w nieskoñczonoœæ
+\s;	\l;while\u cbot\while; ( true )               // powtarzaj w nieskoÃ±czonoÂœÃ¦
 \s;	{
-\s;		item = \l;radar\u cbot\radar;(PhazerShooter);// znajdŸ dzia³o fazowe
+\s;		item = \l;radar\u cbot\radar;(PhazerShooter);// znajdÂŸ dziaÂ³o fazowe
 \s;		\l;if\u cbot\if; ( item == null )  break;
 \s;		
 \s;		dist = \l;distance\u cbot\dist;(item.position, position);
 \s;		\l;if\u cbot\if; ( dist < 5 )
-\s;		{                        // jeœli jest bli¿ej ni¿ 5 m:
+\s;		{                        // jeÂœli jest bliÂ¿ej niÂ¿ 5 m:
 \s;			\l;wait\u cbot\wait;(1);             // czekaj
 \s;		}
 \s;		\l;else\u cbot\if;                     // w przeciwnym przypadku:
-\s;		{ // Oblicz pozycjê 5 m przed dzia³em fazowym
+\s;		{ // Oblicz pozycjÃª 5 m przed dziaÂ³em fazowym
 \s;			dest.x = (item.position.x-position.x)*((dist-5)/dist)+position.x;
 \s;			dest.y = (item.position.y-position.y)*((dist-5)/dist)+position.y;
 \s;			dest.z = (item.position.z-position.z)*((dist-5)/dist)+position.z;
-\s;			\l;goto\u cbot\goto;(dest, 0, 1, 1); // i idŸ tam
+\s;			\l;goto\u cbot\goto;(dest, 0, 1, 1); // i idÂŸ tam
 \s;		}
 \s;	}
 \s;}
 \n;
 \b;Archiwum
-Lista programów przys³anych w poprzednich misjach:
+Lista programÃ³w przysÂ³anych w poprzednich misjach:
 
 o  \c;\l;ServiceTower1\u mlvolca2;\n;
 o  \c;\l;CollectTitanium3\u mlvolca1;\n;

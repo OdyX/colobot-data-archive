@@ -9,13 +9,13 @@ Obecnie na orbicie geostacjonarnej planety Krystalia.
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   brak
+\tab;ÂrÃ³dÂ³o energii:   brak
 \tab;Ruda tytanu:      brak
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Wykryto:          olbrzymie mrówki
-\tab;  - Zagro¿enie:   niebezpoœrednie
+\tab;Wykryto:          olbrzymie mrÃ³wki
+\tab;  - ZagroÂ¿enie:   niebezpoÂœrednie
 \tab;Wykryto:          nieznane organizmy
-\tab;  - Zagro¿enie:   ?
+\tab;  - ZagroÂ¿enie:   ?
 \n;

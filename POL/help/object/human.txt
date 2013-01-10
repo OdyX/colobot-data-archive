@@ -1,19 +1,19 @@
 \b;\button 136; Astronauta
 \image human 8 8;
-Astronaut¹ w trakcie gry jesteœ Ty.
+AstronautÂ¹ w trakcie gry jesteÂœ Ty.
 
-Jeœli umrzesz, misja koñczy siê niepowodzeniem.
+JeÂœli umrzesz, misja koÃ±czy siÃª niepowodzeniem.
 
-Za pomoc¹ dzia³a neutronowego umieszczonego w zestawie przetrwania mo¿na wznosiæ budynki. Zestaw przetrwania umo¿liwia, w wiêkszoœci misji, latanie dziêki umieszczonemu pod nim reaktorowi oraz p³ywanie bez ograniczenia czasowego. Mo¿na te¿ przenosiæ wiêkszoœæ obiektów, ale ich ciê¿ar znacz¹co zmniejsza prêdkoœæ poruszania siê. Równie¿ latanie, p³ywanie i chodzenie pod wod¹ jest niemo¿liwe w trakcie niesienia przedmiotu. Do tych zadañ polecane jest u¿ywanie robota \l;transportera\u object\botgr; lub robota \l;nurka\u object\botsub;.
+Za pomocÂ¹ dziaÂ³a neutronowego umieszczonego w zestawie przetrwania moÂ¿na wznosiÃ¦ budynki. Zestaw przetrwania umoÂ¿liwia, w wiÃªkszoÂœci misji, latanie dziÃªki umieszczonemu pod nim reaktorowi oraz pÂ³ywanie bez ograniczenia czasowego. MoÂ¿na teÂ¿ przenosiÃ¦ wiÃªkszoÂœÃ¦ obiektÃ³w, ale ich ciÃªÂ¿ar znaczÂ¹co zmniejsza prÃªdkoÂœÃ¦ poruszania siÃª. RÃ³wnieÂ¿ latanie, pÂ³ywanie i chodzenie pod wodÂ¹ jest niemoÂ¿liwe w trakcie niesienia przedmiotu. Do tych zadaÃ± polecane jest uÂ¿ywanie robota \l;transportera\u object\botgr; lub robota \l;nurka\u object\botsub;.
 
-Przenoszenie \l;rudy uranu\u object\uranore; nie jest mo¿liwe z powodu jej radioaktywnoœci. 
+Przenoszenie \l;rudy uranu\u object\uranore; nie jest moÂ¿liwe z powodu jej radioaktywnoÂœci. 
 
-Specjalny przycisk \button 111; umo¿liwia sprawdzenie, czy okoliczny grunt jest p³aski. Jest to wa¿ne, gdy¿ budynki mog¹ staæ jedynie na p³askiej powierzchni. P³aska powierzchnia jest zaznaczona na zielono, a pochy³oœci na czerwono.
+Specjalny przycisk \button 111; umoÂ¿liwia sprawdzenie, czy okoliczny grunt jest pÂ³aski. Jest to waÂ¿ne, gdyÂ¿ budynki mogÂ¹ staÃ¦ jedynie na pÂ³askiej powierzchni. PÂ³aska powierzchnia jest zaznaczona na zielono, a pochyÂ³oÂœci na czerwono.
 
-Przycisk \button 118; umo¿liwia zaznaczenie pozycji za pomoc¹ ró¿nokolorowych \l;flag\u object\flag;. Mo¿e zapobiec zgubieniu siê, mo¿e byæ równie¿ pomocne jeœli konieczne jest ponowne znalezienie wa¿nego miejsca lub oznaczenie pozycji robota. Do dyspozycji jest po 5 flag w 5 ró¿nych kolorach. Flagê mo¿na usun¹æ przyciskiem \button 119; i zachowaæ do póŸniejszego u¿ycia.
+Przycisk \button 118; umoÂ¿liwia zaznaczenie pozycji za pomocÂ¹ rÃ³Â¿nokolorowych \l;flag\u object\flag;. MoÂ¿e zapobiec zgubieniu siÃª, moÂ¿e byÃ¦ rÃ³wnieÂ¿ pomocne jeÂœli konieczne jest ponowne znalezienie waÂ¿nego miejsca lub oznaczenie pozycji robota. Do dyspozycji jest po 5 flag w 5 rÃ³Â¿nych kolorach. FlagÃª moÂ¿na usunÂ¹Ã¦ przyciskiem \button 119; i zachowaÃ¦ do pÃ³ÂŸniejszego uÂ¿ycia.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;Me\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

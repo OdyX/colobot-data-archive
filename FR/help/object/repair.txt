@@ -1,24 +1,24 @@
-\b;\button 169; Centre de réparation
+\b;\button 169; Centre de rÃ©paration
 \image repair 8 8;
-Ce bâtiment répare le bouclier des robots endommagés. Le bouclier d'un robot permet d'encaisser un certain nombre de tirs \l;ennemis\u object\mother;. Si le niveau du bouclier d'approche de zéro, le prochain tir détruira définitivement le robot.
+Ce bÃ¢timent rÃ©pare le bouclier des robots endommagÃ©s. Le bouclier d'un robot permet d'encaisser un certain nombre de tirs \l;ennemis\u object\mother;. Si le niveau du bouclier d'approche de zÃ©ro, le prochain tir dÃ©truira dÃ©finitivement le robot.
 
 \t;Emplacement requis
-Surface plate quelconque de 6 mètres de diamètre.
+Surface plate quelconque de 6 mÃ¨tres de diamÃ¨tre.
 
-\t;Entrée
-Robot endommagé.
+\t;EntrÃ©e
+Robot endommagÃ©.
 
 \t;Sortie
-Robot réparé (bouclier régénéré).
+Robot rÃ©parÃ© (bouclier rÃ©gÃ©nÃ©rÃ©).
 
-\t;Energie consommée
+\t;Energie consommÃ©e
 Aucune.
 
-\t;Durée de l'opération
-Quelques secondes, selon la réparation à effectuer.
+\t;DurÃ©e de l'opÃ©ration
+Quelques secondes, selon la rÃ©paration Ã  effectuer.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;RepairCenter\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

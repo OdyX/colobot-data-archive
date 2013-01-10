@@ -1,17 +1,17 @@
 \b;Z Centrum Kontroli Misji
-Poprzednia ekspedycja dostarczy³a pewnych informacji o \l;materii organicznej\u object\bullet; produkowanej prawdopodobnie przez \l;mrówki\u object\ant;. Otwiera ona przed Tob¹ nowe mo¿liwoœci. Niew¹tpliwie pozwala na stworzenie nowego typu hybrydowego robota o zwiêkszonej wydajnoœci, dziêki zastosowaniu fragmentów owadzich.
+Poprzednia ekspedycja dostarczyÂ³a pewnych informacji o \l;materii organicznej\u object\bullet; produkowanej prawdopodobnie przez \l;mrÃ³wki\u object\ant;. Otwiera ona przed TobÂ¹ nowe moÂ¿liwoÂœci. NiewÂ¹tpliwie pozwala na stworzenie nowego typu hybrydowego robota o zwiÃªkszonej wydajnoÂœci, dziÃªki zastosowaniu fragmentÃ³w owadzich.
 
-Twoja misja polega na eksperymentowaniu z pierwszym praktycznym zastosowaniem "zielonego z³ota". Zbuduj \l;transporter na nogach\u object\botgs;, dostarcz go na statek kosmiczny i odleæ.
+Twoja misja polega na eksperymentowaniu z pierwszym praktycznym zastosowaniem "zielonego zÂ³ota". Zbuduj \l;transporter na nogach\u object\botgs;, dostarcz go na statek kosmiczny i odleÃ¦.
 
 \b;Procedura
-Zdob¹dŸ próbkê materii organicznej z gniazda olbrzymich mrówek. Jej analiza zostanie wykonana w \l;laboratorium\u object\labo;, które przeprowadzi równie¿ odpowiednie badania umo¿liwiaj¹ce praktyczne zastosowanie.
+ZdobÂ¹dÂŸ prÃ³bkÃª materii organicznej z gniazda olbrzymich mrÃ³wek. Jej analiza zostanie wykonana w \l;laboratorium\u object\labo;, ktÃ³re przeprowadzi rÃ³wnieÂ¿ odpowiednie badania umoÂ¿liwiajÂ¹ce praktyczne zastosowanie.
 
-W celu poprawienia zdolnoœci obronnych, przes³aliœmy program dla \l;robotów transporterów\u object\botgr;, który zajmie siê wymian¹ i ³adowaniem ogniwa elektrycznego \l;wie¿y obronnej\u object\tower; (zobacz \button 53; ).
+W celu poprawienia zdolnoÂœci obronnych, przesÂ³aliÂœmy program dla \l;robotÃ³w transporterÃ³w\u object\botgr;, ktÃ³ry zajmie siÃª wymianÂ¹ i Â³adowaniem ogniwa elektrycznego \l;wieÂ¿y obronnej\u object\tower; (zobacz \button 53; ).
 
 \b;Uwaga
-Wobec znacznego spadku temperatury, latanie powinno ju¿ byæ mo¿liwe.
+Wobec znacznego spadku temperatury, latanie powinno juÂ¿ byÃ¦ moÂ¿liwe.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

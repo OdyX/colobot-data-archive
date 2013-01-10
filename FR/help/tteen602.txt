@@ -1,30 +1,30 @@
 \b;Mieux
-La façon de déplacer le robot dans l'exercice précédent n'est pas passionnante. C'est un peu long et fastidieux, non¦?
+La faÃ§on de dÃ©placer le robot dans l'exercice prÃ©cÃ©dent n'est pas passionnante. C'est un peu long et fastidieux, nonÂ¦?
 
-On va maintenant apprendre une méthode beaucoup plus efficace. Tu as peut-être constaté qu'il n'y a que des virages à droite. En fait, il n'y a que deux possibilités¦:
+On va maintenant apprendre une mÃ©thode beaucoup plus efficace. Tu as peut-Ãªtre constatÃ© qu'il n'y a que des virages Ã  droite. En fait, il n'y a que deux possibilitÃ©sÂ¦:
 
-1) Soit il y a une barrière devant le robot, et il doit tourner à droite.
-2) Soit il n'y a rien devant et il peut avancer de 20 centimètres.
+1) Soit il y a une barriÃ¨re devant le robot, et il doit tourner Ã  droite.
+2) Soit il n'y a rien devant et il peut avancer de 20 centimÃ¨tres.
 
-Avec un principe aussi "bête", le robot est capable d'avancer jusqu'à la croix bleue. essaie de te mettre à sa place, de raisonner comme lui, et de voir ce que cela donne avec le plan ci-dessous¦:
+Avec un principe aussi "bÃªte", le robot est capable d'avancer jusqu'Ã  la croix bleue. essaie de te mettre Ã  sa place, de raisonner comme lui, et de voir ce que cela donne avec le plan ci-dessousÂ¦:
 
 \image teen602 8 8;
 \b;Programme
-Le programme va d'abord contenir une instruction \c;repeat(100)\n;, comme souvent. Dans les accolades répétées 100 fois, il faut résoudre le déplacement d'une case dans la suivante. Voilà ce que tu dois faire¦:
+Le programme va d'abord contenir une instruction \c;repeat(100)\n;, comme souvent. Dans les accolades rÃ©pÃ©tÃ©es 100 fois, il faut rÃ©soudre le dÃ©placement d'une case dans la suivante. VoilÃ  ce que tu dois faireÂ¦:
 
-\s;o  Répète 100 fois¦:
-\s;	o  Il y a-t-t il un mur devant le robot¦?
-\s;		o  Tourne à droite de 90 degrés
-\s;	o  Sinon¦:
-\s;		o  Avance de 20 centimètres
+\s;o  RÃ©pÃ¨te 100 foisÂ¦:
+\s;	o  Il y a-t-t il un mur devant le robotÂ¦?
+\s;		o  Tourne Ã  droite de 90 degrÃ©s
+\s;	o  SinonÂ¦:
+\s;		o  Avance de 20 centimÃ¨tres
 
-Pour détecter la présence d'un obstacle devant le robot, tu vas utiliser la nouvelle instruction \c;detect()\n;. Il faut donner dans les parenthèses le nom de l'objet à détecter. Dans cet exercice, c'est \c;Barrier\n;. Ensuite, il faut utiliser l'instruction \c;if\n; pour poser la question. La ligne complète est donc¦:
+Pour dÃ©tecter la prÃ©sence d'un obstacle devant le robot, tu vas utiliser la nouvelle instruction \c;detect()\n;. Il faut donner dans les parenthÃ¨ses le nom de l'objet Ã  dÃ©tecter. Dans cet exercice, c'est \c;Barrier\n;. Ensuite, il faut utiliser l'instruction \c;if\n; pour poser la question. La ligne complÃ¨te est doncÂ¦:
 \c;
 \s;if( detect(Barrier) )
 \n;
-Attention à ne pas s'embrouiller avec les parenthèses. En tout, il y a 2 parenthèses ouvrantes et 2 parenthèses fermantes. Les espaces sont facultatifs. Ils permettent de rendre le programme plus lisible, mais à toi de faire comme tu le souhaites¦!
+Attention Ã  ne pas s'embrouiller avec les parenthÃ¨ses. En tout, il y a 2 parenthÃ¨ses ouvrantes et 2 parenthÃ¨ses fermantes. Les espaces sont facultatifs. Ils permettent de rendre le programme plus lisible, mais Ã  toi de faire comme tu le souhaitesÂ¦!
 
-Voici le squelette du programme¦:
+Voici le squelette du programmeÂ¦:
 \c;
 repeat(100)
 {
@@ -38,17 +38,17 @@ repeat(100)
 	}
 }
 \n;
-A toi de compléter le programme¦...
+A toi de complÃ©ter le programmeÂ¦...
 
 \b;Rappel
-L'instruction \c;if()\n; n'est jamais suivie d'un point-virgule, tout comme \c;repeat()\n;. L'instruction \c;else\n; n'a ni parenthèses, ni point-virgule¦!
+L'instruction \c;if()\n; n'est jamais suivie d'un point-virgule, tout comme \c;repeat()\n;. L'instruction \c;else\n; n'a ni parenthÃ¨ses, ni point-virguleÂ¦!
 
 Les instructions \c;if()\n; et \c;else\n; sont toutes deux suivies d'un bloc d'instructions inclus dans des accolades \c;{}\n;.
 
-Vérifie bien les lignes verticales pointillées rouges, qui lient les accolades par paires.
+VÃ©rifie bien les lignes verticales pointillÃ©es rouges, qui lient les accolades par paires.
 
 \b;Un peu d'anglais
 \c;if      = \n;si
-\c;detect  = \n;détecter
-\c;Barrier = \n;barrière
+\c;detect  = \n;dÃ©tecter
+\c;Barrier = \n;barriÃ¨re
 \c;else    = \n;autrement

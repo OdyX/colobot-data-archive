@@ -1,9 +1,9 @@
 \b;Rapport du satellite
-En orbite géostationnaire autour de Crystalium.
+En orbite gÃ©ostationnaire autour de Crystalium.
 \c;
 \s;-> SURFACE\c;
-\tab;Température:      5.4 degrés
-\tab;Atmosphère:       azote
+\tab;TempÃ©rature:      5.4 degrÃ©s
+\tab;AtmosphÃ¨re:       azote
 \tab;Vent:             0.0 m/s
 \tab;Minerai titanium: par endroits
 \tab;Minerai uranium:  aucun
@@ -14,9 +14,9 @@ En orbite géostationnaire autour de Crystalium.
 \tab;Minerai uranium:  aucun
 
 \s;-> INFORMATIONS SPECIALES\c;
-\tab;Détecté:          organismes rampants
-\tab;  - Danger:      ¦?
-\tab;  - Solution:     tour de défense (recherche à faire)
-\tab;Non détecté:      énergie en sous-sol
-\tab;  - Conséquence:  station de recharge impossible
+\tab;DÃ©tectÃ©:          organismes rampants
+\tab;  - Danger:      Â¦?
+\tab;  - Solution:     tour de dÃ©fense (recherche Ã  faire)
+\tab;Non dÃ©tectÃ©:      Ã©nergie en sous-sol
+\tab;  - ConsÃ©quence:  station de recharge impossible
 \n;

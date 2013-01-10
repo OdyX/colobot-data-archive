@@ -1,6 +1,6 @@
 \b;Solution
 Aucune solution n'est disponible pour cette mission.
-Vous devez vous débrouiller ...
+Vous devez vous dÃ©brouiller ...
 
 \t;Voir aussi
 \l;Commandes\u command;.

@@ -1,18 +1,18 @@
 \b;Lever le crayon
-Il y a maintenant 2 feuilles posées sur la table. Tu dois dessiner un trait rouge sur chacune d'elles, mais évidemment sans dessiner sur la table.
+Il y a maintenant 2 feuilles posÃ©es sur la table. Tu dois dessiner un trait rouge sur chacune d'elles, mais Ã©videmment sans dessiner sur la table.
 
-Pour cela, tu devras lever le crayon après le premier trait, avec l'instruction \c;penup()\n;. Cela n'a pas de sens de donner la couleur lorsqu'on relève le crayon, c'est pourquoi les parenthèses sont vides. Mais attention, il faut tout de même les mettre¦!
+Pour cela, tu devras lever le crayon aprÃ¨s le premier trait, avec l'instruction \c;penup()\n;. Cela n'a pas de sens de donner la couleur lorsqu'on relÃ¨ve le crayon, c'est pourquoi les parenthÃ¨ses sont vides. Mais attention, il faut tout de mÃªme les mettreÂ¦!
 
 \image teen205 8 8;
 \b;Le programme
-Voici ce que dois faire le programme, en français¦:
+Voici ce que dois faire le programme, en franÃ§aisÂ¦:
 
 \s;o  Baisse le crayon rouge
-\s;o  Avance de 20 centimètres
-\s;o  Relève le crayon
-\s;o  Avance de 30 centimètres
+\s;o  Avance de 20 centimÃ¨tres
+\s;o  RelÃ¨ve le crayon
+\s;o  Avance de 30 centimÃ¨tres
 \s;o  Rebaisse le crayon rouge
-\s;o  Avance de 20 centimètres
+\s;o  Avance de 20 centimÃ¨tres
 
 A toi de traduire cela en anglais informatique.
 

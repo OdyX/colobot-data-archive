@@ -1,35 +1,35 @@
-\b;Æwiczenie
-Przetop nieco \l;rudy tytanu\u object\titanore; na \l;kostki tytanu\u object\titan; i dostarcz dwie z nich na platformy o nastêpuj¹cych wspó³rzêdnych:
+\b;Ã†wiczenie
+Przetop nieco \l;rudy tytanu\u object\titanore; na \l;kostki tytanu\u object\titan; i dostarcz dwie z nich na platformy o nastÃªpujÂ¹cych wspÃ³Â³rzÃªdnych:
 \c;
 	x=10, y=-60
 	x=10, y=-65
 \n;
 \image derrick 8 8;
-\l;Kopalnia\u object\derrick; wydobywa rudê tytanu z podglebia; póŸniej wystarczy j¹ podnieœæ.
+\l;Kopalnia\u object\derrick; wydobywa rudÃª tytanu z podglebia; pÃ³ÂŸniej wystarczy jÂ¹ podnieÂœÃ¦.
 
 \image convert 8 8;
-\l;Huta\u object\convert; przetapia rudê tytanu na kostki tytanu. Wystarczy zostawiæ rudê tytanu na platformie, cofn¹æ siê i chwilê poczekaæ.
+\l;Huta\u object\convert; przetapia rudÃª tytanu na kostki tytanu. Wystarczy zostawiÃ¦ rudÃª tytanu na platformie, cofnÂ¹Ã¦ siÃª i chwilÃª poczekaÃ¦.
 
-\b;Ogólny algorytm
-Powtórz dwa razy:
-o  Poczekaj na pojawienie siê rudy tytanu.
-o  PodejdŸ do rudy tytanu.
-o  Podnieœ j¹.
-o  PodejdŸ do huty.
-o  Zostaw rudê tytanu.
-o  Cofnij siê o 2,5 metra.
-o  Poczekaj na kostkê tytanu.
-o  Podnieœ kostkê tytanu.
-o  WejdŸ na platformê.
-o  Zostaw kostkê tytanu.
+\b;OgÃ³lny algorytm
+PowtÃ³rz dwa razy:
+o  Poczekaj na pojawienie siÃª rudy tytanu.
+o  PodejdÂŸ do rudy tytanu.
+o  PodnieÂœ jÂ¹.
+o  PodejdÂŸ do huty.
+o  Zostaw rudÃª tytanu.
+o  Cofnij siÃª o 2,5 metra.
+o  Poczekaj na kostkÃª tytanu.
+o  PodnieÂœ kostkÃª tytanu.
+o  WejdÂŸ na platformÃª.
+o  Zostaw kostkÃª tytanu.
 
 \b;Przydatne instrukcje
 \c;\l;for\u cbot\for;\n; powtarzanie instrukcji
 \c;\l;do - while\u cbot\do;\n; powtarzanie instrukcji
-\c;\l;radar\u cbot\radar;\n; znajduje ró¿ne obiekty
+\c;\l;radar\u cbot\radar;\n; znajduje rÃ³Â¿ne obiekty
 \c;\l;goto\u cbot\goto;\n; poruszanie robotem
 \c;\l;grab\u cbot\grab;\n; podnosi przedmiot
 \c;\l;drop\u cbot\drop;\n; upuszcza przedmiot
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

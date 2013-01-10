@@ -1,7 +1,7 @@
-\b;Rozwi¹zanie
-Jeœli zgubisz robota, zostawi on czarn¹ skrzynkê gdzieœ na po³udniowy zachód od Twojego statku kosmicznego, w obszarze otoczonym przez kryszta³y.
+\b;RozwiÂ¹zanie
+JeÂœli zgubisz robota, zostawi on czarnÂ¹ skrzynkÃª gdzieÂœ na poÂ³udniowy zachÃ³d od Twojego statku kosmicznego, w obszarze otoczonym przez krysztaÂ³y.
 
-Jeœli skoñczy Ci siê energia przed odzyskaniem czarnej skrzynki, mo¿esz u¿yæ drugiego transportera, który jest na statku kosmicznym.
+JeÂœli skoÃ±czy Ci siÃª energia przed odzyskaniem czarnej skrzynki, moÂ¿esz uÂ¿yÃ¦ drugiego transportera, ktÃ³ry jest na statku kosmicznym.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

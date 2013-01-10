@@ -9,12 +9,12 @@ extern void object::Solution( )
 		if ( item == null )  return;
 		goto(item.position);
 
-		grab();  // prend le métal
+		grab();  // prend le mÃ©tal
 
 		dest.x = 10;
 		dest.y = -60-5*i;
 		goto(dest);  // va sur la plateforme
 
-		drop();  // dépose le métal
+		drop();  // dÃ©pose le mÃ©tal
 	}
 }

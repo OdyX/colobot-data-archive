@@ -1,27 +1,27 @@
 \b;Type \c;float\n;
-Ce type permet de représenter, de manière approchée,  des nombres réels positifs ou négatifs. Par exemple¦:
+Ce type permet de reprÃ©senter, de maniÃ¨re approchÃ©e,  des nombres rÃ©els positifs ou nÃ©gatifs. Par exempleÂ¦:
 \c;
 \s;	12.9
 \s;	1.125
 \s;	0.002
 \s;	-4.1
 \n;
-Pour représenter un nombre entier (12 ou -5000 par exemple) il faut utiliser le type \c;\l;int\u cbot\int;\n;.
+Pour reprÃ©senter un nombre entier (12 ou -5000 par exemple) il faut utiliser le type \c;\l;int\u cbot\int;\n;.
 
 \t;Remarque
 Vous ne pouvez pas utiliser d'espace ou d'apostrophe dans un nombre.
-En informatique, la virgule est désignée par un point.
+En informatique, la virgule est dÃ©signÃ©e par un point.
 
-\c;4. \n;représente un nombre réel.
-\c;4  \n;représente un nombre entier.
+\c;4. \n;reprÃ©sente un nombre rÃ©el.
+\c;4  \n;reprÃ©sente un nombre entier.
 
-\t;Le coin du spécialiste
+\t;Le coin du spÃ©cialiste
 Sachez que ce type utilise 32 bits.
-La valeur maximale représentable est 3.4E+38.
-La valeur minimale représentable est 3.4E-38.
+La valeur maximale reprÃ©sentable est 3.4E+38.
+La valeur minimale reprÃ©sentable est 3.4E-38.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;float\n; = flotter
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

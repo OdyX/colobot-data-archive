@@ -1,5 +1,5 @@
-\b;Instrukcja \c;static\n; (dla specjalistów)
-Elementy \l;klasy\u cbot\class; zadeklarowane jako \c;static\n; s¹ wspó³dzielone przez wszystkie instancje klasy.
+\b;Instrukcja \c;static\n; (dla specjalistÃ³w)
+Elementy \l;klasy\u cbot\class; zadeklarowane jako \c;static\n; sÂ¹ wspÃ³Â³dzielone przez wszystkie instancje klasy.
 \c;
 \s;public class MojaKlasa
 \s;{
@@ -11,12 +11,12 @@ Elementy \l;klasy\u cbot\class; zadeklarowane jako \c;static\n; s¹ wspó³dzielone
 \s;	MojaKlasa item1();
 \s;	MojaKlasa item2();
 \s;	item1.nb = 3;
-\s;	item1.list[item1.nb] = "Czeœæ";
-\s;	message( item2.list[item2.nb] ); // wyœwietla komunikat "Czeœæ"
+\s;	item1.list[item1.nb] = "CzeÂœÃ¦";
+\s;	message( item2.list[item2.nb] ); // wyÂœwietla komunikat "CzeÂœÃ¦"
 \s;}
 \n;
-Elementy \c;static\n; mog¹ byæ zadeklarowane jako \c;\l;private\u cbot\private;\n;, co spowoduje, ¿e bêd¹ dostêpne tylko dla elementów klasy (w³¹czaj¹c konstruktory i destruktory).
+Elementy \c;static\n; mogÂ¹ byÃ¦ zadeklarowane jako \c;\l;private\u cbot\private;\n;, co spowoduje, Â¿e bÃªdÂ¹ dostÃªpne tylko dla elementÃ³w klasy (wÂ³Â¹czajÂ¹c konstruktory i destruktory).
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;class\u cbot\class;\n;, \c;\l;synchronized\u cbot\synchro;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

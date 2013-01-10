@@ -1,5 +1,5 @@
 \b;Solution
-Placez le \l;robot orgaShooter à pattes\u object\botos; sur les plateformes prévues à cet effet, et détruisez les cibles dans votre champ de vision avec une seule rafale en déplaçant la souri pendant le tir. Avec 4 rafales, vous devez détruire toutes les cibles.
+Placez le \l;robot orgaShooter Ã  pattes\u object\botos; sur les plateformes prÃ©vues Ã  cet effet, et dÃ©truisez les cibles dans votre champ de vision avec une seule rafale en dÃ©plaÃ§ant la souri pendant le tir. Avec 4 rafales, vous devez dÃ©truire toutes les cibles.
 
 \t;Voir aussi
 \l;Commandes\u command;.

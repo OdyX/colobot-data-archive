@@ -1,8 +1,8 @@
 \b;Instructions \c;if\n; et \c;else\n;
-L'instruction \c;if() {}\n; permet d'exécuter des instructions seulement à une certaine condition. La condition est donnée entre parenthèses \c;()\n;, les instructions entre accolades \c;{}\n;.
+L'instruction \c;if() {}\n; permet d'exÃ©cuter des instructions seulement Ã  une certaine condition. La condition est donnÃ©e entre parenthÃ¨ses \c;()\n;, les instructions entre accolades \c;{}\n;.
 
 \b;Utilisation courante
-Voici par exemple comment faire en sorte que le robot tire seulement si la distance à la cible est inférieure à 40m¦:
+Voici par exemple comment faire en sorte que le robot tire seulement si la distance Ã  la cible est infÃ©rieure Ã  40mÂ¦:
 \c;
 \s;	chose = \l;radar\u cbot\radar;(AlienAnt);
 \s;	if (\l;distance\u cbot\dist;(position, chose.position) < 40)
@@ -10,17 +10,17 @@ Voici par exemple comment faire en sorte que le robot tire seulement si la dista
 \s;		fire(1);
 \s;	}
 \n;
-Si l'instruction \c;\l;radar\u cbot\radar;();\n; ne trouve pas l'objet cherché, elle rend la valeur \c;null\n;. Ainsi il est possible de tester si un objet n'existe pas avec \c;(chose == null)\n;, ou de tester si l'objet existe avec \c;(chose¦!= null)\n;. Deux signes égal \c;==\n; testent l'égalité, un point d'exclamation suivi d'un signe égal \c;!=\n; teste l'inégalité. Voici comment aller se recharger seulement s'il y a une station de recharge¦:
+Si l'instruction \c;\l;radar\u cbot\radar;();\n; ne trouve pas l'objet cherchÃ©, elle rend la valeur \c;null\n;. Ainsi il est possible de tester si un objet n'existe pas avec \c;(chose == null)\n;, ou de tester si l'objet existe avec \c;(choseÂ¦!= null)\n;. Deux signes Ã©gal \c;==\n; testent l'Ã©galitÃ©, un point d'exclamation suivi d'un signe Ã©gal \c;!=\n; teste l'inÃ©galitÃ©. Voici comment aller se recharger seulement s'il y a une station de rechargeÂ¦:
 \c;
 \s;	chose = \l;radar\u cbot\radar;(PowerStation);
-\s;	if (chose¦!= null)
+\s;	if (choseÂ¦!= null)
 \s;	{
 \s;		\l;goto\u cbot\goto;(chose.position);
 \s;		\l;wait\u cbot\wait;(5);
 \s;	}
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;if ( condition )
 \s;{
 \s;	\n;Instructions A ...\c;
@@ -30,15 +30,15 @@ Syntaxe¦:
 \s;	\n;Instructions B ...\c;
 \s;}
 \n;
-Cette structure de choix permet d'exécuter le \l;bloc\u cbot\bloc; A ou le \l;bloc\u cbot\bloc; B en fonction d'une \l;condition\u cbot\cond;. Si la condition est vraie, le bloc A est exécuté. Si elle est fausse, c'est le bloc B qui est exécuté.
+Cette structure de choix permet d'exÃ©cuter le \l;bloc\u cbot\bloc; A ou le \l;bloc\u cbot\bloc; B en fonction d'une \l;condition\u cbot\cond;. Si la condition est vraie, le bloc A est exÃ©cutÃ©. Si elle est fausse, c'est le bloc B qui est exÃ©cutÃ©.
 La partie \c;else { }\n; est facultative.
 
 \t;Attention
-Il ne faut pas mettre un \l;point-virgule\u cbot\term; à la fin de la ligne \c;if ( )\n;.
+Il ne faut pas mettre un \l;point-virgule\u cbot\term; Ã  la fin de la ligne \c;if ( )\n;.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;if  \n; = si
 \c;else\n; = autrement
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

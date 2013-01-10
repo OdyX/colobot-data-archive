@@ -1,15 +1,15 @@
-\b; Podziemne z³o¿e uranu
+\b; Podziemne zÂ³oÂ¿e uranu
 \image uranspot 4 4;
-¯ó³te kó³ko oznacza wystêpowanie w podglebiu pok³adów \l;rudy uranu\u object\uranore;. Mo¿na j¹ wydobyæ u¿ywaj¹c \l;kopalni\u object\derrick;.
+Â¯Ã³Â³te kÃ³Â³ko oznacza wystÃªpowanie w podglebiu pokÂ³adÃ³w \l;rudy uranu\u object\uranore;. MoÂ¿na jÂ¹ wydobyÃ¦ uÂ¿ywajÂ¹c \l;kopalni\u object\derrick;.
 
-Robot \l;szperacz\u object\botsr; zostawia ¿ó³te kó³ko w miejscu odkrycia z³o¿a. \l;Robot szperacz\u object\botsr; mo¿e równie¿ wykrywaæ obecnoœæ \l;rudy tytanu\u object\titanore; oznaczonej \l;czerwonym plusem\u object\stonspot; oraz energii oznaczonej \l;zielonym plusem\u object\enerspot;.
+Robot \l;szperacz\u object\botsr; zostawia Â¿Ã³Â³te kÃ³Â³ko w miejscu odkrycia zÂ³oÂ¿a. \l;Robot szperacz\u object\botsr; moÂ¿e rÃ³wnieÂ¿ wykrywaÃ¦ obecnoÂœÃ¦ \l;rudy tytanu\u object\titanore; oznaczonej \l;czerwonym plusem\u object\stonspot; oraz energii oznaczonej \l;zielonym plusem\u object\enerspot;.
 
 
 \t;Transport
-Niemo¿liwy.
+NiemoÂ¿liwy.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;UraniumSite\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,14 +1,14 @@
 \b;Instruction \c;abstime\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;abstime ( );\n;
 
-Retourne le temps absolu depuis lequel la partie est commencée.
+Retourne le temps absolu depuis lequel la partie est commencÃ©e.
 
-\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+\t;Valeur retournÃ©e: \c;\l;float\u cbot\float;\n;
 Temps en secondes.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;time\n; = temps
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

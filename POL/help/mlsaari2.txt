@@ -1,27 +1,27 @@
-\b;Programy przys³ane z Houston
-Uruchom natychmiast program \c;KillAnt1\n; na Twoim \l;dziale na ko³ach\u object\botfr;, zabezpieczy on Twoj¹ zachodni¹ flankê. W miêdzyczasie mo¿esz opracowaæ strategiê obrony.
+\b;Programy przysÂ³ane z Houston
+Uruchom natychmiast program \c;KillAnt1\n; na Twoim \l;dziale na koÂ³ach\u object\botfr;, zabezpieczy on TwojÂ¹ zachodniÂ¹ flankÃª. W miÃªdzyczasie moÂ¿esz opracowaÃ¦ strategiÃª obrony.
 \c;
 \s;extern void object::KillAnt1()
 \s;{
 \s;	\l;object\u cbot\type; item;             // informacja o obiekcie
 \s;	
-\s;	\l;goto\u cbot\goto;(-30, 0);            // idŸ na zachód
+\s;	\l;goto\u cbot\goto;(-30, 0);            // idÂŸ na zachÃ³d
 \s;	\l;aim\u cbot\aim;(0);                  // celuj w poziomie
 \s;	
-\s;	\l;while\u cbot\while; ( true )           // powtarzaj w nieskoñczonoœæ:
+\s;	\l;while\u cbot\while; ( true )           // powtarzaj w nieskoÃ±czonoÂœÃ¦:
 \s;	{
 \s;		item = \l;radar\u cbot\radar;(\l;AlienAnt\u cbot\category;, 0, 360, 0, 40);
-\s;		\l;if\u cbot\if; ( item != null )  // wykryto mrówkê?
+\s;		\l;if\u cbot\if; ( item != null )  // wykryto mrÃ³wkÃª?
 \s;		{
 \s;			\l;turn\u cbot\turn;(\l;direction\u cbot\direct;(item.position));
 \s;			\l;fire\u cbot\fire;(0.5);       // strzelaj przez 0,5 s
 \s;		}
-\s;		\l;wait\u cbot\wait;(1);             // czekaj 1 sekundê
+\s;		\l;wait\u cbot\wait;(1);             // czekaj 1 sekundÃª
 \s;	}
 \s;}
 \n;
 \b;Archiwum
-Lista programów przys³anych w poprzednich misjach:
+Lista programÃ³w przysÂ³anych w poprzednich misjach:
 
 o  \c;\l;CollectTitanium2\u mlcrys2;\n;
 o  \c;\l;CollectTitanium1\u mlcrys1;\n;

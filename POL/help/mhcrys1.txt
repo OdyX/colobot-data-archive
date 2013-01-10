@@ -1,13 +1,13 @@
 \b;Z Centrum Kontroli Misji
-Zbuduj \l;radar\u object\radar; na najwy¿szym punkcie w okolicy. Upewnij siê, ¿e dzia³anie radaru nie bêdzie zagro¿one nawet po Twoim opuszczeniu planety. \l;Centrum badawcze\u object\research; powinno pomóc w znalezieniu odpowiedniego rozwi¹zania.
+Zbuduj \l;radar\u object\radar; na najwyÂ¿szym punkcie w okolicy. Upewnij siÃª, Â¿e dziaÂ³anie radaru nie bÃªdzie zagroÂ¿one nawet po Twoim opuszczeniu planety. \l;Centrum badawcze\u object\research; powinno pomÃ³c w znalezieniu odpowiedniego rozwiÂ¹zania.
 
-Mo¿liwe, ¿e wykryte organizmy s¹ w rzeczywistoœci \l;robalami\u object\worm; wspomnianymi przez pierwsz¹ ekspedycjê. Jeœli to prawda, nie nale¿y zbytnio siê niepokoiæ: nie s¹ one groŸne dla ¿ywych organizmów, jednak mog¹ spowodowaæ nieprawid³owe dzia³anie robotów i budynków, zara¿aj¹c je wirusami.
+MoÂ¿liwe, Â¿e wykryte organizmy sÂ¹ w rzeczywistoÂœci \l;robalami\u object\worm; wspomnianymi przez pierwszÂ¹ ekspedycjÃª. JeÂœli to prawda, nie naleÂ¿y zbytnio siÃª niepokoiÃ¦: nie sÂ¹ one groÂŸne dla Â¿ywych organizmÃ³w, jednak mogÂ¹ spowodowaÃ¦ nieprawidÂ³owe dziaÂ³anie robotÃ³w i budynkÃ³w, zaraÂ¿ajÂ¹c je wirusami.
 
-Radary nie tylko dostarczaj¹ dok³adne informacje o obiektach i organizmach wystêpuj¹cych w regionie, ale równie¿ przekazuj¹ informacje pomiêdzy Ziemi¹ po Twoim odlocie na inne planety. Jest bardzo prawdopodobne, ¿e problemy z ³¹cznoœci¹, których siê tak obawiamy, by³y spowodowane problemami ze stacjami radarowymi zbudowanymi przez pierwsz¹ ekspedycjê.
+Radary nie tylko dostarczajÂ¹ dokÂ³adne informacje o obiektach i organizmach wystÃªpujÂ¹cych w regionie, ale rÃ³wnieÂ¿ przekazujÂ¹ informacje pomiÃªdzy ZiemiÂ¹ po Twoim odlocie na inne planety. Jest bardzo prawdopodobne, Â¿e problemy z Â³Â¹cznoÂœciÂ¹, ktÃ³rych siÃª tak obawiamy, byÂ³y spowodowane problemami ze stacjami radarowymi zbudowanymi przez pierwszÂ¹ ekspedycjÃª.
 
-Aby pomóc Ci w nudnym zadaniu zbierania niezbêdnych surowców, napisaliœmy program, dziêki któremu \l;transporter na ko³ach\u object\botgr; bêdzie samodzielnie szuka³ \l;rudy tytanu\u object\titanore; (zobacz podrêcznik programowania \button 53;).
+Aby pomÃ³c Ci w nudnym zadaniu zbierania niezbÃªdnych surowcÃ³w, napisaliÂœmy program, dziÃªki ktÃ³remu \l;transporter na koÂ³ach\u object\botgr; bÃªdzie samodzielnie szukaÂ³ \l;rudy tytanu\u object\titanore; (zobacz podrÃªcznik programowania \button 53;).
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

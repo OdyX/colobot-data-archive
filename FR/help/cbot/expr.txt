@@ -1,15 +1,15 @@
 \b;Les expressions
-Les expressions peuvent contenir les opérations suivantes¦:
+Les expressions peuvent contenir les opÃ©rations suivantesÂ¦:
 
 \c;+ \n;  addition
 \c;- \n;  soustraction
 \c;* \n;  multiplication
 \c;/ \n;  division
 \c;% \n;  reste de la division (seulement pour le type \c;\l;int\u cbot\int;\n;)
-\c;**\n;  élévation à la puissance
+\c;**\n;  Ã©lÃ©vation Ã  la puissance
 
-L'addition permet non seulement d'additionner des nombres, mais également d'appondre des \l;chaînes de caractères\u cbot\string;.
-L'opérateur \c;%\n; est parfois appelé "modulo".
+L'addition permet non seulement d'additionner des nombres, mais Ã©galement d'appondre des \l;chaÃ®nes de caractÃ¨res\u cbot\string;.
+L'opÃ©rateur \c;%\n; est parfois appelÃ© "modulo".
 \c;
 \s;	int    i = 12+3;      // donne 15
 \s;	string s = "a"+"bc";  // donne "abc"
@@ -22,21 +22,21 @@ L'opérateur \c;%\n; est parfois appelé "modulo".
 \s;	int    i = -8%3;      // donne -2
 \s;	float  f = 6**2;      // donne 36
 \n;
-Une expression peut contenir des constantes ou des \l;variables\u cbot\var;. Par exemple¦:
+Une expression peut contenir des constantes ou des \l;variables\u cbot\var;. Par exempleÂ¦:
 
 \s;\c;	12+distance\n;
 
-Les multiplications et les divisions sont effectuées avant les additions et les soustractions. En cas de doute, mieux vaut utiliser des parenthèses.
+Les multiplications et les divisions sont effectuÃ©es avant les additions et les soustractions. En cas de doute, mieux vaut utiliser des parenthÃ¨ses.
 \c;
-\s;	12*a+b/c \n;est équivalent à\c; (12*a)+(b/c)
+\s;	12*a+b/c \n;est Ã©quivalent Ã \c; (12*a)+(b/c)
 \s;	2.5*(distance+marge)
 \n;
-Vous pouvez mettre autant d'espaces que vous le désirez, pour améliorer la lisibilité¦:
+Vous pouvez mettre autant d'espaces que vous le dÃ©sirez, pour amÃ©liorer la lisibilitÃ©Â¦:
 \c;
 \s;	12*a + b/c
 \s;	2.5 * (distance+marge)
 \n;
-Les fonctions mathématiques suivantes sont disponibles¦:
+Les fonctions mathÃ©matiques suivantes sont disponiblesÂ¦:
 
 \c;sin(angle)    \n;sinus
 \c;cos(angle)    \n;cosinus
@@ -44,12 +44,12 @@ Les fonctions mathématiques suivantes sont disponibles¦:
 \c;asin(valeur)  \n;arc-sinus
 \c;acos(valeur)  \n;arc-cosinus
 \c;atan(valeur)  \n;arc-tangente
-\c;sqrt(valeur)  \n;racine carrée
+\c;sqrt(valeur)  \n;racine carrÃ©e
 \c;pow(x, y)     \n;x puissance y
-\c;rand()        \n;valeur aléatoire comprise entre 0 et 1
+\c;rand()        \n;valeur alÃ©atoire comprise entre 0 et 1
 \c;abs(valeur)   \n;valeur absolue
 
-Les angles sont exprimés en degrés.
+Les angles sont exprimÃ©s en degrÃ©s.
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

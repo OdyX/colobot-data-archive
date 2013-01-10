@@ -1,31 +1,31 @@
-\b;Æwiczenie
-Przetop nieco \l;rudy tytanu\u object\titanore; na \l;kostki tytanu\u object\titan;, a nastêpnie dostarcz dwie kostki tytanu na platformy o podanych wspó³rzêdnych:
+\b;Ã†wiczenie
+Przetop nieco \l;rudy tytanu\u object\titanore; na \l;kostki tytanu\u object\titan;, a nastÃªpnie dostarcz dwie kostki tytanu na platformy o podanych wspÃ³Â³rzÃªdnych:
 \c;
 	x=10, y=-60
 	x=10, y=-65
 \n;
 \image derrick 8 8;
-\l;Kopalnia\u object\derrick; wydobywa rudê tytanu z podglebia; wystarczy tylko j¹ podnieœæ.
+\l;Kopalnia\u object\derrick; wydobywa rudÃª tytanu z podglebia; wystarczy tylko jÂ¹ podnieÂœÃ¦.
 
 \image convert 8 8;
-\l;Huta\u object\convert; przetapia rudê tytanu na kostki tytanu. Wystarczy zostawiæ rudê tytanu na platformie, cofn¹æ siê i poczekaæ na jej przetopienie.
+\l;Huta\u object\convert; przetapia rudÃª tytanu na kostki tytanu. Wystarczy zostawiÃ¦ rudÃª tytanu na platformie, cofnÂ¹Ã¦ siÃª i poczekaÃ¦ na jej przetopienie.
 
-\b;Ogólny algorytm
-Powtórz dwa razy:
-o  Poczekaj na rudê tytanu.
-o  PodejdŸ do rudy tytanu.
-o  Podnieœ j¹.
-o  PodejdŸ do huty.
-o  Zostaw rudê tytanu.
-o  Cofnij siê o 2,5 metra.
-o  Poczekaj na kostkê tytanu.
-o  Podnieœ kostkê tytanu.
-o  PodejdŸ do platformy.
-o  Zostaw kostkê tytanu.
+\b;OgÃ³lny algorytm
+PowtÃ³rz dwa razy:
+o  Poczekaj na rudÃª tytanu.
+o  PodejdÂŸ do rudy tytanu.
+o  PodnieÂœ jÂ¹.
+o  PodejdÂŸ do huty.
+o  Zostaw rudÃª tytanu.
+o  Cofnij siÃª o 2,5 metra.
+o  Poczekaj na kostkÃª tytanu.
+o  PodnieÂœ kostkÃª tytanu.
+o  PodejdÂŸ do platformy.
+o  Zostaw kostkÃª tytanu.
 
 \b;Program
-Pêtla \c;\l;for\u cbot\for;\n; umo¿liwia dwukrotne powtórzenie wszystkich instrukcji.
-Ruda tytanu nie jest dostêpna natychmiast. Nale¿y poczekaæ na jej wydobycie przez kopalniê. U¿yj do tego pêtli \c;\l;do\u cbot\do;\n;:
+PÃªtla \c;\l;for\u cbot\for;\n; umoÂ¿liwia dwukrotne powtÃ³rzenie wszystkich instrukcji.
+Ruda tytanu nie jest dostÃªpna natychmiast. NaleÂ¿y poczekaÃ¦ na jej wydobycie przez kopalniÃª. UÂ¿yj do tego pÃªtli \c;\l;do\u cbot\do;\n;:
 \c;
 \s;do
 \s;{
@@ -33,13 +33,13 @@ Ruda tytanu nie jest dostêpna natychmiast. Nale¿y poczekaæ na jej wydobycie prze
 \s;}
 \s;while ( obj == null );
 \n;
-Po tej pêtli (gdy radar znajdzie rudê tytanu), mo¿esz do niej podejœæ \c;obj.position\n; u¿ywaj¹c instrukcji \c;\l;goto\u cbot\goto;\n;. Do podniesienia rudy tytanu u¿yj instrukcji \c;\l;grab\u cbot\grab;\n;.
-U¿yj nastêpuj¹cej instrukcji do znalezienia huty:
+Po tej pÃªtli (gdy radar znajdzie rudÃª tytanu), moÂ¿esz do niej podejÂœÃ¦ \c;obj.position\n; uÂ¿ywajÂ¹c instrukcji \c;\l;goto\u cbot\goto;\n;. Do podniesienia rudy tytanu uÂ¿yj instrukcji \c;\l;grab\u cbot\grab;\n;.
+UÂ¿yj nastÃªpujÂ¹cej instrukcji do znalezienia huty:
 \c;
 \s;obj = radar(Converter);
 \n;
-Po umieszczeniu rudy w hucie, cofnij siê o 2,5 metra: \c;\l;move\u cbot\move;(-2.5)\n;.
-Druga pêtla \c;do\n; czeka a¿ bêdzie dostêpna kostka tytanu. Musisz ograniczyæ zasiêg radaru do 5 metrów, w przeciwnym wypadku natychmiast znajdziesz kostkê tytanu w³aœnie dostarczon¹ na platformê:
+Po umieszczeniu rudy w hucie, cofnij siÃª o 2,5 metra: \c;\l;move\u cbot\move;(-2.5)\n;.
+Druga pÃªtla \c;do\n; czeka aÂ¿ bÃªdzie dostÃªpna kostka tytanu. Musisz ograniczyÃ¦ zasiÃªg radaru do 5 metrÃ³w, w przeciwnym wypadku natychmiast znajdziesz kostkÃª tytanu wÂ³aÂœnie dostarczonÂ¹ na platformÃª:
 \c;
 \s;do
 \s;{
@@ -47,12 +47,12 @@ Druga pêtla \c;do\n; czeka a¿ bêdzie dostêpna kostka tytanu. Musisz ograniczyæ z
 \s;}
 \s;while ( obj == null );
 \n;
-Wspó³rzêdne \c;x\n; dwóch platform s¹ równe. Wspó³rzêdne \c;y\n; s¹ odpowiednio równe -60 i -65. Najefektywniejszym sposobem otrzymania wspó³rzêdnych platform jest u¿ycie wartoœci \c;i\n; z pêtli \c;for\n;, która przyjmuje kolejno wartoœci 0 i 1:
+WspÃ³Â³rzÃªdne \c;x\n; dwÃ³ch platform sÂ¹ rÃ³wne. WspÃ³Â³rzÃªdne \c;y\n; sÂ¹ odpowiednio rÃ³wne -60 i -65. Najefektywniejszym sposobem otrzymania wspÃ³Â³rzÃªdnych platform jest uÂ¿ycie wartoÂœci \c;i\n; z pÃªtli \c;for\n;, ktÃ³ra przyjmuje kolejno wartoÂœci 0 i 1:
 \c;
 \s;dest.x = 10;
 \s;dest.y = -60-5*i;
 \n;
-Do Ciebie nale¿y dokoñczenie programu...
+Do Ciebie naleÂ¿y dokoÃ±czenie programu...
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

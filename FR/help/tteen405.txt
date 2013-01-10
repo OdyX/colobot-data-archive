@@ -1,12 +1,12 @@
 \b;Comment faire ?
-Cette situation a l'air très semblable à la précédente¦:
+Cette situation a l'air trÃ¨s semblable Ã  la prÃ©cÃ©denteÂ¦:
 
 \image teen405 8 8;
-Mais, en y regardant de plus près, on se rend compte qu'il faut un programme un poil plus compliqué.
+Mais, en y regardant de plus prÃ¨s, on se rend compte qu'il faut un programme un poil plus compliquÃ©.
 
-Plusieurs solutions sont possibles. On peut vouloir détruire d'abord la bouteille de gauche (dans le dos du robot) puis avancer, ou au contraire d'abord avancer et détruire la bouteille en haut.
+Plusieurs solutions sont possibles. On peut vouloir dÃ©truire d'abord la bouteille de gauche (dans le dos du robot) puis avancer, ou au contraire d'abord avancer et dÃ©truire la bouteille en haut.
 
 A toi de choisir ...
 
 \b;Aide
-Si jamais tu as besoin de faire demi-tour, il faut utiliser \c;turn(180);\n;, qui est équivalent à 2 fois \c;turn(90);\n;.
+Si jamais tu as besoin de faire demi-tour, il faut utiliser \c;turn(180);\n;, qui est Ã©quivalent Ã  2 fois \c;turn(90);\n;.

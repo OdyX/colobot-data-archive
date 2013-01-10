@@ -1,9 +1,9 @@
 \b;Rapport du satellite
-En orbite géostationnaire autour de la lune.
+En orbite gÃ©ostationnaire autour de la lune.
 \c;
 \s;-> SURFACE\c;
-\tab;Température:      -58.9 degrés
-\tab;Atmosphère:       aucune
+\tab;TempÃ©rature:      -58.9 degrÃ©s
+\tab;AtmosphÃ¨re:       aucune
 \tab;Vent:             0.0 m/s
 \tab;Minerai titanium: aucun
 \tab;Minerai uranium:  aucun

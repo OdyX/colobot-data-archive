@@ -1,60 +1,60 @@
 \b;Instrukcja \c;radar\n;
-Przy u¿yciu instrukcji \c;radar()\n;, mo¿na znajdowaæ ró¿ne obiekty, takie jak \l;wrogów\u object\mother;, roboty, budynki lub surowce.
+Przy uÂ¿yciu instrukcji \c;radar()\n;, moÂ¿na znajdowaÃ¦ rÃ³Â¿ne obiekty, takie jak \l;wrogÃ³w\u object\mother;, roboty, budynki lub surowce.
 
-\b;Podstawowe u¿ycie
-W nawiasach nale¿y napisaæ \l;nazwê poszukiwanego obiektu\u cbot\category;. Wynik nale¿y umieœciæ w zmiennej \l;typu\u cbot\type; \c;object\n;. Oto przyk³ad znajduj¹cy najbli¿sz¹ mrówkê:
+\b;Podstawowe uÂ¿ycie
+W nawiasach naleÂ¿y napisaÃ¦ \l;nazwÃª poszukiwanego obiektu\u cbot\category;. Wynik naleÂ¿y umieÂœciÃ¦ w zmiennej \l;typu\u cbot\type; \c;object\n;. Oto przykÂ³ad znajdujÂ¹cy najbliÂ¿szÂ¹ mrÃ³wkÃª:
 \c;
-\s;// Na pocz¹tku programu:
+\s;// Na poczÂ¹tku programu:
 \s;object  item; // deklaracja zmiennej
 \s;
-\s;// ZnajdŸ najbli¿sz¹ mrówkê
+\s;// ZnajdÂŸ najbliÂ¿szÂ¹ mrÃ³wkÃª
 \s;item = radar(AlienAnt);
 \n;
-\b;Dla specjalistów
-Sk³adnia:
+\b;Dla specjalistÃ³w
+SkÂ³adnia:
 \s;\c;radar ( category, angle, focus, min, max, way );\n;
 
-Wykrywa obiekty w zale¿nie od ró¿nych parametrów. 
+Wykrywa obiekty w zaleÂ¿nie od rÃ³Â¿nych parametrÃ³w. 
 
 \image radar1 8 8;
-Patrz¹c z góry, czerwona strefa odpowiada strefie, w której bêd¹ wykrywane obiekty. 
+PatrzÂ¹c z gÃ³ry, czerwona strefa odpowiada strefie, w ktÃ³rej bÃªdÂ¹ wykrywane obiekty. 
 
 \t;category: \c;\l;int\u cbot\int;\n;
-\l;Kategoria\u cbot\category; poszukiwanego obiektu. Na przyk³ad szukaj¹c mrówki, nale¿y napisaæ \c;radar (AlienAnt)\n;. 
+\l;Kategoria\u cbot\category; poszukiwanego obiektu. Na przykÂ³ad szukajÂ¹c mrÃ³wki, naleÂ¿y napisaÃ¦ \c;radar (AlienAnt)\n;. 
 
-\t;angle: \c;\l;float\u cbot\float;\n; (domyœlna wartoœæ: \c;0\n;)
-Kierunek, w którym "patrzy" radar, w stopniach: 
+\t;angle: \c;\l;float\u cbot\float;\n; (domyÂœlna wartoÂœÃ¦: \c;0\n;)
+Kierunek, w ktÃ³rym "patrzy" radar, w stopniach: 
 \c;  0\n; -> na wprost 
-\c;-90\n; -> æwieræ obrotu w prawo
-\c; 90\n; -> æwieræ obrotu w lewo
+\c;-90\n; -> Ã¦wierÃ¦ obrotu w prawo
+\c; 90\n; -> Ã¦wierÃ¦ obrotu w lewo
 
-\t;focus: \c;\l;float\u cbot\float;\n; (domyœlna wartoœæ: \c;360\n;)
-K¹t widzenia radaru, w stopniach. 
+\t;focus: \c;\l;float\u cbot\float;\n; (domyÂœlna wartoÂœÃ¦: \c;360\n;)
+KÂ¹t widzenia radaru, w stopniach. 
 
-\t;min: \c;\l;float\u cbot\float;\n; (domyœlna wartoœæ: \c;0\n;)
-Minimalna odleg³oœæ wykrywania, w metrach. Obiekty znajduj¹ce siê bli¿ej nie bêd¹ wykryte. 
+\t;min: \c;\l;float\u cbot\float;\n; (domyÂœlna wartoÂœÃ¦: \c;0\n;)
+Minimalna odlegÂ³oÂœÃ¦ wykrywania, w metrach. Obiekty znajdujÂ¹ce siÃª bliÂ¿ej nie bÃªdÂ¹ wykryte. 
 
-\t;max: \c;\l;float\u cbot\float;\n; (domyœlna wartoœæ: \c;1000\n;)
-Maksymalna odleg³oœæ wykrywania, w metrach. Obiekty znajduj¹ce siê dalej nie bêd¹ wykryte. 
+\t;max: \c;\l;float\u cbot\float;\n; (domyÂœlna wartoÂœÃ¦: \c;1000\n;)
+Maksymalna odlegÂ³oÂœÃ¦ wykrywania, w metrach. Obiekty znajdujÂ¹ce siÃª dalej nie bÃªdÂ¹ wykryte. 
 
-\t;way: \c;\l;float\u cbot\float;\n; (domyœlna wartoœæ: \c;1\n;)
-Okreœla sposób wykrywania obiektu. Przy wartoœci \c;1\n;, znajduje najbli¿szy obiekt w podanej strefie. Przy wartoœci\c;-1\n;, znajduje najdalszy obiekt w strefie. 
+\t;way: \c;\l;float\u cbot\float;\n; (domyÂœlna wartoÂœÃ¦: \c;1\n;)
+OkreÂœla sposÃ³b wykrywania obiektu. Przy wartoÂœci \c;1\n;, znajduje najbliÂ¿szy obiekt w podanej strefie. Przy wartoÂœci\c;-1\n;, znajduje najdalszy obiekt w strefie. 
 
 \t;Typ wyniku: \c;\l;object\u cbot\object;\n;
-Zwraca pierwszy znaleziony obiekt odpowiadaj¹cy podanej kategorii w podanej strefie. Jeœli nie znaleziono obiektu, zwracana jest wartoœæ \c;\l;null\u cbot\null;\n;.
+Zwraca pierwszy znaleziony obiekt odpowiadajÂ¹cy podanej kategorii w podanej strefie. JeÂœli nie znaleziono obiektu, zwracana jest wartoÂœÃ¦ \c;\l;null\u cbot\null;\n;.
 
 \t;Uwaga
-Nie jest konieczne podawanie wszystkich parametrów. Oto dwa przyk³ady równowa¿nych instrukcji: 
+Nie jest konieczne podawanie wszystkich parametrÃ³w. Oto dwa przykÂ³ady rÃ³wnowaÂ¿nych instrukcji: 
 \c;
 \s;	radar(Titanium, 0, 360, 0, 1000);
-\s;	radar(Titanium);  // równowa¿ne
+\s;	radar(Titanium);  // rÃ³wnowaÂ¿ne
 
 \s;	radar(Titanium, 0, 90, 0, 1000);
-\s;	radar(Titanium, 0, 90);  // równowa¿ne
+\s;	radar(Titanium, 0, 90);  // rÃ³wnowaÂ¿ne
 \n;
-Jeœli pominiêto jeden lub wiêcej parametrów, przyjmowane s¹ wymienione powy¿ej wartoœci domyœlne; tylko pierwszy parametr jest obowi¹zkowy.
-Zwykle okreœlony jest tylko pierwszy parametr, np. \c;radar (AlienAnt)\n; wykrywa najbli¿sz¹ mrówkê, niezale¿nie od jej po³o¿enia. 
+JeÂœli pominiÃªto jeden lub wiÃªcej parametrÃ³w, przyjmowane sÂ¹ wymienione powyÂ¿ej wartoÂœci domyÂœlne; tylko pierwszy parametr jest obowiÂ¹zkowy.
+Zwykle okreÂœlony jest tylko pierwszy parametr, np. \c;radar (AlienAnt)\n; wykrywa najbliÂ¿szÂ¹ mrÃ³wkÃª, niezaleÂ¿nie od jej poÂ³oÂ¿enia. 
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
 

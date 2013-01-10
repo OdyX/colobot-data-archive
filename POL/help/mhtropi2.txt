@@ -1,18 +1,18 @@
 \b;Z Centrum Kontroli Misji
-Mamy nadziejê, ¿e dotrze do Ciebie nasza wiadomoœæ.
+Mamy nadziejÃª, Â¿e dotrze do Ciebie nasza wiadomoÂœÃ¦.
 
-Transmisja z satelity obserwacyjnego przed kilkoma godzinami powiadomi³a nas, ¿e wêdrujesz sobie niepokoj¹co beztrosko. Twój komunikator SatCom zaprzesta³ nadawania. Twoje reaktory zosta³y prawdopodobnie uszkodzone a he³m zagin¹³ na dnie jeziora. Jeœli tak jest w rzeczywistoœci, nie próbuj go odzyskaæ, nie wchodŸ do wody! Woda na planecie Tropice jest niezwykle toksyczna. Mo¿esz tego nie prze¿yæ.
+Transmisja z satelity obserwacyjnego przed kilkoma godzinami powiadomiÂ³a nas, Â¿e wÃªdrujesz sobie niepokojÂ¹co beztrosko. TwÃ³j komunikator SatCom zaprzestaÂ³ nadawania. Twoje reaktory zostaÂ³y prawdopodobnie uszkodzone a heÂ³m zaginÂ¹Â³ na dnie jeziora. JeÂœli tak jest w rzeczywistoÂœci, nie prÃ³buj go odzyskaÃ¦, nie wchodÂŸ do wody! Woda na planecie Tropice jest niezwykle toksyczna. MoÂ¿esz tego nie przeÂ¿yÃ¦.
 
-Wróæ na statek najszybciej jak to mo¿liwe i spróbuj przekazaæ informacjê o prawdopodobnej przyczynie tej katastrofy. Informacje z satelity nie s¹ mo¿liwe do odszyfrowania. Rozwa¿aliœmy istnienie nieznanego czynnika  ju¿ od czasu zaginiêcia pierwszej ekspedycji. Wygl¹da na to, ¿e w³aœnie siê z nim spotka³eœ.
+WrÃ³Ã¦ na statek najszybciej jak to moÂ¿liwe i sprÃ³buj przekazaÃ¦ informacjÃª o prawdopodobnej przyczynie tej katastrofy. Informacje z satelity nie sÂ¹ moÂ¿liwe do odszyfrowania. RozwaÂ¿aliÂœmy istnienie nieznanego czynnika  juÂ¿ od czasu zaginiÃªcia pierwszej ekspedycji. WyglÂ¹da na to, Â¿e wÂ³aÂœnie siÃª z nim spotkaÂ³eÂœ.
 
-Nie mo¿emy pomóc Ci bardziej, ale pamiêtaj ¿e pod¹¿asz œladami poprzedniej ekspedycji. Jeœli przydarzy³o im siê to samo co teraz Tobie, s¹ szanse, ¿e zostawili jakieœ wskazówki podczas swojego powrotu do statku kosmicznego, który znajdziesz w pobli¿u obecnej pozycji Twojego statku. Skorzystaj z tych wskazówek.
+Nie moÂ¿emy pomÃ³c Ci bardziej, ale pamiÃªtaj Â¿e podÂ¹Â¿asz Âœladami poprzedniej ekspedycji. JeÂœli przydarzyÂ³o im siÃª to samo co teraz Tobie, sÂ¹ szanse, Â¿e zostawili jakieÂœ wskazÃ³wki podczas swojego powrotu do statku kosmicznego, ktÃ³ry znajdziesz w pobliÂ¿u obecnej pozycji Twojego statku. Skorzystaj z tych wskazÃ³wek.
 
-Warte rozwa¿enia jest rozstawienie flag. Okreœlaj¹ one kierunek wiatru, przez co mog¹ byæ pomocne w orientacji w terenie.
+Warte rozwaÂ¿enia jest rozstawienie flag. OkreÂœlajÂ¹ one kierunek wiatru, przez co mogÂ¹ byÃ¦ pomocne w orientacji w terenie.
 
-To wszystko co mo¿emy teraz powiedzieæ...
+To wszystko co moÂ¿emy teraz powiedzieÃ¦...
 Powodzenia...
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

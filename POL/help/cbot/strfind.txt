@@ -1,20 +1,20 @@
 \b;Instrukcja \c;strfind\n;
-Znajduje podci¹g w ³añcuchu i zwraca pozycjê pierwszego znalezionego podci¹gu lub wartoœæ \l;nan\u cbot\nan; jeœli podci¹gu nie znaleziono.
+Znajduje podciÂ¹g w Â³aÃ±cuchu i zwraca pozycjÃª pierwszego znalezionego podciÂ¹gu lub wartoÂœÃ¦ \l;nan\u cbot\nan; jeÂœli podciÂ¹gu nie znaleziono.
 
-Sk³adnia¦:
-\s;\c;strfind ( ³añcuch, sub );\n;
+SkÂ³adniaÂ¦:
+\s;\c;strfind ( Â³aÃ±cuch, sub );\n;
 
-\t;³añcuch: \c;\l;string\u cbot\string;\n;
-Przeszukiwany ³añcuch.
+\t;Â³aÃ±cuch: \c;\l;string\u cbot\string;\n;
+Przeszukiwany Â³aÃ±cuch.
 
 \t;sub: \c;\l;string\u cbot\string;\n;
-Podci¹g, który ma zostaæ znaleziony.
+PodciÂ¹g, ktÃ³ry ma zostaÃ¦ znaleziony.
 
-Przyk³ady¦:
-\s;\c;	int pos = strfind("abcdef", "ab"); // pos równe 0
-\s;	int pos = strfind("abcdef", "de"); // pos równe 3
-\s;	int pos = strfind("abcdef", "xy"); // pos równe \l;nan\u cbot\nan;
+PrzykÂ³adyÂ¦:
+\s;\c;	int pos = strfind("abcdef", "ab"); // pos rÃ³wne 0
+\s;	int pos = strfind("abcdef", "de"); // pos rÃ³wne 3
+\s;	int pos = strfind("abcdef", "xy"); // pos rÃ³wne \l;nan\u cbot\nan;
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

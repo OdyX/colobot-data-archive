@@ -1,18 +1,18 @@
-\b;\button 156; Dzia³o organiczne na nogach
+\b;\button 156; DziaÂ³o organiczne na nogach
 \image botos 8 8;
-Robot pe³zaj¹cy na mrówczych odnó¿ach, strzelaj¹cy kulami organicznymi.
+Robot peÂ³zajÂ¹cy na mrÃ³wczych odnÃ³Â¿ach, strzelajÂ¹cy kulami organicznymi.
 
-Dzia³ko organiczne jest efektywniejsze od \l;dzia³ka ogniowego\u object\botfs;. Strzela ono ma³ymi kulkami ¿r¹cej \l;materii organicznej\u object\bullet;. \l;Zwyk³e ogniwo elektryczne\u object\power; wystarcza na oddanie 11 serii strza³ów.
+DziaÂ³ko organiczne jest efektywniejsze od \l;dziaÂ³ka ogniowego\u object\botfs;. Strzela ono maÂ³ymi kulkami Â¿rÂ¹cej \l;materii organicznej\u object\bullet;. \l;ZwykÂ³e ogniwo elektryczne\u object\power; wystarcza na oddanie 11 serii strzaÂ³Ã³w.
 
-Podczas poruszania siê, dzia³o organiczne na nogach zu¿ywa o po³owê mniej energii od \l;dzia³a organicznego na ko³ach\u object\botor;. Robot na nogach jest te¿ idealnie przystosowany do wspinania siê nawet po najbardziej stromych pochy³oœciach.
+Podczas poruszania siÃª, dziaÂ³o organiczne na nogach zuÂ¿ywa o poÂ³owÃª mniej energii od \l;dziaÂ³a organicznego na koÂ³ach\u object\botor;. Robot na nogach jest teÂ¿ idealnie przystosowany do wspinania siÃª nawet po najbardziej stromych pochyÂ³oÂœciach.
 
 \t;Programowanie
-Do zaprogramowania poruszania robotem mo¿na u¿ywaæ nastêpuj¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+Do zaprogramowania poruszania robotem moÂ¿na uÂ¿ywaÃ¦ nastÃªpujÂ¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
 
-Do zaprogramowania dzia³ka strzelaj¹cego kulami organicznymi s³u¿y instrukcja \c;\l;fire\u cbot\fire;\n;. Lufê mo¿na podnieœæ lub opuœciæ u¿ywaj¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
+Do zaprogramowania dziaÂ³ka strzelajÂ¹cego kulami organicznymi sÂ³uÂ¿y instrukcja \c;\l;fire\u cbot\fire;\n;. LufÃª moÂ¿na podnieÂœÃ¦ lub opuÂœciÃ¦ uÂ¿ywajÂ¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;LeggedOrgaShooter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

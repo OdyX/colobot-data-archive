@@ -1,12 +1,12 @@
-\b;Programmes envoyés par Houston
-Nous avons amélioré le programme de recharge. Maintenant, lorsque le robot arrive sur la \l;station de recharge\u object\station;, il n'attend plus un temps fixe de 5 secondes, mais seulement jusqu'à ce que sa \l;pile\u object\power; soit pleine. Une fois que la recharge est terminée et que le robot est revenu à la position initiale, il affiche un message à l'écran.
+\b;Programmes envoyÃ©s par Houston
+Nous avons amÃ©liorÃ© le programme de recharge. Maintenant, lorsque le robot arrive sur la \l;station de recharge\u object\station;, il n'attend plus un temps fixe de 5 secondes, mais seulement jusqu'Ã  ce que sa \l;pile\u object\power; soit pleine. Une fois que la recharge est terminÃ©e et que le robot est revenu Ã  la position initiale, il affiche un message Ã  l'Ã©cran.
 \c;
 \s;extern void object::Recharge2()
 \s;{
 \s;	\l;point\u cbot\type;  depart;        // variable pour pos. initiale
 \s;	\l;object\u cbot\type; chose;         // info sur la station
 \s;	
-\s;	depart = position;    // mémorise position initiale
+\s;	depart = position;    // mÃ©morise position initiale
 \s;	
 \s;	chose = \l;radar\u cbot\radar;(\l;PowerStation\u object\station;); // cherche station 
 \s;	\l;goto\u cbot\goto;(chose.position); // va sur station de recharge
@@ -16,12 +16,12 @@ Nous avons amélioré le programme de recharge. Maintenant, lorsque le robot arriv
 \s;		\l;wait\u cbot\wait;(1);          // attend pile pleine
 \s;	}
 \s;	
-\s;	\l;goto\u cbot\goto;(depart);         // retourne à la pos. initiale
-\s;	\l;message\u cbot\message;("Recharge terminée");
+\s;	\l;goto\u cbot\goto;(depart);         // retourne Ã  la pos. initiale
+\s;	\l;message\u cbot\message;("Recharge terminÃ©e");
 \s;}
 \n;
 \b;Archives
-Résumé des programmes déjà reçus¦:
+RÃ©sumÃ© des programmes dÃ©jÃ  reÃ§usÂ¦:
 
 o  \c;\l;Recharge1\u mllune4;\n;
 o  \c;\l;EchangePile1\u mllune1;\n;

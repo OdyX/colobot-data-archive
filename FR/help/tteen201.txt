@@ -1,13 +1,13 @@
 \b;Cadeau
-Chouette, un nouveau robot tout neuf¦!
+Chouette, un nouveau robot tout neufÂ¦!
 
 \image botdr 8 8;
-Et en plus, il peut dessiner lorsque tu le poses sur une feuille de papier. Pour cela, il transporte 8 crayons de couleur qu'il peut traîner sur le sol.
+Et en plus, il peut dessiner lorsque tu le poses sur une feuille de papier. Pour cela, il transporte 8 crayons de couleur qu'il peut traÃ®ner sur le sol.
 
 \b;Juste un trait
-Pour commencer tranquillement avec ce petit robot, tu vas lui faire tracer un trait rouge de 20 centimètres, en ligne droite.
+Pour commencer tranquillement avec ce petit robot, tu vas lui faire tracer un trait rouge de 20 centimÃ¨tres, en ligne droite.
 
-Si tu programmes seulement l'instruction \c;move(20);\n;, le robot avancera sans rien dessiner. Pour tracer un trait, il faut lui demander d'abaisser le crayon rouge AVANT qu'il se déplace. Pour cela, il suffit d'écrire \c;pendown(Red);\n; (attention au \c;R\n; majuscule). Le programme complet est donc¦:
+Si tu programmes seulement l'instruction \c;move(20);\n;, le robot avancera sans rien dessiner. Pour tracer un trait, il faut lui demander d'abaisser le crayon rouge AVANT qu'il se dÃ©place. Pour cela, il suffit d'Ã©crire \c;pendown(Red);\n; (attention au \c;R\n; majuscule). Le programme complet est doncÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -23,4 +23,4 @@ Si tu programmes seulement l'instruction \c;move(20);\n;, le robot avancera sans
 Le bouton ...
 Si tu ne connais pas un autre terme anglais, clique sur le bouton \button 46; ci-contre.
 
-La touche \key;\key help;\norm; ou l'icône \button 185; permettent de revoir ces instructions en tout temps¦!
+La touche \key;\key help;\norm; ou l'icÃ´ne \button 185; permettent de revoir ces instructions en tout tempsÂ¦!

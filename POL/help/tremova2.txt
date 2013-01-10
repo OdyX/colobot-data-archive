@@ -1,35 +1,35 @@
-\b;Æwiczenie
-To æwiczenie jest bardzo podobne do poprzedniego. Tym razem mamy trzy \l;kostki tytanu\u object\titan;, które nale¿y przenieœæ na 3 platformy koñcowe. Oto wspó³rzêdne platform koñcowych:
+\b;Ã†wiczenie
+To Ã¦wiczenie jest bardzo podobne do poprzedniego. Tym razem mamy trzy \l;kostki tytanu\u object\titan;, ktÃ³re naleÂ¿y przenieÂœÃ¦ na 3 platformy koÃ±cowe. Oto wspÃ³Â³rzÃªdne platform koÃ±cowych:
 \c;
 	x=10, y=-60
 	x=10, y=-65
 	x=10, y=-70
 \n;
-\b;Ogólny algorytm
-Powtórz 3 razy:
-o  ZnajdŸ najdalsz¹ kostkê tytanu za pomoc¹ instrukcji \c;\l;radar\u cbot\radar;\n;.
-o  Podnieœ j¹ instrukcj¹ \c;\l;grab\u cbot\grab;\n;.
-o  PodjedŸ do jednej z platform: \c;\l;goto\u cbot\goto;\n;.
+\b;OgÃ³lny algorytm
+PowtÃ³rz 3 razy:
+o  ZnajdÂŸ najdalszÂ¹ kostkÃª tytanu za pomocÂ¹ instrukcji \c;\l;radar\u cbot\radar;\n;.
+o  PodnieÂœ jÂ¹ instrukcjÂ¹ \c;\l;grab\u cbot\grab;\n;.
+o  PodjedÂŸ do jednej z platform: \c;\l;goto\u cbot\goto;\n;.
 o  Zostaw tytan: \c;\l;drop\u cbot\drop;\n;.
 
-W przypadku szukania najbli¿szej kostki tytanu, radar znajdzie tytan dopiero co zaniesiony na platformê. Nale¿y wiêc szukaæ najdalszej kostki tytanu.
+W przypadku szukania najbliÂ¿szej kostki tytanu, radar znajdzie tytan dopiero co zaniesiony na platformÃª. NaleÂ¿y wiÃªc szukaÃ¦ najdalszej kostki tytanu.
 
 \b;Program
-U¿yj pêtli \c;\l;for\u cbot\for;\n; do trzykrotnego powtórzenia wszystkich instrukcji niezbêdnych do przeniesienia kostki tytanu. Wewn¹trz pêtli, aby znaleŸæ najdalsz¹ kostkê tytanu, u¿yj instrukcji \c;\l;radar\u cbot\radar;(Titanium, 0, 360, 0, 1000, -1);\n;. Ostatnia wartoœæ \c;-1\n; oznacza, ¿e zamiast szukaæ najbli¿szego przedmiotu, radar podaje w wyniku najdalszy przedmiot, który mo¿e znaleŸæ.
+UÂ¿yj pÃªtli \c;\l;for\u cbot\for;\n; do trzykrotnego powtÃ³rzenia wszystkich instrukcji niezbÃªdnych do przeniesienia kostki tytanu. WewnÂ¹trz pÃªtli, aby znaleÂŸÃ¦ najdalszÂ¹ kostkÃª tytanu, uÂ¿yj instrukcji \c;\l;radar\u cbot\radar;(Titanium, 0, 360, 0, 1000, -1);\n;. Ostatnia wartoÂœÃ¦ \c;-1\n; oznacza, Â¿e zamiast szukaÃ¦ najbliÂ¿szego przedmiotu, radar podaje w wyniku najdalszy przedmiot, ktÃ³ry moÂ¿e znaleÂŸÃ¦.
 \c;
 \s;object  metal;
 \s;metal = radar(Titanium, 0, 360, 0, 1000, -1);
 \s;if ( metal == null )  return;
 \s;goto(metal.position);
 \n;
-Zmienna \c;metal\n; jest typu \c;\l;object\u cbot\object;\n;. Aby poznaæ pozycjê obiektu opisanego przez zmienn¹, musisz napisaæ \c;metal.position\n;.
+Zmienna \c;metal\n; jest typu \c;\l;object\u cbot\object;\n;. Aby poznaÃ¦ pozycjÃª obiektu opisanego przez zmiennÂ¹, musisz napisaÃ¦ \c;metal.position\n;.
 
-Wspó³rzêdna \c;x\n; wszystkich trzech platform jest taka sama i równa 10. Wspó³rzêdne \c;y\n; odpowiednio wynosz¹ -60, -65 i -70. Najefektywniejszym sposobem otrzymania wspó³rzêdnych platform jest u¿ycie wartoœci \c;i\n; z pêtli \c;for\n;, która przyjmuje kolejno wartoœci 0, 1 i 2:
+WspÃ³Â³rzÃªdna \c;x\n; wszystkich trzech platform jest taka sama i rÃ³wna 10. WspÃ³Â³rzÃªdne \c;y\n; odpowiednio wynoszÂ¹ -60, -65 i -70. Najefektywniejszym sposobem otrzymania wspÃ³Â³rzÃªdnych platform jest uÂ¿ycie wartoÂœci \c;i\n; z pÃªtli \c;for\n;, ktÃ³ra przyjmuje kolejno wartoÂœci 0, 1 i 2:
 \c;
 \s;dest.x = 10;
 \s;dest.y = -60-5*i;
 \n;
-Do Ciebie nale¿y dokoñczenie programu...
+Do Ciebie naleÂ¿y dokoÃ±czenie programu...
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

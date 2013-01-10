@@ -9,11 +9,11 @@ Obecnie na orbicie geostacjonarnej planety Krystalia.
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   odizolowane (blisko statku kosmicznego)
+\tab;ÂrÃ³dÂ³o energii:   odizolowane (blisko statku kosmicznego)
 \tab;Ruda tytanu:      rozproszona
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
 \tab;Wykryto:          robale
-\tab;  - Zagro¿enie:   nie
+\tab;  - ZagroÂ¿enie:   nie
 \n;

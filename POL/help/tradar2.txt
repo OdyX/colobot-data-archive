@@ -1,8 +1,8 @@
-\b;Æwiczenie
-W tym æwiczeniu "szalony robot" porozrzuca³ wiele \l;niebieskich plusów\u object\waypoint; na ziemi. Aby je znaleŸæ, mo¿esz u¿yæ ponownie programu napisanego w poprzednim æwiczeniu. Ukazuje to elastycznoœæ takiego programu: przystosowuje siê on do ka¿dego napotkanego œrodowiska.
+\b;Ã†wiczenie
+W tym Ã¦wiczeniu "szalony robot" porozrzucaÂ³ wiele \l;niebieskich plusÃ³w\u object\waypoint; na ziemi. Aby je znaleÂŸÃ¦, moÂ¿esz uÂ¿yÃ¦ ponownie programu napisanego w poprzednim Ã¦wiczeniu. Ukazuje to elastycznoÂœÃ¦ takiego programu: przystosowuje siÃª on do kaÂ¿dego napotkanego Âœrodowiska.
 
 \t;Uwaga
-Nie czekaj zbyt d³ugo, gdy¿ szalony robot natychmiast rozpoczyna swoj¹ pracê. Na szczêœcie gra jest zatrzymywana, gdy jesteœ w edytorze programu.
+Nie czekaj zbyt dÂ³ugo, gdyÂ¿ szalony robot natychmiast rozpoczyna swojÂ¹ pracÃª. Na szczÃªÂœcie gra jest zatrzymywana, gdy jesteÂœ w edytorze programu.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,19 +1,19 @@
 \b;Un dessin surprise
-Les répétitions permettent de réaliser de très jolis dessins, avec des programmes d'une étonnante simplicité. Par exemple, essaie le programme suivant¦:
+Les rÃ©pÃ©titions permettent de rÃ©aliser de trÃ¨s jolis dessins, avec des programmes d'une Ã©tonnante simplicitÃ©. Par exemple, essaie le programme suivantÂ¦:
 
 \s;o  Baisse le crayon rouge
-\s;o  répète 18 fois¦:
-\s;	o  Avance de 10 centimètres
-\s;	o  Tourne de 160 degrés à gauche (160)
-\s;	o  Avance de 10 centimètres
-\s;	o  Tourne de 140 degrés à droite (-140)
+\s;o  rÃ©pÃ¨te 18 foisÂ¦:
+\s;	o  Avance de 10 centimÃ¨tres
+\s;	o  Tourne de 160 degrÃ©s Ã  gauche (160)
+\s;	o  Avance de 10 centimÃ¨tres
+\s;	o  Tourne de 140 degrÃ©s Ã  droite (-140)
 
-Tu verras apparaître un dessin surprise¦!
+Tu verras apparaÃ®tre un dessin surpriseÂ¦!
 
 \b;Plus vite
-Comme ce dessin est assez long à réaliser, tu peux éventuellement accélérer le mouvement du petit robot en appuyant sur la touche \key;\key speed20;\norm; pour obtenir une vitesse x2. La touche \key;\key speed10;\norm; revient à une vitesse normale x1.
+Comme ce dessin est assez long Ã  rÃ©aliser, tu peux Ã©ventuellement accÃ©lÃ©rer le mouvement du petit robot en appuyant sur la touche \key;\key speed20;\norm; pour obtenir une vitesse x2. La touche \key;\key speed10;\norm; revient Ã  une vitesse normale x1.
 
-\b;Caméra
-Tu peux aussi utiliser les touches flèches du clavier pendant le dessin, pour observer la scène sous un autre angle. Cela ne dérange pas du tout le dessin en cours.
+\b;CamÃ©ra
+Tu peux aussi utiliser les touches flÃ¨ches du clavier pendant le dessin, pour observer la scÃ¨ne sous un autre angle. Cela ne dÃ©range pas du tout le dessin en cours.
 
-En cliquant l'icône \button 13; ou en appuyant sur la touche \key;\key camera;\norm;, tu peux rendre la caméra solidaire du robot.
+En cliquant l'icÃ´ne \button 13; ou en appuyant sur la touche \key;\key camera;\norm;, tu peux rendre la camÃ©ra solidaire du robot.

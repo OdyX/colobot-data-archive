@@ -1,13 +1,13 @@
 \b;Z Centrum Kontroli Misji
-Za pomoc¹ czwartego \l;klucza\u object\key; (D), który mo¿esz znaleŸæ w pobli¿u, uzyskasz ostatecznie dostêp do \l;skrytki\u object\safe;. Ten prze³omowy robot, którego znajdziesz wewn¹trz zosta³ nazwany "\l;dzia³em fazowym\u object\botphaz;".
+Za pomocÂ¹ czwartego \l;klucza\u object\key; (D), ktÃ³ry moÂ¿esz znaleÂŸÃ¦ w pobliÂ¿u, uzyskasz ostatecznie dostÃªp do \l;skrytki\u object\safe;. Ten przeÂ³omowy robot, ktÃ³rego znajdziesz wewnÂ¹trz zostaÂ³ nazwany "\l;dziaÂ³em fazowym\u object\botphaz;".
 
-W za³¹czeniu przesy³amy program umo¿liwiaj¹cy wspó³pracê \l;dzia³a fazowego\u object\botphaz; z robotem \l;os³aniaczem\u object\botshld;.
+W zaÂ³Â¹czeniu przesyÂ³amy program umoÂ¿liwiajÂ¹cy wspÃ³Â³pracÃª \l;dziaÂ³a fazowego\u object\botphaz; z robotem \l;osÂ³aniaczem\u object\botshld;.
 
-Wkrótce bêdziesz mia³ okazjê przetestowaæ now¹ broñ. Twoj¹ ostatni¹ misj¹ jest zlikwidowanie \l;Królowej obcych\u object\mother; sk³adaj¹cej jaja, odpowiedzialnej za pojawianie siê kolejnych owadów na Nowej Ziemi. Dzia³o fazowe mo¿e byæ jedyn¹ broni¹ zdoln¹ wykonaæ to zadanie.
+WkrÃ³tce bÃªdziesz miaÂ³ okazjÃª przetestowaÃ¦ nowÂ¹ broÃ±. TwojÂ¹ ostatniÂ¹ misjÂ¹ jest zlikwidowanie \l;KrÃ³lowej obcych\u object\mother; skÂ³adajÂ¹cej jaja, odpowiedzialnej za pojawianie siÃª kolejnych owadÃ³w na Nowej Ziemi. DziaÂ³o fazowe moÂ¿e byÃ¦ jedynÂ¹ broniÂ¹ zdolnÂ¹ wykonaÃ¦ to zadanie.
 
-Nie bêdzie ju¿ dalszych przeszkód w ludzkiej kolonizacji tej wspania³ej planety i wkrótce bêdzie mo¿na powiadomiæ Ziemiê o zakoñczeniu misji.
+Nie bÃªdzie juÂ¿ dalszych przeszkÃ³d w ludzkiej kolonizacji tej wspaniaÂ³ej planety i wkrÃ³tce bÃªdzie moÂ¿na powiadomiÃ¦ ZiemiÃª o zakoÃ±czeniu misji.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

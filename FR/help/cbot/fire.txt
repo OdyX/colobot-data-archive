@@ -2,15 +2,15 @@
 L'instruction \c;fire();\n; permet de faire feu avec le canon du robot.
 
 \b;Utilisation courante
-En général, on tire des rafales d'une seconde¦:
+En gÃ©nÃ©ral, on tire des rafales d'une secondeÂ¦:
 \c;
 \s;	fire(1);
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;fire ( time );\n;
 
-Tire avec le canon, pendant un certain temps. Plus le tir est long, et plus l'énergie consommée est grande. Cette instruction peut être utilisée avec les robots suivants¦:
+Tire avec le canon, pendant un certain temps. Plus le tir est long, et plus l'Ã©nergie consommÃ©e est grande. Cette instruction peut Ãªtre utilisÃ©e avec les robots suivantsÂ¦:
 o  \l;Robot shooter\u object\botfr;
 o  \l;Robot orgaShooter\u object\botor;
 o  \l;Robot phazer\u object\botphaz;
@@ -18,15 +18,15 @@ o  \l;Robot phazer\u object\botphaz;
 Pour diriger le canon vers la gauche  ou vers la droite, le seul moyen est d'orienter le robot avec l'instuction \c;\l;turn\u cbot\turn;\n;. Pour diriger le canon vers le haut ou vers le bas, il faut utiliser l'instruction \c;\l;aim\u cbot\aim;\n;.
 
 \t;time: \c;\l;float\u cbot\float;\n;
-Durée du tir, en secondes. Il s'agit généralement de valeurs relativement courtes. \c;fire(1);\n; tire une rafale identique à celle tirée lors la prise de commande du robot. Dans le cas où on survole une concentration importante de fourmis, on peut tirer des rafales plus longues, par exemple \c;fire(4);\n;. Pour économiser l'énergie, on peut tirer des rafales très courtes avec par exemple \c;fire(0.1);\n;.
+DurÃ©e du tir, en secondes. Il s'agit gÃ©nÃ©ralement de valeurs relativement courtes. \c;fire(1);\n; tire une rafale identique Ã  celle tirÃ©e lors la prise de commande du robot. Dans le cas oÃ¹ on survole une concentration importante de fourmis, on peut tirer des rafales plus longues, par exemple \c;fire(4);\n;. Pour Ã©conomiser l'Ã©nergie, on peut tirer des rafales trÃ¨s courtes avec par exemple \c;fire(0.1);\n;.
 
-\t;Valeur retournée: \c;\l;int\u cbot\int;\n;
-Zéro si tout est ok, ou valeur non nulle si une erreur est intervenue.
-\c;== 0 \n;tir effectué
+\t;Valeur retournÃ©e: \c;\l;int\u cbot\int;\n;
+ZÃ©ro si tout est ok, ou valeur non nulle si une erreur est intervenue.
+\c;== 0 \n;tir effectuÃ©
 \c;!= 0 \n;tir impossible
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;fire\n; = feu
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

@@ -1,9 +1,9 @@
 \b;Instructions de Houston
-Ramenez la boîte noire laissée par l'expédition précédente et décollez¦!
+Ramenez la boÃ®te noire laissÃ©e par l'expÃ©dition prÃ©cÃ©dente et dÃ©collezÂ¦!
 
-Les décharges électromagnétiques semblent cependant encore plus fréquentes que dans la mission précédente. Protégez bien le matériel par des paratonnerres; vous pouvez visualiser le rayon de protection d'un \l;paratonnerre\u object\captor; en le sélectionnant, puis en cliquant sur le bouton <rayon d'action> \button 41;. Des points rouges indiquent la zone protégée. Votre vaisseau fait également office de paratonnerre.
+Les dÃ©charges Ã©lectromagnÃ©tiques semblent cependant encore plus frÃ©quentes que dans la mission prÃ©cÃ©dente. ProtÃ©gez bien le matÃ©riel par des paratonnerres; vous pouvez visualiser le rayon de protection d'un \l;paratonnerre\u object\captor; en le sÃ©lectionnant, puis en cliquant sur le bouton <rayon d'action> \button 41;. Des points rouges indiquent la zone protÃ©gÃ©e. Votre vaisseau fait Ã©galement office de paratonnerre.
 
-Nos ingénieurs affirment que vous-même ne risquez rien lorsque vous sortez de la zone protégée: votre combinaison n'attire pas la foudre.
+Nos ingÃ©nieurs affirment que vous-mÃªme ne risquez rien lorsque vous sortez de la zone protÃ©gÃ©e: votre combinaison n'attire pas la foudre.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

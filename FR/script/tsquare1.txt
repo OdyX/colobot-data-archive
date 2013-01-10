@@ -11,6 +11,6 @@ extern void object::Solution( )
 	move(20);  // va sur coin 3
 	turn(90);
 
-	move(20);  // revient au départ
+	move(20);  // revient au dÃ©part
 	turn(90);
 }

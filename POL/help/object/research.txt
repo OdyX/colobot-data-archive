@@ -1,28 +1,28 @@
 \b;\button 163; Centrum badawcze
 \image research 8 8;
-Centrum badawcze to ogromny komputer. Jego najbardziej u¿yteczn¹ funkcj¹ jest mo¿liwoœæ odkrywania nowych technologii oraz ulepszeñ istniej¹cej, w szczególnoœci dotycz¹cej budynków i robotów.
+Centrum badawcze to ogromny komputer. Jego najbardziej uÂ¿ytecznÂ¹ funkcjÂ¹ jest moÂ¿liwoÂœÃ¦ odkrywania nowych technologii oraz ulepszeÃ± istniejÂ¹cej, w szczegÃ³lnoÂœci dotyczÂ¹cej budynkÃ³w i robotÃ³w.
 
-Zawiera 65536 procesorów i zu¿ywa bardzo du¿e iloœci energii.
-Ka¿dy program badawczy potrzebuje nowego, w pe³ni na³adowanego \l;ogniwa elektrycznego\u object\power;
+Zawiera 65536 procesorÃ³w i zuÂ¿ywa bardzo duÂ¿e iloÂœci energii.
+KaÂ¿dy program badawczy potrzebuje nowego, w peÂ³ni naÂ³adowanego \l;ogniwa elektrycznego\u object\power;
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 5 metrów.
+PÂ³aska powierzchnia szeroka na minimum 5 metrÃ³w.
 
-\t;Wejœcie
-¯¹danie rozpoczêcia badañ.
+\t;WejÂœcie
+Â¯Â¹danie rozpoczÃªcia badaÃ±.
 
-\t;Wyjœcie
+\t;WyjÂœcie
 Nowe, ulepszone technologie.
 
-\t;ród³o zasilania
-Zwyk³e lub atomowe ogniwo elektryczne.
+\t;ÂrÃ³dÂ³o zasilania
+ZwykÂ³e lub atomowe ogniwo elektryczne.
 
-\t;Czas dzia³ania
-Od 9 sekund do 1 minuty, w zale¿noœci od programu badawczego.
+\t;Czas dziaÂ³ania
+Od 9 sekund do 1 minuty, w zaleÂ¿noÂœci od programu badawczego.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;ResearchCenter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
 

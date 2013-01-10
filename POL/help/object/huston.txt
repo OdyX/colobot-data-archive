@@ -1,11 +1,11 @@
 \b;\button 176; Centrum Kontroli Misji
 \image huston 8 8;
-Ziemskie centrum kontroli wszystkich \l;Twoich\u object\human; misji. Pomimo takiej samej nazwy jak ogólnie znana stacja kontroli misji z dawnych czasów, "Houston" mieœci siê w rzeczywistoœci poœrodku pustyni Nevada, w nowym centrum koordynacji eksploracji kosmosu.
+Ziemskie centrum kontroli wszystkich \l;Twoich\u object\human; misji. Pomimo takiej samej nazwy jak ogÃ³lnie znana stacja kontroli misji z dawnych czasÃ³w, "Houston" mieÂœci siÃª w rzeczywistoÂœci poÂœrodku pustyni Nevada, w nowym centrum koordynacji eksploracji kosmosu.
 
-Centrum Kontroli Misji nieustannie nadzoruje Twoj¹ misjê, a ca³y zespó³ naukowców i in¿ynierów bardzo ciê¿ko pracuje nad znalezieniem rozwi¹zañ dla wszystkich napotkanych problemów.
+Centrum Kontroli Misji nieustannie nadzoruje TwojÂ¹ misjÃª, a caÂ³y zespÃ³Â³ naukowcÃ³w i inÂ¿ynierÃ³w bardzo ciÃªÂ¿ko pracuje nad znalezieniem rozwiÂ¹zaÃ± dla wszystkich napotkanych problemÃ³w.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;Houston\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

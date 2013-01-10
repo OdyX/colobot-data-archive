@@ -13,7 +13,7 @@ extern void object::Solution( )
 
 void object::SendToPost(float order, float param)
 {
-	// envoie l'ordre puis le paramètre
+	// envoie l'ordre puis le paramÃ¨tre
 	send("order", order, 100);
 	send("param", param, 100);
 

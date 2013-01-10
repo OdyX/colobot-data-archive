@@ -1,38 +1,38 @@
 \b;Une spirale
-Lorsque tu écris¦...
+Lorsque tu Ã©crisÂ¦...
 \c;
 \s;int longueur = 10;
 \n;
-...¦tu utilises sans le savoir une "variable". Il s'agit là d'un concept très important en informatique. L'intérêt principal d'une variable est de varier, de changer. Dans cet exercice, on va justement s'amuser à faire changer une variable pendant l'exécution du programme.
+...Â¦tu utilises sans le savoir une "variable". Il s'agit lÃ  d'un concept trÃ¨s important en informatique. L'intÃ©rÃªt principal d'une variable est de varier, de changer. Dans cet exercice, on va justement s'amuser Ã  faire changer une variable pendant l'exÃ©cution du programme.
 
 \b;Imagination
-Imagine le programme idiot suivant¦:
+Imagine le programme idiot suivantÂ¦:
 
-\s;o  Définir la longueur comme valant 10
+\s;o  DÃ©finir la longueur comme valant 10
 \s;o  Abaisser le crayon rouge
-\s;o  répèter 16 fois¦:
-\s;	o  Avancer de la longueur définie
-\s;	o  Tourner de 90 degrés à gauche
+\s;o  rÃ©pÃ¨ter 16 foisÂ¦:
+\s;	o  Avancer de la longueur dÃ©finie
+\s;	o  Tourner de 90 degrÃ©s Ã  gauche
 
-Après les 4 premières répétitions, un carré est dessiné. Les répétitions suivantes vont continuer de dessiner des carrés les uns sur les autres, ce qui est ridicule. Mais imagine maintenant que lorsque tu dessines un trait, il soit chaque fois un petit peu plus long. Tu vas obtenir une magnifique spirale¦:
+AprÃ¨s les 4 premiÃ¨res rÃ©pÃ©titions, un carrÃ© est dessinÃ©. Les rÃ©pÃ©titions suivantes vont continuer de dessiner des carrÃ©s les uns sur les autres, ce qui est ridicule. Mais imagine maintenant que lorsque tu dessines un trait, il soit chaque fois un petit peu plus long. Tu vas obtenir une magnifique spiraleÂ¦:
 
 \image teen705 10 10;
-Ici, le premier trait mesure 10 centimètres, le deuxième 11 centimètres, le troisième 12 centimètres, etc. Finalement, le 16ème trait mesurera 25 centimètres (10+16-1).
+Ici, le premier trait mesure 10 centimÃ¨tres, le deuxiÃ¨me 11 centimÃ¨tres, le troisiÃ¨me 12 centimÃ¨tres, etc. Finalement, le 16Ã¨me trait mesurera 25 centimÃ¨tres (10+16-1).
 
-\b;Comment faire cela¦?
-C'est évident, mon cher Watson, il suffit de programmer ceci¦:
+\b;Comment faire celaÂ¦?
+C'est Ã©vident, mon cher Watson, il suffit de programmer ceciÂ¦:
 
-\s;o  Définir la longueur comme valant 10
+\s;o  DÃ©finir la longueur comme valant 10
 \s;o  Abaisser le crayon rouge
-\s;o  répèter 16 fois¦:
-\s;	o  Avancer de la longueur définie
-\s;	o  Augmenter de 1 centimètre la longueur définie
-\s;	o  Tourner de 90 degrés à gauche
+\s;o  rÃ©pÃ¨ter 16 foisÂ¦:
+\s;	o  Avancer de la longueur dÃ©finie
+\s;	o  Augmenter de 1 centimÃ¨tre la longueur dÃ©finie
+\s;	o  Tourner de 90 degrÃ©s Ã  gauche
 
-Oui, mais comment écrire l'avant-dernière ligne "augmenter de 1 la longueur définie"¦?
-Simplement en écrivant cette ligne¦:
+Oui, mais comment Ã©crire l'avant-derniÃ¨re ligne "augmenter de 1 la longueur dÃ©finie"Â¦?
+Simplement en Ã©crivant cette ligneÂ¦:
 \c;
 \s;longueur = longueur+1;
 \n;
-On peut traduire cela par "la variable longueur prend la valeur qu'elle avait avant en lui ajoutant 1". Ce n'est pas évident à comprendre, mais ça marche.
-Essaie en modifiant le programme de l'exercice précédent¦...
+On peut traduire cela par "la variable longueur prend la valeur qu'elle avait avant en lui ajoutant 1". Ce n'est pas Ã©vident Ã  comprendre, mais Ã§a marche.
+Essaie en modifiant le programme de l'exercice prÃ©cÃ©dentÂ¦...

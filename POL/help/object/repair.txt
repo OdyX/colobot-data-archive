@@ -1,24 +1,24 @@
 \b;\button 169; Warsztat
 \image repair 8 8;
-W warsztacie mo¿na zregenerowaæ uszkodzone os³ony robotów. Os³ona robota wch³ania pewn¹ iloœæ strza³ów \l;wroga\u object\mother;. Brak os³ony oznacza, ¿e robot zostanie zniszczony przy nastêpnym ataku.
+W warsztacie moÂ¿na zregenerowaÃ¦ uszkodzone osÂ³ony robotÃ³w. OsÂ³ona robota wchÂ³ania pewnÂ¹ iloÂœÃ¦ strzaÂ³Ã³w \l;wroga\u object\mother;. Brak osÂ³ony oznacza, Â¿e robot zostanie zniszczony przy nastÃªpnym ataku.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 6 metrów.
+PÂ³aska powierzchnia szeroka na minimum 6 metrÃ³w.
 
-\t;Wejœcie
+\t;WejÂœcie
 Uszkodzony robot.
 
-\t;Wyjœcie
-Naprawiony robot ze zregenerowan¹ os³on¹.
+\t;WyjÂœcie
+Naprawiony robot ze zregenerowanÂ¹ osÂ³onÂ¹.
 
-\t;ród³o zasilania
+\t;ÂrÃ³dÂ³o zasilania
 Brak.
 
-\t;Czas dzia³ania
-Kilka sekund, w zale¿noœci od stopnia uszkodzenia robota.
+\t;Czas dziaÂ³ania
+Kilka sekund, w zaleÂ¿noÂœci od stopnia uszkodzenia robota.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;RepairCenter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

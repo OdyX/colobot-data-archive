@@ -1,11 +1,11 @@
 \b;Typ \c;void\n;
-Tego typu nale¿y u¿yæ do deklaracji funkcji, która nie zwraca ¿adnego wyniku.
+Tego typu naleÂ¿y uÂ¿yÃ¦ do deklaracji funkcji, ktÃ³ra nie zwraca Â¿adnego wyniku.
 
-Przyk³ad:
+PrzykÂ³ad:
 \c;\s;void MojaFunkcja(int a)
 \s;{
 \s;	...
 \s;}
 \n
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

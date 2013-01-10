@@ -1,16 +1,16 @@
 \b;Z Centrum Kontroli Misji
-Wyeliminuj wszystkie wrogie formy ¿ycia.
-PrzeprowadŸ niezbêdne \l;badania\u object\research; w celu rozwiniêcia systemu broni ofensywnej.
+Wyeliminuj wszystkie wrogie formy Â¿ycia.
+PrzeprowadÂŸ niezbÃªdne \l;badania\u object\research; w celu rozwiniÃªcia systemu broni ofensywnej.
 
-Satelita wykry³ Ÿród³o energii w punkcie oznaczonym przez poprzedni¹ ekspedycjê niebiesk¹ flag¹ (niebieski plus na mapce).
+Satelita wykryÂ³ ÂŸrÃ³dÂ³o energii w punkcie oznaczonym przez poprzedniÂ¹ ekspedycjÃª niebieskÂ¹ flagÂ¹ (niebieski plus na mapce).
 
-Nie zapomnij zajrzeæ do raportu z satelity \button 186; zanim przedsiêweŸmiesz jakiekolwiek decyzje; podejrzewamy, ¿e nie zawsze o tym pamiêtasz.
+Nie zapomnij zajrzeÃ¦ do raportu z satelity \button 186; zanim przedsiÃªweÂŸmiesz jakiekolwiek decyzje; podejrzewamy, Â¿e nie zawsze o tym pamiÃªtasz.
 
-Udoskonaliliœmy program ³aduj¹cy ogniwa. Zobacz stronê \button 53;.
+UdoskonaliliÂœmy program Â³adujÂ¹cy ogniwa. Zobacz stronÃª \button 53;.
 
-Ostrze¿enie: roboty nie mog¹ siê zanurzaæ. W razie w¹tpliwoœci sprawdŸ sam, czy poziom wody nie jest wy¿szy ni¿ do kolan, jeœli zamierzasz zdalnie kierowaæ nielataj¹ce roboty przez wodê.
+OstrzeÂ¿enie: roboty nie mogÂ¹ siÃª zanurzaÃ¦. W razie wÂ¹tpliwoÂœci sprawdÂŸ sam, czy poziom wody nie jest wyÂ¿szy niÂ¿ do kolan, jeÂœli zamierzasz zdalnie kierowaÃ¦ nielatajÂ¹ce roboty przez wodÃª.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

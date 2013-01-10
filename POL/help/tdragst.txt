@@ -1,64 +1,64 @@
-\b;Æwiczenie
-Dotrzyj jak najszybciej do platformy koñcowej (25 m przed Tob¹), u¿ywaj¹c instrukcji \c;motor( , )\n;. Przed koñcem ruchu musisz stopniowo zwalniaæ, aby robot nie wpad³ na \l;miny\u object\mine; i nie wybuch³.
+\b;Ã†wiczenie
+Dotrzyj jak najszybciej do platformy koÃ±cowej (25 m przed TobÂ¹), uÂ¿ywajÂ¹c instrukcji \c;motor( , )\n;. Przed koÃ±cem ruchu musisz stopniowo zwalniaÃ¦, aby robot nie wpadÂ³ na \l;miny\u object\mine; i nie wybuchÂ³.
 
-Równie dobrze mo¿esz napisaæ jedynie instrukcjê \c;\l;move\u cbot\move;(25);\n;, która wykona to samo zadanie, jednak celem tego æwiczenia jest nauka u¿ywania instrukcji \c;\l;motor\u cbot\motor;\n;.
+RÃ³wnie dobrze moÂ¿esz napisaÃ¦ jedynie instrukcjÃª \c;\l;move\u cbot\move;(25);\n;, ktÃ³ra wykona to samo zadanie, jednak celem tego Ã¦wiczenia jest nauka uÂ¿ywania instrukcji \c;\l;motor\u cbot\motor;\n;.
 
-Instrukcja ta potrzebuje dwóch wartoœci:
-1) Prêdkoœci lewego silnika.
-2) Prêdkoœci prawego silnika.
+Instrukcja ta potrzebuje dwÃ³ch wartoÂœci:
+1) PrÃªdkoÂœci lewego silnika.
+2) PrÃªdkoÂœci prawego silnika.
 
 \s;\c;	motor( lewy, prawy );
 \n;
-Wartoœci musz¹ siê zawieraæ w przedziale od -1 do 1:
--1 = pe³ny ci¹g wstecz
+WartoÂœci muszÂ¹ siÃª zawieraÃ¦ w przedziale od -1 do 1:
+-1 = peÂ³ny ciÂ¹g wstecz
  0 = silnik zatrzymany
- 1 = pe³ny ci¹g naprzód
+ 1 = peÂ³ny ciÂ¹g naprzÃ³d
 
-Na przyk³ad instrukcja \c;motor(0.5, 0.5);\n; bêdzie porusza³a robotem naprzód z po³ow¹ prêdkoœci, a¿ do podania silnikom nowych instrukcji.
+Na przykÂ³ad instrukcja \c;motor(0.5, 0.5);\n; bÃªdzie poruszaÂ³a robotem naprzÃ³d z poÂ³owÂ¹ prÃªdkoÂœci, aÂ¿ do podania silnikom nowych instrukcji.
 
-Po napotkaniu instrukcji \c;motor(0.5, 0.6);\n;, robot bêdzie siê porusza³ do przodu z po³ow¹ prêdkoœci, wykonuj¹c w tym samym czasie niewielki obrót w lewo: prawy silnik porusza siê nieco szybciej (\c;0.6\n;) ni¿ lewy (\c;0.5\n;).
+Po napotkaniu instrukcji \c;motor(0.5, 0.6);\n;, robot bÃªdzie siÃª poruszaÂ³ do przodu z poÂ³owÂ¹ prÃªdkoÂœci, wykonujÂ¹c w tym samym czasie niewielki obrÃ³t w lewo: prawy silnik porusza siÃª nieco szybciej (\c;0.6\n;) niÂ¿ lewy (\c;0.5\n;).
 
-\b;Ogólny algorytm
-Aby przejechaæ dok³adnie 25 metrów, nale¿y jechaæ z pe³n¹ prêdkoœci¹ przez pierwsze 23 metry, a nastêpnie stopniowo zmniejszaæ prêdkoœæ przez ostatnie dwa metry.
-\l;Zmienna\u cbot\var; \l;position\u cbot\object; podaje bie¿¹c¹ pozycjê robota, a instrukcja \c;\l;distance\u cbot\dist;( , );\n; oblicza odleg³oœæ miêdzy dwoma punktami. Najlepszy sposób na poznanie w³asnej pozycji, polega na zachowaniu bie¿¹cej pozycji przed startem w \l;zmiennej\u cbot\var;, nazwanej na przyk³ad \c;start\n;. Nastêpnie mo¿na obliczyæ odleg³oœæ miêdzy pozycj¹ startow¹ i bie¿¹c¹ pozycj¹ za pomoc¹ instrukcji \c;distance(position, start)\n;.
+\b;OgÃ³lny algorytm
+Aby przejechaÃ¦ dokÂ³adnie 25 metrÃ³w, naleÂ¿y jechaÃ¦ z peÂ³nÂ¹ prÃªdkoÂœciÂ¹ przez pierwsze 23 metry, a nastÃªpnie stopniowo zmniejszaÃ¦ prÃªdkoÂœÃ¦ przez ostatnie dwa metry.
+\l;Zmienna\u cbot\var; \l;position\u cbot\object; podaje bieÂ¿Â¹cÂ¹ pozycjÃª robota, a instrukcja \c;\l;distance\u cbot\dist;( , );\n; oblicza odlegÂ³oÂœÃ¦ miÃªdzy dwoma punktami. Najlepszy sposÃ³b na poznanie wÂ³asnej pozycji, polega na zachowaniu bieÂ¿Â¹cej pozycji przed startem w \l;zmiennej\u cbot\var;, nazwanej na przykÂ³ad \c;start\n;. NastÃªpnie moÂ¿na obliczyÃ¦ odlegÂ³oÂœÃ¦ miÃªdzy pozycjÂ¹ startowÂ¹ i bieÂ¿Â¹cÂ¹ pozycjÂ¹ za pomocÂ¹ instrukcji \c;distance(position, start)\n;.
 
 \b;Program
 1) zadeklaruj zmienne
 \s;\c;	point start;
 \s;	float len;
 \n;
-2) zapisz pozycjê startow¹
+2) zapisz pozycjÃª startowÂ¹
 \s;\c;	start = position;
 \n;
-3) na pocz¹tek z pe³n¹ moc¹:
+3) na poczÂ¹tek z peÂ³nÂ¹ mocÂ¹:
 \s;\c;	motor(1, 1);
 \n;
-4) wykonaj pêtlê nieskoñczon¹ \c;\l;while\u cbot\while;\n;:
+4) wykonaj pÃªtlÃª nieskoÃ±czonÂ¹ \c;\l;while\u cbot\while;\n;:
 \s;\c;	while ( true )
 \s;	{
 \s;		len = distance(position, start);
 \s;		if ( len > 25-2 )
 \s;		{
-\s;			motor( mniej ni¿ poprzednio! );
+\s;			motor( mniej niÂ¿ poprzednio! );
 \s;		}
 \s;	}
 \n;
-Tak d³ugo jak odleg³oœæ pomiêdzy pozycj¹ startow¹ i bie¿¹c¹ jest mniejsza od 23m, instrukcje w klamrach po instrukcji \c;\l;if\u cbot\if;\n; nie bêd¹ wykonywane, wiêc silniki utrzymaj¹ maksymaln¹ prêdkoœæ nadan¹ im instrukcj¹ \c;\l;motor\u cbot\motor;(1,1);\n;.
+Tak dÂ³ugo jak odlegÂ³oÂœÃ¦ pomiÃªdzy pozycjÂ¹ startowÂ¹ i bieÂ¿Â¹cÂ¹ jest mniejsza od 23m, instrukcje w klamrach po instrukcji \c;\l;if\u cbot\if;\n; nie bÃªdÂ¹ wykonywane, wiÃªc silniki utrzymajÂ¹ maksymalnÂ¹ prÃªdkoÂœÃ¦ nadanÂ¹ im instrukcjÂ¹ \c;\l;motor\u cbot\motor;(1,1);\n;.
 
-Aby stopniowo zwalniaæ, prêdkoœæ silników musi byæ proporcjonalna do pozosta³ej odleg³oœci:
-o  zosta³y \c;2.0\n; metry  -> prêdkoœæ = \c;1.00\n; (maksymalna)
-o  zosta³o \c;1.5\n; metra  -> prêdkoœæ = \c;0.75\n;
-o  zosta³  \c;1.0\n; metr   -> prêdkoœæ = \c;0.50\n;
-o  zosta³o \c;0.5\n; metra  -> prêdkoœæ = \c;0.25\n;
-o  zosta³o \c;0.0\n; metrów -> prêdkoœæ = \c;0.00\n; (zatrzymanie)
+Aby stopniowo zwalniaÃ¦, prÃªdkoÂœÃ¦ silnikÃ³w musi byÃ¦ proporcjonalna do pozostaÂ³ej odlegÂ³oÂœci:
+o  zostaÂ³y \c;2.0\n; metry  -> prÃªdkoÂœÃ¦ = \c;1.00\n; (maksymalna)
+o  zostaÂ³o \c;1.5\n; metra  -> prÃªdkoÂœÃ¦ = \c;0.75\n;
+o  zostaÂ³  \c;1.0\n; metr   -> prÃªdkoÂœÃ¦ = \c;0.50\n;
+o  zostaÂ³o \c;0.5\n; metra  -> prÃªdkoÂœÃ¦ = \c;0.25\n;
+o  zostaÂ³o \c;0.0\n; metrÃ³w -> prÃªdkoÂœÃ¦ = \c;0.00\n; (zatrzymanie)
 
 \image tdragst1 12 6;
-Do obliczenia prêdkoœci, która zostanie podana silnikom mo¿esz u¿yæ nastêpuj¹cego \l;wyra¿enia\u cbot\expr;: \c;(25-len)/2\n;.
+Do obliczenia prÃªdkoÂœci, ktÃ³ra zostanie podana silnikom moÂ¿esz uÂ¿yÃ¦ nastÃªpujÂ¹cego \l;wyraÂ¿enia\u cbot\expr;: \c;(25-len)/2\n;.
 
-Do Ciebie nale¿y z³o¿enie tego wszystkiego razem i przetestowanie programu.
+Do Ciebie naleÂ¿y zÂ³oÂ¿enie tego wszystkiego razem i przetestowanie programu.
 
 \t;Uwaga
-Mo¿esz u¿ywaæ wartoœci wiêkszych od 1 dla instrukcji \c;\l;motor\u cbot\motor;();\n;, ale robot nie bêdzie porusza³ siê szybciej.
+MoÂ¿esz uÂ¿ywaÃ¦ wartoÂœci wiÃªkszych od 1 dla instrukcji \c;\l;motor\u cbot\motor;();\n;, ale robot nie bÃªdzie poruszaÂ³ siÃª szybciej.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

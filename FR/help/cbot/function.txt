@@ -1,5 +1,5 @@
 \b;Les fonctions
-Lorsqu'un programme devient long, il est conseillé de le fragmenter en plusieurs fonctions, qui accompliront chacune une tâche bien précise. Imaginons le programe suivant¦:
+Lorsqu'un programme devient long, il est conseillÃ© de le fragmenter en plusieurs fonctions, qui accompliront chacune une tÃ¢che bien prÃ©cise. Imaginons le programe suivantÂ¦:
 \c;
 \s;extern void object::Remote( )
 \s;{
@@ -13,7 +13,7 @@ Lorsqu'un programme devient long, il est conseillé de le fragmenter en plusieurs
 \s;	wait(5);
 \s;}
 \n;
-On constate que les deux instructions \c;send\n; et \c;wait\n; sont répétées plusieurs fois. Il est donc judicieux de créer une fonction \c;SendToPost\n; qui effectue ces deux instructions¦:
+On constate que les deux instructions \c;send\n; et \c;wait\n; sont rÃ©pÃ©tÃ©es plusieurs fois. Il est donc judicieux de crÃ©er une fonction \c;SendToPost\n; qui effectue ces deux instructionsÂ¦:
 \c;
 \s;extern void object::Remote( )
 \s;{
@@ -28,14 +28,14 @@ On constate que les deux instructions \c;send\n; et \c;wait\n; sont répétées plu
 \s;	wait(5);
 \s;}
 \n;
-Une fonction peut recevoir des données en entrée. Il faut en donner la liste, avec à chaque fois le type de la variable et le nom qui lui est donné¦:
+Une fonction peut recevoir des donnÃ©es en entrÃ©e. Il faut en donner la liste, avec Ã  chaque fois le type de la variable et le nom qui lui est donnÃ©Â¦:
 \c;
 \s;void Exemple( int a, float x, string s )
 \n;
-La fonction \c;Exemple\n; va recevoir un nombre entier \c;a\n;, un nombre réel \c;x\n; et une chaîne \c;s\n;.
-Les \l;tableaux\u cbot\array; et les instances de \l;classes\u cbot\class; sont toujours passées par \l;référence\u cbot\pointer;.
+La fonction \c;Exemple\n; va recevoir un nombre entier \c;a\n;, un nombre rÃ©el \c;x\n; et une chaÃ®ne \c;s\n;.
+Les \l;tableaux\u cbot\array; et les instances de \l;classes\u cbot\class; sont toujours passÃ©es par \l;rÃ©fÃ©rence\u cbot\pointer;.
 
-Une fonction peut effectuer un calcul et retourner le résultat avec l'instruction \c;\l;return\u cbot\return;\n;¦:
+Une fonction peut effectuer un calcul et retourner le rÃ©sultat avec l'instruction \c;\l;return\u cbot\return;\n;Â¦:
 \c;
 \s;float Moyenne( float a, float b )
 \s;{
@@ -48,7 +48,7 @@ Une fonction peut effectuer un calcul et retourner le résultat avec l'instructio
 \s;	message( value );  // affiche 4
 \s;}
 \n;
-Voici d'autres exemples de fonctions¦:
+Voici d'autres exemples de fonctionsÂ¦:
 \c;
 \s;float Pi( )
 \s;{
@@ -58,11 +58,11 @@ Voici d'autres exemples de fonctions¦:
 \s;string Signe( float a )
 \s;{
 \s;	if ( a > 0 )  return "positif";
-\s;	if ( a < 0 )  return "négatif";
+\s;	if ( a < 0 )  return "nÃ©gatif";
 \s;	return "nul";
 \s;}
 \n;
-Il est autorisé de créer plusieurs fonctions ayant le même nom mais des paramètres différents¦:
+Il est autorisÃ© de crÃ©er plusieurs fonctions ayant le mÃªme nom mais des paramÃ¨tres diffÃ©rentsÂ¦:
 \c;
 \s;float Pythagore( float a, float b )
 \s;{
@@ -74,7 +74,7 @@ Il est autorisé de créer plusieurs fonctions ayant le même nom mais des paramètr
 \s;	return sqrt((a*a)+(b*b)+(c*c));
 \s;}
 \n;
-Lors de l'appel à la fonction, CBOT recherche la fonction dont les paramètres correspondent au mieux.
+Lors de l'appel Ã  la fonction, CBOT recherche la fonction dont les paramÃ¨tres correspondent au mieux.
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

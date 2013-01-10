@@ -11,5 +11,5 @@ extern void object::Solution( )
 	turn(droite);
 	move(20);  // va sur borne 3
 	turn(droite);
-	move(20);  // va sur arrivée
+	move(20);  // va sur arrivÃ©e
 }

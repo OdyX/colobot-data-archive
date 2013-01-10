@@ -1,57 +1,57 @@
 \b;Exercice
-Cet exercice est presque semblable au précédent. Mais attention, la troisième \l;cible\u object\bottarg; sur les six a été remplacée par le \l;cosmonaute\u object\human;. Et il faut absolument éviter de lui tirer dessus¦!
+Cet exercice est presque semblable au prÃ©cÃ©dent. Mais attention, la troisiÃ¨me \l;cible\u object\bottarg; sur les six a Ã©tÃ© remplacÃ©e par le \l;cosmonaute\u object\human;. Et il faut absolument Ã©viter de lui tirer dessusÂ¦!
 
 \b;Principe
-Le programme qui détruisait les 6 cibles ressemblait à ceci¦:
-\s;o  Répéter 6 fois¦:
-\s;	o  avancer de 5 mètres
-\s;	o  tourner de 90 degrés à gauche
+Le programme qui dÃ©truisait les 6 cibles ressemblait Ã  ceciÂ¦:
+\s;o  RÃ©pÃ©ter 6 foisÂ¦:
+\s;	o  avancer de 5 mÃ¨tres
+\s;	o  tourner de 90 degrÃ©s Ã  gauche
 \s;	o  tirer
-\s;	o  tourner de 90 degrés à droite
+\s;	o  tourner de 90 degrÃ©s Ã  droite
 
-Maintenant, il va falloir faire quelques chose comme cela¦:
-\s;o  Répéter 6 fois¦:
-\s;	o  avancer de 5 mètres
+Maintenant, il va falloir faire quelques chose comme celaÂ¦:
+\s;o  RÃ©pÃ©ter 6 foisÂ¦:
+\s;	o  avancer de 5 mÃ¨tres
 \s;	o  si on est devant le cosmonaute,
 \s;	    sauter les 3 instructions suivantes.
-\s;	o  tourner de 90 degrés à gauche
+\s;	o  tourner de 90 degrÃ©s Ã  gauche
 \s;	o  tirer
-\s;	o  tourner de 90 degrés à droite
+\s;	o  tourner de 90 degrÃ©s Ã  droite
 
 \image tfor2 14 5;
 \b;Instruction \c;for ( )\n;
-L'instruction \c;\l;for\u cbot\for;\n; utilisée ici est¦:
+L'instruction \c;\l;for\u cbot\for;\n; utilisÃ©e ici estÂ¦:
 \s;\c;	for ( int i=0 ; i<6 ; i=i+1 )\n;
 
-Une \l;variable\u cbot\var; \c;i\n; est utilisée. Elle prend successivement les valeurs 0 à 5. Lorsqu'elle vaudra 2, il ne faudra pas tirer.
+Une \l;variable\u cbot\var; \c;i\n; est utilisÃ©e. Elle prend successivement les valeurs 0 Ã  5. Lorsqu'elle vaudra 2, il ne faudra pas tirer.
 
-Remarque: Le cosmonaute est en troisième position. On est devant lui lorsque \c;i\n; vaut 2 puisqu'on commence de numéroter à partir de 0¦!
+Remarque: Le cosmonaute est en troisiÃ¨me position. On est devant lui lorsque \c;i\n; vaut 2 puisqu'on commence de numÃ©roter Ã  partir de 0Â¦!
 
 \b;Instruction \c;if ( )\n;
-L'instruction \c;\l;if\u cbot\if;\n; permet de n'exécuter l'instruction qui suit que si l'expression entre les parenthèses est vraie. Dans notre cas, il faut écrire¦:
+L'instruction \c;\l;if\u cbot\if;\n; permet de n'exÃ©cuter l'instruction qui suit que si l'expression entre les parenthÃ¨ses est vraie. Dans notre cas, il faut Ã©crireÂ¦:
 \s;\c;	if ( i == 2 )  continue;
 \n;
-En français, on dirait: "Si \c;i\n; est égal à 2, continue".
+En franÃ§ais, on dirait: "Si \c;i\n; est Ã©gal Ã  2, continue".
 
-Notez la différence entre \c;i¦=¦2;\n; (la variable \c;i\n; prend la valeur 2) et \c;i¦==¦2;\n; (on teste si \c;i\n; vaut 2, sans modifier sa valeur).
+Notez la diffÃ©rence entre \c;iÂ¦=Â¦2;\n; (la variable \c;i\n; prend la valeur 2) et \c;iÂ¦==Â¦2;\n; (on teste si \c;i\n; vaut 2, sans modifier sa valeur).
 
 \b;L'instuction \c;continue\n;
-L'instruction \c;\l;continue\u cbot\continue;\n; ne peut s'utiliser que dans une boucle \c;\l;for\u cbot\for;\n;. Normalement, toutes les instructions contenues dans le \l;bloc\u cbot\bloc; après le \c;for\n; sont exécutées successivement. La présence d'un \c;continue\n; stoppe ce processus. Les instructions suivantes sont sautées et la boucle reprend au début.
+L'instruction \c;\l;continue\u cbot\continue;\n; ne peut s'utiliser que dans une boucle \c;\l;for\u cbot\for;\n;. Normalement, toutes les instructions contenues dans le \l;bloc\u cbot\bloc; aprÃ¨s le \c;for\n; sont exÃ©cutÃ©es successivement. La prÃ©sence d'un \c;continue\n; stoppe ce processus. Les instructions suivantes sont sautÃ©es et la boucle reprend au dÃ©but.
 
-Le programme s'écrit donc¦:
+Le programme s'Ã©crit doncÂ¦:
 \s;\c;extern void object::Go( )
 \s;{
 \s;	for ( int i=0 ; i<6 ; i=i+1 )
 \s;	{
-\s;		move(5);    // avance de 5 mètres
+\s;		move(5);    // avance de 5 mÃ¨tres
 \s;		if ( i == 2 )  continue;
-\s;		turn(90);   // quart de tour à gauche
-\s;		fire(1);    // détruit la cible
-\s;		turn(-90);  // quart de tour à droite
+\s;		turn(90);   // quart de tour Ã  gauche
+\s;		fire(1);    // dÃ©truit la cible
+\s;		turn(-90);  // quart de tour Ã  droite
 \s;	}
 \s;}
 \n;
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+\key;\key help;\norm; permet de revoir les instructions gÃ©nÃ©rales en tout temps. De mÃªme, \key;\key prog;\norm; accÃ¨de aux explications du langage de programmation CBOT.
 
 \t;Voir aussi
-\l;Exercice précédent\u tfor1; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tfor1; et \l;programmation\u cbot;.

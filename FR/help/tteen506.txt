@@ -1,39 +1,39 @@
 \b;Le tri
-Il y a maintenant des déchets métalliques et plastiques répartis un peu partout aléatoirement. Tu dois apprendre à en faire le tri, pour apporter les déchets à la bonne place¦:
+Il y a maintenant des dÃ©chets mÃ©talliques et plastiques rÃ©partis un peu partout alÃ©atoirement. Tu dois apprendre Ã  en faire le tri, pour apporter les dÃ©chets Ã  la bonne placeÂ¦:
 
-o  Déchets métalliques  >>  Désintégrateur
-o  Déchets plastiques   >>  Destructeur
+o  DÃ©chets mÃ©talliques  >>  DÃ©sintÃ©grateur
+o  DÃ©chets plastiques   >>  Destructeur
 
 \b;Le programme
-Comme dans l'exercice précédent, le programme commence par une instruction \c;repeat(100)\n;. Ensuite, on va trouver un déchet et le prendre. Jusque là, c'est facile. Mais le problème, maintenant, est qu'on ne sait pas si le déchet dans la pince du robot est en métal ou en plastique. Donc, on ne sait pas s'il faut l'amener au désintégrateur ou au destructeur.
+Comme dans l'exercice prÃ©cÃ©dent, le programme commence par une instruction \c;repeat(100)\n;. Ensuite, on va trouver un dÃ©chet et le prendre. Jusque lÃ , c'est facile. Mais le problÃ¨me, maintenant, est qu'on ne sait pas si le dÃ©chet dans la pince du robot est en mÃ©tal ou en plastique. Donc, on ne sait pas s'il faut l'amener au dÃ©sintÃ©grateur ou au destructeur.
 
 \b;Les nouvelles instructions \c;if\n; et \c;else\n;
-C'est là qu'on utilise la nouvelle instruction \c;if\n; en écrivant exactement¦:
+C'est lÃ  qu'on utilise la nouvelle instruction \c;if\n; en Ã©crivant exactementÂ¦:
 \c;
 \s;if( load.material == Metal )
 \n;
-Ce qui signifie en français: "Est-ce que le déchet saisi est métallique¦?". Cette étape correspond à la partie verte du schéma ci-dessous¦:
+Ce qui signifie en franÃ§ais: "Est-ce que le dÃ©chet saisi est mÃ©talliqueÂ¦?". Cette Ã©tape correspond Ã  la partie verte du schÃ©ma ci-dessousÂ¦:
 
 \image if 16 8;
-Si la réponse à la question est positive (donc si le déchet est métallique), on exécute les instructions contenues dans le bloc \c;{A}\n; bleu, pour trouver le désintégrateur et y déposer le déchet.
+Si la rÃ©ponse Ã  la question est positive (donc si le dÃ©chet est mÃ©tallique), on exÃ©cute les instructions contenues dans le bloc \c;{A}\n; bleu, pour trouver le dÃ©sintÃ©grateur et y dÃ©poser le dÃ©chet.
 
-Si la réponse à la question est négative (donc si le déchet est en plastique), on exécute les instructions contenues dans le bloc \c;{B}\n; rouge, pour trouver le destructeur et y déposer le déchet.
+Si la rÃ©ponse Ã  la question est nÃ©gative (donc si le dÃ©chet est en plastique), on exÃ©cute les instructions contenues dans le bloc \c;{B}\n; rouge, pour trouver le destructeur et y dÃ©poser le dÃ©chet.
 
-Le programme complet est le suivant¦:
+Le programme complet est le suivantÂ¦:
 
-\s;o  Répète 100 fois¦:
-\s;	o  Trouve un déchet
-\s;	o  Prend le déchet
-\s;	o  Est-ce que le déchet saisi est métallique¦?
-\s;		o  Trouve le désintégrateur
-\s;		o  Dépose le déchet métallique
-\s;		o  Recule de 10 centimètres
-\s;	o  Sinon (c'est donc du plastique)¦:
+\s;o  RÃ©pÃ¨te 100 foisÂ¦:
+\s;	o  Trouve un dÃ©chet
+\s;	o  Prend le dÃ©chet
+\s;	o  Est-ce que le dÃ©chet saisi est mÃ©talliqueÂ¦?
+\s;		o  Trouve le dÃ©sintÃ©grateur
+\s;		o  DÃ©pose le dÃ©chet mÃ©tallique
+\s;		o  Recule de 10 centimÃ¨tres
+\s;	o  Sinon (c'est donc du plastique)Â¦:
 \s;		o  Trouve le destructeur
-\s;		o  Dépose le déchet plastique
-\s;		o  Recule de 20 centimètres
+\s;		o  DÃ©pose le dÃ©chet plastique
+\s;		o  Recule de 20 centimÃ¨tres
 
-Voici plus précisément la partie centrale du programme¦:
+Voici plus prÃ©cisÃ©ment la partie centrale du programmeÂ¦:
 \c;
 \s;find(Scrap);
 \s;grab();
@@ -50,10 +50,10 @@ Voici plus précisément la partie centrale du programme¦:
 \s;	move(-20);
 \s;}
 \n;
-Il doit encore y avoir un \c;repeat(100)\n; qui englobe tout ça, avec les accolades \c;{}\n; correspondantes, comme d'habitude.
+Il doit encore y avoir un \c;repeat(100)\n; qui englobe tout Ã§a, avec les accolades \c;{}\n; correspondantes, comme d'habitude.
 
 \b;Attention
-L'instruction \c;if()\n; n'est jamais suivie d'un point-virgule, tout comme \c;repeat()\n;. L'instruction \c;else\n; n'a ni parenthèses, ni point-virgule¦!
+L'instruction \c;if()\n; n'est jamais suivie d'un point-virgule, tout comme \c;repeat()\n;. L'instruction \c;else\n; n'a ni parenthÃ¨ses, ni point-virguleÂ¦!
 
 Les instructions \c;if()\n; et \c;else\n; sont toutes deux suivies d'un bloc d'instructions inclus dans des accolades \c;{}\n;.
 

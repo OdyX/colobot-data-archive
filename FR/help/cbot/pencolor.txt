@@ -1,8 +1,8 @@
 \b;Instruction \c;pencolor\n;
-Cette instruction détermine la couleur de tous les traits qui seront dessinés lorsque le robot se déplace. Bien entendu, il faut avoir effectué l'instruction \l;pendown\u cbot\pendown;() pour voir un trait sur le sol.
+Cette instruction dÃ©termine la couleur de tous les traits qui seront dessinÃ©s lorsque le robot se dÃ©place. Bien entendu, il faut avoir effectuÃ© l'instruction \l;pendown\u cbot\pendown;() pour voir un trait sur le sol.
 
 \b;Utilisation courante
-Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se déplace. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se déplace (bien entendu, cela n'efface pas les traits déjà dessinés).
+Avec \c;pendown()\n;, un trait est dessinÃ© par le robot chaque fois qu'il se dÃ©place. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se dÃ©place (bien entendu, cela n'efface pas les traits dÃ©jÃ  dessinÃ©s).
 \c;
 \s;	pencolor(Red);
 \s;	\l;penwidth\u cbot\penwidth;(0.1);
@@ -10,12 +10,12 @@ Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se dép
 \s;	\l;move\u cbot\move;(5);
 \s;	\l;penup\u cbot\penup;();
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;pencolor ( couleur );\n;
 
 \t;couleur: \c;\l;int\u cbot\int;\n;
-Couleur du trait à dessiner¦:
+Couleur du trait Ã  dessinerÂ¦:
 \c;White      \n;Trait blanc
 \c;Black      \n;Trait noir
 \c;Gray       \n;Trait gris
@@ -32,12 +32,12 @@ Couleur du trait à dessiner¦:
 \c;LightGreen \n;Trait vert clair
 \c;Blue       \n;Trait bleu
 \c;LightBlue  \n;Trait bleu clair
-\c;BlackArrow \n;Flèches noires
-\c;RedArrow   \n;Flèches rouges
+\c;BlackArrow \n;FlÃ¨ches noires
+\c;RedArrow   \n;FlÃ¨ches rouges
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;pen  \n; = plume
 \c;color\n; = couleur
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

@@ -1,19 +1,19 @@
-\b;Kilka s³ów o nowych wytycznych
-Bardzo nam przykro, ¿e musimy zwracaæ Ci na to uwagê, ale wydaje nam siê, ¿e nadszed³ odpowiedni czas na zapoznanie Ciê z naszymi obecnymi troskami. Silna reakcja opinii publicznej oraz Kongresu, dotycz¹ca systematycznego wyniszczania "rdzennych mieszkañców" odwiedzanych przez Ciebie planet spowodowa³a, ¿e Kongres postanowi³ okazaæ swoj¹ wra¿liwoœæ na troski wiêkszoœci ludnoœci.
+\b;Kilka sÂ³Ã³w o nowych wytycznych
+Bardzo nam przykro, Â¿e musimy zwracaÃ¦ Ci na to uwagÃª, ale wydaje nam siÃª, Â¿e nadszedÂ³ odpowiedni czas na zapoznanie CiÃª z naszymi obecnymi troskami. Silna reakcja opinii publicznej oraz Kongresu, dotyczÂ¹ca systematycznego wyniszczania "rdzennych mieszkaÃ±cÃ³w" odwiedzanych przez Ciebie planet spowodowaÂ³a, Â¿e Kongres postanowiÂ³ okazaÃ¦ swojÂ¹ wraÂ¿liwoÂœÃ¦ na troski wiÃªkszoÂœci ludnoÂœci.
 
-Niniejszym og³aszamy nowe wytyczne obliguj¹ce Ciê do ograniczenia ofiar i humanitarnego postêpowania. Innymi s³owy, rób wszystko co tylko mo¿liwe, aby od teraz oszczêdzaæ napotkane formy ¿ycia. Twoja misja nie powinna oczywiœcie zostaæ przez to nara¿ona na ¿adne niebezpieczeñstwo.
+Niniejszym ogÂ³aszamy nowe wytyczne obligujÂ¹ce CiÃª do ograniczenia ofiar i humanitarnego postÃªpowania. Innymi sÂ³owy, rÃ³b wszystko co tylko moÂ¿liwe, aby od teraz oszczÃªdzaÃ¦ napotkane formy Â¿ycia. Twoja misja nie powinna oczywiÂœcie zostaÃ¦ przez to naraÂ¿ona na Â¿adne niebezpieczeÃ±stwo.
 
 \b;Z Centrum Kontroli Misji
-Tym razem Twoje zasoby energetyczne s¹ niebezpiecznie ograniczone, podobnie jak Twój arsena³, lecz musisz zlokalizowaæ i odzyskaæ \l;czarn¹ skrzynkê\u object\bbox; z poprzedniej ekspedycji, aby móc udaæ siê na nastêpn¹ planetê.
+Tym razem Twoje zasoby energetyczne sÂ¹ niebezpiecznie ograniczone, podobnie jak TwÃ³j arsenaÂ³, lecz musisz zlokalizowaÃ¦ i odzyskaÃ¦ \l;czarnÂ¹ skrzynkÃª\u object\bbox; z poprzedniej ekspedycji, aby mÃ³c udaÃ¦ siÃª na nastÃªpnÂ¹ planetÃª.
 
-Poprzez satelitê obserwacyjnego otrzymaliœmy fragmenty informacji od Twoich poprzedników, dotycz¹ce nowego typu broni, wynalezionej przez nich dok³adnie w tym celu.
+Poprzez satelitÃª obserwacyjnego otrzymaliÂœmy fragmenty informacji od Twoich poprzednikÃ³w, dotyczÂ¹ce nowego typu broni, wynalezionej przez nich dokÂ³adnie w tym celu.
 
-Ta nowa broñ oferuje mo¿liwoœæ okazania wspó³czucia wobec \l;rdzennych gatunków\u object\ant;, gdy¿ nie jest to broñ masowej zag³ady. Oferuje ona w zamian, wed³ug naszej wiedzy, mo¿liwoœæ ich chwilowego unieszkodliwienia. Jeœli rzeczywiœcie tak jest, musisz dzia³aæ szybko, zanim bêd¹ mia³y one szansê ponownie staæ siê groŸne.
+Ta nowa broÃ± oferuje moÂ¿liwoÂœÃ¦ okazania wspÃ³Â³czucia wobec \l;rdzennych gatunkÃ³w\u object\ant;, gdyÂ¿ nie jest to broÃ± masowej zagÂ³ady. Oferuje ona w zamian, wedÂ³ug naszej wiedzy, moÂ¿liwoÂœÃ¦ ich chwilowego unieszkodliwienia. JeÂœli rzeczywiÂœcie tak jest, musisz dziaÂ³aÃ¦ szybko, zanim bÃªdÂ¹ miaÂ³y one szansÃª ponownie staÃ¦ siÃª groÂŸne.
 
 \b;Procedura
-Wykonaj \l;program badawczy\u object\research; przeprowadŸ niezbêdne eksperymenty, lecz pamiêtaj o dostarczeniu tej nowej broni na pok³ad. Bardzo nam zale¿y na zbadaniu tego urz¹dzenia.
+Wykonaj \l;program badawczy\u object\research; przeprowadÂŸ niezbÃªdne eksperymenty, lecz pamiÃªtaj o dostarczeniu tej nowej broni na pokÂ³ad. Bardzo nam zaleÂ¿y na zbadaniu tego urzÂ¹dzenia.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

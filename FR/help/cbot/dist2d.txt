@@ -1,17 +1,17 @@
 \b;Instruction \c;distance2d\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;distance2d ( pos1, pos2 );\n;
 
-Calcule la distance "à plat" entre deux points, c'est-à-dire sans tenir compte de l'élévation (coordonnée z).
+Calcule la distance "Ã  plat" entre deux points, c'est-Ã -dire sans tenir compte de l'Ã©lÃ©vation (coordonnÃ©e z).
 
 \t;pos1, pos2: \c;\l;point\u cbot\point;\n;
-Coordonnées des deux points.
+CoordonnÃ©es des deux points.
 
-\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+\t;Valeur retournÃ©e: \c;\l;float\u cbot\float;\n;
 Distance entre les deux points.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;distance\n; = distance
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

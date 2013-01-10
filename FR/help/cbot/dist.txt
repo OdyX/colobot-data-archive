@@ -1,30 +1,30 @@
 \b;Instruction \c;distance\n;
-Avec l'instruction \c;distance( , )\n; vous pouvez calculer la distance entre deux positions. Si vous écrivez \c;position\n; tout seul, cela donne la position du robot qui exécute le programme. Si vous écrivez le nom d'une variable suivie de \c;.position\n;, cela donne la position de l'objet décrit par la variable.
+Avec l'instruction \c;distance( , )\n; vous pouvez calculer la distance entre deux positions. Si vous Ã©crivez \c;position\n; tout seul, cela donne la position du robot qui exÃ©cute le programme. Si vous Ã©crivez le nom d'une variable suivie de \c;.position\n;, cela donne la position de l'objet dÃ©crit par la variable.
 
-Voici comment avancer d'une distance égale à la distance entre le robot et la fourmi la plus proche¦:
+Voici comment avancer d'une distance Ã©gale Ã  la distance entre le robot et la fourmi la plus procheÂ¦:
 \c;
 \s;	chose = \l;radar\u cbot\radar;(AlienAnt);
 \s;	\l;move\u cbot\move;(distance(position, chose.position));
 \n;
-Ceci est bien sûr parfaitement suicidaire, mieux vaut s'arrêter 40m avant, pour être à la bonne distance de tir¦:
+Ceci est bien sÃ»r parfaitement suicidaire, mieux vaut s'arrÃªter 40m avant, pour Ãªtre Ã  la bonne distance de tirÂ¦:
 \c;
 \s;	chose = radar(AlienAnt);
 \s;	move(distance(position, chose.position) - 40);
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;distance ( pos1, pos2 );\n;
 
 Calcule la distance entre deux points.
 
 \t;pos1, pos2: \c;\l;point\u cbot\point;\n;
-Coordonnées des deux points.
+CoordonnÃ©es des deux points.
 
-\t;Valeur retournée: \c;\l;float\u cbot\float;\n;
+\t;Valeur retournÃ©e: \c;\l;float\u cbot\float;\n;
 Distance entre les deux points.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;distance\n; = distance
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

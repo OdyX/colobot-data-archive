@@ -11,13 +11,13 @@ extern void object::Solution( )
 		if( detect(Stone) )
 		{
 			
-			message("Cailloux="+cc+"   Déchets="+cd);
+			message("Cailloux="+cc+"   DÃ©chets="+cd);
 		}
 		
 		if( detect(Scrap) )
 		{
 			
-			message("Cailloux="+cc+"   Déchets="+cd);
+			message("Cailloux="+cc+"   DÃ©chets="+cd);
 		}
 		
 		turn(gauche);

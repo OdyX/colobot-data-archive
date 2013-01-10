@@ -1,32 +1,32 @@
 \b;\button 160; Fabrique de robots
 \image factory 8 8;
-Ce b‚timent permet de construire un robot ‡ choix, ‡ partir de \l;titanium\u object\titan;.
+Ce b√¢timent permet de construire un robot √† choix, √† partir de \l;titanium\u object\titan;.
 
-1) DÈposer le \l;cube de titanium\u object\titan; ‡ l'intÈrieur de la fabrique.
-2) S'Èloigner.
-3) SÈlectionner la fabrique.
-4) Cliquer sur le bouton correspondant au robot ‡ produire.
+1) D√©poser le \l;cube de titanium\u object\titan; √† l'int√©rieur de la fabrique.
+2) S'√©loigner.
+3) S√©lectionner la fabrique.
+4) Cliquer sur le bouton correspondant au robot √† produire.
 
 Le robot produit n'a pas de \l;pile\u object\power;. Il faut lui en apporter une pour qu'il puisse quitter la fabrique.
-La liste des robots qu'il est possible de produire dÈpend des \l;recherches\u object\research; effectuÈes.
+La liste des robots qu'il est possible de produire d√©pend des \l;recherches\u object\research; effectu√©es.
 
 \t;Emplacement requis
-Surface plate quelconque de 7.5 mËtres de diamËtre.
+Surface plate quelconque de 7.5 m√®tres de diam√®tre.
 
-\t;EntrÈe
+\t;Entr√©e
 Titanium.
 
 \t;Sortie
 Robot.
 
-\t;Energie consommÈe
+\t;Energie consomm√©e
 Aucune.
 
-\t;DurÈe de l'opÈration
+\t;Dur√©e de l'op√©ration
 15 secondes.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;BotFactory\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

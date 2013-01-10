@@ -1,5 +1,5 @@
 \b;Instruction \c;this\n;
-A l'intérieur d'une méthode d'une \l;classe\u cbot\class;, il est possible d'utiliser le mot \c;this\n; qui est une référence à l'instance courante. La plupart du temps, la référence \c;this\n; est utilisée lorsqu'on désire passer une référence à l'instance courante comme paramètre à une fonction.
+A l'intÃ©rieur d'une mÃ©thode d'une \l;classe\u cbot\class;, il est possible d'utiliser le mot \c;this\n; qui est une rÃ©fÃ©rence Ã  l'instance courante. La plupart du temps, la rÃ©fÃ©rence \c;this\n; est utilisÃ©e lorsqu'on dÃ©sire passer une rÃ©fÃ©rence Ã  l'instance courante comme paramÃ¨tre Ã  une fonction.
 \c;
 \s;public class MyClass
 \s;{
@@ -24,12 +24,12 @@ A l'intérieur d'une méthode d'une \l;classe\u cbot\class;, il est possible d'uti
 \s;	item.MyFunction();  // affiche "Hello"
 \s;}
 \n;
-Il est aussi possible d'écrire \c;this.\n; devant un nom de champ, ce qui est plus explicite mais pas nécessaire. Dans l'exemple ci-dessus, nous pouvons écrire dans la fonction \c;MyFunction()\n;¦:
+Il est aussi possible d'Ã©crire \c;this.\n; devant un nom de champ, ce qui est plus explicite mais pas nÃ©cessaire. Dans l'exemple ci-dessus, nous pouvons Ã©crire dans la fonction \c;MyFunction()\n;Â¦:
 \c;
 \s;	m_int = 2;
 \s;	this.m_int = 2;  // identique
 \n;
-Dans une fonction de la classe \c;\l;object\u cbot\object;\n;, il est possible d'accéder à la position du robot, à son orientation, etc. En fait, on accède ainsi implicitement à l'instance du robot. Il est aussi possible d'écrire \c;this.\n; devant un nom de champ, ce qui est plus explicite¦:
+Dans une fonction de la classe \c;\l;object\u cbot\object;\n;, il est possible d'accÃ©der Ã  la position du robot, Ã  son orientation, etc. En fait, on accÃ¨de ainsi implicitement Ã  l'instance du robot. Il est aussi possible d'Ã©crire \c;this.\n; devant un nom de champ, ce qui est plus expliciteÂ¦:
 \c;
 \s;extern void object::Display()
 \s;{
@@ -37,7 +37,7 @@ Dans une fonction de la classe \c;\l;object\u cbot\object;\n;, il est possible d
 \s;	message(this.orientation);  // plus explicite
 \s;}
 \n;
-Il est cependant nécessaire d'utiliser \c;this\n; lorsque le nom d'un champ est caché par une déclaration de variable ou de paramètre. L'exemple suivant montre une \l;classe\u cbot\class; appelée \c;MaClasse\n; avec une méthode \c;Put\n;. Comme le nom \c;value\n; du paramètre est le même que le nom du champ de la classe, il est nécessaire d'utiliser \c;this.value\n; pour utiliser le champ de la classe¦:
+Il est cependant nÃ©cessaire d'utiliser \c;this\n; lorsque le nom d'un champ est cachÃ© par une dÃ©claration de variable ou de paramÃ¨tre. L'exemple suivant montre une \l;classe\u cbot\class; appelÃ©e \c;MaClasse\n; avec une mÃ©thode \c;Put\n;. Comme le nom \c;value\n; du paramÃ¨tre est le mÃªme que le nom du champ de la classe, il est nÃ©cessaire d'utiliser \c;this.value\n; pour utiliser le champ de la classeÂ¦:
 \c;
 \s;public class MaClasse
 \s;{
@@ -48,8 +48,8 @@ Il est cependant nécessaire d'utiliser \c;this\n; lorsque le nom d'un champ est 
 \s;	}
 \s;}
 \n;
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;this\n; = ce
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

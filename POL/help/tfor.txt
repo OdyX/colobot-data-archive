@@ -1,22 +1,22 @@
-\b;Æwiczenie
-Zniszcz szeœæ \l;celów\u object\bottarg; u¿ywaj¹c programu z pêtl¹. Odleg³oœci pomiêdzy celami wynosz¹ 5 metrów.
+\b;Ã†wiczenie
+Zniszcz szeÂœÃ¦ \l;celÃ³w\u object\bottarg; uÂ¿ywajÂ¹c programu z pÃªtlÂ¹. OdlegÂ³oÂœci pomiÃªdzy celami wynoszÂ¹ 5 metrÃ³w.
 
-\b;Ogólny algorytm
-Program powinien byæ uruchomiony wed³ug nastêpuj¹cego schematu:
-Powtórz 6 razy:
-	o  idŸ 5 m naprzód.
-	o  skrêæ o 90 stopni w lewo
+\b;OgÃ³lny algorytm
+Program powinien byÃ¦ uruchomiony wedÂ³ug nastÃªpujÂ¹cego schematu:
+PowtÃ³rz 6 razy:
+	o  idÂŸ 5 m naprzÃ³d.
+	o  skrÃªÃ¦ o 90 stopni w lewo
 	o  strzelaj
-	o  skrêæ o 90 stopni w prawo
+	o  skrÃªÃ¦ o 90 stopni w prawo
 
 \image tfor1 14 5;
 \b;Instrukcja \c;for ( )\n;
-Instrukcja \c;\l;for\u cbot\for;\n; wymaga 3 wyra¿eñ:
-1) Inicjalizacji zmiennej licz¹cej.
-2) \l;Warunku\u cbot\cond; zakoñczenia pêtli.
-3) \l;Wyra¿enia\u cbot\expr; licz¹cego.
+Instrukcja \c;\l;for\u cbot\for;\n; wymaga 3 wyraÂ¿eÃ±:
+1) Inicjalizacji zmiennej liczÂ¹cej.
+2) \l;Warunku\u cbot\cond; zakoÃ±czenia pÃªtli.
+3) \l;WyraÂ¿enia\u cbot\expr; liczÂ¹cego.
 
-Oto pêtla umieszczona w programie:
+Oto pÃªtla umieszczona w programie:
 \s;\c;extern void object::Masakra( )
 \s;{
 \s;	for ( int i=0 ; i<6 ; i=i+1 )
@@ -25,33 +25,33 @@ Oto pêtla umieszczona w programie:
 \s;	}
 \s;}
 \n;
-UWAGA: Na koñcu wiersza z \c;for ( )\n; nie powinno byæ \l;œrednika\u cbot\term;!
+UWAGA: Na koÃ±cu wiersza z \c;for ( )\n; nie powinno byÃ¦ \l;Âœrednika\u cbot\term;!
 
 \b;Opis instrukcji \c;for ( )\n;
 1) \c;int i=0\n;
-    Przed rozpoczêciem pêtli \l;zmiennej\u cbot\var; i jest przypisywana wartoœæ 0.
+    Przed rozpoczÃªciem pÃªtli \l;zmiennej\u cbot\var; i jest przypisywana wartoÂœÃ¦ 0.
 
 2) \c;i<6\n;
-    Pêtla bêdzie wykonywana tak d³ugo, a¿ wartoœæ zmiennej i bêdzie mniejsza od 6.
+    PÃªtla bÃªdzie wykonywana tak dÂ³ugo, aÂ¿ wartoÂœÃ¦ zmiennej i bÃªdzie mniejsza od 6.
 
 3) \c;i=i+1\n;
-    Zwiêksza o 1 zmienn¹ i na koñcu ka¿dej pêtli.
+    ZwiÃªksza o 1 zmiennÂ¹ i na koÃ±cu kaÂ¿dej pÃªtli.
 
 \b;Bloki
-Do utworzenia \l;bloku\u cbot\bloc; u¿yj nawiasów klamrowych \c;{ }\n;. Wszystkie instrukcje, które powinny byæ wykonywane przez pêtlê \c;for\n; s¹ zgrupowane w blok. Równie¿ ca³y program jest blokiem:
+Do utworzenia \l;bloku\u cbot\bloc; uÂ¿yj nawiasÃ³w klamrowych \c;{ }\n;. Wszystkie instrukcje, ktÃ³re powinny byÃ¦ wykonywane przez pÃªtlÃª \c;for\n; sÂ¹ zgrupowane w blok. RÃ³wnieÂ¿ caÂ³y program jest blokiem:
 \c;
 \s;extern void object::Masakra( )
 \s;{
 \s;	\n;tutaj wpisz instrukcje...\c;
 \s;}
 \n;
-Nigdy nie zmieniaj tych znaków. Wystarczy dodaæ instrukcje programu pomiêdzy klamrami.
-Mo¿esz umieszczaæ bloki wewn¹trz innego bloku. Na przyk³ad blok \c;for\n; jest zagnie¿d¿ony w bloku ca³ego programu. W celu poprawy czytelnoœci programu, edytor ustawia w odpowiednich liniach klamry nale¿¹ce do ró¿nych bloków.
+Nigdy nie zmieniaj tych znakÃ³w. Wystarczy dodaÃ¦ instrukcje programu pomiÃªdzy klamrami.
+MoÂ¿esz umieszczaÃ¦ bloki wewnÂ¹trz innego bloku. Na przykÂ³ad blok \c;for\n; jest zagnieÂ¿dÂ¿ony w bloku caÂ³ego programu. W celu poprawy czytelnoÂœci programu, edytor ustawia w odpowiednich liniach klamry naleÂ¿Â¹ce do rÃ³Â¿nych blokÃ³w.
 
-\b;Zapamiêtaj
-Instrukcja u¿ywana do poruszania siê naprzód: \c;\l;move\u cbot\move;();\n;.
-Instrukcja u¿ywana do obracania robota: \c;\l;turn\u cbot\turn;();\n;. K¹t dodatni obraca w lewo.
-Instrukcja u¿ywana do strzelania z dzia³ka: \c;\l;fire\u cbot\fire;(1);\n;. Jednosekundowa seria umo¿liwia zniszczenie wszystkich szeœciu \l;celów\u object\bottarg;.
+\b;ZapamiÃªtaj
+Instrukcja uÂ¿ywana do poruszania siÃª naprzÃ³d: \c;\l;move\u cbot\move;();\n;.
+Instrukcja uÂ¿ywana do obracania robota: \c;\l;turn\u cbot\turn;();\n;. KÂ¹t dodatni obraca w lewo.
+Instrukcja uÂ¿ywana do strzelania z dziaÂ³ka: \c;\l;fire\u cbot\fire;(1);\n;. Jednosekundowa seria umoÂ¿liwia zniszczenie wszystkich szeÂœciu \l;celÃ³w\u object\bottarg;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,11 +1,11 @@
 \b;Z Centrum Kontroli Misji
-Oczyœæ teren ze wszystkich wrogich organizmów. Sposób wykonania zadania (\l;wie¿a obronna\u object\tower; lub \l;dzia³o lataj¹ce\u object\botfj;) zale¿y od Ciebie.
+OczyÂœÃ¦ teren ze wszystkich wrogich organizmÃ³w. SposÃ³b wykonania zadania (\l;wieÂ¿a obronna\u object\tower; lub \l;dziaÂ³o latajÂ¹ce\u object\botfj;) zaleÂ¿y od Ciebie.
 
-Wygl¹da na to, ¿e radar jest idealnie przystosowany do wykrywania robali. Nale¿y jednak pamiêtaæ, ¿e widoczne s¹ tylko te przebywaj¹ce na powierzchni.
+WyglÂ¹da na to, Â¿e radar jest idealnie przystosowany do wykrywania robali. NaleÂ¿y jednak pamiÃªtaÃ¦, Â¿e widoczne sÂ¹ tylko te przebywajÂ¹ce na powierzchni.
 
-Przes³aliœmy transmisjê do Twojej \l;fabryki robotów\u object\factory;. Dotyczy ona robota zaprojektowanego do wykrywania surowców w podglebiu: Ÿróde³ energii i rudy. Dla uproszczenia nazwaliœmy go \l;szperaczem\u object\botsr;. Na podstawie wstêpnych analiz przypuszczamy, ¿e wystêpowanie rudy tytanu na Krystalii jest œciœle zwi¹zane z wystêpowaniem wielkich niebieskich kryszta³ów. Jeœli to prawda, informacja ta pozwoli Ci zaoszczêdziæ nieco cennego czasu. Oczywiœcie do wydobycia rudy niezbêdna jest \l;kopalnia\u object\derrick;.
+PrzesÂ³aliÂœmy transmisjÃª do Twojej \l;fabryki robotÃ³w\u object\factory;. Dotyczy ona robota zaprojektowanego do wykrywania surowcÃ³w w podglebiu: ÂŸrÃ³deÂ³ energii i rudy. Dla uproszczenia nazwaliÂœmy go \l;szperaczem\u object\botsr;. Na podstawie wstÃªpnych analiz przypuszczamy, Â¿e wystÃªpowanie rudy tytanu na Krystalii jest ÂœciÂœle zwiÂ¹zane z wystÃªpowaniem wielkich niebieskich krysztaÂ³Ã³w. JeÂœli to prawda, informacja ta pozwoli Ci zaoszczÃªdziÃ¦ nieco cennego czasu. OczywiÂœcie do wydobycia rudy niezbÃªdna jest \l;kopalnia\u object\derrick;.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

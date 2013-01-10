@@ -1,5 +1,5 @@
-\b;Un petit carré
-Pour dessiner un carré rouge, on peut très bien imaginer de définir séparément la longueur d'un côté, au début du programme¦:
+\b;Un petit carrÃ©
+Pour dessiner un carrÃ© rouge, on peut trÃ¨s bien imaginer de dÃ©finir sÃ©parÃ©ment la longueur d'un cÃ´tÃ©, au dÃ©but du programmeÂ¦:
 \c;
 \s;int longueur = 10;
 \s;
@@ -10,4 +10,4 @@ Pour dessiner un carré rouge, on peut très bien imaginer de définir séparément l
 \s;	turn(90);
 \s;}
 \n;
-Naturellement, ce programme va dessiner un petit carré de 10 centimètres de côté. essaie-le¦...
+Naturellement, ce programme va dessiner un petit carrÃ© de 10 centimÃ¨tres de cÃ´tÃ©. essaie-leÂ¦...

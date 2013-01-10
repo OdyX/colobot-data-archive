@@ -1,89 +1,89 @@
 \b;Type \c;object\n;
-Ce type permet de représenter les caractéristiques d'un objet, qu'il s'agisse d'un robot, d'un bâtiment, d'une matière première transportable, d'un ennemi, etc.
+Ce type permet de reprÃ©senter les caractÃ©ristiques d'un objet, qu'il s'agisse d'un robot, d'un bÃ¢timent, d'une matiÃ¨re premiÃ¨re transportable, d'un ennemi, etc.
 
-\c;\l;int\u cbot\int;    object.category     \n;\l;Catégorie\u cbot\category; de l'objet
+\c;\l;int\u cbot\int;    object.category     \n;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;\l;point\u cbot\point;  object.position     \n;Position de l'objet (x,y,z)
 \c;\l;float\u cbot\float;  object.orientation  \n;Orientation de l'objet (0..360)
-\c;\l;float\u cbot\float;  object.pitch        \n;Inclinaison avant/arrière de l'objet
-\c;\l;float\u cbot\float;  object.roll         \n;Inclinaison latérale de l'objet
-\c;\l;float\u cbot\float;  object.energyLevel  \n;Niveau d'énergie (0..1)
+\c;\l;float\u cbot\float;  object.pitch        \n;Inclinaison avant/arriÃ¨re de l'objet
+\c;\l;float\u cbot\float;  object.roll         \n;Inclinaison latÃ©rale de l'objet
+\c;\l;float\u cbot\float;  object.energyLevel  \n;Niveau d'Ã©nergie (0..1)
 \c;\l;float\u cbot\float;  object.shieldLevel  \n;Niveau du bouclier (0..1)
-\c;\l;float\u cbot\float;  object.temperature  \n;Température du réacteur (0..1)
+\c;\l;float\u cbot\float;  object.temperature  \n;TempÃ©rature du rÃ©acteur (0..1)
 \c;\l;float\u cbot\float;  object.altitude     \n;Altitude par rapport au sol
-\c;\l;float\u cbot\float;  object.lifeTime     \n;Durée de vie de l'objet
+\c;\l;float\u cbot\float;  object.lifeTime     \n;DurÃ©e de vie de l'objet
 \c;object object.energyCell   \n;Objet pile
-\c;object object.load         \n;Objet transporté
+\c;object object.load         \n;Objet transportÃ©
 
 \s;\c;category\n;
-La \n;\l;catégorie\u cbot\category; de l'objet permet de savoir s'il s'agit d'un robot, d'un bâtiment, d'un ennemi, etc.
+La \n;\l;catÃ©gorie\u cbot\category; de l'objet permet de savoir s'il s'agit d'un robot, d'un bÃ¢timent, d'un ennemi, etc.
 
 \s;\c;position\n;
-Position de l'objet sur la planète, en mètres. Les coordonnées \c;x\n; et \c;y\n; correspondent à la position à plat, alors que \c;z\n; correspond à l'élévation absolue par rapport au niveau de la mer.
+Position de l'objet sur la planÃ¨te, en mÃ¨tres. Les coordonnÃ©es \c;x\n; et \c;y\n; correspondent Ã  la position Ã  plat, alors que \c;z\n; correspond Ã  l'Ã©lÃ©vation absolue par rapport au niveau de la mer.
 
 \s;\c;orientation\n;
-Orientation de l'objet, en degrés. Une orientation de \c;0\n; correspond à un objet tourné vers l'est, donc vers l'axe \c;x\n; positif. Le sens de l'orientation est anti-horaire.
+Orientation de l'objet, en degrÃ©s. Une orientation de \c;0\n; correspond Ã  un objet tournÃ© vers l'est, donc vers l'axe \c;x\n; positif. Le sens de l'orientation est anti-horaire.
 
 \s;\c;pitch\n;
-Inclinaison avant/arrière de l'objet, en degrés. Une valeur positive indique que le robot monte.
+Inclinaison avant/arriÃ¨re de l'objet, en degrÃ©s. Une valeur positive indique que le robot monte.
 
 \s;\c;roll\n;
-Inclinaison latérale de l'objet, en degrés. Une valeur positive indique que le robot penche à gauche.
+Inclinaison latÃ©rale de l'objet, en degrÃ©s. Une valeur positive indique que le robot penche Ã  gauche.
 
 \s;\c;energyLevel\n;
-Niveau d'énergie. Une \l;pile normale\u object\power; entièrement pleine donne la valeur \c;1\n;. Une \l;pile atomique\u object\atomic; ne dépasse jamais le niveau \c;1\n;; elle dure simplement plus longtemps.
-Notez que le niveau d'énergie d'un robot est toujours nul. En effet, l'énergie est contenue dans la pile qui est placée à l'arrière du robot, et non dans le robot lui-même. Il faut donc écrire \c;energyCell.energyLevel\n; pour connaître l'énergie à disposition.
+Niveau d'Ã©nergie. Une \l;pile normale\u object\power; entiÃ¨rement pleine donne la valeur \c;1\n;. Une \l;pile atomique\u object\atomic; ne dÃ©passe jamais le niveau \c;1\n;; elle dure simplement plus longtemps.
+Notez que le niveau d'Ã©nergie d'un robot est toujours nul. En effet, l'Ã©nergie est contenue dans la pile qui est placÃ©e Ã  l'arriÃ¨re du robot, et non dans le robot lui-mÃªme. Il faut donc Ã©crire \c;energyCell.energyLevel\n; pour connaÃ®tre l'Ã©nergie Ã  disposition.
 
 \s;\c;shieldLevel\n;
-Niveau du bouclier du robot ou du bâtiment. Un niveau de \c;1\n; correspond à un bouclier en parfait état. Avec un niveau de \c;0\n;, le prochain choc ou tir ennemi sera fatal.
-Les robots peuvent régénérer leurs boucliers sur le \l;centre de réparation\u object\repair;. Le bouclier d'un bâtiment est régénéré s'il se trouve dans la sphère protectrice du \l;robot bouclier\u object\botshld;.
+Niveau du bouclier du robot ou du bÃ¢timent. Un niveau de \c;1\n; correspond Ã  un bouclier en parfait Ã©tat. Avec un niveau de \c;0\n;, le prochain choc ou tir ennemi sera fatal.
+Les robots peuvent rÃ©gÃ©nÃ©rer leurs boucliers sur le \l;centre de rÃ©paration\u object\repair;. Le bouclier d'un bÃ¢timent est rÃ©gÃ©nÃ©rÃ© s'il se trouve dans la sphÃ¨re protectrice du \l;robot bouclier\u object\botshld;.
 
 \s;\c;temperature\n;
-Température du réacteur pour les \l;robots volants\u object\botgj;. \c;0\n; correspond à un réacteur froid et \c;1\n; à un réacteur bouillant, provisoirement hors d'usage.
+TempÃ©rature du rÃ©acteur pour les \l;robots volants\u object\botgj;. \c;0\n; correspond Ã  un rÃ©acteur froid et \c;1\n; Ã  un rÃ©acteur bouillant, provisoirement hors d'usage.
 
 \s;\c;altitude\n;
-Contrairement à la position \c;z\n; qui est absolue, l'altitude est relative au niveau du sol. L'altitude n'a de sens que pour les \l;robots volants\u object\botgj; et la \l;guêpe\u object\wasp;. Pour tous les autres robots ou pour les bâtiments, cette valeur est nulle.
+Contrairement Ã  la position \c;z\n; qui est absolue, l'altitude est relative au niveau du sol. L'altitude n'a de sens que pour les \l;robots volants\u object\botgj; et la \l;guÃªpe\u object\wasp;. Pour tous les autres robots ou pour les bÃ¢timents, cette valeur est nulle.
 
 \s;\c;lifeTime\n;
-Donne l'âge de l'objet, en secondes.
+Donne l'Ã¢ge de l'objet, en secondes.
 
 \s;\c;energyCell\n;
-Cette information est spéciale, dans la mesure où elle contient les caractéristiques d'un autre objet, la pile en l'occurrence. On y retrouve donc toutes les caractéristiques de l'objet de base, telles que \c;category\n;, \c;position\n;, etc.
-Pour connaître le niveau d'énergie d'un robot, il ne faut pas accéder à \c;energyLevel\n;, mais à \c;energyCell.energyLevel\n;.
+Cette information est spÃ©ciale, dans la mesure oÃ¹ elle contient les caractÃ©ristiques d'un autre objet, la pile en l'occurrence. On y retrouve donc toutes les caractÃ©ristiques de l'objet de base, telles que \c;category\n;, \c;position\n;, etc.
+Pour connaÃ®tre le niveau d'Ã©nergie d'un robot, il ne faut pas accÃ©der Ã  \c;energyLevel\n;, mais Ã  \c;energyCell.energyLevel\n;.
 Si le robot n'a pas de pile, \c;energyCell\n; vaut \c;null\n;.
 
 \s;\c;load\n;
-Cette information est spéciale, comme la précédente. Elle contient les caractéristiques de l'objet transporté par le \l;robot déménageur\u object\botgr;. S'il ne transporte rien, \c;load\n; vaut \c;null\n;.
+Cette information est spÃ©ciale, comme la prÃ©cÃ©dente. Elle contient les caractÃ©ristiques de l'objet transportÃ© par le \l;robot dÃ©mÃ©nageur\u object\botgr;. S'il ne transporte rien, \c;load\n; vaut \c;null\n;.
 
 \b;Exemples
-Le type \c;object\n; prend la valeur particulière \c;\l;null\u cbot\null;\n; lorsque l'objet n'existe pas. Par exemple¦:
+Le type \c;object\n; prend la valeur particuliÃ¨re \c;\l;null\u cbot\null;\n; lorsque l'objet n'existe pas. Par exempleÂ¦:
 \c;
 \s;	object a;
 \s;	a = radar(BotGrabberRoller);
-\s;	if ( a == null )  // objet n'existe pas¦?
+\s;	if ( a == null )  // objet n'existe pasÂ¦?
 \s;	{
 \s;	}
-\s;	if ( a.position.z > 50 )  // sur une hauteur¦?
+\s;	if ( a.position.z > 50 )  // sur une hauteurÂ¦?
 \s;	{
 \s;	}
 \n;
-Les informations \c;energyCell\n; et \c;load\n; sont spéciales: on y retrouve donc toutes les caractéristiques de l'objet de base, telles que \c;category\n;, \c;position\n;, etc.
-Par exemple, \c;category\n; contient la catégorie du robot, alors que \c;energyCell.category\n; contient la catégorie de la pile du robot.
-Pour connaître le niveau d'énergie d'un robot, il ne faut pas accéder à \c;energyLevel\n;, mais à \c;energyCell.energyLevel\n;.
+Les informations \c;energyCell\n; et \c;load\n; sont spÃ©ciales: on y retrouve donc toutes les caractÃ©ristiques de l'objet de base, telles que \c;category\n;, \c;position\n;, etc.
+Par exemple, \c;category\n; contient la catÃ©gorie du robot, alors que \c;energyCell.category\n; contient la catÃ©gorie de la pile du robot.
+Pour connaÃ®tre le niveau d'Ã©nergie d'un robot, il ne faut pas accÃ©der Ã  \c;energyLevel\n;, mais Ã  \c;energyCell.energyLevel\n;.
 \c;
 \s;	object a;
 \s;	a = radar(BotGrabberRoller);
-\s;	if ( a.load¦!= null )  // porte qq chose¦?
+\s;	if ( a.loadÂ¦!= null )  // porte qq choseÂ¦?
 \s;	{
 \s;	}
-\s;	if ( a.load.category == PowerCell )  // porte une pile¦?
+\s;	if ( a.load.category == PowerCell )  // porte une pileÂ¦?
 \s;	{
 \s;	}
-\s;	if ( a.energyCell.energyLevel < 0.2 )  // presque à plat¦?
+\s;	if ( a.energyCell.energyLevel < 0.2 )  // presque Ã  platÂ¦?
 \s;	{
 \s;	}
 \n;
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;object\n; = objet
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

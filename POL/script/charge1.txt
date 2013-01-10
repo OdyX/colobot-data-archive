@@ -3,11 +3,11 @@ extern void object::Recharge1()
 	point  start;          // zmienna pozycji startowej
 	object item;           // informacja o elektrowni
 	
-	start = position;      // zachowaj pozycjê startow¹
+	start = position;      // zachowaj pozycjÃª startowÂ¹
 	
-	item = radar(PowerStation); // znajdŸ elektrowniê
-	goto(item.position);   // idŸ do elektrowni
+	item = radar(PowerStation); // znajdÂŸ elektrowniÃª
+	goto(item.position);   // idÂŸ do elektrowni
 	wait(5);               // poczekaj 5 sekund
 	
-	goto(start);           // wróæ do pozycji startowej
+	goto(start);           // wrÃ³Ã¦ do pozycji startowej
 }

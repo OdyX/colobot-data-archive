@@ -1,9 +1,9 @@
 \b;Exercice
-On complique encore un peu les choses. Il faut maintenant dessiner deux traits de 20 mètres chacuns, formant un angle droit entre eux. Donc une sorte de <\c;L\n;> majuscule.
+On complique encore un peu les choses. Il faut maintenant dessiner deux traits de 20 mÃ¨tres chacuns, formant un angle droit entre eux. Donc une sorte de <\c;L\n;> majuscule.
 
 \image tline0 6 6;
 \b;Programme
-Pour dessiner un trait de 20 mètres, le programme de l'exercice précédent était¦:
+Pour dessiner un trait de 20 mÃ¨tres, le programme de l'exercice prÃ©cÃ©dent Ã©taitÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -11,17 +11,17 @@ Pour dessiner un trait de 20 mètres, le programme de l'exercice précédent était¦
 \s;	move(20);
 \s;}
 \n;
-Maintenant, il va falloir utiliser une nouvelle instruction \c;turn\n;, pour tourner le robot. Comme d'habitude, cette instruction est suivie de parenthèses. Ici, le nombre entre parenthèses indique l'angle du virage. \c;turn(90);\n; signifie tourner de 90 degrès à gauche, donc un virage à angle droit à gauche.
+Maintenant, il va falloir utiliser une nouvelle instruction \c;turn\n;, pour tourner le robot. Comme d'habitude, cette instruction est suivie de parenthÃ¨ses. Ici, le nombre entre parenthÃ¨ses indique l'angle du virage. \c;turn(90);\n; signifie tourner de 90 degrÃ¨s Ã  gauche, donc un virage Ã  angle droit Ã  gauche.
 
-Le principe du programme à écrire est donc¦:
+Le principe du programme Ã  Ã©crire est doncÂ¦:
 o  Abaisser le crayon rouge.
-o  Avancer de 20 mètres.
-o  Tourner à gauche de 90 degrés.
-o  Avancer de 20 mètres.
+o  Avancer de 20 mÃ¨tres.
+o  Tourner Ã  gauche de 90 degrÃ©s.
+o  Avancer de 20 mÃ¨tres.
 
-A vous d'écrire les quatre instructions du programme¦...
+A vous d'Ã©crire les quatre instructions du programmeÂ¦...
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tline1;.
+\l;Exercice prÃ©cÃ©dent\u tline1;.

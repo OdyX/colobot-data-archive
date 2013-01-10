@@ -1,9 +1,9 @@
 \b;Rapport du satellite
-En orbite géostationnaire autour de Tropica.
+En orbite gÃ©ostationnaire autour de Tropica.
 \c;
 \s;-> SURFACE\c;
-\tab;Température:      32.2 degrés
-\tab;Atmosphère:       hélium, oxygène
+\tab;TempÃ©rature:      32.2 degrÃ©s
+\tab;AtmosphÃ¨re:       hÃ©lium, oxygÃ¨ne
 \tab;Vent:             0.7 m/s
 \tab;Minerai titanium: aucun
 \tab;Minerai uranium:  aucun

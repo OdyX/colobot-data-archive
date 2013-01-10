@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	for ( int i=0 ; i<2 ; i=i+1 )
 	{
@@ -11,13 +11,13 @@ extern void object::Rozwi¹zanie( )
 		}
 		while ( obj == null );
 		goto(obj.position);
-		grab();  // podnieœ rudê tytanu
+		grab();  // podnieÂœ rudÃª tytanu
 
 		obj = radar(Converter);
 		if ( obj == null )  return;
 		goto(obj.position);
-		drop();  // zostaw rudê tytanu
-		move(-2.5);  // cofnij siê
+		drop();  // zostaw rudÃª tytanu
+		move(-2.5);  // cofnij siÃª
 
 		do
 		{
@@ -25,13 +25,12 @@ extern void object::Rozwi¹zanie( )
 		}
 		while ( obj == null );
 		goto(obj.position);
-		grab();  // podnieœ kostkê tytanu
+		grab();  // podnieÂœ kostkÃª tytanu
 
 		dest.x = 10;
 		dest.y = -60-5*i;
-		goto(dest);  // idŸ na platformê
+		goto(dest);  // idÂŸ na platformÃª
 
-		drop();  // zostaw kostkê tytanu
+		drop();  // zostaw kostkÃª tytanu
 	}
 }
-

@@ -1,5 +1,5 @@
 \b;Instrukcja \c;openfile\n;
-Instrukcja \c;openfile();\n; otwiera plik tekstowy w folderze files/. Nie jest to metoda klasy \c;\l;file\u cbot\file;\n; ale zwraca ona \l;wskaŸnik\u cbot\pointer; do nowej instancji klasy file. Nale¿y okreœliæ dwa parametry, nazwê pliku i tryb otwarcia.
+Instrukcja \c;openfile();\n; otwiera plik tekstowy w folderze files/. Nie jest to metoda klasy \c;\l;file\u cbot\file;\n; ale zwraca ona \l;wskaÂŸnik\u cbot\pointer; do nowej instancji klasy file. NaleÂ¿y okreÂœliÃ¦ dwa parametry, nazwÃª pliku i tryb otwarcia.
 \c;
 \s;file handle = openfile("nazwapliku", "r");
 \n;
@@ -7,5 +7,5 @@ Instrukcja \c;openfile();\n; otwiera plik tekstowy w folderze files/. Nie jest t
 \c;"w"\n; tryb: otwarty do zapisu.
 
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

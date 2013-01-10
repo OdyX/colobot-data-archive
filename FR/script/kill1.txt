@@ -1,14 +1,14 @@
 extern void object::TueFourmi1()
 {
-	object chose;            // déclaration variable
+	object chose;            // dÃ©claration variable
 	
-	goto(-30, 0);            // va à l'ouest
+	goto(-30, 0);            // va Ã  l'ouest
 	aim(0);                  // met le canon droit
 	
-	while ( true )           // répète toujours :
+	while ( true )           // rÃ©pÃ¨te toujours :
 	{
 		chose = radar(AlienAnt, 0, 360, 0, 40);
-		if ( chose != null ) // détecté fourmi ?
+		if ( chose != null ) // dÃ©tectÃ© fourmi ?
 		{
 			turn(direction(chose.position));
 			fire(0.5);       // tire 0.5s

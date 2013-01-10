@@ -1,7 +1,7 @@
-\b;Rozwi¹zanie
-Gdzieœ na pó³nocnym wschodzie w samej dolinie, znajduje siê w pe³ni sprawna \l;stacja energetyczna\u object\station;. Na po³udniowym zachodzie mo¿esz znaleŸæ kilka \l;ogniw energetycznych\u object\power;.
+\b;RozwiÂ¹zanie
+GdzieÂœ na pÃ³Â³nocnym wschodzie w samej dolinie, znajduje siÃª w peÂ³ni sprawna \l;stacja energetyczna\u object\station;. Na poÂ³udniowym zachodzie moÂ¿esz znaleÂŸÃ¦ kilka \l;ogniw energetycznych\u object\power;.
 
-Kilka sprawnych dzia³ zosta³o porzuconych w dolinie i w jej pobli¿u; u¿yj ich do zabicia wszystkich mrówek. U¿ywaj¹c \l;transportera lataj¹cego\u object\botgj; mo¿esz odzyskaæ \l;czarn¹ skrzynkê\u object\bbox; znajduj¹c¹ siê za wrakiem statku kosmicznego i odlecieæ.
+Kilka sprawnych dziaÂ³ zostaÂ³o porzuconych w dolinie i w jej pobliÂ¿u; uÂ¿yj ich do zabicia wszystkich mrÃ³wek. UÂ¿ywajÂ¹c \l;transportera latajÂ¹cego\u object\botgj; moÂ¿esz odzyskaÃ¦ \l;czarnÂ¹ skrzynkÃª\u object\bbox; znajdujÂ¹cÂ¹ siÃª za wrakiem statku kosmicznego i odlecieÃ¦.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

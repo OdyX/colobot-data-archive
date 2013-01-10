@@ -1,13 +1,13 @@
 \b;Instruction \c;break\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;while ( condition )
 \s;{
 \s;	break;
 \s;}
 \n;
-Cette instruction permet de sortir immédiatement d'une structure \c;\l;while\u cbot\while;\n; ou \c;\l;for\u cbot\for;\n;.
+Cette instruction permet de sortir immÃ©diatement d'une structure \c;\l;while\u cbot\while;\n; ou \c;\l;for\u cbot\for;\n;.
 
-Voici un exemple d'utilisation¦:
+Voici un exemple d'utilisationÂ¦:
 \s;\c;int i = 0;
 \s;while ( true )
 \s;{
@@ -19,8 +19,8 @@ Voici un exemple d'utilisation¦:
 \s;	}
 \s;}
 \n;
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;break\n; = rompre
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

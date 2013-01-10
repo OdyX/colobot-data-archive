@@ -21,7 +21,7 @@ class fifo
 		m_list[sizeof(m_list)] = a;
 	}
 
-	// Enlève un ordre du fifo
+	// EnlÃ¨ve un ordre du fifo
 	synchronized order get()
 	{
 		if ( sizeof(m_list) == 0 )  return null;

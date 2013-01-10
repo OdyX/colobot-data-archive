@@ -1,33 +1,33 @@
 \b;Typ \c;string\n;
-Zmiennej tego typu mo¿na u¿ywaæ do przechowywania znaków lub ci¹gów znaków.
+Zmiennej tego typu moÂ¿na uÂ¿ywaÃ¦ do przechowywania znakÃ³w lub ciÂ¹gÃ³w znakÃ³w.
 
-Na przyk³ad: 
-\s;\c;	"Czeœæ!"
-\s;	"To jest ³añcuch"
+Na przykÂ³ad: 
+\s;\c;	"CzeÂœÃ¦!"
+\s;	"To jest Â³aÃ±cuch"
 \s;	"x"
-\s;	""  // pusty ³añcuch
+\s;	""  // pusty Â³aÃ±cuch
 \n;
-Dwa ³añcuchy mo¿na z³¹czaæ, u¿ywaj¹c operatora \c;+\n;:
-\s;\c;	"Dzieñ dobry" + " " + "Panu"
+Dwa Â³aÃ±cuchy moÂ¿na zÂ³Â¹czaÃ¦, uÂ¿ywajÂ¹c operatora \c;+\n;:
+\s;\c;	"DzieÃ± dobry" + " " + "Panu"
 \n;
-Daje w wyniku ³añcuch:
-\s;\c;	"Dzieñ dobry Panu"
+Daje w wyniku Â³aÃ±cuch:
+\s;\c;	"DzieÃ± dobry Panu"
 \n;
-Aby u¿yæ cudzys³owu (") lub odwróconej kreski u³amkowej (\) w ³añcuchu, nale¿y napisaæ¦:
-\s;\c;"To jest \"bardzo\" wa¿ne"
-\n;czego wynikiem bêdzie \c; To jest "bardzo" wa¿ne.
+Aby uÂ¿yÃ¦ cudzysÂ³owu (") lub odwrÃ³conej kreski uÂ³amkowej (\) w Â³aÃ±cuchu, naleÂ¿y napisaÃ¦Â¦:
+\s;\c;"To jest \"bardzo\" waÂ¿ne"
+\n;czego wynikiem bÃªdzie \c; To jest "bardzo" waÂ¿ne.
 \s;\c;"%user%\\ant.txt"
-\n;czego wynikiem bêdzie \c;%user%\ant.txt
+\n;czego wynikiem bÃªdzie \c;%user%\ant.txt
 \n;
-Nastêpuj¹ce instrukcje mog¹ byæ u¿ywane na ³añcuchach¦:
-\c;\l;strlen\u cbot\strlen;     \n;Podaje d³ugoœæ ³añcucha
-\c;\l;strleft\u cbot\strleft;    \n;Wyodrêbnia lew¹ czêœæ
-\c;\l;strright\u cbot\strright;   \n;Wyodrêbnia praw¹ czêœæ
-\c;\l;strmid\u cbot\strmid;     \n;Wyodrêbnia œrodkow¹ czêœæ
-\c;\l;strfind\u cbot\strfind;    \n;Znajduje pod³añcuch
-\c;\l;strval\u cbot\strval;     \n;Zamienia ³añcuch na liczbê
+NastÃªpujÂ¹ce instrukcje mogÂ¹ byÃ¦ uÂ¿ywane na Â³aÃ±cuchachÂ¦:
+\c;\l;strlen\u cbot\strlen;     \n;Podaje dÂ³ugoÂœÃ¦ Â³aÃ±cucha
+\c;\l;strleft\u cbot\strleft;    \n;WyodrÃªbnia lewÂ¹ czÃªÂœÃ¦
+\c;\l;strright\u cbot\strright;   \n;WyodrÃªbnia prawÂ¹ czÃªÂœÃ¦
+\c;\l;strmid\u cbot\strmid;     \n;WyodrÃªbnia ÂœrodkowÂ¹ czÃªÂœÃ¦
+\c;\l;strfind\u cbot\strfind;    \n;Znajduje podÂ³aÃ±cuch
+\c;\l;strval\u cbot\strval;     \n;Zamienia Â³aÃ±cuch na liczbÃª
 \c;\l;strupper\u cbot\strupper;   \n;Zamienia litery na wielkie
-\c;\l;strlower\u cbot\strlower;   \n;Zamienia litery na ma³e
+\c;\l;strlower\u cbot\strlower;   \n;Zamienia litery na maÂ³e
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

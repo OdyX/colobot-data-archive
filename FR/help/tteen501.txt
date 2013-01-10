@@ -1,22 +1,22 @@
 \b;Grand nettoyage
-Après avoir fracassé toutes ces bouteilles, il est temps d'entretenir un peu la nature. Pour cela, tu reçois un nouveau robot muni d'un bras articulé. Ce bras lui permet de saisir et de déplacer des petits objets¦:
+AprÃ¨s avoir fracassÃ© toutes ces bouteilles, il est temps d'entretenir un peu la nature. Pour cela, tu reÃ§ois un nouveau robot muni d'un bras articulÃ©. Ce bras lui permet de saisir et de dÃ©placer des petits objetsÂ¦:
 
 \image botgr 8 8;
-Un vieux boulon rouillé est placé 70 centimètres devant le robot. Tu dois déplacer le boulon sur une plate-forme située 40 centimètres derrière la position initiale du robot¦:
+Un vieux boulon rouillÃ© est placÃ© 70 centimÃ¨tres devant le robot. Tu dois dÃ©placer le boulon sur une plate-forme situÃ©e 40 centimÃ¨tres derriÃ¨re la position initiale du robotÂ¦:
 
 \image teen501 8 8;
-Tu dois avancer, saisir le boulon, faire demi-tour, avancer jusqu'à la plate-forme et finalement déposer le boulon.
+Tu dois avancer, saisir le boulon, faire demi-tour, avancer jusqu'Ã  la plate-forme et finalement dÃ©poser le boulon.
 
-\b;Prendre et déposer
-Bien entendu, il faut 2 nouvelles instructions pour commander le bras manipulateur du robot. L'instruction \c;grab();\n; prend l'objet placé devant le robot. L'instruction \c;drop();\n; dépose l'objet devant le robot. N'oublie pas les parenthèses, même si elles ne contiennent aucun paramètre¦!
+\b;Prendre et dÃ©poser
+Bien entendu, il faut 2 nouvelles instructions pour commander le bras manipulateur du robot. L'instruction \c;grab();\n; prend l'objet placÃ© devant le robot. L'instruction \c;drop();\n; dÃ©pose l'objet devant le robot. N'oublie pas les parenthÃ¨ses, mÃªme si elles ne contiennent aucun paramÃ¨treÂ¦!
 
 \s;\c;grab();   \n;prend
-\s;\c;drop();   \n;dépose
+\s;\c;drop();   \n;dÃ©pose
 
 \b;Rappel
-Pour faire demi-tour, il faut écrire \c;turn(180);\n;.
+Pour faire demi-tour, il faut Ã©crire \c;turn(180);\n;.
 
-A toi d'écrire le programme ...
+A toi d'Ã©crire le programme ...
 
 \b;Un peu d'anglais
 \c;grab = \n;saisir

@@ -1,7 +1,7 @@
-\b;Rozwi¹zanie
-Jeœli Twój robot nagle wybuchnie, oznacza to, ¿e za du¿o razy uderzy³ w stalowe elementy. Leæ trochê wolniej, a wtedy robot nie zostanie uszkodzony, nawet jeœli wpadnie na przeszkodê.
+\b;RozwiÂ¹zanie
+JeÂœli TwÃ³j robot nagle wybuchnie, oznacza to, Â¿e za duÂ¿o razy uderzyÂ³ w stalowe elementy. LeÃ¦ trochÃª wolniej, a wtedy robot nie zostanie uszkodzony, nawet jeÂœli wpadnie na przeszkodÃª.
 
-Jeœli nie mo¿esz odlecieæ po wykonaniu æwiczenia, nie wszystkie cele zosta³y zaliczone. Zrób jeszcze jedn¹ rundê i sprawdŸ, czy nie zosta³y ¿adne materia³y wybuchowe ani plusy poœrodku stalowych struktur.
+JeÂœli nie moÂ¿esz odlecieÃ¦ po wykonaniu Ã¦wiczenia, nie wszystkie cele zostaÂ³y zaliczone. ZrÃ³b jeszcze jednÂ¹ rundÃª i sprawdÂŸ, czy nie zostaÂ³y Â¿adne materiaÂ³y wybuchowe ani plusy poÂœrodku stalowych struktur.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

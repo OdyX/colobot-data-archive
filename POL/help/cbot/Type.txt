@@ -1,33 +1,33 @@
 \b;Typy zmiennych
-Definiuj¹c \l;zmienn¹\u cbot\var; nale¿y podaæ dwa elementy: 
+DefiniujÂ¹c \l;zmiennÂ¹\u cbot\var; naleÂ¿y podaÃ¦ dwa elementy: 
 
-1) nazwê
+1) nazwÃª
 2) typ
 
-Po zdefiniowaniu zmiennej mo¿na w niej umieszczaæ informacje. Jednak¿e informacja, któr¹ mo¿e przechowywaæ zmienna musi byæ odpowiedniego typu: zmienna typu \l;float\u cbot\float; nie mo¿e zawieraæ ³añcucha itd.
+Po zdefiniowaniu zmiennej moÂ¿na w niej umieszczaÃ¦ informacje. JednakÂ¿e informacja, ktÃ³rÂ¹ moÂ¿e przechowywaÃ¦ zmienna musi byÃ¦ odpowiedniego typu: zmienna typu \l;float\u cbot\float; nie moÂ¿e zawieraÃ¦ Â³aÃ±cucha itd.
 
-W programie typy zmiennych wyœwietlane s¹ na \type;zielonym tle\norm;. Jeœli jest inaczej, prawdopodobnie w nazwie jest literówka. Nazwy typów s¹ zawsze zapisywane ma³ymi literami. Oto lista ró¿nych typów: 
+W programie typy zmiennych wyÂœwietlane sÂ¹ na \type;zielonym tle\norm;. JeÂœli jest inaczej, prawdopodobnie w nazwie jest literÃ³wka. Nazwy typÃ³w sÂ¹ zawsze zapisywane maÂ³ymi literami. Oto lista rÃ³Â¿nych typÃ³w: 
 
 \s;\c;\l;int\u cbot\int;\n;
-Dla liczb ca³kowitych (12, -500, itd.)
+Dla liczb caÂ³kowitych (12, -500, itd.)
 
 \s;\c;\l;float\u cbot\float;\n;
 Dla liczb rzeczywistych (12, 3.14, 0.2, -99.98, itd.)
 
 \s;\c;\l;bool\u cbot\bool;\n;
-Dla zmiennych logicznych, które mog¹ zawieraæ wartoœci \c;true\n; lub \c;false\n;
+Dla zmiennych logicznych, ktÃ³re mogÂ¹ zawieraÃ¦ wartoÂœci \c;true\n; lub \c;false\n;
 
 \s;\c;\l;string\u cbot\string;\n;
-Dla tekstów ("Czeœæ!", "Nie znaleziono obiektu", itd.)
+Dla tekstÃ³w ("CzeÂœÃ¦!", "Nie znaleziono obiektu", itd.)
 
 \s;\c;\l;point\u cbot\point;\n;
-Dla wspó³rzêdnych punktu w przestrzeni; zmienna tego typu sk³ada siê z trzech czêœci nazwanych x, y oraz z.
+Dla wspÃ³Â³rzÃªdnych punktu w przestrzeni; zmienna tego typu skÂ³ada siÃª z trzech czÃªÂœci nazwanych x, y oraz z.
 
 \s;\c;\l;object\u cbot\object;\n;
-Zmienna tego typu mo¿e zawieraæ informacje o obiekcie (robocie, budynku, wrogu, itd.)
+Zmienna tego typu moÂ¿e zawieraÃ¦ informacje o obiekcie (robocie, budynku, wrogu, itd.)
 
 \s;\c;\l;void\u cbot\void;\n;
-Jest to "typ pusty", u¿ywany wtedy, gdy nie chcemy okreœlaæ typu.
+Jest to "typ pusty", uÂ¿ywany wtedy, gdy nie chcemy okreÂœlaÃ¦ typu.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,27 +1,27 @@
 \b;Instruction \c;message\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;message ( texte, type );\n;
 
-Affiche un message en haut de l'écran. Après quelques secondes, le message disparaît automatiquement.
+Affiche un message en haut de l'Ã©cran. AprÃ¨s quelques secondes, le message disparaÃ®t automatiquement.
 
 \t;texte: \c;\l;string\u cbot\string;\n;
-Texte à afficher. Il est possible d'appondre plusieurs textes et/ou valeurs en utilisant l'opérateur \c;+\n;¦:
-\c;message("Pas trouvé");\n; 
+Texte Ã  afficher. Il est possible d'appondre plusieurs textes et/ou valeurs en utilisant l'opÃ©rateur \c;+\n;Â¦:
+\c;message("Pas trouvÃ©");\n; 
 \c;message(angle);\n; 
-\c;message(n + " objet(s) trouvé(s)");\n; 
-\c;message("Distance = " + dist + " mètres");\n; 
+\c;message(n + " objet(s) trouvÃ©(s)");\n; 
+\c;message("Distance = " + dist + " mÃ¨tres");\n; 
 
-\t;type: \c;\l;int\u cbot\int;\n; (\c;DisplayMessage\n; par défaut)
-Type du message, qui détermine la couleur de fond du texte.
+\t;type: \c;\l;int\u cbot\int;\n; (\c;DisplayMessage\n; par dÃ©faut)
+Type du message, qui dÃ©termine la couleur de fond du texte.
 o  \c;DisplayMessage\n;  Message standard sur fond jaune.
 o  \c;DisplayInfo   \n;  Information sur fond vert.
 o  \c;DisplayWarning\n;  Avertissement sur fond bleu.
 o  \c;DisplayError  \n;  Erreur sur fond rouge.
 
-\t;Valeur retournée: \c;\l;void\u cbot\void;\n;
+\t;Valeur retournÃ©e: \c;\l;void\u cbot\void;\n;
 Aucune.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;message    \n; = message
 \c;display    \n; = affichage
 \c;information\n; = information
@@ -29,4 +29,4 @@ Aucune.
 \c;error      \n; = erreur
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

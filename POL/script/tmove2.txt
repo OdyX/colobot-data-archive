@@ -1,15 +1,15 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	float  dist, dir;
 
 	dist = 20;
 	dir = 90;
 
-	move(dist);  // idŸ do 1 punktu kontrolnego
+	move(dist);  // idÂŸ do 1 punktu kontrolnego
 	turn(dir);
-	move(dist);  // idŸ do 2 punktu kontrolnego
+	move(dist);  // idÂŸ do 2 punktu kontrolnego
 	turn(-dir);
-	move(dist);  // idŸ do 3 punktu kontrolnego
+	move(dist);  // idÂŸ do 3 punktu kontrolnego
 	turn(-dir);
-	move(dist);  // idŸ do punktu docelowego
+	move(dist);  // idÂŸ do punktu docelowego
 }

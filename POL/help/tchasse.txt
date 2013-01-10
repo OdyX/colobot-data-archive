@@ -1,18 +1,18 @@
-\b;Æwiczenie
-Musisz znaleŸæ sposób na zniszczenie czterech \l;robotów celów\u object\bottarg; bez marnowania amunicji. Warto zauwa¿yæ, ¿e po ka¿dym ruchu cele s¹ nieruchome przez jedn¹ sekundê.
+\b;Ã†wiczenie
+Musisz znaleÂŸÃ¦ sposÃ³b na zniszczenie czterech \l;robotÃ³w celÃ³w\u object\bottarg; bez marnowania amunicji. Warto zauwaÂ¿yÃ¦, Â¿e po kaÂ¿dym ruchu cele sÂ¹ nieruchome przez jednÂ¹ sekundÃª.
 
-\b;Ogólny algorytm
-1) Wykryj cel instrukcj¹ \c;\l;radar\u cbot\radar;(TargetBot);\n;.
-2) Obróæ siê w kierunku celu: \c;\l;turn\u cbot\turn;(direction());\n;.
-3) Po wykonaniu obrotu sprawdŸ, czy cel siê nie poruszy³.
-4) Jeœli nie, poczekaj 0,2 sekundy: \c;\l;wait\u cbot\wait;(0.2);\n;.
-5) Ponownie sprawdŸ, czy cel siê nie poruszy³.
-6) Jeœli nie, strzel, wykonuj¹c instrukcjê \c;\l;fire\u cbot\fire;(2);\n; i czekaj¹c przez 2 sekundy na trafienie i zniszczenie celu.
+\b;OgÃ³lny algorytm
+1) Wykryj cel instrukcjÂ¹ \c;\l;radar\u cbot\radar;(TargetBot);\n;.
+2) ObrÃ³Ã¦ siÃª w kierunku celu: \c;\l;turn\u cbot\turn;(direction());\n;.
+3) Po wykonaniu obrotu sprawdÂŸ, czy cel siÃª nie poruszyÂ³.
+4) JeÂœli nie, poczekaj 0,2 sekundy: \c;\l;wait\u cbot\wait;(0.2);\n;.
+5) Ponownie sprawdÂŸ, czy cel siÃª nie poruszyÂ³.
+6) JeÂœli nie, strzel, wykonujÂ¹c instrukcjÃª \c;\l;fire\u cbot\fire;(2);\n; i czekajÂ¹c przez 2 sekundy na trafienie i zniszczenie celu.
 
-S¹ oczywiœcie równie¿ inne sposoby osi¹gniêcia tego samego celu.
+SÂ¹ oczywiÂœcie rÃ³wnieÂ¿ inne sposoby osiÂ¹gniÃªcia tego samego celu.
 
 \t;Uwaga
-Aby zwiêkszyæ skutecznoœæ strza³ów, celuj nieco w dó³ instrukcj¹ \c;\l;aim\u cbot\aim;(-3);\n;.
+Aby zwiÃªkszyÃ¦ skutecznoÂœÃ¦ strzaÂ³Ã³w, celuj nieco w dÃ³Â³ instrukcjÂ¹ \c;\l;aim\u cbot\aim;(-3);\n;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

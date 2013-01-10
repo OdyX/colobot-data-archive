@@ -1,9 +1,9 @@
-\b;Rozwi¹zanie
-W dolinie na po³udnie od statku kosmicznego znajdziesz \l;radar\u object\radar;, \l;stacjê odgromnikow¹\u object\captor;, \l;ogniwo elektryczne\u object\power; oraz \l;lataj¹ce dzia³o organiczne\u object\botoj;. Korzystaj¹c z tego mo¿esz zabiæ mrówki w pobli¿u statku i znaleŸæ \l;czarn¹ skrzynkê\u object\bbox; w pobli¿u szcz¹tków statku kosmicznego pierwszej ekspedycji na pó³nocy.
+\b;RozwiÂ¹zanie
+W dolinie na poÂ³udnie od statku kosmicznego znajdziesz \l;radar\u object\radar;, \l;stacjÃª odgromnikowÂ¹\u object\captor;, \l;ogniwo elektryczne\u object\power; oraz \l;latajÂ¹ce dziaÂ³o organiczne\u object\botoj;. KorzystajÂ¹c z tego moÂ¿esz zabiÃ¦ mrÃ³wki w pobliÂ¿u statku i znaleÂŸÃ¦ \l;czarnÂ¹ skrzynkÃª\u object\bbox; w pobliÂ¿u szczÂ¹tkÃ³w statku kosmicznego pierwszej ekspedycji na pÃ³Â³nocy.
 
-Zbuduj szereg \l;stacji odgromnikowych\u object\captor; wzd³u¿ naturalnej œcie¿ki pó³nocnych szczytów gór. 5 lub 6 odgromników powinno zapewniæ wystarczaj¹c¹ ochronê przed piorunami.
+Zbuduj szereg \l;stacji odgromnikowych\u object\captor; wzdÂ³uÂ¿ naturalnej ÂœcieÂ¿ki pÃ³Â³nocnych szczytÃ³w gÃ³r. 5 lub 6 odgromnikÃ³w powinno zapewniÃ¦ wystarczajÂ¹cÂ¹ ochronÃª przed piorunami.
 
-Dostarcz czarn¹ skrzynkê na pok³ad \l;statku kosmicznego\u object\base; i odleæ.
+Dostarcz czarnÂ¹ skrzynkÃª na pokÂ³ad \l;statku kosmicznego\u object\base; i odleÃ¦.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

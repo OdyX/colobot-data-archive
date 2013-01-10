@@ -1,18 +1,18 @@
 \b;Typ \c;file\n;
-Jest to typ wykorzystywany przy dostêpie do plików znajduj¹cych siê w folderze files/.
+Jest to typ wykorzystywany przy dostÃªpie do plikÃ³w znajdujÂ¹cych siÃª w folderze files/.
 \c;
 \s;	file handle();
 \n;
-Powy¿szej sk³adni nale¿ u¿ywaæ do deklarowania zmiennej plikowej. Konieczne jest u¿ycie () do utworzenia instancji klasy \c;file\n;. Bez (), handle bêdzie wskazywaæ na \c;\l;null\u cbot\null;\n;.
+PowyÂ¿szej skÂ³adni naleÂ¿ uÂ¿ywaÃ¦ do deklarowania zmiennej plikowej. Konieczne jest uÂ¿ycie () do utworzenia instancji klasy \c;file\n;. Bez (), handle bÃªdzie wskazywaÃ¦ na \c;\l;null\u cbot\null;\n;.
 
-Pliki mog¹ byæ tworzone i otwierane tylko w folderze files/, który znajduje sie w folderze instalacji gry Colobot. Nie jest mo¿liwe tworzenie ani otwieranie plików poza folderem files/.
+Pliki mogÂ¹ byÃ¦ tworzone i otwierane tylko w folderze files/, ktÃ³ry znajduje sie w folderze instalacji gry Colobot. Nie jest moÂ¿liwe tworzenie ani otwieranie plikÃ³w poza folderem files/.
 
-\b;Dla specjalistów
-\c;file\n; w rzeczywistoœci nie jest typem prostym ale klas¹. \c;open\n;, \c;close\n;, \c;writeln\n; itd. s¹ metodami klasy \c;file\n;. Dlatego zawsze nale¿y pisaæ \c;handle.method()\n;¦:
+\b;Dla specjalistÃ³w
+\c;file\n; w rzeczywistoÂœci nie jest typem prostym ale klasÂ¹. \c;open\n;, \c;close\n;, \c;writeln\n; itd. sÂ¹ metodami klasy \c;file\n;. Dlatego zawsze naleÂ¿y pisaÃ¦ \c;handle.method()\n;Â¦:
 \c;
 \s;	handle.open("test.txt", "w");
 \s;	handle.close();
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;open\u cbot\open;\n;, \c;\l;close\u cbot\close;\n;, \c;\l;readln\u cbot\readln;\n;, \c;\l;writeln\u cbot\writeln;\n; i \c;\l;eof\u cbot\eof;\n;.
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

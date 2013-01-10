@@ -1,5 +1,5 @@
 \b;Mieux
-Le programme précédent pour dessiner le carré était¦:
+Le programme prÃ©cÃ©dent pour dessiner le carrÃ© Ã©taitÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -14,32 +14,32 @@ Le programme précédent pour dessiner le carré était¦:
 \s;	turn(90);
 \s;}
 \n;
-Tu remarques que la séquence "move/turn" est répétée 4 fois. Dans un cas comme celui-là, il est beaucoup plus malin de l'écrire une seule fois, et de demander au robot de répèter 4 fois la séquence. On peut imaginer d'écrire quelque chose comme cela¦:
+Tu remarques que la sÃ©quence "move/turn" est rÃ©pÃ©tÃ©e 4 fois. Dans un cas comme celui-lÃ , il est beaucoup plus malin de l'Ã©crire une seule fois, et de demander au robot de rÃ©pÃ¨ter 4 fois la sÃ©quence. On peut imaginer d'Ã©crire quelque chose comme celaÂ¦:
 
 \s;o  Baisse le crayon orange
-\s;o  Répète 4 fois¦:
-\s;	o  Avance de 20 centimètres
-\s;	o  Tourne de 90 degrés à gauche
+\s;o  RÃ©pÃ¨te 4 foisÂ¦:
+\s;	o  Avance de 20 centimÃ¨tres
+\s;	o  Tourne de 90 degrÃ©s Ã  gauche
 
 \b;Instruction \c;repeat( )\n;
-L'instruction à utiliser pour répèter 4 fois un groupe d'instructions est¦:
+L'instruction Ã  utiliser pour rÃ©pÃ¨ter 4 fois un groupe d'instructions estÂ¦:
 \c;
 \s;	repeat(4)
 \s;	{
-\s;		\n;instructions répétées 4x ...\c;
+\s;		\n;instructions rÃ©pÃ©tÃ©es 4x ...\c;
 \s;	}
 \n;
-Il faut mettre toutes les instructions à répèter entre les accolades \c;{¦}\n;. Attention à ne pas faire suivre la ligne \c;repeat(4)\n; d'un point-virgule¦! Lorsque tu tapes l'accolade ouvrante \c;{\n;, l'accolade fermante \c;}\n; est automatiquement insérée.
+Il faut mettre toutes les instructions Ã  rÃ©pÃ¨ter entre les accolades \c;{Â¦}\n;. Attention Ã  ne pas faire suivre la ligne \c;repeat(4)\n; d'un point-virguleÂ¦! Lorsque tu tapes l'accolade ouvrante \c;{\n;, l'accolade fermante \c;}\n; est automatiquement insÃ©rÃ©e.
 
 \b;Les paires d'accolades
-Les accolades \c;{¦}\n; vont par paires. Une ligne verticale rouge pointillée relie les accolades qui vont ensemble. Dans notre programme, il y a 2 paires d'accolades.
+Les accolades \c;{Â¦}\n; vont par paires. Une ligne verticale rouge pointillÃ©e relie les accolades qui vont ensemble. Dans notre programme, il y a 2 paires d'accolades.
 
-1) La première paire est là depuis le début; tu n'y as peut-être même pas pris garde. C'est elle qui délimite l'ensemble du programme.
+1) La premiÃ¨re paire est lÃ  depuis le dÃ©but; tu n'y as peut-Ãªtre mÃªme pas pris garde. C'est elle qui dÃ©limite l'ensemble du programme.
 
-2) La deuxième paire est celle qui délimite les instructions à répèter dans le groupe \c;repeat\n;.
+2) La deuxiÃ¨me paire est celle qui dÃ©limite les instructions Ã  rÃ©pÃ¨ter dans le groupe \c;repeat\n;.
 
 \b;Solution
-Voici donc le programme que tu dois écrire. Observe bien les lignes rouges pointillées qui relient les accolades¦:
+Voici donc le programme que tu dois Ã©crire. Observe bien les lignes rouges pointillÃ©es qui relient les accoladesÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -51,7 +51,7 @@ Voici donc le programme que tu dois écrire. Observe bien les lignes rouges point
 \s;	}
 \s;}
 \n;
-Rappel: pas de point-virgule après \c;repeat(4)\n;¦!
+Rappel: pas de point-virgule aprÃ¨s \c;repeat(4)\n;Â¦!
 
 \b;Un peu d'anglais
-\c;repeat = \n;répèter
+\c;repeat = \n;rÃ©pÃ¨ter

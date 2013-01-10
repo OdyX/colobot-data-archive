@@ -1,5 +1,5 @@
 \b;Exercice
-Dans cet exercice, nous allons appronfondir les \l;variables\u cbot\var; avec le programme suivant¦:
+Dans cet exercice, nous allons appronfondir les \l;variables\u cbot\var; avec le programme suivantÂ¦:
 \c;
 \s;extern void object::Solution( )
 \s;{
@@ -13,30 +13,30 @@ Dans cet exercice, nous allons appronfondir les \l;variables\u cbot\var; avec le
 \s;	message(a+b);
 \s;}
 \n;
-Il est vivement recommandé d'exécuter ce programme en pas à pas, comme dans l'\l;exercice précédent\u tvar1;. Voilà ce qui se passe¦:
+Il est vivement recommandÃ© d'exÃ©cuter ce programme en pas Ã  pas, comme dans l'\l;exercice prÃ©cÃ©dent\u tvar1;. VoilÃ  ce qui se passeÂ¦:
 
 \c;\s;	float a;\n;
-Déclaration de la variable nommée \c;a\n;. Elle est de type \c;\l;float\u cbot\float;\n;, ce qui signifie qu'elle peut contenir un nombre réel (par exemple 2.00, 45.33, 1.50, etc.).
+DÃ©claration de la variable nommÃ©e \c;a\n;. Elle est de type \c;\l;float\u cbot\float;\n;, ce qui signifie qu'elle peut contenir un nombre rÃ©el (par exemple 2.00, 45.33, 1.50, etc.).
 
 \c;\s;	int b;\n;
-Déclaration de la variable nommée \c;b\n;. Elle est de type \c;\l;int\u cbot\int;\n;, c'est-à-dire qu'elle peut contenir un nombre entier (par exemple 10, 2, 1056, etc.).
+DÃ©claration de la variable nommÃ©e \c;b\n;. Elle est de type \c;\l;int\u cbot\int;\n;, c'est-Ã -dire qu'elle peut contenir un nombre entier (par exemple 10, 2, 1056, etc.).
 
 \c;\s;	a = 7;\n;
-La variable \c;a\n; reçoit la valeur \c;7\n;. Notez que l'affichage du contenu des variables en dessous du programme affiche \c;7.00\n;, pour mettre en évidence qu'il s'agit d'un nombre réel (type \c;\l;float\u cbot\float;\n;).
+La variable \c;a\n; reÃ§oit la valeur \c;7\n;. Notez que l'affichage du contenu des variables en dessous du programme affiche \c;7.00\n;, pour mettre en Ã©vidence qu'il s'agit d'un nombre rÃ©el (type \c;\l;float\u cbot\float;\n;).
 
 \c;\s;	b = a-4;\n;
-La variable \c;b\n; reçoit la valeur de la variable \c;a\n; moins 4, c'est-à-dire \c;3\n;.
+La variable \c;b\n; reÃ§oit la valeur de la variable \c;a\n; moins 4, c'est-Ã -dire \c;3\n;.
 
 \c;\s;	a = (a*b)/2;\n;
-La variable \c;a\n; reçoit la valeur \c;10.50\n;. Notez que la multiplication s'écrit \c;*\n; et la division \c;/\n;. \c;(a*b)/2\n; signifie donc \c;a\n; multiplié par \c;b\n;, le tout divisé par \c;2\n;. Cliquez \l;ici\u cbot\expr; pour voir le détail des expressions mathématiques possibles.
+La variable \c;a\n; reÃ§oit la valeur \c;10.50\n;. Notez que la multiplication s'Ã©crit \c;*\n; et la division \c;/\n;. \c;(a*b)/2\n; signifie donc \c;a\n; multipliÃ© par \c;b\n;, le tout divisÃ© par \c;2\n;. Cliquez \l;ici\u cbot\expr; pour voir le dÃ©tail des expressions mathÃ©matiques possibles.
 
 \c;\s;	b = a/2;\n;
-La variable \c;b\n; reçoit la valeur de la variable \c;a\n; divisée par \c;2\n;. La variable \c;a\n; vaut \c;10.50\n; à cet instant. La variable \c;b\n; devrait donc valoir \c;5.25\n;. Mais ce n'est pas possible, car \c;b\n; est de type \c;\l;int\u cbot\int;\n;, donc ne peut contenir que des nombres entiers. Donc, la partie décimale est tronquée et c'est la valeur \c;5\n; qui est assignée à \c;b\n;.
+La variable \c;b\n; reÃ§oit la valeur de la variable \c;a\n; divisÃ©e par \c;2\n;. La variable \c;a\n; vaut \c;10.50\n; Ã  cet instant. La variable \c;b\n; devrait donc valoir \c;5.25\n;. Mais ce n'est pas possible, car \c;b\n; est de type \c;\l;int\u cbot\int;\n;, donc ne peut contenir que des nombres entiers. Donc, la partie dÃ©cimale est tronquÃ©e et c'est la valeur \c;5\n; qui est assignÃ©e Ã  \c;b\n;.
 
 \c;\s;	message(a+b);\n;
-Finalement, on affiche la somme des variables \c;a\n; plus \c;b\n; dans un message à fond rouge en haut de l'écran. Si tout se passe bien, le programme affiche donc \c;15.50\n;.
+Finalement, on affiche la somme des variables \c;a\n; plus \c;b\n; dans un message Ã  fond rouge en haut de l'Ã©cran. Si tout se passe bien, le programme affiche donc \c;15.50\n;.
 
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+\key;\key help;\norm; permet de revoir les instructions gÃ©nÃ©rales en tout temps. De mÃªme, \key;\key prog;\norm; accÃ¨de aux explications du langage de programmation CBOT.
 
 \t;Voir aussi
-\l;Exercice précédent\u tvar1; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tvar1; et \l;programmation\u cbot;.

@@ -1,33 +1,33 @@
-\b;\button 160; Fabryka robotów
+\b;\button 160; Fabryka robotÃ³w
 \image factory 8 8;
-Ten budynek jest przeznaczony do wytwarzania robotów z \l;tytanu\u object\titan;.
+Ten budynek jest przeznaczony do wytwarzania robotÃ³w z \l;tytanu\u object\titan;.
 
-1) Umieœæ kostkê tytanu w fabryce.
-2) Cofnij siê.
-3) Zaznacz fabrykê.
-4) Kliknij przycisk odpowiadaj¹cy symbolowi robota, który ma zostaæ z³o¿ony (np.\button 137; dla \l;transportera na ko³ach\u object\botgr;).
+1) UmieÂœÃ¦ kostkÃª tytanu w fabryce.
+2) Cofnij siÃª.
+3) Zaznacz fabrykÃª.
+4) Kliknij przycisk odpowiadajÂ¹cy symbolowi robota, ktÃ³ry ma zostaÃ¦ zÂ³oÂ¿ony (np.\button 137; dla \l;transportera na koÂ³ach\u object\botgr;).
 
-Gotowy robot nie ma na pok³adzie \l;ogniwa elektrycznego\u object\power;. Aby móg³ opuœciæ fabrykê, nale¿y go w nie wyposa¿yæ.
+Gotowy robot nie ma na pokÂ³adzie \l;ogniwa elektrycznego\u object\power;. Aby mÃ³gÂ³ opuÂœciÃ¦ fabrykÃª, naleÂ¿y go w nie wyposaÂ¿yÃ¦.
 
-Lista dostêpnych robotów zale¿y od postêpu prac badawczych w \l;centrum badawczym\u object\research;.
+Lista dostÃªpnych robotÃ³w zaleÂ¿y od postÃªpu prac badawczych w \l;centrum badawczym\u object\research;.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 7,5 metra.
+PÂ³aska powierzchnia szeroka na minimum 7,5 metra.
 
-\t;Wejœcie
+\t;WejÂœcie
 Tytan.
 
-\t;Wyjœcie
+\t;WyjÂœcie
 Gotowy robot.
 
-\t;ród³o zasilania
+\t;ÂrÃ³dÂ³o zasilania
 Brak.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 15 sekund.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;BotFactory\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,29 +1,29 @@
 \b;\button 161; Kopalnia
 \image derrick 8 8;
-Kopalnia umo¿liwia wydobywanie surowców.
+Kopalnia umoÂ¿liwia wydobywanie surowcÃ³w.
 
-Do okreœlenia najlepszego miejsca na wybudowanie kopalni nale¿y u¿yæ \l;szperacza\u object\botsr;, który zbada podglebie. Pozostawione przez niego znaczniki okreœlaj¹ jakie surowce mog¹ byæ wydobyte:
+Do okreÂœlenia najlepszego miejsca na wybudowanie kopalni naleÂ¿y uÂ¿yÃ¦ \l;szperacza\u object\botsr;, ktÃ³ry zbada podglebie. Pozostawione przez niego znaczniki okreÂœlajÂ¹ jakie surowce mogÂ¹ byÃ¦ wydobyte:
 
 - \l;czerwony plus\u object\stonspot; -> \l;ruda tytanu\u object\titanore;.
-- \l;¿ó³te kó³ko\u object\uranspot;  -> \l;ruda uranu\u object\uranore;.
+- \l;Â¿Ã³Â³te kÃ³Â³ko\u object\uranspot;  -> \l;ruda uranu\u object\uranore;.
 
 \t;Wymagania
-P³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 2,5 metra.
+PÂ³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 2,5 metra.
 
-\t;Wejœcie
+\t;WejÂœcie
 Ruda tytanu lub uranu w podglebiu.
 
-\t;Wyjœcie
-Kawa³ki rudy tytanu lub uranu.
+\t;WyjÂœcie
+KawaÂ³ki rudy tytanu lub uranu.
 
-\t;ród³o zasilania
+\t;ÂrÃ³dÂ³o zasilania
 Brak.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 10 sekund dla tytanu i 30 dla uranu.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;Derrick\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

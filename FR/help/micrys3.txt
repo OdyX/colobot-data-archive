@@ -1,9 +1,9 @@
 \b;Rapport du satellite
-En orbite géostationnaire autour de Crystalium.
+En orbite gÃ©ostationnaire autour de Crystalium.
 \c;
 \s;-> SURFACE\c;
-\tab;Température:      4.3 degrés
-\tab;Atmosphère:       azote
+\tab;TempÃ©rature:      4.3 degrÃ©s
+\tab;AtmosphÃ¨re:       azote
 \tab;Vent:             0.0 m/s
 \tab;Minerai titanium: aucun
 \tab;Minerai uranium:  aucun
@@ -14,8 +14,8 @@ En orbite géostationnaire autour de Crystalium.
 \tab;Minerai uranium:  aucun
 
 \s;-> INFORMATIONS SPECIALES\c;
-\tab;Détecté:          robot fou
-\tab;Détecté:          fourmis géantes
+\tab;DÃ©tectÃ©:          robot fou
+\tab;DÃ©tectÃ©:          fourmis gÃ©antes
 \tab;                  organismes inconnus
-\tab;  - Danger:      ¦?
+\tab;  - Danger:      Â¦?
 \n;

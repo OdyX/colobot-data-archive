@@ -1,70 +1,70 @@
 \b;Typ \c;object\n;
-Typ u¿ywany dla zmiennych zawieraj¹cych charakterystyki obiektów, takich jak roboty, budynki, surowce, wrogowie, itp. 
+Typ uÂ¿ywany dla zmiennych zawierajÂ¹cych charakterystyki obiektÃ³w, takich jak roboty, budynki, surowce, wrogowie, itp. 
 
 \c;\l;int\u cbot\int;    object.category     \n;\l;Kategoria\u cbot\category; obiektu
 \c;\l;point\u cbot\point;  object.position     \n;Pozycja obiektu (x,y,z)
 \c;\l;float\u cbot\float;  object.orientation  \n;Orientacja obiektu (0..360)
-\c;\l;float\u cbot\float;  object.pitch        \n;Pochylenie obiektu przód/ty³
+\c;\l;float\u cbot\float;  object.pitch        \n;Pochylenie obiektu przÃ³d/tyÂ³
 \c;\l;float\u cbot\float;  object.roll         \n;Pochylenie obiektu prawo/lewo 
 \c;\l;float\u cbot\float;  object.energyLevel  \n;Poziom energii (0..1)
-\c;\l;float\u cbot\float;  object.shieldLevel  \n;Poziom os³ony (0..1)
+\c;\l;float\u cbot\float;  object.shieldLevel  \n;Poziom osÂ³ony (0..1)
 \c;\l;float\u cbot\float;  object.temperature  \n;Temperatura silnika odrzutowego (0..1)
-\c;\l;float\u cbot\float;  object.altitude     \n;Wysokoœæ nad poziomem ziemi
-\c;\l;float\u cbot\float;  object.lifeTime     \n;Czas ¿ycia obiektu
+\c;\l;float\u cbot\float;  object.altitude     \n;WysokoÂœÃ¦ nad poziomem ziemi
+\c;\l;float\u cbot\float;  object.lifeTime     \n;Czas Â¿ycia obiektu
 \c;object object.energyCell   \n;Ogniwo elektryczne robota
 \c;object object.load         \n;Przedmiot niesiony przez robota
 
 \s;\c;category\n;
-\n;\l;Kategoria\u cbot\category; obiektu okreœla czym jest obiekt, tzn. okreœla np. rodzaj robota, budynku lub wroga, itp. 
+\n;\l;Kategoria\u cbot\category; obiektu okreÂœla czym jest obiekt, tzn. okreÂœla np. rodzaj robota, budynku lub wroga, itp. 
 
 \s;\c;position\n;
-Po³o¿enie obiektu na planecie, w metrach. Wspó³rzêdne \c;x\n; i \c;y\n; odnosz¹ siê do po³o¿enia na mapie, wspó³rzêdna \c;z\n; odpowiada wysokoœci nad (lub odpowiednio pod) poziomem morza. 
+PoÂ³oÂ¿enie obiektu na planecie, w metrach. WspÃ³Â³rzÃªdne \c;x\n; i \c;y\n; odnoszÂ¹ siÃª do poÂ³oÂ¿enia na mapie, wspÃ³Â³rzÃªdna \c;z\n; odpowiada wysokoÂœci nad (lub odpowiednio pod) poziomem morza. 
 
 \s;\c;orientation\n;
-Orientacja obiektu, w stopniach. Okreœla kierunek, w którym obrócony jest obiekt. Wartoœæ \c;0\n; odpowiada orientacji na wschód, zgodnie z dodatni¹ osi¹ \c;x\n;. Orientacja liczona jest przeciwnie do ruchu wskazówek zegara. 
+Orientacja obiektu, w stopniach. OkreÂœla kierunek, w ktÃ³rym obrÃ³cony jest obiekt. WartoÂœÃ¦ \c;0\n; odpowiada orientacji na wschÃ³d, zgodnie z dodatniÂ¹ osiÂ¹ \c;x\n;. Orientacja liczona jest przeciwnie do ruchu wskazÃ³wek zegara. 
 
 \s;\c;pitch\n;
-Pochylenie robota w przód/ty³. Wartoœæ \c;0\n; oznacza, ¿e robot stoi na p³askim terenie. Wartoœæ dodatnia oznacza, ¿e robot "patrzy" w górê, wartoœæ ujemna, ¿e w dó³. 
+Pochylenie robota w przÃ³d/tyÂ³. WartoÂœÃ¦ \c;0\n; oznacza, Â¿e robot stoi na pÂ³askim terenie. WartoÂœÃ¦ dodatnia oznacza, Â¿e robot "patrzy" w gÃ³rÃª, wartoÂœÃ¦ ujemna, Â¿e w dÃ³Â³. 
 
 \s;\c;roll\n;
-Pochylenie robota w lewo/prawo. Wartoœæ dodatnia oznacza, ¿e robot jest przechylony na lew¹ stronê, wartoœæ ujemna, ¿e na praw¹. 
+Pochylenie robota w lewo/prawo. WartoÂœÃ¦ dodatnia oznacza, Â¿e robot jest przechylony na lewÂ¹ stronÃª, wartoÂœÃ¦ ujemna, Â¿e na prawÂ¹. 
 
 \s;\c;energyLevel\n;
-Poziom energii, pomiêdzy 0 i 1. Dla w pe³ni na³adowanego \l;zwyk³ego ogniwa elektrycznego\u object\power; zwracana jest wartoœæ \c;1\n;. \l;Atomowe ogniwo elektryczne\u object\atomic; nigdy nie zwraca wartoœci wiêkszej ni¿ 1, jedynie dzia³a d³u¿ej. Uwaga: Poziom energii robota zawsze jest równy zero, gdy¿ energia nie jest zawarta w robocie ale w ogniwie elektrycznym. Aby poznaæ poziom energii ogniwa elektrycznego robota, nale¿y napisaæ \c;energyCell.energyLevel\n;. 
+Poziom energii, pomiÃªdzy 0 i 1. Dla w peÂ³ni naÂ³adowanego \l;zwykÂ³ego ogniwa elektrycznego\u object\power; zwracana jest wartoÂœÃ¦ \c;1\n;. \l;Atomowe ogniwo elektryczne\u object\atomic; nigdy nie zwraca wartoÂœci wiÃªkszej niÂ¿ 1, jedynie dziaÂ³a dÂ³uÂ¿ej. Uwaga: Poziom energii robota zawsze jest rÃ³wny zero, gdyÂ¿ energia nie jest zawarta w robocie ale w ogniwie elektrycznym. Aby poznaÃ¦ poziom energii ogniwa elektrycznego robota, naleÂ¿y napisaÃ¦ \c;energyCell.energyLevel\n;. 
 
 \s;\c;shieldLevel\n;
-Poziom os³ony robota albo budynku. Wartoœæ \c;1\n; oznacza w pe³ni sprawn¹ os³onê. Za ka¿dym uderzeniem pocisku lub zderzeniem z innym obiektem, zmniejsza siê poziom os³ony. Gdy osi¹gnie on \c;0\n;, nastêpny pocisk b¹dŸ zderzenie spowoduje zniszczenie robota albo budynku. 
-Roboty mog¹ zregenerowaæ os³ony w \l;warsztacie\u object\repair;. Pow³oka budynku regenerowana jest gdy znajdzie siê w zasiêgu sfery ochronnej robota \l;os³aniacza\u object\botshld;.
+Poziom osÂ³ony robota albo budynku. WartoÂœÃ¦ \c;1\n; oznacza w peÂ³ni sprawnÂ¹ osÂ³onÃª. Za kaÂ¿dym uderzeniem pocisku lub zderzeniem z innym obiektem, zmniejsza siÃª poziom osÂ³ony. Gdy osiÂ¹gnie on \c;0\n;, nastÃªpny pocisk bÂ¹dÂŸ zderzenie spowoduje zniszczenie robota albo budynku. 
+Roboty mogÂ¹ zregenerowaÃ¦ osÂ³ony w \l;warsztacie\u object\repair;. PowÂ³oka budynku regenerowana jest gdy znajdzie siÃª w zasiÃªgu sfery ochronnej robota \l;osÂ³aniacza\u object\botshld;.
 
 \s;\c;temperature\n;
-Temperatura silnika odrzutowego \l;robotów lataj¹cych\u object\botgj;. \c;0\n; odpowiada zimnemu silnikowi. W miarê u¿ywania, wzrasta jego temperatura. Gdy osi¹gnie wartoœæ \c;1\n;, silnik przegrzewa siê i przestaje dzia³aæ do czasu ostygniêcia. 
+Temperatura silnika odrzutowego \l;robotÃ³w latajÂ¹cych\u object\botgj;. \c;0\n; odpowiada zimnemu silnikowi. W miarÃª uÂ¿ywania, wzrasta jego temperatura. Gdy osiÂ¹gnie wartoÂœÃ¦ \c;1\n;, silnik przegrzewa siÃª i przestaje dziaÂ³aÃ¦ do czasu ostygniÃªcia. 
 
 \s;\c;altitude\n;
-Wspó³rzêdna \c;z\n; oznacza wysokoœæ nad poziomem morza, podczas gdy \c;altitude\n; oznacza wysokoœæ nad poziomem ziemi. Wartoœæ ta ma znaczenie jedynie dla \l;robotów lataj¹cych\u object\botgj; i \l;os\u object\wasp;. Dla pozosta³ych obiektów jest zerowa. 
+WspÃ³Â³rzÃªdna \c;z\n; oznacza wysokoÂœÃ¦ nad poziomem morza, podczas gdy \c;altitude\n; oznacza wysokoÂœÃ¦ nad poziomem ziemi. WartoÂœÃ¦ ta ma znaczenie jedynie dla \l;robotÃ³w latajÂ¹cych\u object\botgj; i \l;os\u object\wasp;. Dla pozostaÂ³ych obiektÃ³w jest zerowa. 
 
 \s;\c;lifeTime\n;
-Wiek obiektów, w sekundach, od czasu ich powstania.
+Wiek obiektÃ³w, w sekundach, od czasu ich powstania.
 
 \s;\c;energyCell\n;
-Jest to specjalna informacja, gdy¿ zwraca informacje o innym obiekcie, w tym przypadku ogniwie elektrycznym. Oznacza to, ¿e energyCell zawiera wszystkie charakterystyki normalnego obiektu, na przyk³ad \c;category\n; (PowerCell lub NuclearCell), \c;position\n; (pozycjê ogniwa), itp.
-Aby poznaæ poziom energii robota, zamiast \c;energyLevel\n;, nale¿y sprawdziæ \c;energyCell.energyLevel\n;.
-Jeœli robot nie zawiera ogniwa elektrycznego, \c;energyCell\n; jest równe \c;null\n;.
+Jest to specjalna informacja, gdyÂ¿ zwraca informacje o innym obiekcie, w tym przypadku ogniwie elektrycznym. Oznacza to, Â¿e energyCell zawiera wszystkie charakterystyki normalnego obiektu, na przykÂ³ad \c;category\n; (PowerCell lub NuclearCell), \c;position\n; (pozycjÃª ogniwa), itp.
+Aby poznaÃ¦ poziom energii robota, zamiast \c;energyLevel\n;, naleÂ¿y sprawdziÃ¦ \c;energyCell.energyLevel\n;.
+JeÂœli robot nie zawiera ogniwa elektrycznego, \c;energyCell\n; jest rÃ³wne \c;null\n;.
 
 \s;\c;load\n;
-Ta informacja równie¿ zwraca opis ca³ego obiektu, a mianowicie opis obiektu trzymanego przez \l;transporter\u object\botgr;. Jeœli nie niesie on niczego, \c;load\n; jest równe \c;null\n;.
+Ta informacja rÃ³wnieÂ¿ zwraca opis caÂ³ego obiektu, a mianowicie opis obiektu trzymanego przez \l;transporter\u object\botgr;. JeÂœli nie niesie on niczego, \c;load\n; jest rÃ³wne \c;null\n;.
 
-\b;Przyk³ady
-Typ \c;object\n; zwraca specjaln¹ wartoœæ \c;\l;null\u cbot\null;\n; gdy obiekt nie istnieje. Na przyk³ad:
+\b;PrzykÂ³ady
+Typ \c;object\n; zwraca specjalnÂ¹ wartoÂœÃ¦ \c;\l;null\u cbot\null;\n; gdy obiekt nie istnieje. Na przykÂ³ad:
 \c;
 \s;	object a;
 \s;	a = radar(BotGrabberRoller);
 \s;	if ( a == null )  // obiekt nie istnieje?
 \s;	{
 \s;	}
-\s;	if ( a.position.z > 50 )  // czy jest na górze?
+\s;	if ( a.position.z > 50 )  // czy jest na gÃ³rze?
 \s;	{
 \s;	}
 \n; 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
 

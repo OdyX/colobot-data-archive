@@ -1,18 +1,18 @@
 \b;\button 157; Robot bouclier
 \image botshld 8 8;
-Robot bouclier, qui protËge de toutes les attaques \l;ennemies\u object\mother; dans un rayon variant entre 10 et 25 mËtres. Ce robot est le seul moyen de traverser des passages infestÈs de champignons verts. Le bouclier personnel des robots et des b‚timents est rÈgÈnÈrÈ par l'action de cette protection.
+Robot bouclier, qui prot√®ge de toutes les attaques \l;ennemies\u object\mother; dans un rayon variant entre 10 et 25 m√®tres. Ce robot est le seul moyen de traverser des passages infest√©s de champignons verts. Le bouclier personnel des robots et des b√¢timents est r√©g√©n√©r√© par l'action de cette protection.
 
-Une \l;pile normale\u object\power; permet de maintenir le bouclier en activitÈ pendant 20 secondes avec le rayon maximal de 25 mËtres, ce qui est en gÈnÈral insuffisant. Une \l;pile atomique\u object\atomic; est beaucoup mieux adaptÈe ‡ ce robot.
+Une \l;pile normale\u object\power; permet de maintenir le bouclier en activit√© pendant 20 secondes avec le rayon maximal de 25 m√®tres, ce qui est en g√©n√©ral insuffisant. Une \l;pile atomique\u object\atomic; est beaucoup mieux adapt√©e √† ce robot.
 
-La consommation d'Ènergie est proportionnelle au rayon du bouclier. Avec un rayon minimal de 10 mËtres, le bouclier est maintenu 2.5x plus longtemps.
+La consommation d'√©nergie est proportionnelle au rayon du bouclier. Avec un rayon minimal de 10 m√®tres, le bouclier est maintenu 2.5x plus longtemps.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;Shielder\n;
 
 \t;Programmation
-Pour dÈplacer le robot par programmation, il faut utiliser les instructions \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+Pour d√©placer le robot par programmation, il faut utiliser les instructions \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
 
-Pour dÈployer le bouclier par programmation, il faut utiliser l'instruction \c;\l;shield\u cbot\shield;\n;.
+Pour d√©ployer le bouclier par programmation, il faut utiliser l'instruction \c;\l;shield\u cbot\shield;\n;.
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

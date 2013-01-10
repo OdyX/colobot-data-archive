@@ -1,9 +1,9 @@
 \b;Rapport du satellite
-En orbite géostationnaire autour de Saari.
+En orbite gÃ©ostationnaire autour de Saari.
 \c;
 \s;-> SURFACE\c;
-\tab;Température:      38.4 degrés
-\tab;Atmosphère:       CO2, oxygène, azote
+\tab;TempÃ©rature:      38.4 degrÃ©s
+\tab;AtmosphÃ¨re:       CO2, oxygÃ¨ne, azote
 \tab;Vent:             1.4 m/s
 \tab;Minerai titanium: par endroits
 \tab;Minerai uranium:  aucun
@@ -14,6 +14,6 @@ En orbite géostationnaire autour de Saari.
 \tab;Minerai uranium:  aucun
 
 \s;-> INFORMATIONS SPECIALES\c;
-\tab;Détecté:          fourmis géantes à proximité
+\tab;DÃ©tectÃ©:          fourmis gÃ©antes Ã  proximitÃ©
 \tab;  - Danger:       oui, imminent
 \n;

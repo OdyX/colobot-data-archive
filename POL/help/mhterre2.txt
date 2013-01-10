@@ -1,14 +1,14 @@
 \b;Z Centrum Kontroli Misji
-To \l;Twoje\u object\human; drugie æwiczenie. Powinieneœ zapoznaæ siê z obs³ug¹ podstawowego wyposa¿enia. Mo¿e to byæ bardzo przydatne podczas Twojej przysz³ej ekspedycji.
+To \l;Twoje\u object\human; drugie Ã¦wiczenie. PowinieneÂœ zapoznaÃ¦ siÃª z obsÂ³ugÂ¹ podstawowego wyposaÂ¿enia. MoÂ¿e to byÃ¦ bardzo przydatne podczas Twojej przyszÂ³ej ekspedycji.
 
-Konstrukcja budynków oraz wytwarzanie robotów wymaga u¿ycia \l;tytanu\u object\titan;. Tytan jest minera³em, który mo¿na znaleŸæ na wiêkszoœci systemów s³onecznych we wszechœwiecie.
+Konstrukcja budynkÃ³w oraz wytwarzanie robotÃ³w wymaga uÂ¿ycia \l;tytanu\u object\titan;. Tytan jest mineraÂ³em, ktÃ³ry moÂ¿na znaleÂŸÃ¦ na wiÃªkszoÂœci systemÃ³w sÂ³onecznych we wszechÂœwiecie.
 
 \b;Procedura
-1) Zbli¿ siê do pierwszej \l;kostki tytanu\u object\titan;.
-2) Zbuduj \l;centrum badawcze\u object\research; \button 163;. Zwróæ uwagê, ¿e jedynie \l;Ty\u object\human; mo¿esz cokolwiek zbudowaæ; roboty nie mog¹ Ciê w tym zast¹piæ.
-3) Drug¹ \l;kostkê tytanu\u object\titan; przeznacz na wybudowanie \l;fabryki robotów\u object\factory; \button 160;.
+1) ZbliÂ¿ siÃª do pierwszej \l;kostki tytanu\u object\titan;.
+2) Zbuduj \l;centrum badawcze\u object\research; \button 163;. ZwrÃ³Ã¦ uwagÃª, Â¿e jedynie \l;Ty\u object\human; moÂ¿esz cokolwiek zbudowaÃ¦; roboty nie mogÂ¹ CiÃª w tym zastÂ¹piÃ¦.
+3) DrugÂ¹ \l;kostkÃª tytanu\u object\titan; przeznacz na wybudowanie \l;fabryki robotÃ³w\u object\factory; \button 160;.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

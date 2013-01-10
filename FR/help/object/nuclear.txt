@@ -1,24 +1,24 @@
-\b;\button 170; Centrale nuclÈaire
+\b;\button 170; Centrale nucl√©aire
 \image nuclear 8 8;
-Ce b‚timent transforme du \l;minerai d'uranium\u object\uranore; en une \l;pile atomique\u object\atomic; directement utilisable.
+Ce b√¢timent transforme du \l;minerai d'uranium\u object\uranore; en une \l;pile atomique\u object\atomic; directement utilisable.
 
 \t;Emplacement requis
-Surface plate quelconque de 10 mËtres de diamËtre.
+Surface plate quelconque de 10 m√®tres de diam√®tre.
 
-\t;EntrÈe
+\t;Entr√©e
 Minerai d'uranium.
 
 \t;Sortie
 Pile atomique.
 
-\t;Energie consommÈe
+\t;Energie consomm√©e
 Aucune.
 
-\t;DurÈe de l'opÈration
+\t;Dur√©e de l'op√©ration
 30 secondes.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;NuclearPlant\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

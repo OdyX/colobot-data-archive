@@ -1,12 +1,12 @@
-\b;Programme envoyé par Houston
-Nous vous avons envoyé un programme qui s'occupe de recharger la \l;pile\u object\power; d'une \l;tour de défense\u object\tower;.
+\b;Programme envoyÃ© par Houston
+Nous vous avons envoyÃ© un programme qui s'occupe de recharger la \l;pile\u object\power; d'une \l;tour de dÃ©fense\u object\tower;.
 
-1) Va vers une \l;tour de défense\u object\tower;
-2) Attend que la \l;pile\u object\power; soit à 80% vide pour la prendre.
+1) Va vers une \l;tour de dÃ©fense\u object\tower;
+2) Attend que la \l;pile\u object\power; soit Ã  80% vide pour la prendre.
 3) Va la recharger sur une \l;station de recharge\u object\station;.
 4) Revient la mettre sur la tour.
 
-Construisez la station de recharge aussi près que possible de la tour pour limiter le temps où la tour est inactive.
+Construisez la station de recharge aussi prÃ¨s que possible de la tour pour limiter le temps oÃ¹ la tour est inactive.
 \c;
 \s;extern void object::ServiceTour1()
 \s;{
@@ -16,7 +16,7 @@ Construisez la station de recharge aussi près que possible de la tour pour limit
 \s;	tour = \l;radar\u cbot\radar;(\l;DefenseTower\u cbot\category;);  // cherche une tour
 \s;	\l;goto\u cbot\goto;(tour.\l;position\u cbot\object;);         // va vers tour
 \s;	
-\s;	\l;while\u cbot\while; ( true )               // répète toujours¦:
+\s;	\l;while\u cbot\while; ( true )               // rÃ©pÃ¨te toujoursÂ¦:
 \s;	{
 \s;		// attend que la pile se vide
 \s;		\l;while\u cbot\while; ( tour.\l;energyCell.energyLevel\u cbot\object; > 0.2 )
@@ -33,14 +33,14 @@ Construisez la station de recharge aussi près que possible de la tour pour limit
 \s;			\l;wait\u cbot\wait;(1);             // attend recharge
 \s;		}
 \s;		
-\s;		// va vers la tour de défense
+\s;		// va vers la tour de dÃ©fense
 \s;		\l;goto\u cbot\goto;(tour.\l;position\u cbot\object;);     // va vers tour
-\s;		\l;drop\u cbot\drop;();                  // dépose pile
+\s;		\l;drop\u cbot\drop;();                  // dÃ©pose pile
 \s;	}
 \s;}
 \n;
 \b;Archives
-Résumé des programmes déjà reçus¦:
+RÃ©sumÃ© des programmes dÃ©jÃ  reÃ§usÂ¦:
 
 o  \c;\l;ApporteTitanium3\u mlvolca1;\n;
 o  \c;\l;TueFourmi1\u mlsaari2;\n;

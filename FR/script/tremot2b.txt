@@ -10,7 +10,7 @@ extern void object::Slave( )
 			wait(1);
 		}
 
-		// lit l'ordre puis le paramètre
+		// lit l'ordre puis le paramÃ¨tre
 		order = receive("order", 100);
 		param = receive("param", 100);
 

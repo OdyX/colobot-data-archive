@@ -1,13 +1,13 @@
 \b;Z Centrum Kontroli Misji
-Oto kolejny kurs szkoleniowy przygotowany przez Twoich poprzedników i przeznaczony tym razem do sprawdzenia mo¿liwoœci strzeleckich \l;robotów lataj¹cych\u object\botfj;. Dziêki niemu oswoisz siê ze strzelaniem podczas latania.
+Oto kolejny kurs szkoleniowy przygotowany przez Twoich poprzednikÃ³w i przeznaczony tym razem do sprawdzenia moÂ¿liwoÂœci strzeleckich \l;robotÃ³w latajÂ¹cych\u object\botfj;. DziÃªki niemu oswoisz siÃª ze strzelaniem podczas latania.
 
-Przeleæ szybko przez wszystkie cele i zestrzel 10 ³adunków wybuchowych rozrzuconych wzd³u¿ trasy lotu. Spróbuj wykonaæ to æwiczenie bez l¹dowania. Uwa¿aj jednak na reaktor: jeœli siê przegrzeje, wystarczy wyl¹dowaæ i poczekaæ a¿ ostygnie.
+PrzeleÃ¦ szybko przez wszystkie cele i zestrzel 10 Â³adunkÃ³w wybuchowych rozrzuconych wzdÂ³uÂ¿ trasy lotu. SprÃ³buj wykonaÃ¦ to Ã¦wiczenie bez lÂ¹dowania. UwaÂ¿aj jednak na reaktor: jeÂœli siÃª przegrzeje, wystarczy wylÂ¹dowaÃ¦ i poczekaÃ¦ aÂ¿ ostygnie.
 
-U¿ywaj jednej rêki do kierowanie robotem u¿ywaj¹c klawiatury, a drugiej do celowania i strzelania (lewym klawiszem) mysz¹.
+UÂ¿ywaj jednej rÃªki do kierowanie robotem uÂ¿ywajÂ¹c klawiatury, a drugiej do celowania i strzelania (lewym klawiszem) myszÂ¹.
 
-Mo¿esz wróciæ do tego æwiczenia za jakiœ czas, aby poprawiæ swój refleks.
+MoÂ¿esz wrÃ³ciÃ¦ do tego Ã¦wiczenia za jakiÂœ czas, aby poprawiÃ¦ swÃ³j refleks.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

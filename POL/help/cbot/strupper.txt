@@ -1,12 +1,12 @@
 \b;Instrukcja \c;strupper\n;
-Zamienia wszystkie znaki ³añcucha na wielkie litery.
+Zamienia wszystkie znaki Â³aÃ±cucha na wielkie litery.
 
-Sk³adnia¦:
-\s;\c;strupper ( ³añcuch );\n;
+SkÂ³adniaÂ¦:
+\s;\c;strupper ( Â³aÃ±cuch );\n;
 
-Przyk³ady¦:
-\s;\c;	string s = strupper("Abc");  // s jest równe "ABC"
+PrzykÂ³adyÂ¦:
+\s;\c;	string s = strupper("Abc");  // s jest rÃ³wne "ABC"
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;strlen\u cbot\strlen;\n;, \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strlower\u cbot\strlower;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

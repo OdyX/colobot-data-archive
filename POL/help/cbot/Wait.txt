@@ -1,22 +1,22 @@
 \b;Instrukcja \c;wait\n;
-Instrukcja \c;wait();\n; ka¿e robotowi czekaæ przez kilka sekund, zale¿nie od wartoœci podanej w nawiasach.
+Instrukcja \c;wait();\n; kaÂ¿e robotowi czekaÃ¦ przez kilka sekund, zaleÂ¿nie od wartoÂœci podanej w nawiasach.
 
-\b;Podstawowe u¿ycie
-Na na³adowanie \l;ogniwa elektrycznego\u object\power; w stacji energetycznej nale¿y poczekaæ 5 sekund u¿ywaj¹c instrukcji \c;wait(5);\n;.
+\b;Podstawowe uÂ¿ycie
+Na naÂ³adowanie \l;ogniwa elektrycznego\u object\power; w stacji energetycznej naleÂ¿y poczekaÃ¦ 5 sekund uÂ¿ywajÂ¹c instrukcji \c;wait(5);\n;.
 
-Na przetopienie \l;rudy tytanu\u object\titanore; w \l;kostkê tytanu\u object\titan; w \l;hucie\u object\convert; nale¿y poczekaæ 15 sekund u¿ywaj¹c instrukcji \c;wait(15);\n;.
+Na przetopienie \l;rudy tytanu\u object\titanore; w \l;kostkÃª tytanu\u object\titan; w \l;hucie\u object\convert; naleÂ¿y poczekaÃ¦ 15 sekund uÂ¿ywajÂ¹c instrukcji \c;wait(15);\n;.
 
-\b;Dla specjalistów
-Sk³adnia:
+\b;Dla specjalistÃ³w
+SkÂ³adnia:
 \s;\c;wait ( czas );\n;
 
-Czeka przez chwilê.
+Czeka przez chwilÃª.
 
 \t;czas: \c;\l;float\u cbot\float;\n;
-Okreœla czas przez jaki robot powinien czekaæ.
+OkreÂœla czas przez jaki robot powinien czekaÃ¦.
 
 \t;Typ wyniku: \c;\l;void\u cbot\void;\n;
 Brak.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

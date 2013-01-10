@@ -1,7 +1,7 @@
 extern void object::EchangePile1()
 {
 	grab(InFront);     // prend pile neuve devant
-	drop(Behind);      // et la pose derrière
+	drop(Behind);      // et la pose derriÃ¨re
 	
 	grab(EnergyCell);  // prend la pile du robot
 	drop(InFront);     // et la pose devant

@@ -1,6 +1,6 @@
 \b;Materia organiczna
 \image bullet 4 4;
-Materia organiczna jest sekretem owadów. Kulki materii organicznej s¹ czêsto u¿ywane do bombardowañ przez \l;osy\u object\wasp;. Musisz j¹ zdobyæ, aby umo¿liwiæ po odpowiedniej \l;analizie\u object\labo;, odkrycie nowych, niesamowitych technologii poprawiaj¹cych efektywnoœæ robotów.
+Materia organiczna jest sekretem owadÃ³w. Kulki materii organicznej sÂ¹ czÃªsto uÂ¿ywane do bombardowaÃ± przez \l;osy\u object\wasp;. Musisz jÂ¹ zdobyÃ¦, aby umoÂ¿liwiÃ¦ po odpowiedniej \l;analizie\u object\labo;, odkrycie nowych, niesamowitych technologii poprawiajÂ¹cych efektywnoÂœÃ¦ robotÃ³w.
 
 \t;Transport
 Wszystkie \l;transportery\u object\botgr; oraz \l;astronauta\u object\human;.
@@ -8,5 +8,5 @@ Wszystkie \l;transportery\u object\botgr; oraz \l;astronauta\u object\human;.
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;OrgaMatter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

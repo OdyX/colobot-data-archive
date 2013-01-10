@@ -1,8 +1,8 @@
 \b;Instruction \c;penwidth\n;
-Cette instruction détermine l'épaisseur de tous les traits qui seront dessinés lorsque le robot se déplace. Bien entendu, il faut avoir effectué l'instruction \l;pendown\u cbot\pendown;() pour voir un trait sur le sol.
+Cette instruction dÃ©termine l'Ã©paisseur de tous les traits qui seront dessinÃ©s lorsque le robot se dÃ©place. Bien entendu, il faut avoir effectuÃ© l'instruction \l;pendown\u cbot\pendown;() pour voir un trait sur le sol.
 
 \b;Utilisation courante
-Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se déplace. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se déplace (bien entendu, cela n'efface pas les traits déjà dessinés).
+Avec \c;pendown()\n;, un trait est dessinÃ© par le robot chaque fois qu'il se dÃ©place. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se dÃ©place (bien entendu, cela n'efface pas les traits dÃ©jÃ  dessinÃ©s).
 \c;
 \s;	\l;pencolor\u cbot\pencolor;(Red);
 \s;	penwidth(0.1);
@@ -10,16 +10,16 @@ Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se dép
 \s;	\l;move\u cbot\move;(5);
 \s;	\l;penup\u cbot\penup;();
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
-\s;\c;penwidth ( épaisseur );\n;
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
+\s;\c;penwidth ( Ã©paisseur );\n;
 
-\t;épaisseur: \c;\l;float\u cbot\float;\n;
-Epaisseur du trait, comprise entre 0.1 et 1 mètres.
+\t;Ã©paisseur: \c;\l;float\u cbot\float;\n;
+Epaisseur du trait, comprise entre 0.1 et 1 mÃ¨tres.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;pen  \n; = plume
 \c;width\n; = largeur
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

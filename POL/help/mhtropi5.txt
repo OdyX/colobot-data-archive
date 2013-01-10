@@ -1,9 +1,9 @@
 \b;Z Centrum Kontroli Misji
-ZnajdŸ i odzyskaj kolejn¹ \l;czarn¹ skrzynkê\u object\bbox; zostawion¹ przez poprzedni¹ ekspedycjê.
+ZnajdÂŸ i odzyskaj kolejnÂ¹ \l;czarnÂ¹ skrzynkÃª\u object\bbox; zostawionÂ¹ przez poprzedniÂ¹ ekspedycjÃª.
 
-Z danych satelity obserwacyjnego wynika, ¿e znajduje siê ona pod wod¹. Woda jest nieszkodliwa, o ile masz za³o¿ony he³m, ale pamiêtaj, ¿e nie mo¿esz nosiæ pod wod¹ ¿adnych przedmiotów. W tym przypadku pomocny mo¿e byæ robot \l;nurek\u object\botsub;.
+Z danych satelity obserwacyjnego wynika, Â¿e znajduje siÃª ona pod wodÂ¹. Woda jest nieszkodliwa, o ile masz zaÂ³oÂ¿ony heÂ³m, ale pamiÃªtaj, Â¿e nie moÂ¿esz nosiÃ¦ pod wodÂ¹ Â¿adnych przedmiotÃ³w. W tym przypadku pomocny moÂ¿e byÃ¦ robot \l;nurek\u object\botsub;.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

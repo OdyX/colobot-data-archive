@@ -1,19 +1,19 @@
-\b;\button 153; Dzia³o organiczne na ko³ach
+\b;\button 153; DziaÂ³o organiczne na koÂ³ach
 \image botor 8 8;
-Robot na ko³ach strzelaj¹cy kulami organicznymi.
+Robot na koÂ³ach strzelajÂ¹cy kulami organicznymi.
 
-Dzia³ko organiczne jest efektywniejsze od \l;dzia³ka ogniowego\u object\botfr;. Strzela ono ma³ymi kulkami ¿r¹cej \l;materii organicznej\u object\bullet;. \l;Zwyk³e ogniwo elektryczne\u object\power; wystarcza na oddanie 11 serii strza³ów.
+DziaÂ³ko organiczne jest efektywniejsze od \l;dziaÂ³ka ogniowego\u object\botfr;. Strzela ono maÂ³ymi kulkami Â¿rÂ¹cej \l;materii organicznej\u object\bullet;. \l;ZwykÂ³e ogniwo elektryczne\u object\power; wystarcza na oddanie 11 serii strzaÂ³Ã³w.
 
-Ko³a to standardowy, szybki i energooszczêdny sposób napêdu, idealny do poruszania siê po relatywnie p³askich powierzchniach. Na pochy³ym terenie polecane jest u¿ycie \l;lataj¹cego dzia³a organicznego\u object\botoj;, a jeœli jest to niemo¿liwe, \l;dzia³a organicznego na g¹sienicach\u object\botoc;.
+KoÂ³a to standardowy, szybki i energooszczÃªdny sposÃ³b napÃªdu, idealny do poruszania siÃª po relatywnie pÂ³askich powierzchniach. Na pochyÂ³ym terenie polecane jest uÂ¿ycie \l;latajÂ¹cego dziaÂ³a organicznego\u object\botoj;, a jeÂœli jest to niemoÂ¿liwe, \l;dziaÂ³a organicznego na gÂ¹sienicach\u object\botoc;.
 
 \t;Programowanie
-Do zaprogramowania poruszania robotem mo¿na u¿ywaæ nastêpuj¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+Do zaprogramowania poruszania robotem moÂ¿na uÂ¿ywaÃ¦ nastÃªpujÂ¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
 
-Do zaprogramowania dzia³ka strzelaj¹cego kulami organicznymi s³u¿y instrukcja \c;\l;fire\u cbot\fire;\n;. Lufê mo¿na podnieœæ lub opuœciæ u¿ywaj¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
+Do zaprogramowania dziaÂ³ka strzelajÂ¹cego kulami organicznymi sÂ³uÂ¿y instrukcja \c;\l;fire\u cbot\fire;\n;. LufÃª moÂ¿na podnieÂœÃ¦ lub opuÂœciÃ¦ uÂ¿ywajÂ¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;WheeledOrgaShooter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
 

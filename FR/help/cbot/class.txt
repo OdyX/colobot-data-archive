@@ -1,17 +1,17 @@
-\b;Instruction \c;class\n; (pour spécialistes)
-La syntaxe pour déclarer une classe est la suivante¦:
+\b;Instruction \c;class\n; (pour spÃ©cialistes)
+La syntaxe pour dÃ©clarer une classe est la suivanteÂ¦:
 \c;
 \s;public class NomDeLaClasse 
 \s;{
-\s;	déclarations;
+\s;	dÃ©clarations;
 \s;}
 \n;
-Une classe peut contenir des \l;variables\u cbot\var; et des \l;fonctions\u cbot\function;. Mais dans la terminologie des langages orientés objets, on les appelle "champs" et "méthodes"¦:
+Une classe peut contenir des \l;variables\u cbot\var; et des \l;fonctions\u cbot\function;. Mais dans la terminologie des langages orientÃ©s objets, on les appelle "champs" et "mÃ©thodes"Â¦:
 \tab;\c;    variable -> champ\n;
-\tab;\c;    fonction -> méthode\n;
-Le terme "membre" désigne un champ ou une méthode.
+\tab;\c;    fonction -> mÃ©thode\n;
+Le terme "membre" dÃ©signe un champ ou une mÃ©thode.
 
-La classe est d'office \l;publique\u cbot\public; (disponible partout). Les membres de la classe sont également publiques (disponible à tous). Les déclarations peuvent être des déclarations de champs ou des déclarations de méthodes (avec le \l;bloc\u cbot\bloc; d'exécution), par exemple¦:
+La classe est d'office \l;publique\u cbot\public; (disponible partout). Les membres de la classe sont Ã©galement publiques (disponible Ã  tous). Les dÃ©clarations peuvent Ãªtre des dÃ©clarations de champs ou des dÃ©clarations de mÃ©thodes (avec le \l;bloc\u cbot\bloc; d'exÃ©cution), par exempleÂ¦:
 \c;
 \s;public class MaClasse
 \s;{
@@ -24,8 +24,8 @@ La classe est d'office \l;publique\u cbot\public; (disponible partout). Les memb
 \s;	}
 \s;}
 \n;
-Comme le montre cet exemple, il est possible d'initialiser la valeur des champs par défaut (\c;x=3.33\n;), ce qui rend le constructeur inutile. Toutefois, il est possible de définir un constructeur, en créant une méthode (de type \c;void\n;) ayant le même nom que la classe.
-Il est également possible de définir plusieurs méthodes ayant le même nom, mais avec des paramètres différents (ce qui est aussi valable pour les \l;fonctions\u cbot\function;).
+Comme le montre cet exemple, il est possible d'initialiser la valeur des champs par dÃ©faut (\c;x=3.33\n;), ce qui rend le constructeur inutile. Toutefois, il est possible de dÃ©finir un constructeur, en crÃ©ant une mÃ©thode (de type \c;void\n;) ayant le mÃªme nom que la classe.
+Il est Ã©galement possible de dÃ©finir plusieurs mÃ©thodes ayant le mÃªme nom, mais avec des paramÃ¨tres diffÃ©rents (ce qui est aussi valable pour les \l;fonctions\u cbot\function;).
 \c;
 \s;public class MaClasse
 \s;{
@@ -40,24 +40,24 @@ Il est également possible de définir plusieurs méthodes ayant le même nom, mais 
 \s;	}
 \s;}
 \n;
-Cet exemple déclare deux constructeurs pour \c;MaClasse\n;, l'un sans paramètre, l'autre avec deux paramètres. Comme les paramètres ont été nommés avec le même nom que les éléments \c;a\n; et \c;b\n;, il est nécessaire d'utiliser \c;\l;this\u cbot\this;.a\n; et \c;\l;this\u cbot\this;.b\n; pour accéder aux éléments de l'instance (une solution plus simple consiste à donner des noms différents pour les paramètres).
-Les constructeurs sont appelés automatiquement à la définition d'une instance de la classe.
+Cet exemple dÃ©clare deux constructeurs pour \c;MaClasse\n;, l'un sans paramÃ¨tre, l'autre avec deux paramÃ¨tres. Comme les paramÃ¨tres ont Ã©tÃ© nommÃ©s avec le mÃªme nom que les Ã©lÃ©ments \c;a\n; et \c;b\n;, il est nÃ©cessaire d'utiliser \c;\l;this\u cbot\this;.a\n; et \c;\l;this\u cbot\this;.b\n; pour accÃ©der aux Ã©lÃ©ments de l'instance (une solution plus simple consiste Ã  donner des noms diffÃ©rents pour les paramÃ¨tres).
+Les constructeurs sont appelÃ©s automatiquement Ã  la dÃ©finition d'une instance de la classe.
 \c;
 \s;void Test( )
 \s;{
-\s;	MaClasse item1();      // constr. sans paramètre
-\s;	MaClasse item2(4, 5);  // constr. avec 2 paramètres
+\s;	MaClasse item1();      // constr. sans paramÃ¨tre
+\s;	MaClasse item2(4, 5);  // constr. avec 2 paramÃ¨tres
 \s;	MaClasse item3;        // pas de constructeur,
 \s;                           // item3 == null
 \s;}
 \n;
-Un destructeur peut être également défini. C'est une méthode \c;void\n; sans paramètre ayant le nom de la classe précédé du caractère "tilde" ~. Le destructeur est appelé dès qu'il n'y a plus aucune \l;référence\u cbot\pointer; vers une instance donnée.
+Un destructeur peut Ãªtre Ã©galement dÃ©fini. C'est une mÃ©thode \c;void\n; sans paramÃ¨tre ayant le nom de la classe prÃ©cÃ©dÃ© du caractÃ¨re "tilde" ~. Le destructeur est appelÃ© dÃ¨s qu'il n'y a plus aucune \l;rÃ©fÃ©rence\u cbot\pointer; vers une instance donnÃ©e.
 \c;
 \s;public class MaClasse
 \s;{
 \s;	static private int compteur = 0;
 \s;	void  MaClasse( ) { compteur ++ );  // compte
-\s;	void ~MaClasse( ) { compteur -- };  // décompte
+\s;	void ~MaClasse( ) { compteur -- };  // dÃ©compte
 \s;}
 \s;void Test()
 \s;{
@@ -66,8 +66,8 @@ Un destructeur peut être également défini. C'est une méthode \c;void\n; sans par
 \s;	item1 = null;       // compteur = 1
 \s;}                       // compteur = 0
 \n;
-Lorsqu'on donne l'instance d'une classe comme paramètre d'une \l;fonction\u cbot\function;, c'est toujours la \l;référence\u cbot\pointer; qui est passée.
+Lorsqu'on donne l'instance d'une classe comme paramÃ¨tre d'une \l;fonction\u cbot\function;, c'est toujours la \l;rÃ©fÃ©rence\u cbot\pointer; qui est passÃ©e.
 
 \t;Voir aussi
 \c;\l;public\u cbot\public;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;static\u cbot\static;\n;, \c;\l;synchronized\u cbot\synchro;\n;, \c;\l;new\u cbot\new;\n;, \c;\l;pointer\u cbot\pointer;\n;
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

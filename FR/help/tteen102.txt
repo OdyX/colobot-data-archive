@@ -1,24 +1,24 @@
-\b;Un événement imprévu
-Zut, le chat est passé par là, et il a fait un peu de désordre. Le petit robot est maintenant tourné vers la droite. Bien sûr, tu pourrais le soulever pour le remettre dans la bonne direction, mais ce serait trop simple.
+\b;Un Ã©vÃ©nement imprÃ©vu
+Zut, le chat est passÃ© par lÃ , et il a fait un peu de dÃ©sordre. Le petit robot est maintenant tournÃ© vers la droite. Bien sÃ»r, tu pourrais le soulever pour le remettre dans la bonne direction, mais ce serait trop simple.
 
-Pour résoudre ce problème, le programme contiendra 2 instructions¦:
-\s;1) Tourner à gauche
-\s;2) Avancer de 40 centimètres
-Il faut savoir que les instructions d'un programme sont exécutées les unes après les autres, dans l'ordre.
+Pour rÃ©soudre ce problÃ¨me, le programme contiendra 2 instructionsÂ¦:
+\s;1) Tourner Ã  gauche
+\s;2) Avancer de 40 centimÃ¨tres
+Il faut savoir que les instructions d'un programme sont exÃ©cutÃ©es les unes aprÃ¨s les autres, dans l'ordre.
 
 \b;Tourner le robot
-Pour orienter correctement le robot, il faut le tourner d'un huitième de tour à gauche. Un quart de tour correspond à 90 degrés. Un huitième de tour correspond donc à 45 degrés. L'instruction à utiliser est¦:
+Pour orienter correctement le robot, il faut le tourner d'un huitiÃ¨me de tour Ã  gauche. Un quart de tour correspond Ã  90 degrÃ©s. Un huitiÃ¨me de tour correspond donc Ã  45 degrÃ©s. L'instruction Ã  utiliser estÂ¦:
 \c;
 \s;turn(45);
 \n;
-Après cela, à la ligne suivante, tu écris de nouveau¦:
+AprÃ¨s cela, Ã  la ligne suivante, tu Ã©cris de nouveauÂ¦:
 \c;
 \s;move(40);
 \n;
-Sur le petit schéma en bas à droite de l'écran, on voit bien que le robot est mal orienté au départ¦:
+Sur le petit schÃ©ma en bas Ã  droite de l'Ã©cran, on voit bien que le robot est mal orientÃ© au dÃ©partÂ¦:
 
 \image teen102 8 8;
-\b;Un problème ?
-En cas d'erreur, tu peux remettre le robot à la position initiale avec le bouton \button 9;.
+\b;Un problÃ¨me ?
+En cas d'erreur, tu peux remettre le robot Ã  la position initiale avec le bouton \button 9;.
 
-La touche \key;\key help;\norm; ou l'icône \button 185; permettent de revoir ces instructions en tout temps¦!
+La touche \key;\key help;\norm; ou l'icÃ´ne \button 185; permettent de revoir ces instructions en tout tempsÂ¦!

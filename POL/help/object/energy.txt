@@ -1,28 +1,28 @@
 \b;\button 167; Elektrownia
 \image energy 8 8;
-Elektrownia jest fabryk¹ \l;ogniw elektrycznych\u object\power;. Przetwarza ona \l;kostki tytanu\u object\titan; na zwyk³e, ca³kowicie na³adowane i gotowe do u¿ycia ogniwa elektryczne.
+Elektrownia jest fabrykÂ¹ \l;ogniw elektrycznych\u object\power;. Przetwarza ona \l;kostki tytanu\u object\titan; na zwykÂ³e, caÂ³kowicie naÂ³adowane i gotowe do uÂ¿ycia ogniwa elektryczne.
 
-Elektrownia wymaga pewnego Ÿród³a energii w podglebiu. Jeœli z raportu satelitarnego wynika, ¿e energia dostêpna jest tylko w niektórych miejscach, nale¿y wczeœniej przebadaæ podglebie przy u¿yciu \l;robota szperacza\u object\botsr;. Pozostawione przez niego oznaczenia informuj¹ o rodzaju znalezionego surowca: \l;zielony plus\u object\enerspot; oznacza znajduj¹ce siê pod ziemi¹ Ÿród³o energii, wymagane przy budowie elektrowni lub \l;stacji energetycznej\u object\station;.
+Elektrownia wymaga pewnego ÂŸrÃ³dÂ³a energii w podglebiu. JeÂœli z raportu satelitarnego wynika, Â¿e energia dostÃªpna jest tylko w niektÃ³rych miejscach, naleÂ¿y wczeÂœniej przebadaÃ¦ podglebie przy uÂ¿yciu \l;robota szperacza\u object\botsr;. Pozostawione przez niego oznaczenia informujÂ¹ o rodzaju znalezionego surowca: \l;zielony plus\u object\enerspot; oznacza znajdujÂ¹ce siÃª pod ziemiÂ¹ ÂŸrÃ³dÂ³o energii, wymagane przy budowie elektrowni lub \l;stacji energetycznej\u object\station;.
 
-Jeœli du¿e ogniwo elektryczny u podstawy elektrowni pozostaje czerwone po jej wybudowaniu, oznacza to, ¿e w wybranym miejscu nie ma odpowiednich warunków geologicznych.
+JeÂœli duÂ¿e ogniwo elektryczny u podstawy elektrowni pozostaje czerwone po jej wybudowaniu, oznacza to, Â¿e w wybranym miejscu nie ma odpowiednich warunkÃ³w geologicznych.
 
 \t;Wymagania
-P³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 4 metry.
+PÂ³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 4 metry.
 
-\t;Wejœcie
+\t;WejÂœcie
 Tytan.
 
-\t;Wyjœcie
-Zwyk³e ogniwo elektryczne.
+\t;WyjÂœcie
+ZwykÂ³e ogniwo elektryczne.
 
-\t;ród³o zasilania
-Podziemne Ÿród³o energii.
+\t;ÂrÃ³dÂ³o zasilania
+Podziemne ÂŸrÃ³dÂ³o energii.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 12 sekund.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;PowerPlant\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

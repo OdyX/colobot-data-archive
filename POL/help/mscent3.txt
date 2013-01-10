@@ -1,11 +1,11 @@
-\b;Rozwi¹zanie
-Do zabicia wszystkich mrówek i paj¹ków na tym rozleg³ym, górzystym terenie, potrzebne bêdzie \l;lataj¹ce dzia³o organiczne\u object\botfj; zasilone \l;atomowym ogniwem elektrycznym\u object\atomic;. W ma³ej dolinie na po³udniowym wschodzie znajdziesz wszystkie potrzebne rzeczy: \l;kostki tytanu\u object\titanium;, \l;ogniwa elektryczne\u object\power; a nawet sprawny \l;transporter lataj¹ce\u object\botgj;.
+\b;RozwiÂ¹zanie
+Do zabicia wszystkich mrÃ³wek i pajÂ¹kÃ³w na tym rozlegÂ³ym, gÃ³rzystym terenie, potrzebne bÃªdzie \l;latajÂ¹ce dziaÂ³o organiczne\u object\botfj; zasilone \l;atomowym ogniwem elektrycznym\u object\atomic;. W maÂ³ej dolinie na poÂ³udniowym wschodzie znajdziesz wszystkie potrzebne rzeczy: \l;kostki tytanu\u object\titanium;, \l;ogniwa elektryczne\u object\power; a nawet sprawny \l;transporter latajÂ¹ce\u object\botgj;.
 
-1) Zbuduj i zasil \l;radar\u object\radar; oraz \l;dzia³o lataj¹ce\u object\botfj;. Zabij mrówkê pilnuj¹c¹ \l;rudy uranu\u object\uranore; na pó³nocy.
+1) Zbuduj i zasil \l;radar\u object\radar; oraz \l;dziaÂ³o latajÂ¹ce\u object\botfj;. Zabij mrÃ³wkÃª pilnujÂ¹cÂ¹ \l;rudy uranu\u object\uranore; na pÃ³Â³nocy.
 
-2)  U¿yj porzuconej \l;elektrowni atomowej\u object\nuclear; na wzgórzu powy¿ej oraz \l;transportera lataj¹cego\u object\botgj; do wyprodukowania kilku \l;atomowych ogniw elektrycznych\u object\atomic;, nastêpnie jednym z nich zasil \l;dzia³o lataj¹ce\u object\botfj;.
+2)  UÂ¿yj porzuconej \l;elektrowni atomowej\u object\nuclear; na wzgÃ³rzu powyÂ¿ej oraz \l;transportera latajÂ¹cego\u object\botgj; do wyprodukowania kilku \l;atomowych ogniw elektrycznych\u object\atomic;, nastÃªpnie jednym z nich zasil \l;dziaÂ³o latajÂ¹ce\u object\botfj;.
 
-3)  Pozb¹dŸ siê wszystkich owadów w okolicy. Jedna z mrówek ukrywa siê w jamie na pó³nocnym zachodzie: naj³atwiej j¹ trafiæ zbli¿aj¹c siê z zachodu, poprzez g³êbok¹ dolinê, .
+3)  PozbÂ¹dÂŸ siÃª wszystkich owadÃ³w w okolicy. Jedna z mrÃ³wek ukrywa siÃª w jamie na pÃ³Â³nocnym zachodzie: najÂ³atwiej jÂ¹ trafiÃ¦ zbliÂ¿ajÂ¹c siÃª z zachodu, poprzez gÂ³ÃªbokÂ¹ dolinÃª, .
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

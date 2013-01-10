@@ -1,22 +1,22 @@
 \b;Exercice
-Ce premier exercice est vraiment très simple. Il faut déplacer le robot d'entraînement jusqu'à la croix bleue en avançant tout droit d'une longueur de 20 mètres.
+Ce premier exercice est vraiment trÃ¨s simple. Il faut dÃ©placer le robot d'entraÃ®nement jusqu'Ã  la croix bleue en avanÃ§ant tout droit d'une longueur de 20 mÃ¨tres.
 
-\b;Marche à suivre
+\b;Marche Ã  suivre
 1) Programmer le robot. Pour cela, il faut cliquer sur le bouton \button 22;.
 2) Taper le code du programme, puis cliquer le bouton <D'accord>.
-3) Exécuter le programme \button 21; et observer le résultat.
+3) ExÃ©cuter le programme \button 21; et observer le rÃ©sultat.
 
-Le corps du programme est constitué de¦:
+Le corps du programme est constituÃ© deÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
-\s;	\n;à compléter ...\c;
+\s;	\n;Ã  complÃ©ter ...\c;
 \s;}
 \n;
-Vous ne devez pas modifier ces caractères, pour l'instant. Les instructions doivent être données entre les accolades \c;{ }\n;.
+Vous ne devez pas modifier ces caractÃ¨res, pour l'instant. Les instructions doivent Ãªtre donnÃ©es entre les accolades \c;{ }\n;.
 
 \b;Programme
-L'instruction \c;move(20);\n; avance de 20 mètres. Le programme qui doit être écrit est donc¦:
+L'instruction \c;move(20);\n; avance de 20 mÃ¨tres. Le programme qui doit Ãªtre Ã©crit est doncÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -24,11 +24,11 @@ L'instruction \c;move(20);\n; avance de 20 mètres. Le programme qui doit être éc
 \s;}
 \n;
 \b;Remarques
-Attention de tout taper avec des minuscules¦!
-Une instruction est terminée par un point-virgule.
+Attention de tout taper avec des minusculesÂ¦!
+Une instruction est terminÃ©e par un point-virgule.
 
-Si vous êtes bloqué, vous pouvez toujours regarder la solution: sélectionnez le programme \c;Solution\n; tout en bas à gauche, puis cliquez sur le bouton avec les accolades \button 22;. Vous pouvez aussi exécuter le programme représentant la solution avec le bouton \button 21;.
+Si vous Ãªtes bloquÃ©, vous pouvez toujours regarder la solution: sÃ©lectionnez le programme \c;Solution\n; tout en bas Ã  gauche, puis cliquez sur le bouton avec les accolades \button 22;. Vous pouvez aussi exÃ©cuter le programme reprÃ©sentant la solution avec le bouton \button 21;.
 
-En cas de tentative infructueuse, vous pouvez remettre le robot à la position initiale avec le bouton \button 59;.
+En cas de tentative infructueuse, vous pouvez remettre le robot Ã  la position initiale avec le bouton \button 59;.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!

@@ -1,37 +1,37 @@
 \b;Exercice
-Il faut convertir du \l;minerai de titanium\u object\titanore; en \l;titanium\u object\titan;, puis déposer 2 cubes de titanium sur les plates-formes dont les coordonnées sont¦:
+Il faut convertir du \l;minerai de titanium\u object\titanore; en \l;titanium\u object\titan;, puis dÃ©poser 2 cubes de titanium sur les plates-formes dont les coordonnÃ©es sontÂ¦:
 \c;
 	x=10, y=-60
 	x=10, y=-65
 \n;
 \image derrick 8 8;
-Le \l;derrick\u object\derrick; extrait automatiquement du minerai de titanium, qui ne demande qu'à être ramassé.
+Le \l;derrick\u object\derrick; extrait automatiquement du minerai de titanium, qui ne demande qu'Ã  Ãªtre ramassÃ©.
 
 \image convert 8 8;
-Le \l;convertisseur\u object\convert; transforme le minerai en titanium. Pour cela, il suffit de déposer le minerai, de reculer et d'attendre.
+Le \l;convertisseur\u object\convert; transforme le minerai en titanium. Pour cela, il suffit de dÃ©poser le minerai, de reculer et d'attendre.
 
 \b;Principe
-	Répéter 2 fois¦:
+	RÃ©pÃ©ter 2 foisÂ¦:
 	o  Attendre tant qu'on ne trouve pas de minerai (\c;\l;TitaniumOre\u object\titanore;\n;).
 	o  Aller vers le minerai.
 	o  Prendre le minerai.
 	o  Aller vers le convertisseur (\c;\l;Converter\u object\convert;\n;).
-	o  Déposer le minerai.
-	o  Reculer de 4 mètres.
+	o  DÃ©poser le minerai.
+	o  Reculer de 4 mÃ¨tres.
 	o  Attendre tant qu'on ne trouve pas de titanium.
 	o  Prendre le titanium (\c;\l;Titanium\u object\titan;\n;).
 	o  Aller sur une plate-forme.
-	o  Déposer le titanium.
+	o  DÃ©poser le titanium.
 
 \b;Instructions utiles
-\c;\l;for\u cbot\for;\n; pour répéter des instructions
-\c;\l;do - while\u cbot\do;\n; pour répéter des instructions
-\c;\l;radar\u cbot\radar;\n; pour détecter des objets
-\c;\l;goto\u cbot\goto;\n; pour déplacer le robot
+\c;\l;for\u cbot\for;\n; pour rÃ©pÃ©ter des instructions
+\c;\l;do - while\u cbot\do;\n; pour rÃ©pÃ©ter des instructions
+\c;\l;radar\u cbot\radar;\n; pour dÃ©tecter des objets
+\c;\l;goto\u cbot\goto;\n; pour dÃ©placer le robot
 \c;\l;grab\u cbot\grab;\n; pour prendre un objet
-\c;\l;drop\u cbot\drop;\n; pour déposer un objet
+\c;\l;drop\u cbot\drop;\n; pour dÃ©poser un objet
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
 \l;Programmation\u cbot;.

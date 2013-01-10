@@ -1,19 +1,19 @@
-\b;Instruction \c;new\n; (pour spécialistes)
-Une instance de \l;classe\u cbot\class; peut être créée par l'opérateur \c;new\n;¦:
+\b;Instruction \c;new\n; (pour spÃ©cialistes)
+Une instance de \l;classe\u cbot\class; peut Ãªtre crÃ©Ã©e par l'opÃ©rateur \c;new\n;Â¦:
 \c;\s;	MaClasse item;  // item vaut null
 \s;	item = new MaClasse();
 \n;
-Lorsque l'instance est créée en même temps que la déclaration, il est possible de simplifier l'écriture¦:
+Lorsque l'instance est crÃ©Ã©e en mÃªme temps que la dÃ©claration, il est possible de simplifier l'Ã©critureÂ¦:
 \c;\s;	MaClasse item = new MaClasse();
 \s;	MaClasse item();  // identique
 \n;
-Si, par exemple, la classe contient un constructeur avec deux paramètres numériques, il est possible d'écrire¦:
+Si, par exemple, la classe contient un constructeur avec deux paramÃ¨tres numÃ©riques, il est possible d'Ã©crireÂ¦:
 \c;\s;	MaClasse item = new MaClasse(2, 3);
 \s;	MaClasse item(2, 3);  // identique
 \n;
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;new\n; = nouveau
 
 \t;Voir aussi
-\l;Références\u cbot\pointer;
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;RÃ©fÃ©rences\u cbot\pointer;
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

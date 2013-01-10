@@ -1,28 +1,28 @@
 \b;Instrukcja \c;for\n;
-Sk³adnia:
+SkÂ³adnia:
 \s;\c;for ( przed ; warunek ; koniec )
 \s;{
 \s;	\n;Instrukcje...\c;
 \s;}
 \n;
-Instrukcja ta pozwala na powtórzenie okreœlon¹ iloœæ razy instrukcji zawartych w \l;bloku\u cbot\bloc;.
+Instrukcja ta pozwala na powtÃ³rzenie okreÂœlonÂ¹ iloÂœÃ¦ razy instrukcji zawartych w \l;bloku\u cbot\bloc;.
 
 \t;\c;przed\n;
-Instrukcja wykonywana przed pierwszym przejœciem pêtli.
+Instrukcja wykonywana przed pierwszym przejÂœciem pÃªtli.
 
 \t;\c;warunek\n;
-\l;Warunek\u cbot\cond; okreœla, czy powinno byæ wykonane nastêpne przejœcie pêtli. Jest on sprawdzany przed ka¿dym jej przejœciem. 
+\l;Warunek\u cbot\cond; okreÂœla, czy powinno byÃ¦ wykonane nastÃªpne przejÂœcie pÃªtli. Jest on sprawdzany przed kaÂ¿dym jej przejÂœciem. 
 
 \t;\c;koniec\n;
-Instrukcja wykonywana po ka¿dym przejœciu pêtli. 
+Instrukcja wykonywana po kaÂ¿dym przejÂœciu pÃªtli. 
 
-Przyk³ad: liczenie od 1 do 4
+PrzykÂ³ad: liczenie od 1 do 4
 \c;\s;\c;for ( i = 0 ; i <= 4 ; i++ )
 \s;{
 \s;	message(i) ;
 \s;}
 \n;
-Nastêpuj¹cy przyk³ad, równowa¿ny pêtli \c;for\n;, u¿ywa instrukcji \c;\l;while\u cbot\while;\n;:
+NastÃªpujÂ¹cy przykÂ³ad, rÃ³wnowaÂ¿ny pÃªtli \c;for\n;, uÂ¿ywa instrukcji \c;\l;while\u cbot\while;\n;:
 \s;\c;przed;
 \s;while ( warunek )
 \s;{
@@ -31,10 +31,10 @@ Nastêpuj¹cy przyk³ad, równowa¿ny pêtli \c;for\n;, u¿ywa instrukcji \c;\l;while\u
 \s;}
 \n;
 \t;Uwaga
-Na koñcu instrukcji \c;for ( )\n; nie nale¿y umieszczaæ \l;œrednika\u cbot\term;.
+Na koÃ±cu instrukcji \c;for ( )\n; nie naleÂ¿y umieszczaÃ¦ \l;Âœrednika\u cbot\term;.
 
-Instrukcje \c;\l;break\u cbot\break;\n; i \c;\l;continue\u cbot\continue;\n; mog¹ byæ przydatne wewn¹trz bloku instrukcji \c;for \n;.
+Instrukcje \c;\l;break\u cbot\break;\n; i \c;\l;continue\u cbot\continue;\n; mogÂ¹ byÃ¦ przydatne wewnÂ¹trz bloku instrukcji \c;for \n;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
 

@@ -1,22 +1,22 @@
 \b;Instruction \c;shield\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;shield ( oper, radius );\n;
 
-Déploie ou replie le bouclier du \l;robot\u object\botshld;. Lorsque le bouclier est déployé, il est possible d'avancer. Le bouclier protège de toutes les attaques \l;ennemies\u object\mother; dans un rayon compris entre 10 et 25 mètres.
+DÃ©ploie ou replie le bouclier du \l;robot\u object\botshld;. Lorsque le bouclier est dÃ©ployÃ©, il est possible d'avancer. Le bouclier protÃ¨ge de toutes les attaques \l;ennemies\u object\mother; dans un rayon compris entre 10 et 25 mÃ¨tres.
 
 \t;oper: \c;\l;float\u cbot\float;\n;
-\c;1\n; déploie le bouclier.
+\c;1\n; dÃ©ploie le bouclier.
 \c;0\n; replie le bouclier.
-Une \l;pile normale\u object\power; à pleine charge permet de maintenir le bouclier pendant 20 secondes avec le rayon maximal de 25 mètres. Lorsque la pile est plate, le bouclier se replie.
+Une \l;pile normale\u object\power; Ã  pleine charge permet de maintenir le bouclier pendant 20 secondes avec le rayon maximal de 25 mÃ¨tres. Lorsque la pile est plate, le bouclier se replie.
 
 \t;radius: \c;\l;float\u cbot\float;\n;
-Rayon du bouclier, compris entre 10 et 25 mètres.
+Rayon du bouclier, compris entre 10 et 25 mÃ¨tres.
 
-\t;Valeur retournée: \c;\l;void\u cbot\void;\n;
+\t;Valeur retournÃ©e: \c;\l;void\u cbot\void;\n;
 Aucune.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;shield\n; = bouclier
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

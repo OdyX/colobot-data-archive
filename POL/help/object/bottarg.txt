@@ -1,11 +1,11 @@
 \b;\button 173; Robot cel
 \image bottarg 8 8;
-Robot na ko³ach wykorzystywany w æwiczeniach strzeleckich. Jest on samodzielny, a jego sposób poruszania siê jest zale¿ny od rodzaju æwiczenia.
+Robot na koÂ³ach wykorzystywany w Ã¦wiczeniach strzeleckich. Jest on samodzielny, a jego sposÃ³b poruszania siÃª jest zaleÂ¿ny od rodzaju Ã¦wiczenia.
 
-Nale¿y zwróciæ uwagê, ¿e gdy robot cel przenosi \l;TNT\u object\tnt; jest wyj¹tkowo wra¿liwy na wstrz¹sy.
+NaleÂ¿y zwrÃ³ciÃ¦ uwagÃª, Â¿e gdy robot cel przenosi \l;TNT\u object\tnt; jest wyjÂ¹tkowo wraÂ¿liwy na wstrzÂ¹sy.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;TargetBot\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

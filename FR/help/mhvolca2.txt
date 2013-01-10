@@ -1,14 +1,14 @@
 \b;Instructions de Houston
-L'expédition précédente avait transmis des informations sur une \l;matière organique\u object\bullet; produite par les \l;fourmis géantes\u object\ant;, qui ouvrirait des perspectives étonnantes: elle permettrait d'équiper les robots de certains organes des insectes, améliorant ainsi leurs performances.
+L'expÃ©dition prÃ©cÃ©dente avait transmis des informations sur une \l;matiÃ¨re organique\u object\bullet; produite par les \l;fourmis gÃ©antes\u object\ant;, qui ouvrirait des perspectives Ã©tonnantes: elle permettrait d'Ã©quiper les robots de certains organes des insectes, amÃ©liorant ainsi leurs performances.
  
-Votre mission consiste à expérimenter une première application de cet "or vert": Construisez un \l;robot déménageur à pattes\u object\botgs;, amenez-le sur votre \l;vaisseau spatial\u object\base; puis décollez.
+Votre mission consiste Ã  expÃ©rimenter une premiÃ¨re application de cet "or vert": Construisez un \l;robot dÃ©mÃ©nageur Ã  pattes\u object\botgs;, amenez-le sur votre \l;vaisseau spatial\u object\base; puis dÃ©collez.
 
-\b;Marche à suivre
-Prélevez un échantillon de \l;matière organique\u object\bullet; dans le nid des \l;fourmis géantes\u object\ant;. Un \l;laboratoire\u object\labo; vous permettra de l'analyser, et de faire les recherches menant à une application concrète.
+\b;Marche Ã  suivre
+PrÃ©levez un Ã©chantillon de \l;matiÃ¨re organique\u object\bullet; dans le nid des \l;fourmis gÃ©antes\u object\ant;. Un \l;laboratoire\u object\labo; vous permettra de l'analyser, et de faire les recherches menant Ã  une application concrÃ¨te.
 
-Afin de diminuer votre stress, nous vous avons envoyé un programme pour recharger automatiquement les \l;tours de défense\u object\tower;.
+Afin de diminuer votre stress, nous vous avons envoyÃ© un programme pour recharger automatiquement les \l;tours de dÃ©fense\u object\tower;.
 
-Remarque: Vu la température plus basse dans cette région, le vol semble possible.
+Remarque: Vu la tempÃ©rature plus basse dans cette rÃ©gion, le vol semble possible.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

@@ -7,10 +7,10 @@ extern void object::SuivrePhazer()
 	item = radar(PhazerShooter);
 	if ( item == null )
 	{
-		message("Phazer pas trouvé");
+		message("Phazer pas trouvÃ©");
 		return;
 	}
-	shield(1, 25);  // déploie le bouclier
+	shield(1, 25);  // dÃ©ploie le bouclier
 	
 	while ( true )
 	{

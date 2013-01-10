@@ -1,9 +1,9 @@
-\b;Pojazd Ksiê¿ycowy Apollo
+\b;Pojazd KsiÃªÂ¿ycowy Apollo
 
 
 
-\c;< zdjêcie archiwalne nie jest dostêpne >\n;
+\c;< zdjÃªcie archiwalne nie jest dostÃªpne >\n;
 
 
 
-Pojazd ksiê¿ycowy (LRV - Lunar Roving Vehicle) zosta³ przewieziony na Ksiê¿yc 30 lipca 1971 roku przez astronautów Davida Scotta i Jima Irwina z misji Apollo 15. Jego akumulatory s¹ wci¹¿ czêœciowo na³adowane, umo¿liwiaj¹c jego zdaln¹ kontrolê, jednak ta przestarza³a ju¿ technologia nie bêdzie przydatna w obecnych misjach.
+Pojazd ksiÃªÂ¿ycowy (LRV - Lunar Roving Vehicle) zostaÂ³ przewieziony na KsiÃªÂ¿yc 30 lipca 1971 roku przez astronautÃ³w Davida Scotta i Jima Irwina z misji Apollo 15. Jego akumulatory sÂ¹ wciÂ¹Â¿ czÃªÂœciowo naÂ³adowane, umoÂ¿liwiajÂ¹c jego zdalnÂ¹ kontrolÃª, jednak ta przestarzaÂ³a juÂ¿ technologia nie bÃªdzie przydatna w obecnych misjach.

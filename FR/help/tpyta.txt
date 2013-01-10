@@ -1,20 +1,20 @@
 \b;Exercice
-Cet exercice a pour but d'approfondir la compréhension des \l;fonctions\u cbot\function;. Le robot restera immobile.
+Cet exercice a pour but d'approfondir la comprÃ©hension des \l;fonctions\u cbot\function;. Le robot restera immobile.
 
 \b;Pythagore
-Jusqu'à présent, les fonctions que nous avons créées effectuaient un certain travail directement. Maintenant, nous allons créer une fonction qui effectue un travail, et qui, en plus, retourne le résultat à l'appelant.
-Cette fonction va calculer l'hypoténuse d'un triangle rectangle, selon le théorème du mathématicien Pythagore (si vous ne le connaissez pas, rien n'empêche de faire l'exercice). Ce théorème dit que l'hypoténuse d'un triangle rectangle est égale à la racine carré de la somme des carrés des deux côtés¦:
+Jusqu'Ã  prÃ©sent, les fonctions que nous avons crÃ©Ã©es effectuaient un certain travail directement. Maintenant, nous allons crÃ©er une fonction qui effectue un travail, et qui, en plus, retourne le rÃ©sultat Ã  l'appelant.
+Cette fonction va calculer l'hypotÃ©nuse d'un triangle rectangle, selon le thÃ©orÃ¨me du mathÃ©maticien Pythagore (si vous ne le connaissez pas, rien n'empÃªche de faire l'exercice). Ce thÃ©orÃ¨me dit que l'hypotÃ©nuse d'un triangle rectangle est Ã©gale Ã  la racine carrÃ© de la somme des carrÃ©s des deux cÃ´tÃ©sÂ¦:
 \c;
 \s;h = sqrt( a**2 + b**2 )
 \n;
-La racine carrée s'écrit \c;\l;sqrt\u cbot\expr;\n;, et l'élévation à la puissance \c;\l;**\u cbot\expr;\n;.
+La racine carrÃ©e s'Ã©crit \c;\l;sqrt\u cbot\expr;\n;, et l'Ã©lÃ©vation Ã  la puissance \c;\l;**\u cbot\expr;\n;.
 
 \b;Fonction qui retourne une valeur
-Pour que la fonction puisse retourner un valeur, il faut débuter sa déclaration par le type de la valeur retournée (ici \c;\l;float\u cbot\float;\n;). Les parenthèses contiennent ensuite normalement les paramètres (ici \c;float¦a\n; et \c;float¦b\n;)¦:
+Pour que la fonction puisse retourner un valeur, il faut dÃ©buter sa dÃ©claration par le type de la valeur retournÃ©e (ici \c;\l;float\u cbot\float;\n;). Les parenthÃ¨ses contiennent ensuite normalement les paramÃ¨tres (ici \c;floatÂ¦a\n; et \c;floatÂ¦b\n;)Â¦:
 \c;
 \s;\l;float\u cbot\float; object::hypotenuse(float a, float b)
 \n;
-Le corps de la fonction peut s'écrire ainsi¦:
+Le corps de la fonction peut s'Ã©crire ainsiÂ¦:
 \c;
 \s;float object::hypotenuse(float a, float b)
 \s;{
@@ -23,7 +23,7 @@ Le corps de la fonction peut s'écrire ainsi¦:
 \s;	return hyp;
 \s;}
 \n;
-Notez que la fonction ci-dessous, plus compacte, a exectement le même résultat¦:
+Notez que la fonction ci-dessous, plus compacte, a exectement le mÃªme rÃ©sultatÂ¦:
 \c;
 \s;float object::hypotenuse(float a, float b)
 \s;{
@@ -31,10 +31,10 @@ Notez que la fonction ci-dessous, plus compacte, a exectement le même résultat¦:
 \s;}
 \n;
 \b;Programme principal
-Il s'agit de calculer l'hypoténuse d'un triangle rectangle donc les deux côtés mesurent 10 et 20 mètres¦:
+Il s'agit de calculer l'hypotÃ©nuse d'un triangle rectangle donc les deux cÃ´tÃ©s mesurent 10 et 20 mÃ¨tresÂ¦:
 
 \image tpyta 12 8;
-Le programme principal n'a plus qu'à appeler la fonction \c;hypotenuse\n; comme cela¦:
+Le programme principal n'a plus qu'Ã  appeler la fonction \c;hypotenuse\n; comme celaÂ¦:
 \c;
 \s;extern void object::Solution( )
 \s;{
@@ -43,10 +43,10 @@ Le programme principal n'a plus qu'à appeler la fonction \c;hypotenuse\n; comme 
 \s;	message(h);
 \s;}
 \n;
-\m step;\b;Pas à pas
-Il est particulièrement intéressant d'exécuter ce programme pas à pas. Si vous ne vous souvenez plus comment faire, cliquez \l;ici\u tvar1 step;.
+\m step;\b;Pas Ã  pas
+Il est particuliÃ¨rement intÃ©ressant d'exÃ©cuter ce programme pas Ã  pas. Si vous ne vous souvenez plus comment faire, cliquez \l;ici\u tvar1 step;.
 
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+\key;\key help;\norm; permet de revoir les instructions gÃ©nÃ©rales en tout temps. De mÃªme, \key;\key prog;\norm; accÃ¨de aux explications du langage de programmation CBOT.
 
 \t;Voir aussi
-\l;Exercice précédent\u tproc2; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tproc2; et \l;programmation\u cbot;.

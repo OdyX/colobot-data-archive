@@ -1,20 +1,20 @@
 \b;Instructions de Houston
-Nous ne savons pas avec prÈcision o˘ la premiËre expÈdition s'est dirigÈe aprËs avoir quittÈ la lune, ni les raisons de ce choix.
+Nous ne savons pas avec pr√©cision o√π la premi√®re exp√©dition s'est dirig√©e apr√®s avoir quitt√© la lune, ni les raisons de ce choix.
 
-Trouvez et ramenez la \l;boÓte noire\u object\bbox; qu'ils ont laissÈe avant de poursuivre votre exploration. Cette boÓte noire contient les coordonnÈes de la planËte vers laquelle l'expÈdition est partie.
+Trouvez et ramenez la \l;bo√Æte noire\u object\bbox; qu'ils ont laiss√©e avant de poursuivre votre exploration. Cette bo√Æte noire contient les coordonn√©es de la plan√®te vers laquelle l'exp√©dition est partie.
 
-Les \l;piles\u object\power; de vos robots sont presque dÈchargÈes. Il faudra donc en prioritÈ les recharger. Le satellite d'observation \button 186; nous transmet que le sous-sol lunaire est trËs riche en Ènergie. Vous pouvez donc construire une \l;station de recharge\u object\station; sur n'importe quelle zone plane.
+Les \l;piles\u object\power; de vos robots sont presque d√©charg√©es. Il faudra donc en priorit√© les recharger. Le satellite d'observation \button 186; nous transmet que le sous-sol lunaire est tr√®s riche en √©nergie. Vous pouvez donc construire une \l;station de recharge\u object\station; sur n'importe quelle zone plane.
 
-Nous vous avons envoyÈ un petit programme trËs utile pour recharger la \l;pile\u object\power; des robots. Consultez la page \button 53;.
+Nous vous avons envoy√© un petit programme tr√®s utile pour recharger la \l;pile\u object\power; des robots. Consultez la page \button 53;.
 
-\b;Marche ‡ suivre
+\b;Marche √† suivre
 1) Construisez un \l;convertisseur\u object\convert; avec le seul \l;cube de titanium\u object\titan; disponible.
-2) Ce b‚timent transforme le \l;minerai de titanium\u object\titanore; en \l;cubes de titanium\u object\titan; utilisables pour construire des b‚timents ou des robots.
+2) Ce b√¢timent transforme le \l;minerai de titanium\u object\titanore; en \l;cubes de titanium\u object\titan; utilisables pour construire des b√¢timents ou des robots.
 3) Construisez une \l;station de recharge\u object\station;.
-4) Construisez un \l;radar\u object\radar; pour voir la boÓte noire sur la mini-carte.
-5) AprËs avoir rechargÈ la \l;pile\u object\power;, partez chercher la \l;boÓte noire\u object\bbox; avec le \l;robot dÈmÈnageur volant\u object\botgj;.
-6) Ramenez la boÓte noire sur le \l;vaisseau\u object\base;.
-7) DÈcollez.
+4) Construisez un \l;radar\u object\radar; pour voir la bo√Æte noire sur la mini-carte.
+5) Apr√®s avoir recharg√© la \l;pile\u object\power;, partez chercher la \l;bo√Æte noire\u object\bbox; avec le \l;robot d√©m√©nageur volant\u object\botgj;.
+6) Ramenez la bo√Æte noire sur le \l;vaisseau\u object\base;.
+7) D√©collez.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

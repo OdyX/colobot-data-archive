@@ -1,8 +1,8 @@
 \b;Exercice
-Programmez le \l;robot\u object\bottr; pour qu'il dessine une fleur rouge stylisée qui passera par toutes les \l;croix bleues\u object\waypoint; posées au sol. La fleur sera composée de 12 carrés de 5 mètres de côté.
+Programmez le \l;robot\u object\bottr; pour qu'il dessine une fleur rouge stylisÃ©e qui passera par toutes les \l;croix bleues\u object\waypoint; posÃ©es au sol. La fleur sera composÃ©e de 12 carrÃ©s de 5 mÃ¨tres de cÃ´tÃ©.
 
 \b;Fonction
-Pour résoudre ce problème, il est intéressant de créer une \l;fonction\u cbot\function; qui déplace le robot le long d'un carré. La fonction principale consiste simplement à dessiner 12 carrés décalés chacun de 30 degrés. Elle devient alors très simple¦:
+Pour rÃ©soudre ce problÃ¨me, il est intÃ©ressant de crÃ©er une \l;fonction\u cbot\function; qui dÃ©place le robot le long d'un carrÃ©. La fonction principale consiste simplement Ã  dessiner 12 carrÃ©s dÃ©calÃ©s chacun de 30 degrÃ©s. Elle devient alors trÃ¨s simpleÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -10,34 +10,34 @@ Pour résoudre ce problème, il est intéressant de créer une \l;fonction\u cbot\fu
 \s;	
 \s;	repeat ( 12 )
 \s;	{
-\s;		Carré();
+\s;		CarrÃ©();
 \s;		turn(30);
 \s;	}
 \s;}
 \n;
-Évidemment, à ce stade, la fonction \c;Carré\n; n'existe pas encore. Pour la créer, vous devrez pour la première fois écrire des instructions hors du \l;bloc\u cbot\bloc;, tout à la fin du programme. La structure du programme devient¦:
+Ã‰videmment, Ã  ce stade, la fonction \c;CarrÃ©\n; n'existe pas encore. Pour la crÃ©er, vous devrez pour la premiÃ¨re fois Ã©crire des instructions hors du \l;bloc\u cbot\bloc;, tout Ã  la fin du programme. La structure du programme devientÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
 \s;	\n;fonction principale ...\c;
 \s;}
 \s;
-\s;void object::Carré()
+\s;void object::CarrÃ©()
 \s;{
 \s;	\n;nouvelle fonction ...\c;
 \s;}
 \n;
-Le flux du programme se déroule ainsi¦:
-- On exécute la fonction principale \c;Go\n; depuis le début.
-- Lorsqu'on rencontre \c;Carré()\n;, on entre une première fois dans la fonction \c;Carré\n;.
-- Lorsque la fonction \c;Carré\n; est terminée, on revient dans \c;Go\n;.
+Le flux du programme se dÃ©roule ainsiÂ¦:
+- On exÃ©cute la fonction principale \c;Go\n; depuis le dÃ©but.
+- Lorsqu'on rencontre \c;CarrÃ©()\n;, on entre une premiÃ¨re fois dans la fonction \c;CarrÃ©\n;.
+- Lorsque la fonction \c;CarrÃ©\n; est terminÃ©e, on revient dans \c;Go\n;.
 - On continue \c;Go\n;, qui contient alors \c;turn(30)\n;.
-- Ensuite, la boucle \c;repeat\n; exécute une deuxième fois les instructions entre \c;{¦}\n;. On entre donc une deuxième fois dans \c;Carré\n;.
-- Et ainsi de suite¦...
+- Ensuite, la boucle \c;repeat\n; exÃ©cute une deuxiÃ¨me fois les instructions entre \c;{Â¦}\n;. On entre donc une deuxiÃ¨me fois dans \c;CarrÃ©\n;.
+- Et ainsi de suiteÂ¦...
 
-L'intérieur de la fonction \c;Carré\n; utilise les instructions \c;\l;move\u cbot\move;\n; et \c;\l;turn\u cbot\turn;\n;. L'utilisation d'une boucle \c;\l;repeat\u cbot\repeat;\n; répétée 4 fois allège l'écriture, mais n'est pas indispensable.
+L'intÃ©rieur de la fonction \c;CarrÃ©\n; utilise les instructions \c;\l;move\u cbot\move;\n; et \c;\l;turn\u cbot\turn;\n;. L'utilisation d'une boucle \c;\l;repeat\u cbot\repeat;\n; rÃ©pÃ©tÃ©e 4 fois allÃ¨ge l'Ã©criture, mais n'est pas indispensable.
 \c;
-\s;void object::Carré()
+\s;void object::CarrÃ©()
 \s;{
 \s;	repeat ( 4 )
 \s;	{
@@ -46,10 +46,10 @@ L'intérieur de la fonction \c;Carré\n; utilise les instructions \c;\l;move\u cbo
 \s;	}
 \s;}
 \n;
-\b;Accélérer le dessin
-Si vous souhaitez accélérer le dessin, appuyez sur la touche \key;\key speed20;\norm; x2. La touche \key;\key speed10;\norm; reviendra à une vitesse normale x1.
+\b;AccÃ©lÃ©rer le dessin
+Si vous souhaitez accÃ©lÃ©rer le dessin, appuyez sur la touche \key;\key speed20;\norm; x2. La touche \key;\key speed10;\norm; reviendra Ã  une vitesse normale x1.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tant5; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tant5; et \l;programmation\u cbot;.

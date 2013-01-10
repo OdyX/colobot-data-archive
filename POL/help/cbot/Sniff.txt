@@ -1,17 +1,17 @@
 \b;Instrukcja \c;sniff\n;
-Sk³adnia:
+SkÂ³adnia:
 \s;\c;sniff ( );\n;
 
-Analizuje grunt przed robotem \l;szperaczem\u object\botsr;. W zale¿noœci od wykrytego surowca, pojawia siê nastêpuj¹cy znacznik: 
+Analizuje grunt przed robotem \l;szperaczem\u object\botsr;. W zaleÂ¿noÂœci od wykrytego surowca, pojawia siÃª nastÃªpujÂ¹cy znacznik: 
 
-\c;Z³o¿e tytanu\n;  ->  \l;Czerwony plus\u object\stonspot;
-\c;Z³o¿e uranu \n;  ->  \l;¯ó³te kó³ko\u object\uranspot;
-\c;ród³o energii  \n;  ->  \l;Zielony plus\u object\enerspot;
+\c;ZÂ³oÂ¿e tytanu\n;  ->  \l;Czerwony plus\u object\stonspot;
+\c;ZÂ³oÂ¿e uranu \n;  ->  \l;Â¯Ã³Â³te kÃ³Â³ko\u object\uranspot;
+\c;ÂrÃ³dÂ³o energii  \n;  ->  \l;Zielony plus\u object\enerspot;
 
 \t;Typ wyniku: \c;\l;int\u cbot\int;\n;
-Zero jeœli wszystko jest w porz¹dku, lub wartoœæ inna od zera w przypadku wyst¹pienia b³êdu. 
+Zero jeÂœli wszystko jest w porzÂ¹dku, lub wartoÂœÃ¦ inna od zera w przypadku wystÂ¹pienia bÂ³Ãªdu. 
 \c;== 0 \n;analiza wykonana
-\c;!= 0 \n;analiza niemo¿liwa
+\c;!= 0 \n;analiza niemoÂ¿liwa
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

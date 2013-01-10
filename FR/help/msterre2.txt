@@ -1,13 +1,13 @@
 \b;Solution
-Pour trouver le premier \l;cube de titanium\u object\titan;, longez la route qui passe devant le centre de recherches. Le cube se trouve quelques mètres après le \l;robot déménageur\u object\botgr;, sur le bord gauche de la route.
+Pour trouver le premier \l;cube de titanium\u object\titan;, longez la route qui passe devant le centre de recherches. Le cube se trouve quelques mÃ¨tres aprÃ¨s le \l;robot dÃ©mÃ©nageur\u object\botgr;, sur le bord gauche de la route.
 
-Placez-vous sur la route, face au cube, puis cliquez sur le premier bouton \button 163;, en bas à gauche de la fenêtre, pour construire le \l;centre de recherches\u object\research;.
+Placez-vous sur la route, face au cube, puis cliquez sur le premier bouton \button 163;, en bas Ã  gauche de la fenÃªtre, pour construire le \l;centre de recherches\u object\research;.
 
-Continuez ensuite la route. Le deuxième cube se trouve juste après les quatre \l;piles\u object\power; vertes.
+Continuez ensuite la route. Le deuxiÃ¨me cube se trouve juste aprÃ¨s les quatre \l;piles\u object\power; vertes.
 
-Toujours en restant sur la route, cliquez cette fois sur le deuxième bouton \button 160;, en bas à gauche de la fenêtre.
+Toujours en restant sur la route, cliquez cette fois sur le deuxiÃ¨me bouton \button 160;, en bas Ã  gauche de la fenÃªtre.
 
-Dès que la \l;fabrique de robots\u object\factory; est terminée, la mission est réussie.
+DÃ¨s que la \l;fabrique de robots\u object\factory; est terminÃ©e, la mission est rÃ©ussie.
 
 \t;Voir aussi
 \l;Commandes\u command;.

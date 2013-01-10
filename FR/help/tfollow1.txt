@@ -1,58 +1,58 @@
 \b;Exercice
-Vous devez programmer le \l;robot\u object\bottr; d'entraînement pour suivre la caisse d'explosifs, mais sans la toucher, car elle est très fragile. Chaque fois que la caisse s'arrête 2 secondes, vous devez être à proximité immédiate (moins de 10 mètres). Après 10 arrêts, la caisse s'approche de la plate-forme d'arrivée, pous vous y ammener.
-A chaque arrêt, la caisse vérifie que vous êtes bien là. Si ce n'est pas le cas, le compteur est remis à zéro. Vous devez donc réussir 10 fois consécutives¦!
+Vous devez programmer le \l;robot\u object\bottr; d'entraÃ®nement pour suivre la caisse d'explosifs, mais sans la toucher, car elle est trÃ¨s fragile. Chaque fois que la caisse s'arrÃªte 2 secondes, vous devez Ãªtre Ã  proximitÃ© immÃ©diate (moins de 10 mÃ¨tres). AprÃ¨s 10 arrÃªts, la caisse s'approche de la plate-forme d'arrivÃ©e, pous vous y ammener.
+A chaque arrÃªt, la caisse vÃ©rifie que vous Ãªtes bien lÃ . Si ce n'est pas le cas, le compteur est remis Ã  zÃ©ro. Vous devez donc rÃ©ussir 10 fois consÃ©cutivesÂ¦!
 
 \b;Principe
-\s;o  Répéter à l'infini¦:
+\s;o  RÃ©pÃ©ter Ã  l'infiniÂ¦:
 \s;	o  Chercher la caisse.
-\s;	o  Calculer la distance jusqu'à la caisse.
-\s;	o  Si cette distance est plus petite que 5 mètres, reculer.
+\s;	o  Calculer la distance jusqu'Ã  la caisse.
+\s;	o  Si cette distance est plus petite que 5 mÃ¨tres, reculer.
 \s;	o  Sinon, calculer la direction de la caisse et s'y diriger.
 
 La boucle infinie s'effectue avec un traditionnel \c;\l;while\u cbot\while;( true )\n;.
 \s;\c;while ( true )
 \s;{
-\s;	\n;instructions à répéter ...\c;
+\s;	\n;instructions Ã  rÃ©pÃ©ter ...\c;
 \s;}
 \n;
-La recherche de la caisse se fait dans toutes les directions, avec \c;\l;radar\u cbot\radar;\n; ¦:
+La recherche de la caisse se fait dans toutes les directions, avec \c;\l;radar\u cbot\radar;\n; Â¦:
 \s;\c;	target = radar(TargetBot);
 \n;
-Normalement, la caisse est toujours trouvée. Vous pouvez éventuellement ajouter un test \c;\l;if\u cbot\if;\n; pour stopper le \l;robot\u object\bottr; et quitter le programme si la caisse n'est plus là, mais cela devrait être inutile¦:
+Normalement, la caisse est toujours trouvÃ©e. Vous pouvez Ã©ventuellement ajouter un test \c;\l;if\u cbot\if;\n; pour stopper le \l;robot\u object\bottr; et quitter le programme si la caisse n'est plus lÃ , mais cela devrait Ãªtre inutileÂ¦:
 \s;\c;if ( target == null )
 \s;{
 \s;	motor(0, 0);  // stoppe
-\s;	break;  // plus rien à faire
+\s;	break;  // plus rien Ã  faire
 \s;}
 \n;
-Le calcul de la distance jusqu'à la caisse utilise l'instruction \c;\l;distance\u cbot\dist;(p1, p2)\n;. Cette instruction retourne la distance entre deux points \c;p1\n; et \c;p2\n;. Le premier point sera ici la position du \l;robot\u object\bottr;, obtenue simplement avec \c;pos\n;. La position de la caisse est obtenue à travers la description de l'objet \c;target\n; avec l'expression \c;target.position\n;.
+Le calcul de la distance jusqu'Ã  la caisse utilise l'instruction \c;\l;distance\u cbot\dist;(p1, p2)\n;. Cette instruction retourne la distance entre deux points \c;p1\n; et \c;p2\n;. Le premier point sera ici la position du \l;robot\u object\bottr;, obtenue simplement avec \c;pos\n;. La position de la caisse est obtenue Ã  travers la description de l'objet \c;target\n; avec l'expression \c;target.position\n;.
 \s;\c;len = distance(pos, target.position);
 \n;
-Si la distance est inférieure à 5 mètres, il faut reculer d'une vitesse proportionnelle à la distance. Plus la distance est petite, plus il faut reculer vivement.
-	Distance = 5.0 mètres -> vitesse =  0.0
-	Distance = 2.5 mètres -> vitesse = -0.5
-	Distance = 0.0 mètres -> vitesse = -1.0
-Ceci s'obtient très simplement avec l'\l;expression\u cbot\expr; \c;distance/5-1\n;. Donc, avec un \c;\l;if\u cbot\if;\n;¦:
-\s;\c;if ( len < 5 )  // trop proche¦?
+Si la distance est infÃ©rieure Ã  5 mÃ¨tres, il faut reculer d'une vitesse proportionnelle Ã  la distance. Plus la distance est petite, plus il faut reculer vivement.
+	Distance = 5.0 mÃ¨tres -> vitesse =  0.0
+	Distance = 2.5 mÃ¨tres -> vitesse = -0.5
+	Distance = 0.0 mÃ¨tres -> vitesse = -1.0
+Ceci s'obtient trÃ¨s simplement avec l'\l;expression\u cbot\expr; \c;distance/5-1\n;. Donc, avec un \c;\l;if\u cbot\if;\n;Â¦:
+\s;\c;if ( len < 5 )  // trop procheÂ¦?
 \s;{
 \s;	motor(len/5-1, len/5-1);  // recule
 \s;}
 \n;
-Si la distance dépasse 5 mètres, on avance en direction de la caisse en calculant l'angle avec \c;\l;direction\u cbot\direct;\n;.
+Si la distance dÃ©passe 5 mÃ¨tres, on avance en direction de la caisse en calculant l'angle avec \c;\l;direction\u cbot\direct;\n;.
 \s;\c;else
 \s;{
 \s;	dir = direction(target.position);
-\s;	if ( dir < 0 )  // à droite¦?
+\s;	if ( dir < 0 )  // Ã  droiteÂ¦?
 \s;	{
 \s;		motor(1, 1+dir/90);
 \s;	}
-\s;	else  // à gauche¦?
+\s;	else  // Ã  gaucheÂ¦?
 \s;	{
-\s;		\n;à vous de trouver ...\c;
+\s;		\n;Ã  vous de trouver ...\c;
 \s;	}
 \s;}
 \n;
-Lorsque la caisse est à gauche, \c;dir\n; est positif, compris entre 0 et 180 degrés. L'\l;expression\u cbot\expr; \c;1-dir/90\n; donne une vitesse comprise entre 1 et -1, selon la direction.
+Lorsque la caisse est Ã  gauche, \c;dir\n; est positif, compris entre 0 et 180 degrÃ©s. L'\l;expression\u cbot\expr; \c;1-dir/90\n; donne une vitesse comprise entre 1 et -1, selon la direction.
 	direction =   0 -> vitesse =  1.0
 	direction =  45 -> vitesse =  0.5
 	direction =  90 -> vitesse =  0.0
@@ -60,13 +60,13 @@ Lorsque la caisse est à gauche, \c;dir\n; est positif, compris entre 0 et 180 de
 	direction = 180 -> vitesse = -1.0
 
 \image radar2 14 10;
-Lorsque la caisse est à droite, \c;dir\n; est négatif, compris entre 0 et -180 degrés.
+Lorsque la caisse est Ã  droite, \c;dir\n; est nÃ©gatif, compris entre 0 et -180 degrÃ©s.
 
-\b;À vous de jouer
-Pour que ce programme fonctionne, il faut encore déclarer toutes les \l;variables\u cbot\var; utilisées.
+\b;Ã€ vous de jouer
+Pour que ce programme fonctionne, il faut encore dÃ©clarer toutes les \l;variables\u cbot\var; utilisÃ©es.
 \c;target\n; est de type \c;object\n;, alors que \c;dir\n; et \c;len\n; sont de type \c;float\n;.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tchasse; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tchasse; et \l;programmation\u cbot;.

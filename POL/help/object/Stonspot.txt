@@ -1,14 +1,14 @@
-\b;Podziemne z³o¿e tytanu
+\b;Podziemne zÂ³oÂ¿e tytanu
 \image stonspot 4 4;
-Czerwony plus oznacza wystêpowanie w podglebiu pok³adów \l;rudy tytanu\u object\titanore;. Mo¿na j¹ wydobyæ u¿ywaj¹c \l;kopalni\u object\derrick;.
+Czerwony plus oznacza wystÃªpowanie w podglebiu pokÂ³adÃ³w \l;rudy tytanu\u object\titanore;. MoÂ¿na jÂ¹ wydobyÃ¦ uÂ¿ywajÂ¹c \l;kopalni\u object\derrick;.
 
-Robot \l;szperacz\u object\botsr; zostawia czerwony plus w miejscu odkrycia z³o¿a. \l;Robot szperacz\u object\botsr; mo¿e równie¿ wykrywaæ obecnoœæ \l;rudy uranu\u object\uranore; oznaczonej \l;¿ó³tym kó³kiem\u object\uranspot; oraz energii oznaczonej \l;zielonym plusem\u object\enerspot;.
+Robot \l;szperacz\u object\botsr; zostawia czerwony plus w miejscu odkrycia zÂ³oÂ¿a. \l;Robot szperacz\u object\botsr; moÂ¿e rÃ³wnieÂ¿ wykrywaÃ¦ obecnoÂœÃ¦ \l;rudy uranu\u object\uranore; oznaczonej \l;Â¿Ã³Â³tym kÃ³Â³kiem\u object\uranspot; oraz energii oznaczonej \l;zielonym plusem\u object\enerspot;.
 
 \t;Transport
-Niemo¿liwy.
+NiemoÂ¿liwy.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;TitaniumSite\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

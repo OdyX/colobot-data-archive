@@ -1,11 +1,11 @@
 \b;Z Centrum Kontroli Misji
-Odzyskaj czarn¹ skrzynkê.
+Odzyskaj czarnÂ¹ skrzynkÃª.
 
-Pioruny uderzaj¹ jeszcze czêœciej ni¿ poprzednio. Musisz zabezpieczyæ swoje wyposa¿enie.
+Pioruny uderzajÂ¹ jeszcze czÃªÂœciej niÂ¿ poprzednio. Musisz zabezpieczyÃ¦ swoje wyposaÂ¿enie.
 
-Warto zauwa¿yæ, ¿e statek kosmiczny równie¿ jest naturalnym odgromnikiem, a nasi in¿ynierowie zapewniaj¹, ¿e Twój skafander kosmiczny nie przyci¹ga piorunów.
+Warto zauwaÂ¿yÃ¦, Â¿e statek kosmiczny rÃ³wnieÂ¿ jest naturalnym odgromnikiem, a nasi inÂ¿ynierowie zapewniajÂ¹, Â¿e TwÃ³j skafander kosmiczny nie przyciÂ¹ga piorunÃ³w.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

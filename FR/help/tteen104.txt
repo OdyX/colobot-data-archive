@@ -1,29 +1,29 @@
-\b;Une troisième croix
+\b;Une troisiÃ¨me croix
 Ca n'en finira donc jamais ?
-Le robot est de nouveau posé au départ, comme avant, mais une troisième croix bleue a été ajoutée par terre, encore plus loin. Il faut compléter le programme pour la trouver.
+Le robot est de nouveau posÃ© au dÃ©part, comme avant, mais une troisiÃ¨me croix bleue a Ã©tÃ© ajoutÃ©e par terre, encore plus loin. Il faut complÃ©ter le programme pour la trouver.
 
 \image teen104 8 8;
-\b;Tourner à droite
-Jusqu'à présent, le robot n'a viré qu'à gauche. En regardant le plan ci-dessus, tu remarques qu'il faudra virer à droite. Comment faire¦?
+\b;Tourner Ã  droite
+Jusqu'Ã  prÃ©sent, le robot n'a virÃ© qu'Ã  gauche. En regardant le plan ci-dessus, tu remarques qu'il faudra virer Ã  droite. Comment faireÂ¦?
 
-En fait, l'instruction \c;turn()\n; s'utilise pour tourner dans tous les sens, selon la valeur de l'angle. Une valeur négative (avec un \c;-\n; devant le nombre) signifie un virage à droite. Par exemple, pour tourner d'un quart de tour à droite¦:
+En fait, l'instruction \c;turn()\n; s'utilise pour tourner dans tous les sens, selon la valeur de l'angle. Une valeur nÃ©gative (avec un \c;-\n; devant le nombre) signifie un virage Ã  droite. Par exemple, pour tourner d'un quart de tour Ã  droiteÂ¦:
 \c;
 \s;turn(-90);
 \n;
-\b;Résumé
-Donc, pour bien comprendre, voici quelques exemples de rotations¦:
+\b;RÃ©sumÃ©
+Donc, pour bien comprendre, voici quelques exemples de rotationsÂ¦:
 \c;
-\s;turn(45);   \n;tourne à gauche d'un huitième de tour\c;
-\s;turn(90);   \n;tourne à gauche d'un quart de tour\c;
-\s;turn(-45);  \n;tourne à droite d'un huitième de tour\c;
-\s;turn(-90);  \n;tourne à droite d'un quart de tour\c;
+\s;turn(45);   \n;tourne Ã  gauche d'un huitiÃ¨me de tour\c;
+\s;turn(90);   \n;tourne Ã  gauche d'un quart de tour\c;
+\s;turn(-45);  \n;tourne Ã  droite d'un huitiÃ¨me de tour\c;
+\s;turn(-90);  \n;tourne Ã  droite d'un quart de tour\c;
 \n;
 \b;A toi de jouer
-Complète simplement le programme comme cela¦:
-\s;Tourne à droite de 90 degrés
-\s;Avance de 100 centimètres
+ComplÃ¨te simplement le programme comme celaÂ¦:
+\s;Tourne Ã  droite de 90 degrÃ©s
+\s;Avance de 100 centimÃ¨tres
 
-\b;Un problème ?
-En cas d'erreur, tu peux remettre le robot à la position initiale avec le bouton \button 9;.
+\b;Un problÃ¨me ?
+En cas d'erreur, tu peux remettre le robot Ã  la position initiale avec le bouton \button 9;.
 
-La touche \key;\key help;\norm; ou l'icône \button 185; permettent de revoir ces instructions en tout temps¦!
+La touche \key;\key help;\norm; ou l'icÃ´ne \button 185; permettent de revoir ces instructions en tout tempsÂ¦!

@@ -1,9 +1,9 @@
 \b;Dessiner un "\c;L\n;"
-Dessine maintenant un "\c;L\n;" bleu constitué de 2 traits de 20 centimètres.
+Dessine maintenant un "\c;L\n;" bleu constituÃ© de 2 traits de 20 centimÃ¨tres.
 
 \image teen203 8 8;
 \b;Rappel
-Rappelle-toi que pour tourner d'un quart de tour à gauche, il faut écrire l'instruction \c;turn(90);\n;¦!
+Rappelle-toi que pour tourner d'un quart de tour Ã  gauche, il faut Ã©crire l'instruction \c;turn(90);\n;Â¦!
 
 \b;Un peu d'anglais
 \c;pen  = \n;plume

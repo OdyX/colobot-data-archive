@@ -1,7 +1,7 @@
-\b;Instrukcja \c;synchronized\n; (dla specjalistów)
-Metoda \l;klasy\u cbot\class; mo¿e byæ zadeklarowana jako \c;synchronized\n;. Dziêki temu mo¿na zapewniæ, ¿e metoda bêdzie uruchamiana nie wiêcej ni¿ przez jednego robota w tym samym czasie.
+\b;Instrukcja \c;synchronized\n; (dla specjalistÃ³w)
+Metoda \l;klasy\u cbot\class; moÂ¿e byÃ¦ zadeklarowana jako \c;synchronized\n;. DziÃªki temu moÂ¿na zapewniÃ¦, Â¿e metoda bÃªdzie uruchamiana nie wiÃªcej niÂ¿ przez jednego robota w tym samym czasie.
 
-Nastêpuj¹cy przyk³ad pomo¿e zilustrowaæ problem:
+NastÃªpujÂ¹cy przykÂ³ad pomoÂ¿e zilustrowaÃ¦ problem:
 \c;
 \s;class blokowanie
 \s;{
@@ -15,11 +15,11 @@ Nastêpuj¹cy przyk³ad pomo¿e zilustrowaæ problem:
 \s;	}
 \s;}
 \n;
-Co siê dzieje, gdy dwa roboty wykonaj¹ metodê \c;inc\n; w tym samym czasie¦?
-Oba wykonaj¹ polecenie \c;val=nb\n; i poczekaj¹ 2 sekundy, a wiêc oba otrzymaj¹ \c;val=33\n;. Gdy u¿yjemy instrukcji \c;synchronized\n; pierwszy robot rozpocznie wykonywanie z \c;val=33\n; poczeka 2 sekundy i wyjdzie z metody. Dopiero po zakoñczeniu wykonywania metody \c;inc\n; przez pierwszego robota, drugi robot bêdzie mia³ mo¿liwoœæ wykonania metody \c;inc\n;, wobec czego otrzyma on zawsze \c;val=34\n;.
+Co siÃª dzieje, gdy dwa roboty wykonajÂ¹ metodÃª \c;inc\n; w tym samym czasieÂ¦?
+Oba wykonajÂ¹ polecenie \c;val=nb\n; i poczekajÂ¹ 2 sekundy, a wiÃªc oba otrzymajÂ¹ \c;val=33\n;. Gdy uÂ¿yjemy instrukcji \c;synchronized\n; pierwszy robot rozpocznie wykonywanie z \c;val=33\n; poczeka 2 sekundy i wyjdzie z metody. Dopiero po zakoÃ±czeniu wykonywania metody \c;inc\n; przez pierwszego robota, drugi robot bÃªdzie miaÂ³ moÂ¿liwoÂœÃ¦ wykonania metody \c;inc\n;, wobec czego otrzyma on zawsze \c;val=34\n;.
 
-Mo¿na mieæ wiêcej ni¿ jedn¹ zsynchronizowan¹ metodê w \l;klasie\u cbot\class; w celu zapobie¿enia równoczesnemu wykonywaniu wiêcej ni¿ jednej metody. Innymi s³owy: tak d³ugo, jak d³ugo robot jest wewn¹trz zsynchronizowanej metody, ¿aden inny robot nie mo¿e wykonywaæ ¿adnej zsynchronizowanej metody tej samej klasy.
+MoÂ¿na mieÃ¦ wiÃªcej niÂ¿ jednÂ¹ zsynchronizowanÂ¹ metodÃª w \l;klasie\u cbot\class; w celu zapobieÂ¿enia rÃ³wnoczesnemu wykonywaniu wiÃªcej niÂ¿ jednej metody. Innymi sÂ³owy: tak dÂ³ugo, jak dÂ³ugo robot jest wewnÂ¹trz zsynchronizowanej metody, Â¿aden inny robot nie moÂ¿e wykonywaÃ¦ Â¿adnej zsynchronizowanej metody tej samej klasy.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;klasa\u cbot\class;\n;, \c;\l;static\u cbot\static;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

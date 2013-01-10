@@ -1,26 +1,26 @@
-\b;\button 165; Tour de dÈfense
+\b;\button 165; Tour de d√©fense
 \image tower 8 8;
-Ce b‚timent procure une excellente dÈfense contre les attaques \l;ennemies\u object\mother; terrestres ou aÈriennes. Il faut mettre une \l;pile normale\u object\power; ou \l;atomique\u object\atomic; sur la tour. Attention: la consommation d'Ènergie est importante. Une pile normale permet 8 tirs. Lorsque la tour n'a pas ou plus d'Ènergie, elle clignote.
+Ce b√¢timent procure une excellente d√©fense contre les attaques \l;ennemies\u object\mother; terrestres ou a√©riennes. Il faut mettre une \l;pile normale\u object\power; ou \l;atomique\u object\atomic; sur la tour. Attention: la consommation d'√©nergie est importante. Une pile normale permet 8 tirs. Lorsque la tour n'a pas ou plus d'√©nergie, elle clignote.
 
-Le rayon d'action d'une tour de dÈfense est de 40 mËtres. Pour visualiser la zone dÈfendue, utilisez le bouton <rayon d'action> \button 41;. Des points rouges bordent la zone circulaire pendant 20 secondes.
+Le rayon d'action d'une tour de d√©fense est de 40 m√®tres. Pour visualiser la zone d√©fendue, utilisez le bouton <rayon d'action> \button 41;. Des points rouges bordent la zone circulaire pendant 20 secondes.
 
 \t;Emplacement requis
-Surface plate quelconque de 3.5 mËtres de diamËtre.
+Surface plate quelconque de 3.5 m√®tres de diam√®tre.
 
-\t;EntrÈe
+\t;Entr√©e
 Aucune.
 
 \t;Sortie
 Aucune.
 
-\t;Energie consommÈe
+\t;Energie consomm√©e
 Pile normale ou atomique.
 
-\t;DurÈe de l'opÈration
+\t;Dur√©e de l'op√©ration
 Une seconde.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;DefenseTower\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

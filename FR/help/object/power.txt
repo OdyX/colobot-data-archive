@@ -1,18 +1,18 @@
 \b;Pile normale
 \image power 4 4;
-La pile fournit l'Ènergie aux robots, ainsi qu'‡ certains b‚timents. Une pile entiËrement rouge est vide. L'Ènergie contenue est reprÈsentÈe par une zone verte plus ou moins grande.
+La pile fournit l'√©nergie aux robots, ainsi qu'√† certains b√¢timents. Une pile enti√®rement rouge est vide. L'√©nergie contenue est repr√©sent√©e par une zone verte plus ou moins grande.
 
 Vous pouvez recharger une pile en vous approchant d'une \l;station de recharge\u object\station;.
 
 Pour fabriquer une pile, il faut une \l;fabrique de piles\u object\energy; et un \l;cube de titanium\u object\titan;.
 
-La \l;pile atomique\u object\atomic; fabriquÈe ‡ partir de \l;minerai d'uranium\u object\uranore; a une capacitÈ 10 fois plus grande que la pile normale.
+La \l;pile atomique\u object\atomic; fabriqu√©e √† partir de \l;minerai d'uranium\u object\uranore; a une capacit√© 10 fois plus grande que la pile normale.
 
 \t;Transport
-Tous les \l;robots dÈmÈnageurs\u object\botgr; ou le \l;cosmomaute\u object\human;.
+Tous les \l;robots d√©m√©nageurs\u object\botgr; ou le \l;cosmomaute\u object\human;.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;PowerCell\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

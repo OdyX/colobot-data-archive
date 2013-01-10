@@ -5,18 +5,18 @@ Obecnie na orbicie geostacjonarnej Nowej Ziemi.
 \tab;Temperatura:      24,8C
 \tab;Atmosfera:        tlen
 \tab;Wiatr:            0,7 m/s
-\tab;Ruda tytanu:      pod wod¹
+\tab;Ruda tytanu:      pod wodÂ¹
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   w niektórych miejscach
+\tab;ÂrÃ³dÂ³o energii:   w niektÃ³rych miejscach
 \tab;Ruda tytanu:      brak
-\tab;Ruda uranu:       trochê
+\tab;Ruda uranu:       trochÃª
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Wykryto:          olbrzymie mrówki
-\tab;  - Zagro¿enie:   bezpoœrednie
+\tab;Wykryto:          olbrzymie mrÃ³wki
+\tab;  - ZagroÂ¿enie:   bezpoÂœrednie
 \tab;Wykryto:          olbrzymie osy
-\tab;  - Zagro¿enie:   niebezpoœrednie
-\tab;Wykryto:          u¿yteczne pozosta³oœci
+\tab;  - ZagroÂ¿enie:   niebezpoÂœrednie
+\tab;Wykryto:          uÂ¿yteczne pozostaÂ³oÂœci
 \n;

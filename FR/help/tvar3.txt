@@ -1,22 +1,22 @@
 \b;Exercice
-Dans cet exercice, nous allons dessiner trois carrés roses comme ceci¦:
+Dans cet exercice, nous allons dessiner trois carrÃ©s roses comme ceciÂ¦:
 
 \image tvar3 8 8;
-Le premier carré a un côté de 10 mètres, le deuxième 15 mètres et le dernier 20 mètres.
+Le premier carrÃ© a un cÃ´tÃ© de 10 mÃ¨tres, le deuxiÃ¨me 15 mÃ¨tres et le dernier 20 mÃ¨tres.
 
 \b;Ebauche
-Le programme contient 2 boucles \c;\l;repeat\u cbot\repeat;()\n; impriquées. Le premier \c;repeat(3)\n; s'occupe de dessiner les 3 carrés. Le deuxième \c;repeat(4)\n; est impriqué à l'intérieur du premier. Il s'occupe de dessiner les 4 côtés du carré. Les 2 instructions \c;\l;move\u cbot\move;()\n; et \c;\l;turn\u cbot\turn;()\n; dans cette boucle seront donc exécutées \c;3*4=12\n; fois chacune¦:
+Le programme contient 2 boucles \c;\l;repeat\u cbot\repeat;()\n; impriquÃ©es. Le premier \c;repeat(3)\n; s'occupe de dessiner les 3 carrÃ©s. Le deuxiÃ¨me \c;repeat(4)\n; est impriquÃ© Ã  l'intÃ©rieur du premier. Il s'occupe de dessiner les 4 cÃ´tÃ©s du carrÃ©. Les 2 instructions \c;\l;move\u cbot\move;()\n; et \c;\l;turn\u cbot\turn;()\n; dans cette boucle seront donc exÃ©cutÃ©es \c;3*4=12\n; fois chacuneÂ¦:
 \c;
 \s;extern void object::Solution( )
 \s;{
 \s;	pendown(Pink);
-\s;	int côté;
-\s;	côté = 10;
+\s;	int cÃ´tÃ©;
+\s;	cÃ´tÃ© = 10;
 \s;	repeat ( 3 )
 \s;	{
 \s;		repeat ( 4 )
 \s;		{
-\s;			move(côté);
+\s;			move(cÃ´tÃ©);
 \s;			turn(90);
 \s;		}
 \s;	}
@@ -25,19 +25,19 @@ Le programme contient 2 boucles \c;\l;repeat\u cbot\repeat;()\n; impriquées. Le 
 Notez l'alignement des accolades \c;{\n; et \c;}\n; de chaque \c;repeat\n;.
 
 \b;Finitions
-Le programme donné ci-dessus fonctionne, mais il ne réalise pas le travail souhaité. Il dessine simplement 3 carrés de 10 mètres de côté, les uns sur les autres.
+Le programme donnÃ© ci-dessus fonctionne, mais il ne rÃ©alise pas le travail souhaitÃ©. Il dessine simplement 3 carrÃ©s de 10 mÃ¨tres de cÃ´tÃ©, les uns sur les autres.
 
-Au début du programme, la \l;variable\u cbot\var; \c;côté\n; est créée puis initialisée avec la valeur 10¦:
-\s;\c;	int côté;
-\s;	côté = 10;
+Au dÃ©but du programme, la \l;variable\u cbot\var; \c;cÃ´tÃ©\n; est crÃ©Ã©e puis initialisÃ©e avec la valeur 10Â¦:
+\s;\c;	int cÃ´tÃ©;
+\s;	cÃ´tÃ© = 10;
 \n;
-Pour que le programme dessine successivement 3 carrés ayant 10, 15 et 20 mètres de côté, il faudra ajouter quelque part l'instruction¦:
+Pour que le programme dessine successivement 3 carrÃ©s ayant 10, 15 et 20 mÃ¨tres de cÃ´tÃ©, il faudra ajouter quelque part l'instructionÂ¦:
 \c;
-\s;	côté = côté+5;
+\s;	cÃ´tÃ© = cÃ´tÃ©+5;
 \n;
-A vous de trouver où !
+A vous de trouver oÃ¹ !
 
-\key;\key help;\norm; permet de revoir les instructions générales en tout temps. De même, \key;\key prog;\norm; accède aux explications du langage de programmation CBOT.
+\key;\key help;\norm; permet de revoir les instructions gÃ©nÃ©rales en tout temps. De mÃªme, \key;\key prog;\norm; accÃ¨de aux explications du langage de programmation CBOT.
 
 \t;Voir aussi
-\l;Exercice précédent\u tvar2; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tvar2; et \l;programmation\u cbot;.

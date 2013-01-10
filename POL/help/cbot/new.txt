@@ -1,21 +1,21 @@
-\b;Instrukcja \c;new\n; (dla specjalistów)
-Operator \c;new\n; tworzy now¹ instancjê \l;klasy\u cbot\class;:
-\c;\s;	MojaKlasa element;         // jest teraz wskaŸnikiem null
-\s;	element = new MojaKlasa(); // jest teraz wskaŸnikiem
+\b;Instrukcja \c;new\n; (dla specjalistÃ³w)
+Operator \c;new\n; tworzy nowÂ¹ instancjÃª \l;klasy\u cbot\class;:
+\c;\s;	MojaKlasa element;         // jest teraz wskaÂŸnikiem null
+\s;	element = new MojaKlasa(); // jest teraz wskaÂŸnikiem
 \s;	                           // do nowej instancji klasy
 \n;
-W przypadku tworzenia nowej instancji podczas deklaracji, mo¿na omin¹æ operator \c;new\n;, dodaj¹c () na koñcu deklaracji:
+W przypadku tworzenia nowej instancji podczas deklaracji, moÂ¿na ominÂ¹Ã¦ operator \c;new\n;, dodajÂ¹c () na koÃ±cu deklaracji:
 
 Zamiast:
 \c;\s;	MojaKlasa element = new MojaKlasa();
-\n;mo¿na napisaæ:
+\n;moÂ¿na napisaÃ¦:
 \c;\s;	MojaKlasa element();
 \n;
-Jeœli klasa ma konstruktor z parametrami, mo¿na napisaæ:
+JeÂœli klasa ma konstruktor z parametrami, moÂ¿na napisaÃ¦:
 \c;\s;	MojaKlasa element = new MojaKlasa(2, 3);
 \n;lub:
 \c;\s;	MojaKlasa element(2, 3);
 \n;
-\t;Zobacz równie¿
-\c;\l;klasa\u cbot\class;\n;, \c;\l;wskaŸnik\u cbot\pointer;\n;
+\t;Zobacz rÃ³wnieÂ¿
+\c;\l;klasa\u cbot\class;\n;, \c;\l;wskaÂŸnik\u cbot\pointer;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

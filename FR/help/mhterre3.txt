@@ -1,25 +1,25 @@
 \b;Objectif
-Votre \l;vaisseau spatial\u object\base; est arrivé sur l'aire de lancement. Votre dernière mission d'entraînement consiste à l'équiper de sa \l;boîte noire\u object\bbox;.
+Votre \l;vaisseau spatial\u object\base; est arrivÃ© sur l'aire de lancement. Votre derniÃ¨re mission d'entraÃ®nement consiste Ã  l'Ã©quiper de sa \l;boÃ®te noire\u object\bbox;.
 
-Celle-ci se trouve sur une montagne proche. Le seul moyen d'accès est une route à forte déclivité, qui ne peut être pratiquée qu'avec un robot équipé de chenilles que vous devez construire.
+Celle-ci se trouve sur une montagne proche. Le seul moyen d'accÃ¨s est une route Ã  forte dÃ©clivitÃ©, qui ne peut Ãªtre pratiquÃ©e qu'avec un robot Ã©quipÃ© de chenilles que vous devez construire.
 
-Votre \l;fabrique de robots\u object\factory; n'a pas les informations nécessaires pour produire ce type de robot. Activez votre \l;centre de recherches\u object\research;, doté d'une énorme puissance de calcul, afin qu'il fournisse les plans de ce nouveau mode de propulsion.
+Votre \l;fabrique de robots\u object\factory; n'a pas les informations nÃ©cessaires pour produire ce type de robot. Activez votre \l;centre de recherches\u object\research;, dotÃ© d'une Ã©norme puissance de calcul, afin qu'il fournisse les plans de ce nouveau mode de propulsion.
 
-\b;Marche à suivre
+\b;Marche Ã  suivre
 1) Amenez une \l;pile\u object\power; sur le \l;centre de recherches\u object\research;.
-2) Sélectionnez le centre de recherches et cliquez sur le bouton <Recherche les chenilles> \button 64;.
-3) Déposez un bloc de \l;titanium\u object\titan; dans la \l;fabrique de robots\u object\factory;.
-4) Reculez, puis sélectionnez la fabrique.
-5) Cliquez sur le bouton <Fabrique un déménageur à chenilles> \button 138;.
-6) Equipez le \l;robot déménageur\u object\botgc; d'une \l;pile\u object\power;.
-7) Prenez les commandes du \l;robot déménageur à chenilles\u object\botgc;, et faites-lui gravir la montagne située au sud-ouest pour chercher la \l;boîte noire\u object\bbox;.
-8) Amenez cette boîte noire sur votre \l;vaisseau spatial\u object\base;.
-9) Prenez avec vous le \l;robot déménageur à roues\u object\botgr;, qui sera très utile par la suite.
+2) SÃ©lectionnez le centre de recherches et cliquez sur le bouton <Recherche les chenilles> \button 64;.
+3) DÃ©posez un bloc de \l;titanium\u object\titan; dans la \l;fabrique de robots\u object\factory;.
+4) Reculez, puis sÃ©lectionnez la fabrique.
+5) Cliquez sur le bouton <Fabrique un dÃ©mÃ©nageur Ã  chenilles> \button 138;.
+6) Equipez le \l;robot dÃ©mÃ©nageur\u object\botgc; d'une \l;pile\u object\power;.
+7) Prenez les commandes du \l;robot dÃ©mÃ©nageur Ã  chenilles\u object\botgc;, et faites-lui gravir la montagne situÃ©e au sud-ouest pour chercher la \l;boÃ®te noire\u object\bbox;.
+8) Amenez cette boÃ®te noire sur votre \l;vaisseau spatial\u object\base;.
+9) Prenez avec vous le \l;robot dÃ©mÃ©nageur Ã  roues\u object\botgr;, qui sera trÃ¨s utile par la suite.
 10) Prenez place sur le vaisseau spatial.
-11) Sélectionnez le \l;vaisseau spatial\u object\base;
-12) Décollez \button 28;.
+11) SÃ©lectionnez le \l;vaisseau spatial\u object\base;
+12) DÃ©collez \button 28;.
 
-Remarque: Pour travailler plus efficacement, vous pouvez utiliser le \l;robot déménageur\u object\botgr;.
+Remarque: Pour travailler plus efficacement, vous pouvez utiliser le \l;robot dÃ©mÃ©nageur\u object\botgr;.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

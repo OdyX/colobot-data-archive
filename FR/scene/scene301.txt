@@ -1,5 +1,5 @@
-Title.F      text="Le piège"
-Resume.F     text="Explorez un paradis tropical à la recherche d'une caisse d'explosifs."
+Title.F      text="Le piÃ¨ge"
+Resume.F     text="Explorez un paradis tropical Ã  la recherche d'une caisse d'explosifs."
 Title.E      text="The Trap"
 Resume.E     text="Explore a tropical paradise looking for an explosive device."
 Instructions name="mhtropi1.txt"
@@ -80,7 +80,7 @@ GroundSpot pos= -30;  90 radius=30 color=100;255;100
 GroundSpot pos=   0; -15 radius=90 color=255;180;000  // grand lac
 GroundSpot pos=  85; -60 radius=30 color=225;180;110
 GroundSpot pos= 110;  60 radius=30 color=100;255;100
-GroundSpot pos= 160; 170 radius=70 color=220;140;080  // arrivée
+GroundSpot pos= 160; 170 radius=70 color=220;140;080  // arrivÃ©e
 
 MaxFlyingHeight max=42.5
 

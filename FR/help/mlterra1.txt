@@ -1,24 +1,24 @@
-\b;Programmes envoyés par Houston
-Voilà deux programmes développés par nos ingénieurs, en fonction des données récoltées par le satellite. Le premier amène le \l;robot bouclier\u object\botshld; à travers le passage étroit vers le nord. Vous pourrez ainsi le suivre en étant à l'abri de toute attaque¦:
+\b;Programmes envoyÃ©s par Houston
+VoilÃ  deux programmes dÃ©veloppÃ©s par nos ingÃ©nieurs, en fonction des donnÃ©es rÃ©coltÃ©es par le satellite. Le premier amÃ¨ne le \l;robot bouclier\u object\botshld; Ã  travers le passage Ã©troit vers le nord. Vous pourrez ainsi le suivre en Ã©tant Ã  l'abri de toute attaqueÂ¦:
 \c;
 \s;extern void object::Aller()
 \s;{
 \s;	shield(1,15);   // active le bouclier
-\s;	goto(6,160);    // va à la position indiquée
-\s;	shield(0,15);   // désactive le bouclier
+\s;	goto(6,160);    // va Ã  la position indiquÃ©e
+\s;	shield(0,15);   // dÃ©sactive le bouclier
 \s;}
 \n;
-Le deuxième programme redescend le \l;robot bouclier\u object\botshld; en direction du \l;vaisseau\u object\base;¦:
+Le deuxiÃ¨me programme redescend le \l;robot bouclier\u object\botshld; en direction du \l;vaisseau\u object\base;Â¦:
 \c;
 \s;extern void object::Retour()
 \s;{
 \s;	shield(1,15);   // active le bouclier
-\s;	goto(8,60);     // va à la position indiquée
-\s;	shield(0,15);   // désactive le bouclier
+\s;	goto(8,60);     // va Ã  la position indiquÃ©e
+\s;	shield(0,15);   // dÃ©sactive le bouclier
 \s;}
 \n;
 \b;Archives
-Résumé des programmes déjà reçus¦:
+RÃ©sumÃ© des programmes dÃ©jÃ  reÃ§usÂ¦:
 
 o  \c;\l;ServiceTour1\u mlvolca2;\n;
 o  \c;\l;ApporteTitanium3\u mlvolca1;\n;

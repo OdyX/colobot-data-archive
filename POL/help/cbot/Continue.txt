@@ -1,13 +1,13 @@
 \b;Instrukcja \c;continue\n;
-Sk³adnia:
+SkÂ³adnia:
 \s;\c;while ( warunek )
 \s;{
 \s;	continue;
 \s;}
 \n;
-Przy u¿yciu tej instrukcji, mo¿na przeskoczyæ resztê instrukcji w \c;\l;bloku\u cbot\bloc;\n; pêtli \c;\l;while\u cbot\while;\n; lub \c;\l;for\u cbot\for;\n;: Dzia³anie zostanie wznowione na pocz¹tku bloku przy nastêpnym powtórzeniu pêtli.
+Przy uÂ¿yciu tej instrukcji, moÂ¿na przeskoczyÃ¦ resztÃª instrukcji w \c;\l;bloku\u cbot\bloc;\n; pÃªtli \c;\l;while\u cbot\while;\n; lub \c;\l;for\u cbot\for;\n;: DziaÂ³anie zostanie wznowione na poczÂ¹tku bloku przy nastÃªpnym powtÃ³rzeniu pÃªtli.
  
-Oto przyk³ad:
+Oto przykÂ³ad:
 \s;\c;int i = 0;
 \s;while ( i < 5 )
 \s;{
@@ -19,7 +19,7 @@ Oto przyk³ad:
 \s;	\n;Instrukcje ...\c;
 \s;}
 \n;
-Instrukcje bêd¹ wykonane tylko dla wartoœci \c;i\n; 1, 2, 4 i 5.
+Instrukcje bÃªdÂ¹ wykonane tylko dla wartoÂœci \c;i\n; 1, 2, 4 i 5.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

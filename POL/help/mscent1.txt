@@ -1,20 +1,20 @@
-\b;Rozwi¹zanie
-W ma³ej dolinie na pó³nocnym wschodzie znajdziesz kilka przydatnych przedmiotów:
-o  \l;Recykler\u object\botrecy; umo¿liwiaj¹cy wytworzenie pierwszej \l;kostki tytanu\u object\titan;.
-o  \l;Transporter na nogach\u object\botgs;, bardzo przydatny we wspinaniu siê po stromych zboczach.
-o  Prawie pe³ne \l;atomowe ogniwo elektryczne\u object\atomic;.
+\b;RozwiÂ¹zanie
+W maÂ³ej dolinie na pÃ³Â³nocnym wschodzie znajdziesz kilka przydatnych przedmiotÃ³w:
+o  \l;Recykler\u object\botrecy; umoÂ¿liwiajÂ¹cy wytworzenie pierwszej \l;kostki tytanu\u object\titan;.
+o  \l;Transporter na nogach\u object\botgs;, bardzo przydatny we wspinaniu siÃª po stromych zboczach.
+o  Prawie peÂ³ne \l;atomowe ogniwo elektryczne\u object\atomic;.
 
-1) Zasil \l;transporter na nogach\u object\botgs; \l;atomowym ogniwem elektrycznym\u object\atomic; i u¿yj go do dostarczenia \l;kostki tytanu\u object\titan; na \l;statek kosmiczny\u object\base;. Wybierz bezpoœredni¹ drogê przez góry.
+1) Zasil \l;transporter na nogach\u object\botgs; \l;atomowym ogniwem elektrycznym\u object\atomic; i uÂ¿yj go do dostarczenia \l;kostki tytanu\u object\titan; na \l;statek kosmiczny\u object\base;. Wybierz bezpoÂœredniÂ¹ drogÃª przez gÃ³ry.
 
-2) U¿yj tytanu do zbudowania \l;huty\u object\convert;. Aby otrzymaæ mnóstwo tytanu, uruchom program \c;CollectTitanium3\n; na \l;transporterze na nogach\u object\botgs;.
+2) UÂ¿yj tytanu do zbudowania \l;huty\u object\convert;. Aby otrzymaÃ¦ mnÃ³stwo tytanu, uruchom program \c;CollectTitanium3\n; na \l;transporterze na nogach\u object\botgs;.
 
-3) Zatrzymaj program i u¿yj transportera do zbierania \l;rudy uranu\u object\uranore; w drugiej ma³ej dolinie na wschodzie. I tym razem nie idŸ przez dolinê pe³n¹ pe³zaj¹cych mrówek, ale wybierz bezpoœredni¹ drogê przez góry.
+3) Zatrzymaj program i uÂ¿yj transportera do zbierania \l;rudy uranu\u object\uranore; w drugiej maÂ³ej dolinie na wschodzie. I tym razem nie idÂŸ przez dolinÃª peÂ³nÂ¹ peÂ³zajÂ¹cych mrÃ³wek, ale wybierz bezpoÂœredniÂ¹ drogÃª przez gÃ³ry.
 
-4) Zbuduj \l;dzia³o lataj¹ce\u object\botfj; i zasil je \l;atomowym ogniwem elektrycznym\u object\atomic;. Jeœli polecisz na po³udniowy wschód, dotrzesz w pobli¿e gniazda mrówek. Zabij je wszystkie i dostarcz kulê \l;materii organicznej\u object\bullet; na \l;statek kosmiczny\u object\base;.
+4) Zbuduj \l;dziaÂ³o latajÂ¹ce\u object\botfj; i zasil je \l;atomowym ogniwem elektrycznym\u object\atomic;. JeÂœli polecisz na poÂ³udniowy wschÃ³d, dotrzesz w pobliÂ¿e gniazda mrÃ³wek. Zabij je wszystkie i dostarcz kulÃª \l;materii organicznej\u object\bullet; na \l;statek kosmiczny\u object\base;.
 
-5) Zbuduj \l;laboratorium\u object\labo;, umieœæ \l;materiê organiczn¹\u object\bullet; na jego platformie i kliknij przycisk \button 110;, aby otrzymaæ plany dzia³ka strzelaj¹cego materi¹ organiczn¹.
+5) Zbuduj \l;laboratorium\u object\labo;, umieÂœÃ¦ \l;materiÃª organicznÂ¹\u object\bullet; na jego platformie i kliknij przycisk \button 110;, aby otrzymaÃ¦ plany dziaÂ³ka strzelajÂ¹cego materiÂ¹ organicznÂ¹.
 
-6) Zbuduj \l;dzia³o organiczne na nogach\u object\botos;, dostarcz je na pok³ad statku kosmicznego i odleæ.
+6) Zbuduj \l;dziaÂ³o organiczne na nogach\u object\botos;, dostarcz je na pokÂ³ad statku kosmicznego i odleÃ¦.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

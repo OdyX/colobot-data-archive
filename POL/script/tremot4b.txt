@@ -28,7 +28,7 @@ public class exchange
 		return m_order;
 	}
 
-	// usuñ polecenie
+	// usuÃ± polecenie
 	synchronized void delete()
 	{
 		m_order.m_type = nan;

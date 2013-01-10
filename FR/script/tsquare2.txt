@@ -2,9 +2,9 @@ extern void object::Solution( )
 {
 	pendown(Orange);
 
-	repeat ( 4 )  // répète 4x
+	repeat ( 4 )  // rÃ©pÃ¨te 4x
 	{
 		move(20);  // va sur coin
-		turn(90);  // tourne à gauche
+		turn(90);  // tourne Ã  gauche
 	}
 }

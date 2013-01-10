@@ -1,28 +1,28 @@
 \b;\button 164; Stacja energetyczna
 \image station 8 8;
-Stacja energetyczna pobiera energiê spod ziemi i poprzez indukcjê ³aduje  \l;zwyk³e ogniwa elektryczne \u object\power;. Aby na³adowaæ ogniwo elektryczne umieszczone na robocie, nale¿y przesun¹æ go na œrodek platformy i poczekaæ kilka sekund. \l;Ogniwo elektryczne\u object\power; trzymane przez robota lub astronautê równie¿ mo¿e zostaæ do³adowane. \l;Atomowe ogniwa elektryczne\u object\atomic; nie s¹ ³adowalne.
+Stacja energetyczna pobiera energiÃª spod ziemi i poprzez indukcjÃª Â³aduje  \l;zwykÂ³e ogniwa elektryczne \u object\power;. Aby naÂ³adowaÃ¦ ogniwo elektryczne umieszczone na robocie, naleÂ¿y przesunÂ¹Ã¦ go na Âœrodek platformy i poczekaÃ¦ kilka sekund. \l;Ogniwo elektryczne\u object\power; trzymane przez robota lub astronautÃª rÃ³wnieÂ¿ moÂ¿e zostaÃ¦ doÂ³adowane. \l;Atomowe ogniwa elektryczne\u object\atomic; nie sÂ¹ Â³adowalne.
 
-Stacja energetyczna wymaga pewnego Ÿród³a energii w podglebiu. Jeœli z raportu satelitarnego wynika, ¿e energia dostêpna jest tylko w niektórych miejscach, nale¿y wczeœniej przebadaæ podglebie przy u¿yciu \l;robota szperacza\u object\botsr;. Pozostawione przez niego oznaczenia informuj¹ o rodzaju znalezionego surowca: \l;zielony plus\u object\enerspot; oznacza znajduj¹ce siê pod ziemi¹ Ÿród³o energii, wymagane przy budowie stacji energetycznej lub \l;elektrowni\u object\energy;.
+Stacja energetyczna wymaga pewnego ÂŸrÃ³dÂ³a energii w podglebiu. JeÂœli z raportu satelitarnego wynika, Â¿e energia dostÃªpna jest tylko w niektÃ³rych miejscach, naleÂ¿y wczeÂœniej przebadaÃ¦ podglebie przy uÂ¿yciu \l;robota szperacza\u object\botsr;. Pozostawione przez niego oznaczenia informujÂ¹ o rodzaju znalezionego surowca: \l;zielony plus\u object\enerspot; oznacza znajdujÂ¹ce siÃª pod ziemiÂ¹ ÂŸrÃ³dÂ³o energii, wymagane przy budowie stacji energetycznej lub \l;elektrowni\u object\energy;.
 
-Jeœli du¿e ogniwo elektryczny u góry stacji energetycznej pozostaje czerwone po jej wybudowaniu, oznacza to, ¿e wybrane miejsce nie spe³nia wymaganych warunków geologicznych.
+JeÂœli duÂ¿e ogniwo elektryczny u gÃ³ry stacji energetycznej pozostaje czerwone po jej wybudowaniu, oznacza to, Â¿e wybrane miejsce nie speÂ³nia wymaganych warunkÃ³w geologicznych.
 
 \t;Wymagania
-P³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 6 metrów.
+PÂ³aska powierzchnia z odpowiednimi warunkami geologicznymi szeroka na minimum 6 metrÃ³w.
 
-\t;Wejœcie
+\t;WejÂœcie
 Puste ogniwo elektryczne.
 
-\t;Wyjœcie
-Na³adowane ogniwo elektryczne.
+\t;WyjÂœcie
+NaÂ³adowane ogniwo elektryczne.
 
-\t;ród³o zasilania
-Podziemne Ÿród³o energii.
+\t;ÂrÃ³dÂ³o zasilania
+Podziemne ÂŸrÃ³dÂ³o energii.
 
-\t;Czas dzia³ania
-Kilka sekund, zale¿nie od pojemnoœci ogniwa, które ma byæ na³adowane.
+\t;Czas dziaÂ³ania
+Kilka sekund, zaleÂ¿nie od pojemnoÂœci ogniwa, ktÃ³re ma byÃ¦ naÂ³adowane.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;PowerStation\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

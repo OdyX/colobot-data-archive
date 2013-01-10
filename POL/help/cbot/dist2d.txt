@@ -1,14 +1,14 @@
 \b;Instrukcja \c;distance2d\n;
-Sk³adnia:
+SkÂ³adnia:
 \s;\c;distance2d ( pozycja1, pozycja2 );\n;
 
-Oblicza odleg³oœæ pomiêdzy dwoma punktami (pomijaj¹c wspó³rzêdn¹ z).
+Oblicza odlegÂ³oÂœÃ¦ pomiÃªdzy dwoma punktami (pomijajÂ¹c wspÃ³Â³rzÃªdnÂ¹ z).
 
 \t;pozycja1, pozycja2: \c;\l;point\u cbot\point;\n;
-Wspó³rzêdne dwóch punktów. 
+WspÃ³Â³rzÃªdne dwÃ³ch punktÃ³w. 
 
 \t;Typ wyniku: \c;\l;float\u cbot\float;\n;
-Odleg³oœæ miêdzy dwoma punktami.
+OdlegÂ³oÂœÃ¦ miÃªdzy dwoma punktami.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

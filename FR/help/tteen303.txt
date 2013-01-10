@@ -1,8 +1,8 @@
-\b;Un hexagone, késako ?
-Un hexagone est une figure à 6 côtés, tout comme le carré en a 4.
+\b;Un hexagone, kÃ©sako ?
+Un hexagone est une figure Ã  6 cÃ´tÃ©s, tout comme le carrÃ© en a 4.
 
 \image hexa 9 5;
-Le programme précédent pour dessiner le carré avec une boucle \c;repeat\n; était¦:
+Le programme prÃ©cÃ©dent pour dessiner le carrÃ© avec une boucle \c;repeat\n; Ã©taitÂ¦:
 \c;
 \s;extern void object::Go( )
 \s;{
@@ -14,16 +14,16 @@ Le programme précédent pour dessiner le carré avec une boucle \c;repeat\n; était
 \s;	}
 \s;}
 \n;
-En répétant la boucle 6 fois et en tournant un peu moins (60¦degrés au lieu de 90¦degrés), tu obtiens exactement l'hexagone souhaité¦:
+En rÃ©pÃ©tant la boucle 6 fois et en tournant un peu moins (60Â¦degrÃ©s au lieu de 90Â¦degrÃ©s), tu obtiens exactement l'hexagone souhaitÃ©Â¦:
 
 \s;o  Baisse le crayon orange
-\s;o  répète 6 fois¦:
-\s;	o  Avance de 20 centimètres
-\s;	o  Tourne de 60 degrés à gauche
+\s;o  rÃ©pÃ¨te 6 foisÂ¦:
+\s;	o  Avance de 20 centimÃ¨tres
+\s;	o  Tourne de 60 degrÃ©s Ã  gauche
 
-Rappel: pas de point-virgule après \c;repeat(6)\n;¦!
+Rappel: pas de point-virgule aprÃ¨s \c;repeat(6)\n;Â¦!
 
-\b;Les angles et les degrés
-Peut-être que tu n'es pas très familier avec les mesures d'angles en degrés. Voici une petite explication pour éclairer ta lanterne¦:
+\b;Les angles et les degrÃ©s
+Peut-Ãªtre que tu n'es pas trÃ¨s familier avec les mesures d'angles en degrÃ©s. Voici une petite explication pour Ã©clairer ta lanterneÂ¦:
 
 \image angles 16 8;

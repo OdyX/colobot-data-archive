@@ -1,24 +1,24 @@
-\b;Programy przys³ane z Houston
-Zgodnie z danymi dostarczonymi przez satelitê, nasi in¿ynierowie napisali dwa programy. Pierwszy z nich prowadzi \l;robota os³aniacza\u object\botshld; przez w¹sk¹ dolinê na pó³noc, w pobli¿e klucza. Mo¿esz za nim iœæ nie obawiaj¹c siê ¿adnego ataku:
+\b;Programy przysÂ³ane z Houston
+Zgodnie z danymi dostarczonymi przez satelitÃª, nasi inÂ¿ynierowie napisali dwa programy. Pierwszy z nich prowadzi \l;robota osÂ³aniacza\u object\botshld; przez wÂ¹skÂ¹ dolinÃª na pÃ³Â³noc, w pobliÂ¿e klucza. MoÂ¿esz za nim iÂœÃ¦ nie obawiajÂ¹c siÃª Â¿adnego ataku:
 \c;
 \s;extern void object::Outward()
 \s;{
-\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij os³onê
-\s;	\l;goto\u cbot\goto;(6,160);    // podejdŸ do klucza
-\s;	\l;shield\u cbot\shield;(0,15);   // wy³¹cz os³onê
+\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij osÂ³onÃª
+\s;	\l;goto\u cbot\goto;(6,160);    // podejdÂŸ do klucza
+\s;	\l;shield\u cbot\shield;(0,15);   // wyÂ³Â¹cz osÂ³onÃª
 \s;}
 \n;
-Drugi program kieruje \l;robota os³aniacza\u object\botshld; z powrotem do \l;statku kosmicznego\u object\base;:
+Drugi program kieruje \l;robota osÂ³aniacza\u object\botshld; z powrotem do \l;statku kosmicznego\u object\base;:
 \c;
 \s;extern void object::Return()
 \s;{
-\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij os³onê
-\s;	\l;goto\u cbot\goto;(8,60);     // wróæ na statek kosmiczny
-\s;	\l;shield\u cbot\shield;(0,15);   // wy³¹cz os³onê
+\s;	\l;shield\u cbot\shield;(1,15);   // uaktywnij osÂ³onÃª
+\s;	\l;goto\u cbot\goto;(8,60);     // wrÃ³Ã¦ na statek kosmiczny
+\s;	\l;shield\u cbot\shield;(0,15);   // wyÂ³Â¹cz osÂ³onÃª
 \s;}
 \n;
 \b;Archiwum
-Lista programów przys³anych w poprzednich misjach:
+Lista programÃ³w przysÂ³anych w poprzednich misjach:
 
 o  \c;\l;ServiceTower1\u mlvolca2;\n;
 o  \c;\l;CollectTitanium3\u mlvolca1;\n;

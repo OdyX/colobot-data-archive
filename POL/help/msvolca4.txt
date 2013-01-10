@@ -1,13 +1,13 @@
-\b;Rozwi¹zanie
-Szczelina w pó³nocno zachodniej górze prowadzi do jeziora wrz¹cej lawy.
+\b;RozwiÂ¹zanie
+Szczelina w pÃ³Â³nocno zachodniej gÃ³rze prowadzi do jeziora wrzÂ¹cej lawy.
 
-Wystarczy skakaæ z jednej skalistej wyspy na drug¹. Czêsto sprawdzaj reaktor i pozwól mu zupe³nie ostygn¹æ przed kolejnym startem. W znalezieniu najbli¿szej wyspy mo¿e byæ pomocna mapka.
+Wystarczy skakaÃ¦ z jednej skalistej wyspy na drugÂ¹. CzÃªsto sprawdzaj reaktor i pozwÃ³l mu zupeÂ³nie ostygnÂ¹Ã¦ przed kolejnym startem. W znalezieniu najbliÂ¿szej wyspy moÂ¿e byÃ¦ pomocna mapka.
 
-Nie martw siê zbytnio atakiem mrówek. Poczekaj, a¿ reaktor ostygnie, nie zwlekaj¹c jednak d³u¿ej ni¿ to konieczne, a Twoja wbudowana os³ona powinna spe³niæ swoj¹ rolê. Jednak¿e zalecane jest zapisanie gry co jakiœ czas (klawisz Esc, nastêpnie "Zapisz"), aby nie zaczynaæ gry od pocz¹tku w przypadku wyl¹dowania w jeziorze lawy.
+Nie martw siÃª zbytnio atakiem mrÃ³wek. Poczekaj, aÂ¿ reaktor ostygnie, nie zwlekajÂ¹c jednak dÂ³uÂ¿ej niÂ¿ to konieczne, a Twoja wbudowana osÂ³ona powinna speÂ³niÃ¦ swojÂ¹ rolÃª. JednakÂ¿e zalecane jest zapisanie gry co jakiÂœ czas (klawisz Esc, nastÃªpnie "Zapisz"), aby nie zaczynaÃ¦ gry od poczÂ¹tku w przypadku wylÂ¹dowania w jeziorze lawy.
 
-Robot znajduje siê w najbardziej wysuniêtym na zachód punkcie, jednak mo¿esz tam dotrzeæ tylko okrê¿n¹ drog¹. W pobli¿u znajdziesz \l;atomowe ogniwo elektryczne\u object\atomic;.
+Robot znajduje siÃª w najbardziej wysuniÃªtym na zachÃ³d punkcie, jednak moÂ¿esz tam dotrzeÃ¦ tylko okrÃªÂ¿nÂ¹ drogÂ¹. W pobliÂ¿u znajdziesz \l;atomowe ogniwo elektryczne\u object\atomic;.
 
-Nie musisz w drodze powrotnej kierowaæ robota t¹ sam¹ drog¹, gdy¿ jego reaktor ma wiêkszy zasiêg ni¿ Twój. Wci¹¿ mo¿e byæ potrzebny jedne lub dwa przystanki, uwa¿aj równie¿ na mrówki.
+Nie musisz w drodze powrotnej kierowaÃ¦ robota tÂ¹ samÂ¹ drogÂ¹, gdyÂ¿ jego reaktor ma wiÃªkszy zasiÃªg niÂ¿ TwÃ³j. WciÂ¹Â¿ moÂ¿e byÃ¦ potrzebny jedne lub dwa przystanki, uwaÂ¿aj rÃ³wnieÂ¿ na mrÃ³wki.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

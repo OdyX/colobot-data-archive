@@ -1,21 +1,21 @@
 \b;Instrukcja \c;aim\n;
-Sk³adnia:
-\s;\c;aim ( k¹t );\n;
+SkÂ³adnia:
+\s;\c;aim ( kÂ¹t );\n;
 
-Instrukcja ta umo¿liwia zmianê po³o¿enia lufy w pionie. Nastêpuj¹ce roboty mog¹ strzelaæ: 
-o  \l;Dzia³o\u object\botfr;
-o  \l;Dzia³o organiczne\u object\botor;
-o  \l;Dzia³o fazowe\u object\botphaz;
+Instrukcja ta umoÂ¿liwia zmianÃª poÂ³oÂ¿enia lufy w pionie. NastÃªpujÂ¹ce roboty mogÂ¹ strzelaÃ¦: 
+o  \l;DziaÂ³o\u object\botfr;
+o  \l;DziaÂ³o organiczne\u object\botor;
+o  \l;DziaÂ³o fazowe\u object\botphaz;
 
-Podczas kontroli robota za pomoc¹ programu, jedynym sposobem obrócenia lufy w lewo lub w prawo jest obrócenie ca³ego robota przy u¿yciu instrukcji \c;\l;turn\u cbot\turn;\n;.
+Podczas kontroli robota za pomocÂ¹ programu, jedynym sposobem obrÃ³cenia lufy w lewo lub w prawo jest obrÃ³cenie caÂ³ego robota przy uÂ¿yciu instrukcji \c;\l;turn\u cbot\turn;\n;.
 
-\t;k¹t: \c;\l;float\u cbot\float;\n;
-K¹t w stopniach w odniesieniu do robota. Wartoœæ dodatnia ustawia lufê w górê. Dla dzia³ i dzia³ organicznych ograniczeniem jest przedzia³ od \c;-20\n; do \c;+20\n; stopni. Dla dzia³a fazowego k¹t ten musi nale¿eæ do przedzia³u od \c;-20\n; do \c;45\n; stopni.
+\t;kÂ¹t: \c;\l;float\u cbot\float;\n;
+KÂ¹t w stopniach w odniesieniu do robota. WartoÂœÃ¦ dodatnia ustawia lufÃª w gÃ³rÃª. Dla dziaÂ³ i dziaÂ³ organicznych ograniczeniem jest przedziaÂ³ od \c;-20\n; do \c;+20\n; stopni. Dla dziaÂ³a fazowego kÂ¹t ten musi naleÂ¿eÃ¦ do przedziaÂ³u od \c;-20\n; do \c;45\n; stopni.
 
-\t;Zwracana wartoœæ: \c;\l;int\u cbot\int;\n;
-Zero jeœli wszystko jest w porz¹dku, wartoœæ ró¿na od zera, jeœli obrót nie mo¿e byæ wykonany: 
-\c;== 0 \n;Lufa zosta³a wycelowana w ¿¹danym kierunku
-\c;!= 0 \n;obrót niemo¿liwy
+\t;Zwracana wartoÂœÃ¦: \c;\l;int\u cbot\int;\n;
+Zero jeÂœli wszystko jest w porzÂ¹dku, wartoÂœÃ¦ rÃ³Â¿na od zera, jeÂœli obrÃ³t nie moÂ¿e byÃ¦ wykonany: 
+\c;== 0 \n;Lufa zostaÂ³a wycelowana w Â¿Â¹danym kierunku
+\c;!= 0 \n;obrÃ³t niemoÂ¿liwy
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

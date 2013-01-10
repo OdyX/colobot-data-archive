@@ -1,14 +1,14 @@
-\b;\button 147; Dzia³o fazowe
+\b;\button 147; DziaÂ³o fazowe
 \image botphaz 8 8;
-Robot na g¹sienicach wyposa¿ony w bardzo silne dzia³ko fazowe, skuteczne przeciwko wiêkszoœci wrogów. Wycelowane w górê ma zasiêg do 60 metrów. Jest to jedyna broñ, z której mo¿na zabiæ \l;Królow¹ obcych\u object\mother;.
+Robot na gÂ¹sienicach wyposaÂ¿ony w bardzo silne dziaÂ³ko fazowe, skuteczne przeciwko wiÃªkszoÂœci wrogÃ³w. Wycelowane w gÃ³rÃª ma zasiÃªg do 60 metrÃ³w. Jest to jedyna broÃ±, z ktÃ³rej moÂ¿na zabiÃ¦ \l;KrÃ³lowÂ¹ obcych\u object\mother;.
 
 \t;Programowanie
-Do zaprogramowania poruszania robotem mo¿na u¿ywaæ nastêpuj¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
+Do zaprogramowania poruszania robotem moÂ¿na uÂ¿ywaÃ¦ nastÃªpujÂ¹cych instrukcji: \c;\l;move\u cbot\move;\n;, \c;\l;turn\u cbot\turn;\n;, \c;\l;motor\u cbot\motor;\n;, \c;\l;goto\u cbot\goto;\n;.
 
-Do zaprogramowania dzia³ka fazowego s³u¿y instrukcja \c;\l;fire\u cbot\fire;\n;. Lufê mo¿na podnieœæ lub opuœciæ u¿ywaj¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
+Do zaprogramowania dziaÂ³ka fazowego sÂ³uÂ¿y instrukcja \c;\l;fire\u cbot\fire;\n;. LufÃª moÂ¿na podnieÂœÃ¦ lub opuÂœciÃ¦ uÂ¿ywajÂ¹c instrukcji \c;\l;aim\u cbot\aim;\n;.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;PhazerShooter\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

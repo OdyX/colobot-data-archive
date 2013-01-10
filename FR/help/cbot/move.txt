@@ -1,25 +1,25 @@
 \b;Instruction \c;move\n;
-L'instruction \c;move();\n; fait se déplacer le robot d'une longueur donnée en mètres.
+L'instruction \c;move();\n; fait se dÃ©placer le robot d'une longueur donnÃ©e en mÃ¨tres.
 
 \b;Utilisation courante
-Pour faire avancer le robot de 30m, écrivez \c;move(30);\n;. Pour faire reculer le robot après avoir posé un \l;minerai de titanium\u object\titanore; sur le \l;convertisseur\u object\convert;, écrivez \c;move(-2.5);\n;.
+Pour faire avancer le robot de 30m, Ã©crivez \c;move(30);\n;. Pour faire reculer le robot aprÃ¨s avoir posÃ© un \l;minerai de titanium\u object\titanore; sur le \l;convertisseur\u object\convert;, Ã©crivez \c;move(-2.5);\n;.
 
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;move ( length );\n;
 
 Avance d'une certaine distance, dans la direction actuelle.
 
 \t;length: \c;\l;float\u cbot\float;\n;
-Longueur à avancer, en mètres. Une longueur négative fait reculer le robot.
+Longueur Ã  avancer, en mÃ¨tres. Une longueur nÃ©gative fait reculer le robot.
 
-\t;Valeur retournée: \c;\l;int\u cbot\int;\n;
-Normalement, une erreur stoppe l'exécution du programme. Si l'instruction \c;move\n; est précédée de \c;\l;errmode\u cbot\errmode;(0);\n;, une valeur nulle est retournée si tout est ok, ou valeur non nulle si une erreur est intervenue.
-\c;== 0 \n;déplacement effectué
-\c;!= 0 \n;déplacement impossible
+\t;Valeur retournÃ©e: \c;\l;int\u cbot\int;\n;
+Normalement, une erreur stoppe l'exÃ©cution du programme. Si l'instruction \c;move\n; est prÃ©cÃ©dÃ©e de \c;\l;errmode\u cbot\errmode;(0);\n;, une valeur nulle est retournÃ©e si tout est ok, ou valeur non nulle si une erreur est intervenue.
+\c;== 0 \n;dÃ©placement effectuÃ©
+\c;!= 0 \n;dÃ©placement impossible
 
-\t;Dictionnaire anglais-français
-\c;move\n; = déplacer
+\t;Dictionnaire anglais-franÃ§ais
+\c;move\n; = dÃ©placer
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

@@ -1,5 +1,5 @@
 \b;Instructions de Houston
-Même entraînement que précédemment, mais vous voyez le parcours avec la caméra embarquée dans le robot.
+MÃªme entraÃ®nement que prÃ©cÃ©demment, mais vous voyez le parcours avec la camÃ©ra embarquÃ©e dans le robot.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

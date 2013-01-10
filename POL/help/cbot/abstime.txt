@@ -1,11 +1,11 @@
 \b;Instrukcja \c;abstime\n;
-Sk³adnia¦:
+SkÂ³adniaÂ¦:
 \s;\c;abstime ( );\n;
 
-Zwraca czas (w sekundach) jaki up³yn¹³ od pocz¹tku misji.
+Zwraca czas (w sekundach) jaki upÂ³ynÂ¹Â³ od poczÂ¹tku misji.
 
 \t;Typ wyniku: \c;\l;float\u cbot\float;\n;
 Czas w sekundach.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

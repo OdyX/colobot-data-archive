@@ -1,11 +1,11 @@
 \b;Robal
 \image worm 8 8;
-Robale zara¿aj¹ wirusami zaprogramowane roboty. Wirusy modyfikuj¹ programy w stopniu uniemo¿liwiaj¹cym ich prawid³owe dzia³anie lub powoduj¹cym przerwanie ich dzia³ania.
+Robale zaraÂ¿ajÂ¹ wirusami zaprogramowane roboty. Wirusy modyfikujÂ¹ programy w stopniu uniemoÂ¿liwiajÂ¹cym ich prawidÂ³owe dziaÂ³anie lub powodujÂ¹cym przerwanie ich dziaÂ³ania.
 
-Robale ¿yj¹ w podglebiu, choæ czasem wychodz¹ i pe³zaj¹ po powierzchni. Gdy s¹ pod ziemi¹ s¹ niewykrywalne i niezniszczalne.
+Robale Â¿yjÂ¹ w podglebiu, choÃ¦ czasem wychodzÂ¹ i peÂ³zajÂ¹ po powierzchni. Gdy sÂ¹ pod ziemiÂ¹ sÂ¹ niewykrywalne i niezniszczalne.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;AlienWorm\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	while ( true )
 	{
@@ -6,9 +6,9 @@ extern void object::Rozwi¹zanie( )
 		float	dir;
 
 		spot = radar(WayPoint);
-		if ( spot == null )  // czy ju¿ koniec?
+		if ( spot == null )  // czy juÂ¿ koniec?
 		{
-			motor(0, 0);  // zatrzymuje siê
+			motor(0, 0);  // zatrzymuje siÃª
 			break;
 		}
 
@@ -23,4 +23,3 @@ extern void object::Rozwi¹zanie( )
 		}
 	}
 }
-

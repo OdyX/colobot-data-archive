@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	while ( true )
 	{
@@ -9,7 +9,7 @@ extern void object::Rozwi¹zanie( )
 
 		if ( left == 0 && right == 0 )  // nic?
 		{
-			turn(180);  // zawróæ
+			turn(180);  // zawrÃ³Ã¦
 		}
 		else
 		{

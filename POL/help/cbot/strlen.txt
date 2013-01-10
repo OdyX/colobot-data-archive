@@ -1,14 +1,14 @@
 \b;Instrukcja \c;strlen\n;
-Podaje d³ugoœæ ³añcucha.
+Podaje dÂ³ugoÂœÃ¦ Â³aÃ±cucha.
 
-Sk³adnia¦:
-\s;\c;strlen ( ³añcuch );\n;
+SkÂ³adniaÂ¦:
+\s;\c;strlen ( Â³aÃ±cuch );\n;
 
-Przyk³ady¦:
-\s;\c;	int len = strlen("abc");  // len równe 3
-\s;	int len = strlen("");  // len równe 0
-\s;	if ( strlen(s) == 0 )  // czy ³añcuch pusty?
+PrzykÂ³adyÂ¦:
+\s;\c;	int len = strlen("abc");  // len rÃ³wne 3
+\s;	int len = strlen("");  // len rÃ³wne 0
+\s;	if ( strlen(s) == 0 )  // czy Â³aÃ±cuch pusty?
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;strleft\u cbot\strleft;\n;, \c;\l;strright\u cbot\strright;\n;, \c;\l;strmid\u cbot\strmid;\n;, \c;\l;strfind\u cbot\strfind;\n;, \c;\l;strval\u cbot\strval;\n;, \c;\l;strupper\u cbot\strupper;\n;, \c;\l;strlower\u cbot\strlower;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

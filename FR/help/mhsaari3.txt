@@ -1,5 +1,5 @@
 \b;Instructions transmises par Houston
-Le satellite a découvert les restes de l'expédition précédente. Vous devriez y trouver la \l;boîte noire\u object\bbox; qui vous donnera les coordonnées de la planète suivante.
+Le satellite a dÃ©couvert les restes de l'expÃ©dition prÃ©cÃ©dente. Vous devriez y trouver la \l;boÃ®te noire\u object\bbox; qui vous donnera les coordonnÃ©es de la planÃ¨te suivante.
 
 Eliminez les quelques fourmis survivantes. Votre vaisseau nous a transmis que votre constructeur est en panne. Vous ne pourrez donc pas construire de nouveaux robots. Nous sommes pourtant convaincus que vous trouverez une solution ...
 

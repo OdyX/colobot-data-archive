@@ -1,31 +1,31 @@
-\b;\button 172; Stacja przekaŸnikowa informacji
+\b;\button 172; Stacja przekaÂŸnikowa informacji
 \image info 8 8;
-Budynek ten przechowuje cyfrowe informacje. Stacja mo¿e przechowywaæ do 10 porcji informacji, do ka¿dej z nich mo¿na odwo³ywaæ siê poprzez jej nazwê.
-Na przyk³ad stacja mo¿e przechowywaæ 3 informacje¦:\c;
+Budynek ten przechowuje cyfrowe informacje. Stacja moÂ¿e przechowywaÃ¦ do 10 porcji informacji, do kaÂ¿dej z nich moÂ¿na odwoÂ³ywaÃ¦ siÃª poprzez jej nazwÃª.
+Na przykÂ³ad stacja moÂ¿e przechowywaÃ¦ 3 informacjeÂ¦:\c;
 \tab;"Pozycja.x"  23.45
 \tab;"Pozycja.y"  -102.70
-\tab;"Iloœæ"      3.00
+\tab;"IloÂœÃ¦"      3.00
 \n;
-Do umieszczenia nowej informacji s³u¿y polecenie \c;\l;send\u cbot\send;\n;.
-Do odczytania informacji ze stacji s³u¿y polecenie \c;\l;receive\u cbot\receive;\n;.
+Do umieszczenia nowej informacji sÂ³uÂ¿y polecenie \c;\l;send\u cbot\send;\n;.
+Do odczytania informacji ze stacji sÂ³uÂ¿y polecenie \c;\l;receive\u cbot\receive;\n;.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 2,5 metra.
+PÂ³aska powierzchnia szeroka na minimum 2,5 metra.
 
-\t;Wejœcie
+\t;WejÂœcie
 Brak.
 
-\t;Wyjœcie
+\t;WyjÂœcie
 Cyfrowe informacje.
 
-\t;ród³o zasilania
+\t;ÂrÃ³dÂ³o zasilania
 Brak.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 1 sekunda.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;ExchangePost\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

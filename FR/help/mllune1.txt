@@ -1,12 +1,12 @@
-\b;Programmes envoyÈs par Houston
-Voil‡ un programme dÈveloppÈ par nos ingÈnieurs pour Èchanger la \l;pile\u object\power; d'un robot, lorsque il est placÈ devant une pile posÈe au sol.
+\b;Programmes envoy√©s par Houston
+Voil√† un programme d√©velopp√© par nos ing√©nieurs pour √©changer la \l;pile\u object\power; d'un robot, lorsque il est plac√© devant une pile pos√©e au sol.
 
-Pour exÈcuter ce programme, sÈlectionnez \c;EchangePile1\n; dans la liste des programmes disponibles sur le robot (‡ gauche de l'Ècran), puis cliquez sur l'icÙne flËche \button 21; pour l'exÈcuter.
+Pour ex√©cuter ce programme, s√©lectionnez \c;EchangePile1\n; dans la liste des programmes disponibles sur le robot (√† gauche de l'√©cran), puis cliquez sur l'ic√¥ne fl√®che \button 21; pour l'ex√©cuter.
 \c;
 \s;extern void object::EchangePile1()
 \s;{
 \s;	\l;grab\u cbot\grab;(InFront);     // prend pile neuve devant
-\s;	\l;drop\u cbot\drop;(Behind);      // et la pose derriËre
+\s;	\l;drop\u cbot\drop;(Behind);      // et la pose derri√®re
 \s;	
 \s;	\l;grab\u cbot\grab;(EnergyCell);  // prend la pile du robot
 \s;	\l;drop\u cbot\drop;(InFront);     // et la pose devant

@@ -1,5 +1,5 @@
 \b;Instrukcja \c;extern\n;
-Instrukcja \c;extern\n; wyró¿nia \l;funkcjê\u cbot\function;, która jest g³ównym programem robota. Nazwa funkcji zadeklarowanej jako \c;extern\n; pojawi siê na liœcie programów w lewej dolnej czêœci ekranu.
+Instrukcja \c;extern\n; wyrÃ³Â¿nia \l;funkcjÃª\u cbot\function;, ktÃ³ra jest gÂ³Ã³wnym programem robota. Nazwa funkcji zadeklarowanej jako \c;extern\n; pojawi siÃª na liÂœcie programÃ³w w lewej dolnej czÃªÂœci ekranu.
 \c;
 \s;extern void object::MowDown( )
 \s;{
@@ -10,7 +10,7 @@ Instrukcja \c;extern\n; wyró¿nia \l;funkcjê\u cbot\function;, która jest g³ównym
 \s;	}
 \s;}
 \n;
-Jeœli program zawiera inne funkcje, tylko g³ówna funkcja powinna byæ poprzedzona s³owem \c;extern\n;.
+JeÂœli program zawiera inne funkcje, tylko gÂ³Ã³wna funkcja powinna byÃ¦ poprzedzona sÂ³owem \c;extern\n;.
 \c;
 \s;extern void object::Square( )
 \s;{
@@ -26,5 +26,5 @@ Jeœli program zawiera inne funkcje, tylko g³ówna funkcja powinna byæ poprzedzona
 \s;	turn(90);
 \s;}
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

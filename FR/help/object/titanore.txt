@@ -1,14 +1,14 @@
 \b;Minerai de titanium
 \image titanore 4 4;
-Le minerai de titanium est ‡ la base de pratiquement toutes les constructions, qu'il s'agisse de b‚timents ou de robots. Il se trouve directement ‡ la surface de certaines planËtes, ou en sous-sol. Dans ce dernier cas, il faudra construire un \l;derrick\u object\derrick; pour l'extraire.
+Le minerai de titanium est √† la base de pratiquement toutes les constructions, qu'il s'agisse de b√¢timents ou de robots. Il se trouve directement √† la surface de certaines plan√®tes, ou en sous-sol. Dans ce dernier cas, il faudra construire un \l;derrick\u object\derrick; pour l'extraire.
 
-Tel quel, le minerai de titanium n'est pas utile. Pour pouvoir l'exploiter, il faut le transformer en \l;titanium\u object\titan; ‡ l'aide d'un \l;convertisseur\u object\convert;.
+Tel quel, le minerai de titanium n'est pas utile. Pour pouvoir l'exploiter, il faut le transformer en \l;titanium\u object\titan; √† l'aide d'un \l;convertisseur\u object\convert;.
 
 \t;Transport
-Tous les \l;robots dÈmÈnageurs\u object\botgr; ou le \l;cosmonaute\u object\human;.
+Tous les \l;robots d√©m√©nageurs\u object\botgr; ou le \l;cosmonaute\u object\human;.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;TitaniumOre\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

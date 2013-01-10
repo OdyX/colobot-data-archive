@@ -1,9 +1,9 @@
 \b;Z Centrum Kontroli Misji
-Zbuduj \l;radar\u object\radar; na najwy¿szym wzniesieniu i upewnij siê, ¿e nie zostanie on zniszczony po opuszczeniu przez \l;Ciebie\u object\human; planety.
+Zbuduj \l;radar\u object\radar; na najwyÂ¿szym wzniesieniu i upewnij siÃª, Â¿e nie zostanie on zniszczony po opuszczeniu przez \l;Ciebie\u object\human; planety.
 
-Zniszczenie poprzedniego radaru zbudowanego przez pierwsz¹ ekspedycjê by³o prawdopodobn¹ przyczyn¹ zerwania ³¹cznoœci, co doprowadzi³o do zupe³nej utraty kontaktu.
+Zniszczenie poprzedniego radaru zbudowanego przez pierwszÂ¹ ekspedycjÃª byÂ³o prawdopodobnÂ¹ przyczynÂ¹ zerwania Â³Â¹cznoÂœci, co doprowadziÂ³o do zupeÂ³nej utraty kontaktu.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

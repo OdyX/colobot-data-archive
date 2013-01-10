@@ -1,13 +1,13 @@
 \b;Z Centrum Kontroli Misji
-Twoim zadaniem jest odzyskanie \l;³adunku wybuchowego\u object\tnt;, znajduj¹cego siê w g³êbokiej dolinie, w pobli¿u jeziora wrz¹cej lawy.
+Twoim zadaniem jest odzyskanie \l;Â³adunku wybuchowego\u object\tnt;, znajdujÂ¹cego siÃª w gÂ³Ãªbokiej dolinie, w pobliÂ¿u jeziora wrzÂ¹cej lawy.
 
-Z powodu wysokiej temperatury, reaktory przesta³y dzia³aæ, wobec czego nie jest mo¿liwe latanie. Masz przed sob¹ d³ug¹ drogê, dlatego roboty nale¿y tym razem zaopatrzyæ w \l;atomowe ogniwa elektryczne\u object\atomic;. Atomowe ogniwa elektryczne wytwarzane s¹ z \l;rudy uranu\u object\uranore;.
+Z powodu wysokiej temperatury, reaktory przestaÂ³y dziaÂ³aÃ¦, wobec czego nie jest moÂ¿liwe latanie. Masz przed sobÂ¹ dÂ³ugÂ¹ drogÃª, dlatego roboty naleÂ¿y tym razem zaopatrzyÃ¦ w \l;atomowe ogniwa elektryczne\u object\atomic;. Atomowe ogniwa elektryczne wytwarzane sÂ¹ z \l;rudy uranu\u object\uranore;.
 
-Do tej wiadomoœci zosta³ do³¹czony nieco skuteczniejszy program do zbierania surowców.
+Do tej wiadomoÂœci zostaÂ³ doÂ³Â¹czony nieco skuteczniejszy program do zbierania surowcÃ³w.
 
-Ostrze¿enie: ³adunek wybuchowy jest niezwykle czu³y. Zachowaj ostro¿noœæ.
+OstrzeÂ¿enie: Â³adunek wybuchowy jest niezwykle czuÂ³y. Zachowaj ostroÂ¿noÂœÃ¦.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

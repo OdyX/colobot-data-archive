@@ -1,9 +1,9 @@
 Title.E      text="Killer Mushrooms"
 Resume.E     text="Run the gauntlet of poison-spitting mushrooms and find the first key to the vault."
-Title.F      text="La première clé"
-Resume.F     text="Récupérez la première clé."
-Title.P      text="Zabójcze grzyby"
-Resume.P     text="Przemknij siê pomiêdzy truj¹cymi grzybami i znajdŸ pierwszy klucz do skrytki."
+Title.F      text="La premiÃ¨re clÃ©"
+Resume.F     text="RÃ©cupÃ©rez la premiÃ¨re clÃ©."
+Title.P      text="ZabÃ³jcze grzyby"
+Resume.P     text="Przemknij siÃª pomiÃªdzy trujÂ¹cymi grzybami i znajdÂŸ pierwszy klucz do skrytki."
 Instructions name="mhterra1.txt"
 Satellite    name="miterra1.txt"
 Loading      name="mlterra1.txt"
@@ -155,7 +155,7 @@ CreateObject pos= 37;-120 dir=0.1 type=Greenery0
 CreateObject pos= 72;-168 dir=0.5 type=Greenery1
 CreateObject pos= 98;-162 dir=0.2 type=Tree1
 
-// Ch'tite île
+// Ch'tite Ã®le
 CreateObject pos= 9;-171 dir=0.4 type=Greenery0
 CreateObject pos=12;-179 dir=0.1 type=Greenery1
 CreateObject pos=-2;-173 dir=0.9 type=Greenery2

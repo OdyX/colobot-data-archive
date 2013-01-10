@@ -1,7 +1,7 @@
 \b;Instructions de Houston
-Anéantissez toutes les \l;fourmis\u object\ant; qui vous attaquent, et décollez¦!
+AnÃ©antissez toutes les \l;fourmis\u object\ant; qui vous attaquent, et dÃ©collezÂ¦!
 
-Peut-être que votre nouveau système d'armement peut vous permettre de gagner du temps.
+Peut-Ãªtre que votre nouveau systÃ¨me d'armement peut vous permettre de gagner du temps.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

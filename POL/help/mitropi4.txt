@@ -9,7 +9,7 @@ Obecnie na orbicie geostacjonarnej planety Tropika.
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   brak
+\tab;ÂrÃ³dÂ³o energii:   brak
 \tab;Ruda tytanu:      brak
 \tab;Ruda uranu:       brak
 \n;

@@ -1,30 +1,30 @@
 \b;Typ \c;point\n;
-Zmienne tego typu zawieraj¹ wspó³rzêdne punktu w przestrzeni. Sk³ada siê on z trzech wartoœci reprezentuj¹cych wspó³rzêdne \c;x\n;, \c;y\n; oraz \ c;z\n;.
-\c;x\n; i \c;y\n; odpowiadaj¹ miejscu na powierzchni ziemi. Dodatnia oœ \c;x\n; wskazuje wschód, dodatnia oœ \c;y\n; wskazuje pó³noc. 
-Wartoœæ \c;z\n; odpowiada wysokoœci nad poziomem morza. 
+Zmienne tego typu zawierajÂ¹ wspÃ³Â³rzÃªdne punktu w przestrzeni. SkÂ³ada siÃª on z trzech wartoÂœci reprezentujÂ¹cych wspÃ³Â³rzÃªdne \c;x\n;, \c;y\n; oraz \ c;z\n;.
+\c;x\n; i \c;y\n; odpowiadajÂ¹ miejscu na powierzchni ziemi. Dodatnia oÂœ \c;x\n; wskazuje wschÃ³d, dodatnia oÂœ \c;y\n; wskazuje pÃ³Â³noc. 
+WartoÂœÃ¦ \c;z\n; odpowiada wysokoÂœci nad poziomem morza. 
 
-Aby zadeklarowaæ zmienn¹ typu point, mo¿na napisaæ: 
+Aby zadeklarowaÃ¦ zmiennÂ¹ typu point, moÂ¿na napisaÃ¦: 
 \c;
 \s;	point a (10, 20, 30);
 \n;
-Mo¿na równie¿ pojedynczo ustawiæ wartoœci wspó³rzêdnych:
+MoÂ¿na rÃ³wnieÂ¿ pojedynczo ustawiÃ¦ wartoÂœci wspÃ³Â³rzÃªdnych:
 \c;
 \s;	point b;
 \s;	b.x = 10;
 \s;	b.y = 20;
 \s;	b.z = 30;
 \n;
-W przyk³adach tych, nastêpuj¹cy \l;warunek\u cbot\cond; jest prawdziwy:
+W przykÂ³adach tych, nastÃªpujÂ¹cy \l;warunek\u cbot\cond; jest prawdziwy:
 \c;
 \s;	if ( a == b )
 \s;	{
 \s;	}
 \n; 
-Nastêpuj¹ca deklaracja:
+NastÃªpujÂ¹ca deklaracja:
 \c;
 \s;	point c (4, 7);
 \n;
-Jest równowa¿na poni¿szej:
+Jest rÃ³wnowaÂ¿na poniÂ¿szej:
 \c;
 \s;	point c;
 \s;	c.x = 4;
@@ -32,5 +32,5 @@ Jest równowa¿na poni¿szej:
 \s;	c.z = 0;
 \n;
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

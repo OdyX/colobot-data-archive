@@ -1,10 +1,10 @@
-\b;Æwiczenie
-Zaprogramuj robota tak, aby dotar³ na platformê koñcow¹ po przejœciu przez trzy niebieskie plusy.
-Odleg³oœci pomiêdzy platformami i plusami wynosz¹ po 20 metrów.
+\b;Ã†wiczenie
+Zaprogramuj robota tak, aby dotarÂ³ na platformÃª koÃ±cowÂ¹ po przejÂœciu przez trzy niebieskie plusy.
+OdlegÂ³oÂœci pomiÃªdzy platformami i plusami wynoszÂ¹ po 20 metrÃ³w.
 
 \b;Przydatne instrukcje
 \c;\l;move\u cbot\move;\n; poruszanie robotem
 \c;\l;turn\u cbot\turn;\n; obracanie robota
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

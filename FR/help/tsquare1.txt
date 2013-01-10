@@ -1,20 +1,20 @@
 \b;Exercice
-Déplacez le robot d'entraînement le long d'un grand carré de 20 mètres de côté, en passant par les croix bleues, tout en traçant un trait. Pour changer, le trait doit être orange cette fois.
+DÃ©placez le robot d'entraÃ®nement le long d'un grand carrÃ© de 20 mÃ¨tres de cÃ´tÃ©, en passant par les croix bleues, tout en traÃ§ant un trait. Pour changer, le trait doit Ãªtre orange cette fois.
 
 \b;Principe
-Voici les instructions que vous devrez utiliser¦:
+Voici les instructions que vous devrez utiliserÂ¦:
 \c;\l;pendown\u cbot\pendown;(Orange);\n; laisse une trace orange au sol.
-\c;\l;move\u cbot\move;(20);\n; avance de 20 mètres.
-\c;\l;turn\u cbot\turn;(90);\n; tourne à gauche de 90 degrés.
+\c;\l;move\u cbot\move;(20);\n; avance de 20 mÃ¨tres.
+\c;\l;turn\u cbot\turn;(90);\n; tourne Ã  gauche de 90 degrÃ©s.
 
 \b;Aide
-Lorsqu'un mot est souligné en bleu, cela indique un lien. Par exemple, si vous cliquez \l;ici\u navig;, une autre page est affichée.
-En principe, les explications d'un exercice sont entièrement contenues dans la première page. Il n'est donc pas obligatoire d'utiliser les liens.
+Lorsqu'un mot est soulignÃ© en bleu, cela indique un lien. Par exemple, si vous cliquez \l;ici\u navig;, une autre page est affichÃ©e.
+En principe, les explications d'un exercice sont entiÃ¨rement contenues dans la premiÃ¨re page. Il n'est donc pas obligatoire d'utiliser les liens.
 
-\b;À vous de jouer
-A vous maintenant d'écrire le programme complet, qui devra comporter 4 fois l'instruction \c;move(20);\n; suivie de \c;turn(90);\n;.
+\b;Ã€ vous de jouer
+A vous maintenant d'Ã©crire le programme complet, qui devra comporter 4 fois l'instruction \c;move(20);\n; suivie de \c;turn(90);\n;.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tline2; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tline2; et \l;programmation\u cbot;.

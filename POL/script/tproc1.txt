@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	Square(15);
 	Square(25);
@@ -12,4 +12,3 @@ void object::Square(float length)
 		turn(90);
 	}
 }
-

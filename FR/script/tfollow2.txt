@@ -24,14 +24,14 @@ extern void object::Hare( )
 		if ( bot == null )
 		{
 			nb = 0;
-			message("Raté, trop loin. Recommence 10x ...");
+			message("RatÃ©, trop loin. Recommence 10x ...");
 		}
 		else
 		{
 			nb ++;
 			if ( nb < 10 )
 			{
-				message("Réussi, reste "+(10-nb)+"x");
+				message("RÃ©ussi, reste "+(10-nb)+"x");
 			}
 			else
 			{

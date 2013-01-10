@@ -22,14 +22,14 @@ extern void object::Hare( )
 		if ( bot == null )
 		{
 			nb = 0;
-			message("Fiasko, jesteœ za daleko. Zosta³o jeszcze 10.");
+			message("Fiasko, jesteÂœ za daleko. ZostaÂ³o jeszcze 10.");
 		}
 		else
 		{
 			nb ++;
 			if ( nb < 10 )
 			{
-				message("Odleg³oœæ OK, jeszcze "+(10-nb)+" do przejœcia");
+				message("OdlegÂ³oÂœÃ¦ OK, jeszcze "+(10-nb)+" do przejÂœcia");
 			}
 			else
 			{
@@ -40,4 +40,3 @@ extern void object::Hare( )
 		}
 	}
 }
-

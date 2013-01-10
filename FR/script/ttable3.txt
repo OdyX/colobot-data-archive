@@ -20,9 +20,9 @@ extern void object::Solution( )
 			}
 			else
 			{
-				// mémorise l'objet trouvé
+				// mÃ©morise l'objet trouvÃ©
 				list[x][y] = load.category;
-				// le dépose plus loin
+				// le dÃ©pose plus loin
 				move(-2);
 				drop(Behind);
 			}
@@ -36,7 +36,7 @@ extern void object::Solution( )
 		{
 			if ( list[y][x] == 0 ) continue;
 
-			// va rechercher l'objet de cette catégorie
+			// va rechercher l'objet de cette catÃ©gorie
 			object item = radar(list[y][x]);
 			goto(item.position); grab();
 			// va le poser sur une plateforme

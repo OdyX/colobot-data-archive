@@ -1,18 +1,18 @@
 \b;\button 175; Coffre-fort
 \image safe 8 8;
-Ce bâtiment a été construit par la première expédition, pour protéger un nouveau type de robot. Afin qu'il soit en sécurité, et que les insectes ne puissent pas y accéder, il est verrouillé par 4 \l;clés\u object\key;. Ce n'est que lorsque vous aurez déposé ces clés sur les 4 emplacements prévus à cet effet qu'il s'ouvrira.
+Ce bÃ¢timent a Ã©tÃ© construit par la premiÃ¨re expÃ©dition, pour protÃ©ger un nouveau type de robot. Afin qu'il soit en sÃ©curitÃ©, et que les insectes ne puissent pas y accÃ©der, il est verrouillÃ© par 4 \l;clÃ©s\u object\key;. Ce n'est que lorsque vous aurez dÃ©posÃ© ces clÃ©s sur les 4 emplacements prÃ©vus Ã  cet effet qu'il s'ouvrira.
 
-\t;Entrée
-4 clés.
+\t;EntrÃ©e
+4 clÃ©s.
 
 \t;Sortie
-Un nouveau système d'armement.
+Un nouveau systÃ¨me d'armement.
 
-\t;Energie consommée
+\t;Energie consommÃ©e
 Aucune.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;Vault\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

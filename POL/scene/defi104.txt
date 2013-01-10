@@ -4,7 +4,7 @@ ScriptName.E text="Labyrinth"
 Title.F      text="Labyrinthe"
 Resume.F     text="Programmez un robot pour qu'il avance sans se cogner dans un labyrinthe."
 Title.P      text="Labirynt 3"
-Resume.P     text="Naucz swojego robota znajdowania wyjœcie z labiryntu."
+Resume.P     text="Naucz swojego robota znajdowania wyjÂœcie z labiryntu."
 ScriptName.F text="Labyrinthe"
 ScriptName.P text="Labirynt"
 Instructions name="dlaby1.txt" immediat=1

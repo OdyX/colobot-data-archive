@@ -1,9 +1,9 @@
 Title.E      text="Invasion"
 Resume.E     text="Hold out against a giant ant invasion."
 Title.F      text="Invasion"
-Resume.F     text="Résistez à une invasion de fourmis géantes."
+Resume.F     text="RÃ©sistez Ã  une invasion de fourmis gÃ©antes."
 Title.P      text="Inwazja"
-Resume.P     text="Odeprzyj inwazjê olbrzymich mrówek."
+Resume.P     text="Odeprzyj inwazjÃª olbrzymich mrÃ³wek."
 Instructions name="mhsaari2.txt"
 Satellite    name="misaari2.txt"
 Loading      name="mlsaari2.txt"
@@ -61,7 +61,7 @@ CreateObject pos=-54.00;-4.00 dir=0.0 type=TitaniumOre
 CreateObject pos=-57.00;-1.00 dir=0.0 type=TitaniumOre
 CreateObject pos=-62.00;14.00 dir=0.0 type=TitaniumOre
 
-// Première vague :
+// PremiÃ¨re vague :
 CreateObject pos= -50;-200 type=AlienAnt script1="ant02.txt" run=1 cmdline=1
 CreateObject pos= -90;-250 type=AlienAnt script1="ant02.txt" run=1 cmdline=1
 CreateObject pos=-140;  50 type=AlienAnt script1="ant02.txt" run=1 cmdline=1
@@ -71,7 +71,7 @@ CreateObject pos=-150;  75 type=AlienAnt script1="ant02.txt" run=1 cmdline=1
 //CreateObject pos=-140;  50 type=AlienAnt script1="antattaw.txt" run=1 cmdline=1
 //CreateObject pos=-150;  75 type=AlienAnt script1="antattaw.txt" run=1 cmdline=1
 
-// Deuxième vague :
+// DeuxiÃ¨me vague :
 CreateObject pos= 201; 193 dir=0.2 type=AlienEgg autoValue1= 10 autoType=AlienAnt autoString="ant10.txt" run=1
 CreateObject pos=  38; 298 dir=1.5 type=AlienEgg autoValue1= 20 autoType=AlienAnt autoString="ant10.txt" run=1
 CreateObject pos= 106; 249 dir=0.8 type=AlienEgg autoValue1= 30 autoType=AlienAnt autoString="ant10.txt" run=1

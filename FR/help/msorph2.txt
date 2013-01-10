@@ -1,7 +1,7 @@
 \b;Solution
-Construisez un "chemin" de \l;paratonnerres\u object\captor; sur les montagnes, qui vous amène au nord. Normalement, 5 ou 6 paratonnerres devraient suffire. La \l;boîte noire\u object\bbox; est à côté de l'épave du vaisseau spatial de la première expédition.
+Construisez un "chemin" de \l;paratonnerres\u object\captor; sur les montagnes, qui vous amÃ¨ne au nord. Normalement, 5 ou 6 paratonnerres devraient suffire. La \l;boÃ®te noire\u object\bbox; est Ã  cÃ´tÃ© de l'Ã©pave du vaisseau spatial de la premiÃ¨re expÃ©dition.
 
-Ramenez la \l;boîte noire\u object\bbox; sur votre \l;vaisseau\u object\base; puis décollez.
+Ramenez la \l;boÃ®te noire\u object\bbox; sur votre \l;vaisseau\u object\base; puis dÃ©collez.
 
 \t;Voir aussi
 \l;Commandes\u command;.

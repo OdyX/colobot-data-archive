@@ -1,67 +1,67 @@
 \b;Zmienne
-Zmienna jest jak pude³ko, do którego mo¿na wk³adaæ ró¿ne informacje. Wartoœæ zmiennej mo¿e siê zmieniaæ podczas wykonywania programu.
+Zmienna jest jak pudeÂ³ko, do ktÃ³rego moÂ¿na wkÂ³adaÃ¦ rÃ³Â¿ne informacje. WartoÂœÃ¦ zmiennej moÂ¿e siÃª zmieniaÃ¦ podczas wykonywania programu.
 
-Na przyk³ad mo¿na u¿yæ zmiennej do liczenia jednostek rudy tytanu zebranych i przeniesionych przez transporter do huty. Najpierw nale¿y ustaliæ odpowiedni¹ nazwê dla zmiennej: nie powinna byæ ona zbyt d³uga, ale powinna wyjaœniaæ do czego u¿ywana jest zmienna. Nazwijmy j¹ \c;liczTyt\n;. Zmienna ta bêdzie zawiera³a tylko liczby ca³kowite, dlatego odpowiednim dla niej typem bêdzie \c;int\n;. Na pocz¹tku programu zmienn¹ trzeba zadeklarowaæ. Nastêpnie mo¿na w niej umieœciæ wartoœæ \c;0\n;, zwiêkszaj¹c j¹ o \c;1\n; za ka¿dym razem, gdy robot podniesie rudê tytanu. Zmienna ta bêdzie zawieraæ liczbê porcji rudy tytanu zebranych do tej pory przez robota.
+Na przykÂ³ad moÂ¿na uÂ¿yÃ¦ zmiennej do liczenia jednostek rudy tytanu zebranych i przeniesionych przez transporter do huty. Najpierw naleÂ¿y ustaliÃ¦ odpowiedniÂ¹ nazwÃª dla zmiennej: nie powinna byÃ¦ ona zbyt dÂ³uga, ale powinna wyjaÂœniaÃ¦ do czego uÂ¿ywana jest zmienna. Nazwijmy jÂ¹ \c;liczTyt\n;. Zmienna ta bÃªdzie zawieraÂ³a tylko liczby caÂ³kowite, dlatego odpowiednim dla niej typem bÃªdzie \c;int\n;. Na poczÂ¹tku programu zmiennÂ¹ trzeba zadeklarowaÃ¦. NastÃªpnie moÂ¿na w niej umieÂœciÃ¦ wartoÂœÃ¦ \c;0\n;, zwiÃªkszajÂ¹c jÂ¹ o \c;1\n; za kaÂ¿dym razem, gdy robot podniesie rudÃª tytanu. Zmienna ta bÃªdzie zawieraÃ¦ liczbÃª porcji rudy tytanu zebranych do tej pory przez robota.
 
-Aby zadeklarowaæ zmienn¹, nale¿y napisaæ: 
+Aby zadeklarowaÃ¦ zmiennÂ¹, naleÂ¿y napisaÃ¦: 
 \c;\s;	int  liczTyt;\n;
 
-Aby przypisaæ jej wartoœæ \c;0\n;, nale¿y napisaæ:
+Aby przypisaÃ¦ jej wartoÂœÃ¦ \c;0\n;, naleÂ¿y napisaÃ¦:
 \c;\s;	liczTyt = 0;\n;
 
-Po zebraniu ka¿dej porcji rudy tytanu nale¿y napisaæ:
+Po zebraniu kaÂ¿dej porcji rudy tytanu naleÂ¿y napisaÃ¦:
 \c;\s;	liczTyt = liczTyt + 1\n;
 
-W wyborze nazwy dla zmiennej jest du¿o swobody, mo¿na j¹ nazwaæ dowolnie, np.: \c;odl\n;, \c;kierunek\n;, \c;p2\n;, \c;a\n;, \c;x\n;, \c;nic_do_zestrzelenia\n;, itd.
-Nazwa zmiennej musi zaczynaæ siê od litery, po której mo¿e nastêpowaæ dowolna kombinacja liter, cyfr i znaków podkreœlenia \c;_\n;. Oczywiœcie nie mo¿na u¿ywaæ s³ów kluczowych jêzyka CBOT takich jak \c;\l;for\u cbot\for;\n;, \c;\l;while\u cbot\while;\n;, \c;\l;break\u cbot\break;\n;, \c;\l;continue\u cbot\continue;\n;, \c;do\n;, itd.
-Nale¿y byæ ostro¿nym w wyborze nazw przydzielanych zmiennym; pisanie programu mo¿e okazaæ siê bardzo trudne jeœli zapomni siê nazwy zmiennych lub nie pamiêta do czego one s³u¿y³y. Nale¿y opracowaæ w³asny system nazywania zmiennych i raczej nie u¿ywaæ nazw podobnych do \c;Bmo45\n;, \c;a\n; czy \c;tgBinX\n;.
+W wyborze nazwy dla zmiennej jest duÂ¿o swobody, moÂ¿na jÂ¹ nazwaÃ¦ dowolnie, np.: \c;odl\n;, \c;kierunek\n;, \c;p2\n;, \c;a\n;, \c;x\n;, \c;nic_do_zestrzelenia\n;, itd.
+Nazwa zmiennej musi zaczynaÃ¦ siÃª od litery, po ktÃ³rej moÂ¿e nastÃªpowaÃ¦ dowolna kombinacja liter, cyfr i znakÃ³w podkreÂœlenia \c;_\n;. OczywiÂœcie nie moÂ¿na uÂ¿ywaÃ¦ sÂ³Ã³w kluczowych jÃªzyka CBOT takich jak \c;\l;for\u cbot\for;\n;, \c;\l;while\u cbot\while;\n;, \c;\l;break\u cbot\break;\n;, \c;\l;continue\u cbot\continue;\n;, \c;do\n;, itd.
+NaleÂ¿y byÃ¦ ostroÂ¿nym w wyborze nazw przydzielanych zmiennym; pisanie programu moÂ¿e okazaÃ¦ siÃª bardzo trudne jeÂœli zapomni siÃª nazwy zmiennych lub nie pamiÃªta do czego one sÂ³uÂ¿yÂ³y. NaleÂ¿y opracowaÃ¦ wÂ³asny system nazywania zmiennych i raczej nie uÂ¿ywaÃ¦ nazw podobnych do \c;Bmo45\n;, \c;a\n; czy \c;tgBinX\n;.
 
-W powy¿szym przyk³adzie, s³owo \c;int\n; okreœla, ¿e zmienna mo¿e zawieraæ tylko liczby ca³kowite, odpowiednie do liczenia obiektów. Do mierzenia odleg³oœci lepiej jest u¿yæ zmiennej, która mo¿e równie¿ zawieraæ liczby rzeczywiste z czêœci¹ u³amkow¹ (takie jak 3.45 lub 0.034): w tym przypadku odpowiedniejszy jest typ \c;float\n;.
+W powyÂ¿szym przykÂ³adzie, sÂ³owo \c;int\n; okreÂœla, Â¿e zmienna moÂ¿e zawieraÃ¦ tylko liczby caÂ³kowite, odpowiednie do liczenia obiektÃ³w. Do mierzenia odlegÂ³oÂœci lepiej jest uÂ¿yÃ¦ zmiennej, ktÃ³ra moÂ¿e rÃ³wnieÂ¿ zawieraÃ¦ liczby rzeczywiste z czÃªÂœciÂ¹ uÂ³amkowÂ¹ (takie jak 3.45 lub 0.034): w tym przypadku odpowiedniejszy jest typ \c;float\n;.
 
-Zmienna sk³ada siê z trzech czêœci:
+Zmienna skÂ³ada siÃª z trzech czÃªÂœci:
 1) nazwy
-2) typu informacji przez ni¹ przechowywanych
-3) zawartoœci, czyli samej informacji 
+2) typu informacji przez niÂ¹ przechowywanych
+3) zawartoÂœci, czyli samej informacji 
 
 \t;nazwa
-Jest niezbêdna do rozró¿niania zmiennych pomiêdzy sob¹.
+Jest niezbÃªdna do rozrÃ³Â¿niania zmiennych pomiÃªdzy sobÂ¹.
 
 \t;typ
-\l;Typ\u cbot\type; warunkuje rodzaj informacji, jak¹ mo¿e zawieraæ zmienna. Zale¿nie od typu, zmienna mo¿e zawieraæ liczby ca³kowite, liczby rzeczywiste, ³añcuchy, wspó³rzêdne punktu, informacje o obiekcie, itd. 
-Oto lista najczêœciej wystêpuj¹cych typów zmiennych:
-  o  \c;\l;int\u cbot\int;\n; dla liczb ca³kowitych (12, -500, itd.)
+\l;Typ\u cbot\type; warunkuje rodzaj informacji, jakÂ¹ moÂ¿e zawieraÃ¦ zmienna. ZaleÂ¿nie od typu, zmienna moÂ¿e zawieraÃ¦ liczby caÂ³kowite, liczby rzeczywiste, Â³aÃ±cuchy, wspÃ³Â³rzÃªdne punktu, informacje o obiekcie, itd. 
+Oto lista najczÃªÂœciej wystÃªpujÂ¹cych typÃ³w zmiennych:
+  o  \c;\l;int\u cbot\int;\n; dla liczb caÂ³kowitych (12, -500, itd.)
   o  \c;\l;float\u cbot\float;\n; dla liczb rzeczywistych (3.14, 0.2, -99.98, itd.)
-  o  \c;\l;string\u cbot\string;\n; dla ³añcuchów znakowych ("Czeœæ!", "Nie znaleziono obiektu", itd.)
-  o  \c;\l;point\u cbot\point;\n; dla wspó³rzêdnych x, y, z w przestrzeni
+  o  \c;\l;string\u cbot\string;\n; dla Â³aÃ±cuchÃ³w znakowych ("CzeÂœÃ¦!", "Nie znaleziono obiektu", itd.)
+  o  \c;\l;point\u cbot\point;\n; dla wspÃ³Â³rzÃªdnych x, y, z w przestrzeni
   o  \c;\l;object\u cbot\object;\n; dla informacji o obiekcie (robocie, budynku, itd.)
 
-\t;zawartoœæ
-Zawartoœci¹ zmiennej jest informacja, której rodzaj jest okreœlony przez typ. Mo¿e siê ona zmieniaæ w trakcie dzia³ania programu. 
+\t;zawartoÂœÃ¦
+ZawartoÂœciÂ¹ zmiennej jest informacja, ktÃ³rej rodzaj jest okreÂœlony przez typ. MoÂ¿e siÃª ona zmieniaÃ¦ w trakcie dziaÂ³ania programu. 
 
-Po zadeklarowaniu zmiennej nie zawiera ona ¿adnej wartoœci. Zanim bêdzie mo¿na jej u¿yæ, trzeba nadaæ jej wartoœæ: 
+Po zadeklarowaniu zmiennej nie zawiera ona Â¿adnej wartoÂœci. Zanim bÃªdzie moÂ¿na jej uÂ¿yÃ¦, trzeba nadaÃ¦ jej wartoÂœÃ¦: 
 \c;\s;	int  i, j;
-\s;	j = 25;  // j przyjmuje wartoœæ 25
-\s;	j = i;   // tak nie mo¿na napisaæ, gdy¿ i nie ma jeszcze ¿adnej wartoœci.
+\s;	j = 25;  // j przyjmuje wartoÂœÃ¦ 25
+\s;	j = i;   // tak nie moÂ¿na napisaÃ¦, gdyÂ¿ i nie ma jeszcze Â¿adnej wartoÂœci.
 \n;
-Mo¿liwe jest zadeklarowanie zmiennej i przypisanie jej wartoœci w tym samym wierszu: 
+MoÂ¿liwe jest zadeklarowanie zmiennej i przypisanie jej wartoÂœci w tym samym wierszu: 
 \c;\s;	int  liczTyt = 0;
 \n; 
-Przy wykonywaniu przypisania wartoœci zmiennej przy u¿yciu znaku równoœci\c;=\n;, wartoœæ z prawej strony jest kopiowana do wartoœci po lewej stronie. Rozwa¿my nastêpuj¹cy przyk³ad: 
+Przy wykonywaniu przypisania wartoÂœci zmiennej przy uÂ¿yciu znaku rÃ³wnoÂœci\c;=\n;, wartoÂœÃ¦ z prawej strony jest kopiowana do wartoÂœci po lewej stronie. RozwaÂ¿my nastÃªpujÂ¹cy przykÂ³ad: 
 \c;\s;	int  i, j;
-\s;	i = 5+2;  // i przyjmuje wartoœæ 7
-\s;	j = i+6;  // j przyjmuje wartoœæ i plus 6, czyli 13
-\s;	i = j;    // i przyjmuje wartoœæ j, czyli 13
+\s;	i = 5+2;  // i przyjmuje wartoÂœÃ¦ 7
+\s;	j = i+6;  // j przyjmuje wartoÂœÃ¦ i plus 6, czyli 13
+\s;	i = j;    // i przyjmuje wartoÂœÃ¦ j, czyli 13
 \n;
-Na koñcu tego przyk³adu obie zmienne \c;i\n; i \c;j\n; zawieraj¹ wartoœæ \c;13\n;.
+Na koÃ±cu tego przykÂ³adu obie zmienne \c;i\n; i \c;j\n; zawierajÂ¹ wartoÂœÃ¦ \c;13\n;.
 
-Nastêpuj¹ce przypisanie jest niepoprawne, gdy¿ po lewej stronie znaku równoœci \c;=\n; mo¿e wystêpowaæ tylko nazwa zmiennej:
-\c;\s;	i+2 = j;  // niemo¿liwe
+NastÃªpujÂ¹ce przypisanie jest niepoprawne, gdyÂ¿ po lewej stronie znaku rÃ³wnoÂœci \c;=\n; moÂ¿e wystÃªpowaÃ¦ tylko nazwa zmiennej:
+\c;\s;	i+2 = j;  // niemoÂ¿liwe
 \n;
-Do zamiany zawartoœci dwóch zmiennych konieczne jest u¿ycie trzeciej zmiennej. Oto przyk³ad zamieniaj¹cy zawartoœæ zmiennych \c;a\n; i \c;b\n;:
+Do zamiany zawartoÂœci dwÃ³ch zmiennych konieczne jest uÂ¿ycie trzeciej zmiennej. Oto przykÂ³ad zamieniajÂ¹cy zawartoÂœÃ¦ zmiennych \c;a\n; i \c;b\n;:
 \c;\s;	int pom;
-\s;	pom = a;  // pom przyjmuje wartoœæ a
-\s;	a = b;    // zawartoœæ b jest kopiowana do a
-\s;	b = pom;  // zawartoœæ pom jest kopiowana do b
+\s;	pom = a;  // pom przyjmuje wartoÂœÃ¦ a
+\s;	a = b;    // zawartoÂœÃ¦ b jest kopiowana do a
+\s;	b = pom;  // zawartoÂœÃ¦ pom jest kopiowana do b
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

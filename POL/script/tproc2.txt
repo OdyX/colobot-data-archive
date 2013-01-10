@@ -7,7 +7,7 @@ void object::Part(float length)
 	}
 }
 
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	float	rest = 25;
 	while ( rest > 0 )

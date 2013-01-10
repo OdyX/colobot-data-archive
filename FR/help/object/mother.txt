@@ -1,16 +1,16 @@
 \b;Reine pondeuse
 \image mother 8 8;
-Cet immense insecte pond des oeufs desquels naîtront divers insectes hostiles. Sa carapace est particulièrement résistante aux tirs de vos systèmes d'armement offensifs.
+Cet immense insecte pond des oeufs desquels naÃ®tront divers insectes hostiles. Sa carapace est particuliÃ¨rement rÃ©sistante aux tirs de vos systÃ¨mes d'armement offensifs.
 
-Les insectes suivants peuvent naître des oeufs pondus par la reine:
+Les insectes suivants peuvent naÃ®tre des oeufs pondus par la reine:
 
 o  \l;fourmis\u object\ant;
-o  \l;araignées\u object\spider;
-o  \l;guêpes\u object\wasp;
+o  \l;araignÃ©es\u object\spider;
+o  \l;guÃªpes\u object\wasp;
 o  \l;vers\u object\worm;
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;AlienQueen\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

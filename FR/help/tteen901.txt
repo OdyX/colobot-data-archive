@@ -1,8 +1,8 @@
-\b;Créneaux
-Dans ce chapitre, tu vas dessiner des motifs qui se répètent en ligne. Comme premier exercice, dessine un créneau rouge selon ce principe¦:
+\b;CrÃ©neaux
+Dans ce chapitre, tu vas dessiner des motifs qui se rÃ©pÃ¨tent en ligne. Comme premier exercice, dessine un crÃ©neau rouge selon ce principeÂ¦:
 
 \image teen901 10 7;
-Comme la feuille de papier n'est pas très grande, répète le motif seulement 3 fois.
+Comme la feuille de papier n'est pas trÃ¨s grande, rÃ©pÃ¨te le motif seulement 3 fois.
 
 \b;Remarque
-A fin de la boucle, il faut prendre garde à orienter le robot dans le même sens qu'au début. Si tu as fait juste, il doit y avoir le même nombre de \c;turn(gauche);\n; et de \c;turn(droite);\n; dans ton programme¦!
+A fin de la boucle, il faut prendre garde Ã  orienter le robot dans le mÃªme sens qu'au dÃ©but. Si tu as fait juste, il doit y avoir le mÃªme nombre de \c;turn(gauche);\n; et de \c;turn(droite);\n; dans ton programmeÂ¦!

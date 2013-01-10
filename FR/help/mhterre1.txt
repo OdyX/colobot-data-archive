@@ -1,18 +1,18 @@
 \b;Instructions de Houston
-\l;Vous\u object\human; avez été sélectionné suite à votre profil psychologique et aux résultats obtenus lors des tests des derniers mois pour diriger la mission Colobot.
+\l;Vous\u object\human; avez Ã©tÃ© sÃ©lectionnÃ© suite Ã  votre profil psychologique et aux rÃ©sultats obtenus lors des tests des derniers mois pour diriger la mission Colobot.
 
-Cette mission consiste à explorer les planètes des étoiles voisines pour évaluer leur potentiel à servir de refuge à l'humanité. Comme vous savez, notre survie sur terre est menacée par un cataclysme écologique imminent dû à la pollution atmosphérique.
+Cette mission consiste Ã  explorer les planÃ¨tes des Ã©toiles voisines pour Ã©valuer leur potentiel Ã  servir de refuge Ã  l'humanitÃ©. Comme vous savez, notre survie sur terre est menacÃ©e par un cataclysme Ã©cologique imminent dÃ» Ã  la pollution atmosphÃ©rique.
 
-Vous partirez seul sur un vaisseau, accompagné de quelques robots.
+Vous partirez seul sur un vaisseau, accompagnÃ© de quelques robots.
 
-Il y a huit mois, une expédition d'observation composée uniquement de robots est partie explorer le cosmos, également à la recherche d'une autre planète habitable. Elle a connu plusieurs échecs sur des planètes apparemment peu propices à une colonisation durable. Mais, à cause de problèmes de transmission de données, les raisons en sont inconnues. Peut-être pourrez-vous quand même tirer profit des acquis de cette expédition lorsque vous serez sur place.
+Il y a huit mois, une expÃ©dition d'observation composÃ©e uniquement de robots est partie explorer le cosmos, Ã©galement Ã  la recherche d'une autre planÃ¨te habitable. Elle a connu plusieurs Ã©checs sur des planÃ¨tes apparemment peu propices Ã  une colonisation durable. Mais, Ã  cause de problÃ¨mes de transmission de donnÃ©es, les raisons en sont inconnues. Peut-Ãªtre pourrez-vous quand mÃªme tirer profit des acquis de cette expÃ©dition lorsque vous serez sur place.
 
-\b;Objectif immédiat
-Le désert du Nevada est en effervescence. Plusieurs robots sont en train d'y préparer votre décollage.
+\b;Objectif immÃ©diat
+Le dÃ©sert du Nevada est en effervescence. Plusieurs robots sont en train d'y prÃ©parer votre dÃ©collage.
 
-Afin de vous habituer à votre combinaison qui ne vous quittera plus durant le voyage et au matériel dont vous vous servirez, nous avons préparé quelques missions d'entraînement.
+Afin de vous habituer Ã  votre combinaison qui ne vous quittera plus durant le voyage et au matÃ©riel dont vous vous servirez, nous avons prÃ©parÃ© quelques missions d'entraÃ®nement.
 
-La première consiste à trouver votre sac de survie, qui contient tout le nécessaire pour affronter l'espace et le froid. Ce sac est facilement reconnaissable à ses deux bouteilles orange et bleue.
+La premiÃ¨re consiste Ã  trouver votre sac de survie, qui contient tout le nÃ©cessaire pour affronter l'espace et le froid. Ce sac est facilement reconnaissable Ã  ses deux bouteilles orange et bleue.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

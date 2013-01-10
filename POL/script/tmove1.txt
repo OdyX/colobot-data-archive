@@ -1,10 +1,10 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
-	move(20);  // idŸ do 1 punktu kontrolnego
+	move(20);  // idÂŸ do 1 punktu kontrolnego
 	turn(90);
-	move(20);  // idŸ do 2 punktu kontrolnego
+	move(20);  // idÂŸ do 2 punktu kontrolnego
 	turn(-90);
-	move(20);  // idŸ do 3 punktu kontrolnego
+	move(20);  // idÂŸ do 3 punktu kontrolnego
 	turn(-90);
-	move(20);  // idŸ do punktu docelowego
+	move(20);  // idÂŸ do punktu docelowego
 }

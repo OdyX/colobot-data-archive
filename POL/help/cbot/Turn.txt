@@ -1,33 +1,33 @@
 \b;Instrukcja \c;turn\n;
-Instrukcja \c;turn();\n; s³u¿y do wykonania przez robota obrotu o okreœlon¹ liczbê stopni.
+Instrukcja \c;turn();\n; sÂ³uÂ¿y do wykonania przez robota obrotu o okreÂœlonÂ¹ liczbÃª stopni.
 
-\b;Podstawowe u¿ycie
-90 stopni oznacza æwieræ obrotu, 180 stopni to pó³ obrotu. K¹t dodatni to obrót przeciwny do ruchu wskazówek zegara, k¹t ujemny oznacza obrót zgodny z ruchem wskazówek zegara. Oto kilka przyk³adów u¿ycia instrukcji \c;turn();\n;:
+\b;Podstawowe uÂ¿ycie
+90 stopni oznacza Ã¦wierÃ¦ obrotu, 180 stopni to pÃ³Â³ obrotu. KÂ¹t dodatni to obrÃ³t przeciwny do ruchu wskazÃ³wek zegara, kÂ¹t ujemny oznacza obrÃ³t zgodny z ruchem wskazÃ³wek zegara. Oto kilka przykÂ³adÃ³w uÂ¿ycia instrukcji \c;turn();\n;:
 
-\c;turn(90);\n;  æwieræ obrotu w lewo
-\c;turn(-90);\n; æwieræ obrotu w prawo (ujemny k¹t)
-\c;turn(180);\n; po³owa obrotu
+\c;turn(90);\n;  Ã¦wierÃ¦ obrotu w lewo
+\c;turn(-90);\n; Ã¦wierÃ¦ obrotu w prawo (ujemny kÂ¹t)
+\c;turn(180);\n; poÂ³owa obrotu
 
-Aby obróciæ robota w kierunku obiektu znalezionego przy u¿yciu instrukcji \c;\l;radar\u cbot\radar;();\n;, nale¿y obliczyæ k¹t obrotu przy pomocy instrukcji \c;\l;direction\u cbot\direct;()\n;:
+Aby obrÃ³ciÃ¦ robota w kierunku obiektu znalezionego przy uÂ¿yciu instrukcji \c;\l;radar\u cbot\radar;();\n;, naleÂ¿y obliczyÃ¦ kÂ¹t obrotu przy pomocy instrukcji \c;\l;direction\u cbot\direct;()\n;:
 \c;
 \s;	item = \l;radar\u cbot\radar;(AlienSpider);
 \s;	turn(\l;direction\u cbot\direct;(item.position));
 \n;
-Po tych liniach wystarczy wystrzeliæ z dzia³a i ju¿ mamy jednego wroga mniej.
+Po tych liniach wystarczy wystrzeliÃ¦ z dziaÂ³a i juÂ¿ mamy jednego wroga mniej.
 
-\b;Dla specjalistów
-Sk³adnia:
-\s;\c;turn ( k¹t );\n;
+\b;Dla specjalistÃ³w
+SkÂ³adnia:
+\s;\c;turn ( kÂ¹t );\n;
 
-Obraca robota o podany k¹t, w prawo lub w lewo, bez poruszania do przodu ani do ty³u. 
+Obraca robota o podany kÂ¹t, w prawo lub w lewo, bez poruszania do przodu ani do tyÂ³u. 
 
-\t;k¹t: \c;\l;float\u cbot\float;\n;
-K¹t obrotu w stopniach. Wartoœæ dodatnia to obrót w lewo, ujemna - w prawo. \c;turn(180)\n; obraca do ty³u. 
+\t;kÂ¹t: \c;\l;float\u cbot\float;\n;
+KÂ¹t obrotu w stopniach. WartoÂœÃ¦ dodatnia to obrÃ³t w lewo, ujemna - w prawo. \c;turn(180)\n; obraca do tyÂ³u. 
 
 \t;Typ wyniku: \c;\l;int\u cbot\int;\n;
-Zero w przypadku powodzenia lub inna wartoœæ, jeœli wyst¹pi³ b³¹d. 
-\c;== 0 \n;obrót wykonany
-\c;!= 0 \n;obrót niemo¿liwy
+Zero w przypadku powodzenia lub inna wartoÂœÃ¦, jeÂœli wystÂ¹piÂ³ bÂ³Â¹d. 
+\c;== 0 \n;obrÃ³t wykonany
+\c;!= 0 \n;obrÃ³t niemoÂ¿liwy
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,7 +1,7 @@
-\b;Génial
-Ce qui est génial avec le programme que tu viens de faire dans l'exercice précédent, c'est qu'il fonctionne aussi si le labyrinthe est différent.
+\b;GÃ©nial
+Ce qui est gÃ©nial avec le programme que tu viens de faire dans l'exercice prÃ©cÃ©dent, c'est qu'il fonctionne aussi si le labyrinthe est diffÃ©rent.
 
-Pour vérifier cela, essaie encore une fois le programme dans ce nouveau labyrinthe. Il n'y a rien à changer dans le programme¦!
+Pour vÃ©rifier cela, essaie encore une fois le programme dans ce nouveau labyrinthe. Il n'y a rien Ã  changer dans le programmeÂ¦!
 
 \b;Rayon
-Ne t'inquiète pas si tu vois une sorte de rayon partir du robot. C'est totalement inoffensif. C'est simplement l'instruction \c;detect()\n; qui cherche l'objet droit devant le robot.
+Ne t'inquiÃ¨te pas si tu vois une sorte de rayon partir du robot. C'est totalement inoffensif. C'est simplement l'instruction \c;detect()\n; qui cherche l'objet droit devant le robot.

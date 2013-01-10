@@ -1,8 +1,8 @@
 \b;Type \c;true\n;
-Cette valeur signifie "vrai" pour une \l;variable\u cbot\var; \l;booléenne\u cbot\bool;.
+Cette valeur signifie "vrai" pour une \l;variable\u cbot\var; \l;boolÃ©enne\u cbot\bool;.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;true\n; = vrai
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

@@ -1,11 +1,11 @@
 \b;\button 171; Statek kosmiczny
 \image base 8 8;
-\l;Twój\u object\human; œrodek transportu pomiêdzy planetami, jedyny sposób bezpiecznego podró¿owania w kosmosie i wype³nienia misji.
+\l;TwÃ³j\u object\human; Âœrodek transportu pomiÃªdzy planetami, jedyny sposÃ³b bezpiecznego podrÃ³Â¿owania w kosmosie i wypeÂ³nienia misji.
 
-Poza astronaut¹, statek kosmiczny mo¿e przewoziæ roboty oraz surowce. Po zakoñczeniu misji, nale¿y zanaczyæ statek kosmiczny, a nastêpnie klikn¹æ polecenie odlotu \button 28;.
+Poza astronautÂ¹, statek kosmiczny moÂ¿e przewoziÃ¦ roboty oraz surowce. Po zakoÃ±czeniu misji, naleÂ¿y zanaczyÃ¦ statek kosmiczny, a nastÃªpnie kliknÂ¹Ã¦ polecenie odlotu \button 28;.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;SpaceShip\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;..
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;..

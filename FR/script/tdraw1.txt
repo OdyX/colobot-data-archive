@@ -4,12 +4,12 @@ extern void object::Solution( )
 	
 	repeat ( 12 )
 	{
-		Carré();
+		CarrÃ©();
 		turn(30);
 	}
 }
 
-void object::Carré()
+void object::CarrÃ©()
 {
 	repeat ( 4 )
 	{

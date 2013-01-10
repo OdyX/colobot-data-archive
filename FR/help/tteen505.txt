@@ -1,14 +1,14 @@
-\b;Les matières plastiques
-L'élimination des matières plastiques pose des problèmes écologiques. Le désintégrateur moléculaire utilisé dans les exercices précédents n'est efficace qu'avec les matières métalliques. Pour éliminer un déchet plastique, il faut utiliser une méthode brutale qui consiste à l'écraser très violemment, avec un destructeur miniature.
+\b;Les matiÃ¨res plastiques
+L'Ã©limination des matiÃ¨res plastiques pose des problÃ¨mes Ã©cologiques. Le dÃ©sintÃ©grateur molÃ©culaire utilisÃ© dans les exercices prÃ©cÃ©dents n'est efficace qu'avec les matiÃ¨res mÃ©talliques. Pour Ã©liminer un dÃ©chet plastique, il faut utiliser une mÃ©thode brutale qui consiste Ã  l'Ã©craser trÃ¨s violemment, avec un destructeur miniature.
 
 \image destroy 8 8;
 \b;Modification
-Le programme de l'exercice précédent ne fonctionne pas tel quel. Si tu déposes le déchet de plastique sur le désintégrateur, il ne se passe rien. Il faut le déposer sur le destructeur. Pour cela, remplace l'instruction \c;find(Disitegrator);\n; par \c;find(Destroyer);\n;.
+Le programme de l'exercice prÃ©cÃ©dent ne fonctionne pas tel quel. Si tu dÃ©poses le dÃ©chet de plastique sur le dÃ©sintÃ©grateur, il ne se passe rien. Il faut le dÃ©poser sur le destructeur. Pour cela, remplace l'instruction \c;find(Disitegrator);\n; par \c;find(Destroyer);\n;.
 
-La destruction étant extrêmement violente, il faut reculer de 20 centimères au minimum pour ne pas endommager le robot. Le destructeur est muni d'une sécurité; il ne se met pas en marche tant que le robot est trop proche. Corrige aussi cela dans le programme.
+La destruction Ã©tant extrÃªmement violente, il faut reculer de 20 centimÃ¨res au minimum pour ne pas endommager le robot. Le destructeur est muni d'une sÃ©curitÃ©; il ne se met pas en marche tant que le robot est trop proche. Corrige aussi cela dans le programme.
 
 \b;Un peu d'anglais
 \c;find          = \n;trouver
-\c;Scrap         = \n;déchet
-\c;Disintegrator = \n;désintégrateur
+\c;Scrap         = \n;dÃ©chet
+\c;Disintegrator = \n;dÃ©sintÃ©grateur
 \c;Destroyer     = \n;destructeur

@@ -1,11 +1,11 @@
 \b;Solution
-Il faut quitter très vite l'ancienne base, car tout explose. Suivez ensuite le chemin de la mission précédente en sens inverse.
+Il faut quitter trÃ¨s vite l'ancienne base, car tout explose. Suivez ensuite le chemin de la mission prÃ©cÃ©dente en sens inverse.
 
-Les \l;fourmis\u object\ant; sont assez faciles à éviter. Si le niveau de votre bouclier baisse de manière alarmante, trouvez un coin tranquille et attendez que vos blessures guérissent.
+Les \l;fourmis\u object\ant; sont assez faciles Ã  Ã©viter. Si le niveau de votre bouclier baisse de maniÃ¨re alarmante, trouvez un coin tranquille et attendez que vos blessures guÃ©rissent.
 
-Les \l;araignées\u object\spider; fonctionnent à la manière de commandos suicides. Dès qu'elles aperçoivent une cible, elles font exploser leur énorme abdomen. Un seul fragment suffit pour vous tuer. Par chance, l'araignée meurt dans l'opération. Une technique risquée mais efficace pour se débarrasser d'une araignée consiste à s'approcher assez près. Dès que son abdomen commence à gonfler, décollez en marche arrière. Vous pouvez également la survoler à basse altitude. Dans les deux cas, lors de l'explosion, vous êtes hors de portée.
+Les \l;araignÃ©es\u object\spider; fonctionnent Ã  la maniÃ¨re de commandos suicides. DÃ¨s qu'elles aperÃ§oivent une cible, elles font exploser leur Ã©norme abdomen. Un seul fragment suffit pour vous tuer. Par chance, l'araignÃ©e meurt dans l'opÃ©ration. Une technique risquÃ©e mais efficace pour se dÃ©barrasser d'une araignÃ©e consiste Ã  s'approcher assez prÃ¨s. DÃ¨s que son abdomen commence Ã  gonfler, dÃ©collez en marche arriÃ¨re. Vous pouvez Ã©galement la survoler Ã  basse altitude. Dans les deux cas, lors de l'explosion, vous Ãªtes hors de portÃ©e.
 
-Dès que vous avez atteint un piton rocheux tranquille, vous pouvez utiliser le \l;robot orgaShooter\u object\botoj; pour éliminer les insectes qui rendent votre retour périlleux. Faites attention cependant à ne pas le perdre, sinon toute l'opération aura été inutile!
+DÃ¨s que vous avez atteint un piton rocheux tranquille, vous pouvez utiliser le \l;robot orgaShooter\u object\botoj; pour Ã©liminer les insectes qui rendent votre retour pÃ©rilleux. Faites attention cependant Ã  ne pas le perdre, sinon toute l'opÃ©ration aura Ã©tÃ© inutile!
 
 \t;Voir aussi
 \l;Commandes\u command;.

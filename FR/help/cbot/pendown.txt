@@ -1,19 +1,19 @@
 \b;Instruction \c;pendown\n;
-Avec l'instruction \c;pendown()\n;, le robot abaisse un crayon virtuel et dessine un trait sur le sol partout où il passe.
+Avec l'instruction \c;pendown()\n;, le robot abaisse un crayon virtuel et dessine un trait sur le sol partout oÃ¹ il passe.
 
 \b;Utilisation courante
-Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se déplace. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se déplace (bien entendu, cela n'efface pas les traits déjà dessinés).
+Avec \c;pendown()\n;, un trait est dessinÃ© par le robot chaque fois qu'il se dÃ©place. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se dÃ©place (bien entendu, cela n'efface pas les traits dÃ©jÃ  dessinÃ©s).
 \c;
 \s;	pendown();
 \s;	\l;move\u cbot\move;(5);
 \s;	\l;penup\u cbot\penup;();
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
-\s;\c;pendown ( couleur, épaisseur );\n;
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
+\s;\c;pendown ( couleur, Ã©paisseur );\n;
 
-\t;couleur: \c;\l;int\u cbot\int;\n; (\c;Black\n; par défaut)
-Couleur du trait à dessiner¦:
+\t;couleur: \c;\l;int\u cbot\int;\n; (\c;Black\n; par dÃ©faut)
+Couleur du trait Ã  dessinerÂ¦:
 \c;White      \n;Trait blanc
 \c;Black      \n;Trait noir
 \c;Gray       \n;Trait gris
@@ -30,13 +30,13 @@ Couleur du trait à dessiner¦:
 \c;LightGreen \n;Trait vert clair
 \c;Blue       \n;Trait bleu
 \c;LightBlue  \n;Trait bleu clair
-\c;BlackArrow \n;Flèches noires
-\c;RedArrow   \n;Flèches rouges
+\c;BlackArrow \n;FlÃ¨ches noires
+\c;RedArrow   \n;FlÃ¨ches rouges
 
-\t;épaisseur: \c;\l;float\u cbot\float;\n; (\c;0.5\n; par défaut)
-Epaisseur du trait, comprise entre 0.1 et 1 mètres.
+\t;Ã©paisseur: \c;\l;float\u cbot\float;\n; (\c;0.5\n; par dÃ©faut)
+Epaisseur du trait, comprise entre 0.1 et 1 mÃ¨tres.
 
-Si l'épaisseur ou la couleur sont omises, c'est les définitions réalisées avec \c;\l;pencolor\u cbot\pencolor;()\n; et \c;\l;penwidth\u cbot\penwidth;()\n; qui sont prises en compte. Voici deux exemples identiques¦:
+Si l'Ã©paisseur ou la couleur sont omises, c'est les dÃ©finitions rÃ©alisÃ©es avec \c;\l;pencolor\u cbot\pencolor;()\n; et \c;\l;penwidth\u cbot\penwidth;()\n; qui sont prises en compte. Voici deux exemples identiquesÂ¦:
 \c;
 \s;	pendown(Red, 0.1);
 \n;
@@ -46,9 +46,9 @@ ou
 \s;	\l;penwidth\u cbot\penwidth;(0.1);
 \s;	pendown();
 \n;
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;pen \n; = plume
 \c;down\n; = en bas
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

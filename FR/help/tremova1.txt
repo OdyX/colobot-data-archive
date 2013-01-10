@@ -1,39 +1,39 @@
 \b;Exercice
-Déplacez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivée. On ne connaît pas la position du titanium. En revanche, on sait que la plate-forme est à la position x=10 et y=-60.
+DÃ©placez le cube de \l;titanium\u object\titan; sur la plate-forme d'arrivÃ©e. On ne connaÃ®t pas la position du titanium. En revanche, on sait que la plate-forme est Ã  la position x=10 et y=-60.
 
 \b;L'instruction \c;goto\n;
-Pour résoudre ce problème, nous allons utiliser l'instruction \c;\l;goto\u cbot\goto;\n;. Cette instruction permet d'atteindre très simplement n'importe quelle position, en spécifiant ses coordonnées. Le robot tourne automatiquement dans la bonne direction et avance. Il évite même les obstacles éventuels¦!
+Pour rÃ©soudre ce problÃ¨me, nous allons utiliser l'instruction \c;\l;goto\u cbot\goto;\n;. Cette instruction permet d'atteindre trÃ¨s simplement n'importe quelle position, en spÃ©cifiant ses coordonnÃ©es. Le robot tourne automatiquement dans la bonne direction et avance. Il Ã©vite mÃªme les obstacles Ã©ventuelsÂ¦!
 
-En résumé, les différentes manières de déplacer un robot sont donc¦:
+En rÃ©sumÃ©, les diffÃ©rentes maniÃ¨res de dÃ©placer un robot sont doncÂ¦:
 
 \s;\c;motor(left, right)\n;
-Pour commander directement les moteurs, fraction de seconde après fraction de seconde.
+Pour commander directement les moteurs, fraction de seconde aprÃ¨s fraction de seconde.
 
 \s;\c;move(distance)\n; et \c;turn(angle)\n;
-Pour avancer d'une longueur précise, ou tourner d'un angle donné. Les déplacements sont relatifs. Par exemple, on avance de 100 mètres par rapport à la position actuelle du robot.
+Pour avancer d'une longueur prÃ©cise, ou tourner d'un angle donnÃ©. Les dÃ©placements sont relatifs. Par exemple, on avance de 100 mÃ¨tres par rapport Ã  la position actuelle du robot.
 
 \s;\c;goto(position)\n;
-Pour atteindre facilement une position absolue donnée.
+Pour atteindre facilement une position absolue donnÃ©e.
 
 \b;Solution
-Pour trouver le titanium, utilisez l'instruction \c;\l;radar\u cbot\radar;(Titanium);\n;. La troisième ligne teste si le titanium est trouvé. Dans cet exercice, c'est inutile, mais il vaut mieux prendre l'habitude de faire ce genre de test systématiquement¦:
+Pour trouver le titanium, utilisez l'instruction \c;\l;radar\u cbot\radar;(Titanium);\n;. La troisiÃ¨me ligne teste si le titanium est trouvÃ©. Dans cet exercice, c'est inutile, mais il vaut mieux prendre l'habitude de faire ce genre de test systÃ©matiquementÂ¦:
 \c;
 \s;object  item;
 \s;item = radar(Titanium);
 \s;if ( item == null )  return;
 \s;goto(item.position);
 \n;
-La variable \c;item\n; est de type \c;\l;object\u cbot\object;\n;. Pour connaître la position de l'objet décrit par la variable, il faut donc écrire \c;item.position\n;.
+La variable \c;item\n; est de type \c;\l;object\u cbot\object;\n;. Pour connaÃ®tre la position de l'objet dÃ©crit par la variable, il faut donc Ã©crire \c;item.position\n;.
 
-Pour prendre le titanium, il suffit d'effectuer \c;\l;grab\u cbot\grab;()\n;, sans aucun paramètre.
-Pour déposer le titanium, il suffit d'effectuer \c;\l;drop\u cbot\drop;()\n;, sans aucun paramètre.
+Pour prendre le titanium, il suffit d'effectuer \c;\l;grab\u cbot\grab;()\n;, sans aucun paramÃ¨tre.
+Pour dÃ©poser le titanium, il suffit d'effectuer \c;\l;drop\u cbot\drop;()\n;, sans aucun paramÃ¨tre.
 
-Les coordonnées de la plate-forme d'arrivée sont connues: x=10 et y=-60. Il faut donc déclarer une \l;variable\u cbot\var; de type \l;point\u cbot\point;, puis lui assigner les bonnes coordonnées. Cette variable pourra ensuite être donnée comme argument à l'instruction \c;\l;goto\u cbot\goto;\n;.
-Remarque: la coordonnée \c;z\n; peut être ignorée dans le cas d'un robot qui ne vole pas¦!
+Les coordonnÃ©es de la plate-forme d'arrivÃ©e sont connues: x=10 et y=-60. Il faut donc dÃ©clarer une \l;variable\u cbot\var; de type \l;point\u cbot\point;, puis lui assigner les bonnes coordonnÃ©es. Cette variable pourra ensuite Ãªtre donnÃ©e comme argument Ã  l'instruction \c;\l;goto\u cbot\goto;\n;.
+Remarque: la coordonnÃ©e \c;z\n; peut Ãªtre ignorÃ©e dans le cas d'un robot qui ne vole pasÂ¦!
 
 A vous de terminer le programme ...
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tfollow1; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tfollow1; et \l;programmation\u cbot;.

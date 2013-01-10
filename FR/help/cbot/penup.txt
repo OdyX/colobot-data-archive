@@ -1,22 +1,22 @@
 \b;Instruction \c;penup\n;
-Avec l'instruction \c;penup()\n;, le robot relève son crayon virtuel et ne dessine plus rien.
+Avec l'instruction \c;penup()\n;, le robot relÃ¨ve son crayon virtuel et ne dessine plus rien.
 
 \b;Utilisation courante
-Avec \c;pendown()\n;, un trait est dessiné par le robot chaque fois qu'il se déplace. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se déplace (bien entendu, cela n'efface pas les traits déjà dessinés).
+Avec \c;pendown()\n;, un trait est dessinÃ© par le robot chaque fois qu'il se dÃ©place. Avec \c;penup()\n;, le robot ne dessine plus rien lorsqu'il se dÃ©place (bien entendu, cela n'efface pas les traits dÃ©jÃ  dessinÃ©s).
 \c;
 \s;	\l;pendown\u cbot\pendown;();
 \s;	\l;move\u cbot\move;(5);
 \s;	penup();
 \n;
-\b;Pour spécialistes
-Syntaxe¦:
+\b;Pour spÃ©cialistes
+SyntaxeÂ¦:
 \s;\c;penup ( );\n;
 
-Aucun paramètre n'est admis.
+Aucun paramÃ¨tre n'est admis.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;pe \n; = plume
 \c;up \n; = en haut
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

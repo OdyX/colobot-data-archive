@@ -1,24 +1,24 @@
 \b;\button 166; Laboratoire
 \image labo 8 8;
-Ce b‚timent analyse la \l;matiËre organique\u object\bullet; afin de dÈcouvrir de nouvelles technologies inspirÈes des insectes. Posez une bulle de \l;matiËre organique\u object\bullet; sur le socle, sÈlectionnez le laboratoire, et cliquez sur le bouton correspondant ‡ la recherche ‡ effectuer.
+Ce b√¢timent analyse la \l;mati√®re organique\u object\bullet; afin de d√©couvrir de nouvelles technologies inspir√©es des insectes. Posez une bulle de \l;mati√®re organique\u object\bullet; sur le socle, s√©lectionnez le laboratoire, et cliquez sur le bouton correspondant √† la recherche √† effectuer.
 
 \t;Emplacement requis
-Surface plate quelconque de 6 mËtres de diamËtre.
+Surface plate quelconque de 6 m√®tres de diam√®tre.
 
-\t;EntrÈe
-MatiËre organique.
+\t;Entr√©e
+Mati√®re organique.
 
 \t;Sortie
 Plans pour de nouveaux types de robots.
 
-\t;Energie consommÈe
+\t;Energie consomm√©e
 Aucune.
 
-\t;DurÈe de l'opÈration
+\t;Dur√©e de l'op√©ration
 20 secondes.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;AutoLab\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

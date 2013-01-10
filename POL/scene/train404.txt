@@ -1,10 +1,10 @@
 Title.E      text="Patient hunter"
 Resume.E     text="Be patient enough not to waste your ammunitions."
 ScriptName.E text="Patient"
-Title.F      text="Chasse à l'homme"
+Title.F      text="Chasse Ã  l'homme"
 Resume.F     text="Abattre quatre cibles mouvantes sans gaspiller un seul coup."
-Title.P      text="Cierpliwy myœliwy"
-Resume.P     text="B¹dŸ na tyle cierpliwy, aby nie marnowaæ amunicji."
+Title.P      text="Cierpliwy myÂœliwy"
+Resume.P     text="BÂ¹dÂŸ na tyle cierpliwy, aby nie marnowaÃ¦ amunicji."
 ScriptName.F text="Abattre"
 ScriptName.P text="Cierpliwy"
 Instructions name="tchasse.txt"
@@ -81,13 +81,13 @@ CreateObject pos=20.00;-77.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-75.00 dir=0.5 type=Barrier1
 CreateObject pos=22.50;-75.00 dir=0.5 type=Barrier1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos=12.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-65.00 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-65.00 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos=12.50;-85.00 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-85.00 dir=0.0 type=Barrier1
 CreateObject pos=22.50;-85.00 dir=0.0 type=Barrier1

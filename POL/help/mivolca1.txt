@@ -5,16 +5,16 @@ Obecnie na orbicie geostacjonarnej planety Wulkania.
 \tab;Temperatura:      84,6C
 \tab;Atmosfera:        CO2, SO2, HCN, HS, CH4, NH3
 \tab;Wiatr:            2,2 m/s
-\tab;Ruda tytanu:      wszêdzie
-\tab;Ruda uranu:       trochê
+\tab;Ruda tytanu:      wszÃªdzie
+\tab;Ruda uranu:       trochÃª
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   wszêdzie
+\tab;ÂrÃ³dÂ³o energii:   wszÃªdzie
 \tab;Ruda tytanu:      brak
 \tab;Ruda uranu:       brak
 
 \s;-> DODATKOWE INFORMACJE\c;
-\tab;Wykryto:          u¿yteczne pozosta³oœci 
+\tab;Wykryto:          uÂ¿yteczne pozostaÂ³oÂœci 
 \tab;Wykryto:          nieznane organizmy
-\tab;  - Zagro¿enie:   ?
+\tab;  - ZagroÂ¿enie:   ?
 \n;

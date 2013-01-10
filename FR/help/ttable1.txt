@@ -1,12 +1,12 @@
 \b;Exercice
-Deux \l;tableaux\u cbot\array; contiennent des informations de distance et d'angle pour réaliser un dessin surprise. A vous de déplacer le robot en fonction de ces informations¦...
+Deux \l;tableaux\u cbot\array; contiennent des informations de distance et d'angle pour rÃ©aliser un dessin surprise. A vous de dÃ©placer le robot en fonction de ces informationsÂ¦...
 
 \b;Tableaux
-Le dessin est composé de 7 traits. Les deux tableaux sont donc définis comme suit¦:
+Le dessin est composÃ© de 7 traits. Les deux tableaux sont donc dÃ©finis comme suitÂ¦:
 \s;\c;	float dist[7];
 \s;	float angle[7];
 \n;
-Ils sont ensuite initialisés avec les bonnes valeurs. Le programme contient déjà ces instructions¦:
+Ils sont ensuite initialisÃ©s avec les bonnes valeurs. Le programme contient dÃ©jÃ  ces instructionsÂ¦:
 \s;\c;	dist[0] = 4;
 \s;	dist[1] = 6;
 \s;	...
@@ -14,10 +14,10 @@ Ils sont ensuite initialisés avec les bonnes valeurs. Le programme contient déjà
 \s;	angle[1] = -90;
 \s;	...
 \n;
-N'oubliez pas qu'avec \c;float dist[7];\n;, le tableau contient 7 cases, numérotées à partir de 0. Les index sont donc compris entre 0 et 6. Il n'est pas possible d'accéder à la case \c;dist[7]\n;¦!
+N'oubliez pas qu'avec \c;float dist[7];\n;, le tableau contient 7 cases, numÃ©rotÃ©es Ã  partir de 0. Les index sont donc compris entre 0 et 6. Il n'est pas possible d'accÃ©der Ã  la case \c;dist[7]\n;Â¦!
 
 \b;Programme
-Ce que vous devez faire, c'est déplacer le robot avec \c;\l;move\u cbot\move;()\n; selon le tableau \c;dist[]\n; puis le tourner avec \c;\l;turn\u cbot\turn;()\n; selon le tableau \c;angle[]\n;. La boucle principale \c;\l;for\u cbot\for;()\n; ressemblera à ceci¦:
+Ce que vous devez faire, c'est dÃ©placer le robot avec \c;\l;move\u cbot\move;()\n; selon le tableau \c;dist[]\n; puis le tourner avec \c;\l;turn\u cbot\turn;()\n; selon le tableau \c;angle[]\n;. La boucle principale \c;\l;for\u cbot\for;()\n; ressemblera Ã  ceciÂ¦:
 
 \s;\c;	for ( int i=0 ; i<7 ; i=i+1 )
 \s;	{
@@ -25,10 +25,10 @@ Ce que vous devez faire, c'est déplacer le robot avec \c;\l;move\u cbot\move;()\
 \s;		...
 \s;	}
 \n;
-Au début, n'oubliez pas d'abaisser le crayon avec \c;\l;pendown\u cbot\pendown;(Red);\n;.
+Au dÃ©but, n'oubliez pas d'abaisser le crayon avec \c;\l;pendown\u cbot\pendown;(Red);\n;.
 A vous de terminer le programme.
 
-\key;\key help;\norm; permet de revoir ces instructions en tout temps¦!
+\key;\key help;\norm; permet de revoir ces instructions en tout tempsÂ¦!
 
 \t;Voir aussi
-\l;Exercice précédent\u tremote2; et \l;programmation\u cbot;.
+\l;Exercice prÃ©cÃ©dent\u tremote2; et \l;programmation\u cbot;.

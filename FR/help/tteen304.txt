@@ -1,15 +1,15 @@
 \b;Un cercle
-Comment dessiner un cercle avec uniquement des droites¦?
-Dans les 2 exercices précédents, on a dessiné d'abord un carré puis un hexagone. En réfléchissant bien, si on augmente le nombre de côtés de la figure, on va de plus en plus s'approcher d'un cercle.
+Comment dessiner un cercle avec uniquement des droitesÂ¦?
+Dans les 2 exercices prÃ©cÃ©dents, on a dessinÃ© d'abord un carrÃ© puis un hexagone. En rÃ©flÃ©chissant bien, si on augmente le nombre de cÃ´tÃ©s de la figure, on va de plus en plus s'approcher d'un cercle.
 
 \image circle 14 4;
-En tournant 36 fois de 10 degrés, on effectue un tour complet (qui fait 360 degrés). Evidemment, il ne faut plus avancer de 20 centimètres, sans quoi le cercle va largement déborder de la feuille. Une avance de 4 centimètres est suffisante.
+En tournant 36 fois de 10 degrÃ©s, on effectue un tour complet (qui fait 360 degrÃ©s). Evidemment, il ne faut plus avancer de 20 centimÃ¨tres, sans quoi le cercle va largement dÃ©border de la feuille. Une avance de 4 centimÃ¨tres est suffisante.
 
-Voici donc le programme à écrire¦:
+Voici donc le programme Ã  Ã©crireÂ¦:
 
 \s;o  Baisse le crayon orange
-\s;o  répète 36 fois¦:
-\s;	o  Avance de 4 centimètres
-\s;	o  Tourne de 10 degrés à gauche
+\s;o  rÃ©pÃ¨te 36 foisÂ¦:
+\s;	o  Avance de 4 centimÃ¨tres
+\s;	o  Tourne de 10 degrÃ©s Ã  gauche
 
-Rappel: pas de point-virgule après \c;repeat(36)\n;¦!
+Rappel: pas de point-virgule aprÃ¨s \c;repeat(36)\n;Â¦!

@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	object  item;
 	point   dest;
@@ -7,11 +7,11 @@ extern void object::Rozwi¹zanie( )
 	if ( item == null )  return;
 	goto(item.position);
 
-	grab();  // podnieœ kostkê tytanu
+	grab();  // podnieÂœ kostkÃª tytanu
 
 	dest.x = 10;
 	dest.y = -60;
-	goto(dest);  // idŸ na platformê
+	goto(dest);  // idÂŸ na platformÃª
 
-	drop();  // zostaw kostkê tytanu
+	drop();  // zostaw kostkÃª tytanu
 }

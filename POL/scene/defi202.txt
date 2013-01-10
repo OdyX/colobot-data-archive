@@ -3,10 +3,10 @@ Resume.E     text="Follow a bot, as if you were its shadow."
 ScriptName.E text="Follow"
 Title.F      text="Copieur ..."
 Resume.F     text="Suivez un robot, sans le heurter."
-Title.P      text="Cieñ 2"
-Resume.P     text="Pod¹¿aj za robotem, staj¹c siê jego cieniem."
+Title.P      text="CieÃ± 2"
+Resume.P     text="PodÂ¹Â¿aj za robotem, stajÂ¹c siÃª jego cieniem."
 ScriptName.F text="Suivre"
-ScriptName.P text="Pod¹¿anie"
+ScriptName.P text="PodÂ¹Â¿anie"
 Instructions name="dfollow1.txt" immediat=1
 HelpFile     name="cbot.txt"
 EndingFile   win=1 lost=0
@@ -74,7 +74,7 @@ CreateObject pos=36.25;-67.50 dir=1.0 type=Me option=2
 CreateObject pos=32.50;-65.00 dir=1.0 type=PracticeBot reset=1 trainer=1 soluce="tfollow1.txt" select=1
 CreateObject pos=20.00;-77.50 dir=1.0 type=TargetBot reset=1 script1="tfollow2.txt" run=1
 
-// Ligne supérieure.
+// Ligne supÃ©rieure.
 CreateObject pos= 7.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-62.50 dir=0.0 type=Barrier1
@@ -82,7 +82,7 @@ CreateObject pos=22.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=27.50;-62.50 dir=0.0 type=Barrier1
 CreateObject pos=32.50;-62.50 dir=0.0 type=Barrier1
 
-// Ligne inférieure.
+// Ligne infÃ©rieure.
 CreateObject pos= 7.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=12.50;-92.50 dir=0.0 type=Barrier1
 CreateObject pos=17.50;-92.50 dir=0.0 type=Barrier1

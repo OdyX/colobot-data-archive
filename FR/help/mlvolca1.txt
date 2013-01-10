@@ -1,11 +1,11 @@
-\b;Programme envoyé par Houston
-Comme vous aurez beaucoup à construire, nous avons amélioré le programme \c;ApporteTitanium\n;. Le robot répartit maintenant toute une série de \l;cubes de titanium\u object\titan; autour du \l;convertisseur\u object\convert;. Ainsi vous n'avez plus à vous occuper de lui. Il va aussi se \l;recharger\u object\station; tout seul.
+\b;Programme envoyÃ© par Houston
+Comme vous aurez beaucoup Ã  construire, nous avons amÃ©liorÃ© le programme \c;ApporteTitanium\n;. Le robot rÃ©partit maintenant toute une sÃ©rie de \l;cubes de titanium\u object\titan; autour du \l;convertisseur\u object\convert;. Ainsi vous n'avez plus Ã  vous occuper de lui. Il va aussi se \l;recharger\u object\station; tout seul.
 \c;
 \s;extern void object::ApporteTitanium3()
 \s;{
 \s;	\l;object\u cbot\type;  chose;                // info sur objet
 \s;	
-\s;	\l;while\u cbot\while; ( true )                // répète¦:
+\s;	\l;while\u cbot\while; ( true )                // rÃ©pÃ¨teÂ¦:
 \s;	{
 \s;		chose = \l;radar\u cbot\radar;(\l;TitaniumOre\u cbot\category;); // cherche minerai
 \s;		\l;goto\u cbot\goto;(chose.position);     // va vers minerai
@@ -24,14 +24,14 @@ Comme vous aurez beaucoup à construire, nous avons amélioré le programme \c;Appo
 \s;		\l;goto\u cbot\goto;(chose.position);
 \s;		\l;grab\u cbot\grab;();                   // prend le cube
 \s;		
-\s;		\l;goto\u cbot\goto;(\l;space\u cbot\space;(position));    // va où déposer
-\s;		\l;drop\u cbot\drop;();                   // dépose titanium
+\s;		\l;goto\u cbot\goto;(\l;space\u cbot\space;(position));    // va oÃ¹ dÃ©poser
+\s;		\l;drop\u cbot\drop;();                   // dÃ©pose titanium
 \s;		
-\s;		// Pile à moitié vide¦?
+\s;		// Pile Ã  moitiÃ© videÂ¦?
 \s;		\l;if\u cbot\if; ( energyCell.energyLevel < 0.5 )
 \s;		{
 \s;			chose = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;);
-\s;			\l;if\u cbot\if; ( chose¦!= null )  // station trouvée¦?
+\s;			\l;if\u cbot\if; ( choseÂ¦!= null )  // station trouvÃ©eÂ¦?
 \s;			{
 \s;				\l;goto\u cbot\goto;(chose.position); // va recharger
 \s;				\l;while\u cbot\while; ( \l;energyCell.energyLevel\u cbot\object; < 1 )
@@ -44,7 +44,7 @@ Comme vous aurez beaucoup à construire, nous avons amélioré le programme \c;Appo
 \s;}
 \n;
 \b;Archives
-Résumé des programmes déjà reçus¦:
+RÃ©sumÃ© des programmes dÃ©jÃ  reÃ§usÂ¦:
 
 o  \c;\l;TueFourmi1\u mlsaari2;\n;
 o  \c;\l;ApporteTitanium2\u mlcrys2;\n;

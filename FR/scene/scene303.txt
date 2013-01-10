@@ -1,5 +1,5 @@
 Title.F      text="A l'attaque"
-Resume.F     text="Développez un système d'armement offensif pour pouvoir faire face aux fourmis géantes."
+Resume.F     text="DÃ©veloppez un systÃ¨me d'armement offensif pour pouvoir faire face aux fourmis gÃ©antes."
 Title.E      text="On the Offensive"
 Resume.E     text="Develop an offensive weapons system and confront the giant ants."
 Instructions name="mhtropi3.txt"
@@ -84,7 +84,7 @@ GroundSpot pos= 85; -44 radius=50 color=100;255;100  // montagne sud
 GroundSpot pos=115;-123 radius=80 color=160;230;160  // montagne sud
 GroundSpot pos= -6; 102 radius=50 color=160;230;160  // montagne nord
 
-GroundSpot pos=100; 215 radius=80 color=215;180;180  // vallée nord
+GroundSpot pos=100; 215 radius=80 color=215;180;180  // vallÃ©e nord
 GroundSpot pos= 40; 240 radius=80 color=230;150;150
 GroundSpot pos=-40; 240 radius=99 color=230;150;150
 GroundSpot pos=-62; 245 radius=20 color=000;255;000
@@ -238,7 +238,7 @@ CreateObject pos= 210; 141 dir=1.1 type=Greenery19
 CreateObject pos= 211; 138 dir=0.3 type=Greenery17
 CreateObject pos= 188; 143 dir=0.7 type=Greenery16
 
-// Vallée nord
+// VallÃ©e nord
 CreateObject pos= -63; 245 dir=0.2 type=MegaStalk5
 CreateObject pos= -73; 255 dir=1.0 type=MegaStalk3
 CreateObject pos= -68; 231 dir=0.6 type=MegaStalk1

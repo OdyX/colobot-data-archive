@@ -1,10 +1,10 @@
 extern void object::Solution( )
 {
-	for ( int i=0 ; i<6 ; i=i+1 )  // répète 6x
+	for ( int i=0 ; i<6 ; i=i+1 )  // rÃ©pÃ¨te 6x
 	{
-		move(5);    // avance de 5 mètres
-		turn(90);   // quart de tour à gauche
-		fire(1);    // détruit la cible
-		turn(-90);  // quart de tour à droite
+		move(5);    // avance de 5 mÃ¨tres
+		turn(90);   // quart de tour Ã  gauche
+		fire(1);    // dÃ©truit la cible
+		turn(-90);  // quart de tour Ã  droite
 	}
 }

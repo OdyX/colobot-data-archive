@@ -1,11 +1,11 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	point  start;
-	start = position;  // zapamiêtaj pozycjê startow¹
+	start = position;  // zapamiÃªtaj pozycjÃª startowÂ¹
 
-	motor(1, 1);  // pe³ny ci¹g
+	motor(1, 1);  // peÂ³ny ciÂ¹g
 
-	while ( true )  // powtarzaj w nieskoñczonoœæ
+	while ( true )  // powtarzaj w nieskoÃ±czonoÂœÃ¦
 	{
 		float len = distance(position, start);
 		if ( len > 25-2 )
@@ -14,4 +14,3 @@ extern void object::Rozwi¹zanie( )
 		}
 	}
 }
-

@@ -2,7 +2,7 @@ extern void object::ApporteTitanium4()
 {
 	object  chose;                // Info sur objet
 	
-	while ( true )                // Répète :
+	while ( true )                // RÃ©pÃ¨te :
 	{
 		chose = radar(TitaniumOre); // Cherche minerai
 		goto(chose.position);     // Va vers minerai
@@ -21,14 +21,14 @@ extern void object::ApporteTitanium4()
 		goto(chose.position);
 		grab();                   // Prend le cube
 				
-		goto(space(position));    // Va où déposer
-		drop();                   // Dépose titanium
+		goto(space(position));    // Va oÃ¹ dÃ©poser
+		drop();                   // DÃ©pose titanium
 		
-		// Pile à moitié vide ?
+		// Pile Ã  moitiÃ© vide ?
 		if ( energyCell.energyLevel < 0.5 )
 		{
 			chose = radar(PowerCaptor);
-			if ( chose != null )  // Station trouvée ?
+			if ( chose != null )  // Station trouvÃ©e ?
 			{
 				goto(chose.position); // Va recharger
 				while ( energyCell.energyLevel < 1 )

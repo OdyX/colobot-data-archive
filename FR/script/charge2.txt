@@ -3,7 +3,7 @@ extern void object::Recharge2()
 	point  depart;         // variable pour pos. initiale
 	object chose;          // info sur la station
 	
-	depart = position;     // mémorise position initiale
+	depart = position;     // mÃ©morise position initiale
 	
 	chose = radar(PowerStation); // cherche station
 	goto(chose.position);  // va sur station de recharge
@@ -13,6 +13,6 @@ extern void object::Recharge2()
 		wait(1);           // attend pile pleine
 	}
 	
-	goto(depart);          // retourne à la pos. initiale
-	message("Recharge terminée");
+	goto(depart);          // retourne Ã  la pos. initiale
+	message("Recharge terminÃ©e");
 }

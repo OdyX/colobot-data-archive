@@ -1,5 +1,5 @@
 \b;Instructions de Houston
-Ramener sur le \l;vaisseau\u object\base; du \l;minerai d'uranium\u object\uranore; détecté sur le sommet de la montagne par le satellite d'observation.
+Ramener sur le \l;vaisseau\u object\base; du \l;minerai d'uranium\u object\uranore; dÃ©tectÃ© sur le sommet de la montagne par le satellite d'observation.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

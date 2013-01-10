@@ -1,24 +1,24 @@
 \b;\button 166; Laboratorium
 \image labo 8 8;
-Laboratorium jest przeznaczone do analizy \l;materii organicznej\u object\bullet;. Dziêki niemu \l;ludzie\u object\human; mog¹ poznaæ technologiê owadów, a nawet u¿yæ jej dla zwiêkszenia swojej przewagi. Fragment \l;materii organicznej\u object\bullet; nale¿y umieœciæ na platformie, zaznaczyæ laboratorium i klikn¹æ przycisk odpowiadaj¹cy ¿¹danemu programowi badawczemu.
+Laboratorium jest przeznaczone do analizy \l;materii organicznej\u object\bullet;. DziÃªki niemu \l;ludzie\u object\human; mogÂ¹ poznaÃ¦ technologiÃª owadÃ³w, a nawet uÂ¿yÃ¦ jej dla zwiÃªkszenia swojej przewagi. Fragment \l;materii organicznej\u object\bullet; naleÂ¿y umieÂœciÃ¦ na platformie, zaznaczyÃ¦ laboratorium i kliknÂ¹Ã¦ przycisk odpowiadajÂ¹cy Â¿Â¹danemu programowi badawczemu.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 6 metrów.
+PÂ³aska powierzchnia szeroka na minimum 6 metrÃ³w.
 
-\t;Wejœcie
+\t;WejÂœcie
 Materia organiczna.
 
-\t;Wyjœcie
+\t;WyjÂœcie
 Nowe, ulepszone technologie.
 
-\t;ród³o zasilania
+\t;ÂrÃ³dÂ³o zasilania
 Brak.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 20 sekund.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;AutoLab\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

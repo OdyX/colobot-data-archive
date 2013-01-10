@@ -1,7 +1,7 @@
 \b;Solution
-Si votre robot explose, c'est que vous avez heurté trop souvent et trop violemment les supports en acier. Allez-y plus doucement, ainsi même en cas de pépin le robot ne sera pas endommagé.
+Si votre robot explose, c'est que vous avez heurtÃ© trop souvent et trop violemment les supports en acier. Allez-y plus doucement, ainsi mÃªme en cas de pÃ©pin le robot ne sera pas endommagÃ©.
 
-Si le vaisseau refuse de décoller et affiche \c;La mission n'est pas terminée\n;, cela indique que vous n'avez pas passé à travers toutes les cibles, ou que vous n'avez pas détruit toutes les caisses de TNT. Faites encore une fois le tour et passez à travers les cibles où il reste encore la croix et détruisez les caisses qui restent.
+Si le vaisseau refuse de dÃ©coller et affiche \c;La mission n'est pas terminÃ©e\n;, cela indique que vous n'avez pas passÃ© Ã  travers toutes les cibles, ou que vous n'avez pas dÃ©truit toutes les caisses de TNT. Faites encore une fois le tour et passez Ã  travers les cibles oÃ¹ il reste encore la croix et dÃ©truisez les caisses qui restent.
 
 \t;Voir aussi
 \l;Commandes\u command;.

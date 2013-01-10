@@ -2,17 +2,17 @@ extern void object::KillAnt1()
 {
 	object item;             // informacje o obiekcie
 	
-	goto(-30, 0);            // idŸ na zachód
+	goto(-30, 0);            // idÂŸ na zachÃ³d
 	aim(0);                  // celuj w poziomie
 	
-	while ( true )           // powtarzaj w nieskoñczonoœæ:
+	while ( true )           // powtarzaj w nieskoÃ±czonoÂœÃ¦:
 	{
 		item = radar(AlienAnt, 0, 360, 0, 40);
-		if ( item != null )  // wykryto mrówkê?
+		if ( item != null )  // wykryto mrÃ³wkÃª?
 		{
 			turn(direction(item.position));
 			fire(0.5);       // strzelaj przez 0,5 s
 		}
-		wait(1);             // czekaj 1 sekundê
+		wait(1);             // czekaj 1 sekundÃª
 	}
 }

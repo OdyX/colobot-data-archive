@@ -1,11 +1,11 @@
 \b;Z Centrum Kontroli Misji
-Wyeliminuj wszystkich wrogów obecnych w okolicy.
+Wyeliminuj wszystkich wrogÃ³w obecnych w okolicy.
 
-Twoja obecna sytuacja skrajnie nas niepokoi. Satelita wykry³ bardzo du¿¹ aktywnoœæ wroga, zbli¿aj¹cego siê do Twojego statku kosmicznego ze wszystkich kierunków. Musisz prawid³owo oceniæ sytuacjê i wybraæ najszybsz¹ i najskuteczniejsz¹ obronê: \l;wie¿e\u object\tower; lub\l;dzia³a\u object\botfr;.
+Twoja obecna sytuacja skrajnie nas niepokoi. Satelita wykryÂ³ bardzo duÂ¿Â¹ aktywnoÂœÃ¦ wroga, zbliÂ¿ajÂ¹cego siÃª do Twojego statku kosmicznego ze wszystkich kierunkÃ³w. Musisz prawidÂ³owo oceniÃ¦ sytuacjÃª i wybraÃ¦ najszybszÂ¹ i najskuteczniejszÂ¹ obronÃª: \l;wieÂ¿e\u object\tower; lub\l;dziaÂ³a\u object\botfr;.
 
-Aby zwiêkszyæ Twoje szanse przetrwania, opracowaliœmy program, który bêdzie broni³ Twojej zachodniej flanki, jeœli uruchomisz go na \l;dziale na ko³ach\u object\botfr;; zobacz stronê programu \button 53;.
+Aby zwiÃªkszyÃ¦ Twoje szanse przetrwania, opracowaliÂœmy program, ktÃ³ry bÃªdzie broniÂ³ Twojej zachodniej flanki, jeÂœli uruchomisz go na \l;dziale na koÂ³ach\u object\botfr;; zobacz stronÃª programu \button 53;.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
-\l;Sterowanie\u command; i \l;Jêzyk CBOT\u cbot;
+\t;Zobacz rÃ³wnieÂ¿
+\l;Sterowanie\u command; i \l;JÃªzyk CBOT\u cbot;

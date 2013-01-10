@@ -1,6 +1,6 @@
 \b;Funkcje
-U¿ywaj¹c funkcji mo¿na podzieliæ program na kilka czêœci, z których ka¿da bêdzie wykonywa³a okreœlone zadanie.
-WyobraŸmy sobie nastêpuj¹cy program¦:
+UÂ¿ywajÂ¹c funkcji moÂ¿na podzieliÃ¦ program na kilka czÃªÂœci, z ktÃ³rych kaÂ¿da bÃªdzie wykonywaÂ³a okreÂœlone zadanie.
+WyobraÂŸmy sobie nastÃªpujÂ¹cy programÂ¦:
 \c;
 \s;extern void object::Zdalnie( )
 \s;{
@@ -14,44 +14,44 @@ WyobraŸmy sobie nastêpuj¹cy program¦:
 \s;	wait(5);
 \s;}
 \n;
-Instrukcje \c;send\n; i \c;wait\n; wykonywane s¹ wielokrotnie. By³oby dobrze utworzyæ funkcjê wykonuj¹c¹ te dwie instrukcje:
+Instrukcje \c;send\n; i \c;wait\n; wykonywane sÂ¹ wielokrotnie. ByÂ³oby dobrze utworzyÃ¦ funkcjÃª wykonujÂ¹cÂ¹ te dwie instrukcje:
 \c;
-\s;void object::WyœlijDoStacji( float op )
+\s;void object::WyÂœlijDoStacji( float op )
 \s;{
 \s;	send("order", op, 100);
 \s;	wait(5);
 \s;}
 \s;extern void object::Zdalnie( )
 \s;{
-\s;	WyœlijDoStacji(1);
-\s;	WyœlijDoStacji(3);
-\s;	WyœlijDoStacji(2);
-\s;	WyœlijDoStacji(4);
+\s;	WyÂœlijDoStacji(1);
+\s;	WyÂœlijDoStacji(3);
+\s;	WyÂœlijDoStacji(2);
+\s;	WyÂœlijDoStacji(4);
 \s;}
 \n;
-Funkcja mo¿e mieæ parametry¦:
+Funkcja moÂ¿e mieÃ¦ parametryÂ¦:
 \c;
-\s;void Przyk³ad( int a, float x, string s )
+\s;void PrzykÂ³ad( int a, float x, string s )
 \n;
-Funkcja \c;Przyk³ad\n; dostaje jako parametry liczbê ca³kowit¹ \c;a\n;, liczbê zmiennoprzecinkow¹ \c;x\n; oraz ³añcuch \c;s\n;. Parametry s¹ "przekazywane przez wartoœæ", czyli s¹ kopi¹ wartoœci okreœlonych jako zmienne podczas wywo³ania. Przy przekazaniu zmiennej \c;int\n; funkcji, jej parametr jest kopi¹ wartoœci przekazanej jako argument, wobec czego funkcja mo¿e zmieniaæ wartoœæ parametru bez zmiany wartoœci w miejscu, z którego by³a wywo³ana funkcja.
+Funkcja \c;PrzykÂ³ad\n; dostaje jako parametry liczbÃª caÂ³kowitÂ¹ \c;a\n;, liczbÃª zmiennoprzecinkowÂ¹ \c;x\n; oraz Â³aÃ±cuch \c;s\n;. Parametry sÂ¹ "przekazywane przez wartoÂœÃ¦", czyli sÂ¹ kopiÂ¹ wartoÂœci okreÂœlonych jako zmienne podczas wywoÂ³ania. Przy przekazaniu zmiennej \c;int\n; funkcji, jej parametr jest kopiÂ¹ wartoÂœci przekazanej jako argument, wobec czego funkcja moÂ¿e zmieniaÃ¦ wartoÂœÃ¦ parametru bez zmiany wartoÂœci w miejscu, z ktÃ³rego byÂ³a wywoÂ³ana funkcja.
 
-Przy przekazaniu instancji \l;klasy\u cbot\class; lub \l;tablicy\u cbot\array; jako parametru, funkcja otrzymuje jedynie \l;wskaŸnik\u cbot\pointer; do instancji lub tablicy. Oznacza to, ¿e w przypadku modyfikacji instancji lub tablicy wewn¹trz funkcji, w rzeczywistoœci zostanie zmodyfikowana instancja lub tablica okreœlona podczas wywo³ania.
+Przy przekazaniu instancji \l;klasy\u cbot\class; lub \l;tablicy\u cbot\array; jako parametru, funkcja otrzymuje jedynie \l;wskaÂŸnik\u cbot\pointer; do instancji lub tablicy. Oznacza to, Â¿e w przypadku modyfikacji instancji lub tablicy wewnÂ¹trz funkcji, w rzeczywistoÂœci zostanie zmodyfikowana instancja lub tablica okreÂœlona podczas wywoÂ³ania.
 
-Funkcja mo¿e równie¿ zwróciæ wynik przy u¿yciu instrukcji \c;\l;return\u cbot\return;\n;. Jednak¿e powinna byæ wówczas zadeklarowana nie jako void, ale powinna mieæ okreœlony typ:
+Funkcja moÂ¿e rÃ³wnieÂ¿ zwrÃ³ciÃ¦ wynik przy uÂ¿yciu instrukcji \c;\l;return\u cbot\return;\n;. JednakÂ¿e powinna byÃ¦ wÃ³wczas zadeklarowana nie jako void, ale powinna mieÃ¦ okreÂœlony typ:
 \c;
-\s;float Œrednia( float a, float b )
+\s;float ÂŒrednia( float a, float b )
 \s;{
 \s;	return (a+b)/2;
 \s;}
 \s;
 \s;extern void object::Test( )
 \s;{
-\s;	float wartoœæ;
-\s;	wartoœæ = Œrednia(2, 6);
-\s;	message( wartoœæ );  // wyœwietli liczbê 4
+\s;	float wartoÂœÃ¦;
+\s;	wartoÂœÃ¦ = ÂŒrednia(2, 6);
+\s;	message( wartoÂœÃ¦ );  // wyÂœwietli liczbÃª 4
 \s;}
 \n;
-I jeszcze kilka przyk³adów¦:
+I jeszcze kilka przykÂ³adÃ³wÂ¦:
 \c;
 \s;float Pi( )
 \s;{
@@ -65,7 +65,7 @@ I jeszcze kilka przyk³adów¦:
 \s;	return "zero";
 \s;}
 \n;
-Mo¿na zadeklarowaæ kilka funkcji o tej samej nazwie lecz o ró¿nych parametrach¦:
+MoÂ¿na zadeklarowaÃ¦ kilka funkcji o tej samej nazwie lecz o rÃ³Â¿nych parametrachÂ¦:
 \c;
 \s;float Pitagoras( float a, float b )
 \s;{
@@ -77,9 +77,9 @@ Mo¿na zadeklarowaæ kilka funkcji o tej samej nazwie lecz o ró¿nych parametrach¦:
 \s;	return sqrt((a*a)+(b*b)+(c*c));
 \s;}
 \n;
-CBOT wywo³a jedn¹ z nich, w zale¿noœci od przekazanych parametrów.
+CBOT wywoÂ³a jednÂ¹ z nich, w zaleÂ¿noÂœci od przekazanych parametrÃ³w.
 
-Mo¿na te¿ zadeklarowaæ funkcjê \l;publiczn¹\u cbot\public;, która bêdzie dostêpna dla wszystkich robotów.
+MoÂ¿na teÂ¿ zadeklarowaÃ¦ funkcjÃª \l;publicznÂ¹\u cbot\public;, ktÃ³ra bÃªdzie dostÃªpna dla wszystkich robotÃ³w.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

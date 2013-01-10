@@ -1,26 +1,26 @@
 \b;\button 163; Centre de recherches
 \image research 8 8;
-Ce b‚timent est un gigantesque centre de calcul, qui dÈveloppe les plans de nouvelles technologies pour certains b‚timents ou robots.
+Ce b√¢timent est un gigantesque centre de calcul, qui d√©veloppe les plans de nouvelles technologies pour certains b√¢timents ou robots.
 
-Les 65'536 processeurs qu'il contient sont extrÍmement gourmands en Ènergie. Chaque recherche nÈcessite une nouvelle \l;pile\u object\power; entiËrement chargÈe.
+Les 65'536 processeurs qu'il contient sont extr√™mement gourmands en √©nergie. Chaque recherche n√©cessite une nouvelle \l;pile\u object\power; enti√®rement charg√©e.
 
 \t;Emplacement requis
-Surface plate quelconque de 5 mËtres de diamËtre.
+Surface plate quelconque de 5 m√®tres de diam√®tre.
 
-\t;EntrÈe
+\t;Entr√©e
 Pile normale ou atomique.
 
 \t;Sortie
-Plans pour de nouveaux types de robots ou de b‚timents.
+Plans pour de nouveaux types de robots ou de b√¢timents.
 
-\t;Energie consommÈe
+\t;Energie consomm√©e
 Pile normale ou atomique.
 
-\t;DurÈe de l'opÈration
-De 9 secondes ‡ 1 minute, selon la recherche.
+\t;Dur√©e de l'op√©ration
+De 9 secondes √† 1 minute, selon la recherche.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;ResearchCenter\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

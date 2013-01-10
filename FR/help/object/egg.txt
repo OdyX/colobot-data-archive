@@ -1,8 +1,8 @@
 \b;Oeuf
-Les oeufs sont produits par la \l;reine pondeuse\u object\mother;. Après quelques secondes ils éclorent et une \l;fourmi\u object\ant;, une \l;guêpe\u object\wasp;, une \l;araignée\u object\spider; ou un \l;vers\u object\worm; sort.
+Les oeufs sont produits par la \l;reine pondeuse\u object\mother;. AprÃ¨s quelques secondes ils Ã©clorent et une \l;fourmi\u object\ant;, une \l;guÃªpe\u object\wasp;, une \l;araignÃ©e\u object\spider; ou un \l;vers\u object\worm; sort.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;AlienEgg\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

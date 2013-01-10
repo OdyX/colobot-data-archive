@@ -1,11 +1,11 @@
-\b;\button 176; Centre de contrôle
+\b;\button 176; Centre de contrÃ´le
 \image huston 8 8;
-Ce bâtiment est le centre de contrôle de toutes les missions spatiales. Il est situé sur terre, dans le désert du Nevada. Cela fait plusieurs décennies que ce centre de contrôle ne se trouve plus à Houston dans l'Etat du Texas où il se trouvait du temps des missions Apollo. Il a cependant gardé son ancien nom plein de souvenirs et de prestige.
+Ce bÃ¢timent est le centre de contrÃ´le de toutes les missions spatiales. Il est situÃ© sur terre, dans le dÃ©sert du Nevada. Cela fait plusieurs dÃ©cennies que ce centre de contrÃ´le ne se trouve plus Ã  Houston dans l'Etat du Texas oÃ¹ il se trouvait du temps des missions Apollo. Il a cependant gardÃ© son ancien nom plein de souvenirs et de prestige.
 
-Le centre de contrôle vous transmet les instructions pour les différentes missions. Une équipe d'ingénieurs et de techniciens se relaie jour et nuit pour trouver des solutions aux problèmes que vous rencontrez. 
+Le centre de contrÃ´le vous transmet les instructions pour les diffÃ©rentes missions. Une Ã©quipe d'ingÃ©nieurs et de techniciens se relaie jour et nuit pour trouver des solutions aux problÃ¨mes que vous rencontrez. 
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;Houston\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

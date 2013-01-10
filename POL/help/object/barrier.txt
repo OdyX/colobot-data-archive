@@ -1,8 +1,8 @@
 \b;Bariera
-Bariera to nic innego ni¿ u¿ywana w æwiczeniach przeszkoda.
+Bariera to nic innego niÂ¿ uÂ¿ywana w Ã¦wiczeniach przeszkoda.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;Barrier\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;..
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;..

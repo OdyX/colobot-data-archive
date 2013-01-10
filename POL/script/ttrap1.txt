@@ -1,4 +1,4 @@
-extern void object::Rozwi¹zanie( )
+extern void object::RozwiÂ¹zanie( )
 {
 	while ( true )
 	{
@@ -36,11 +36,11 @@ extern void object::Rozwi¹zanie( )
 			dir = (dir+bomb)/2;
 		}
 
-		if ( dir < 0 )  // à droite ?
+		if ( dir < 0 )  // Ã  droite ?
 		{
 			motor(1, 1+dir/90);
 		}
-		else  // à gauche ?
+		else  // Ã  gauche ?
 		{
 			motor(1-dir/90, 1);
 		}

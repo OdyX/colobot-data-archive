@@ -1,27 +1,27 @@
-\b;Programy przys³ane z Houston
-Usprawniliœmy program ³adowania ogniw. Po dotarciu do \l;stacji energetycznej\u object\station; robot nie czeka ju¿ dok³adnie 5 sekund, ale tylko do czasu pe³nego na³adowania \l;ogniwa elektrycznego\u object\power;. Po powrocie na pozycjê wyjœciow¹ robot wyœwietla komunikat na ekranie.
+\b;Programy przysÂ³ane z Houston
+UsprawniliÂœmy program Â³adowania ogniw. Po dotarciu do \l;stacji energetycznej\u object\station; robot nie czeka juÂ¿ dokÂ³adnie 5 sekund, ale tylko do czasu peÂ³nego naÂ³adowania \l;ogniwa elektrycznego\u object\power;. Po powrocie na pozycjÃª wyjÂœciowÂ¹ robot wyÂœwietla komunikat na ekranie.
 \c;
 \s;extern void object::Recharge2()
 \s;{
 \s;	\l;point\u cbot\type;  start;          // zmienna pozycji startowej
 \s;	\l;object\u cbot\type; item;           // informacja o stacji energetycznej
 \s;	
-\s;	start = position;      // zachowaj pozycjê startow¹
+\s;	start = position;      // zachowaj pozycjÃª startowÂ¹
 \s;	
-\s;	item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // znajdŸ stacjê
-\s;	\l;goto\u cbot\goto;(item.position);   // idŸ do stacji energetycznej
+\s;	item = \l;radar\u cbot\radar;(\l;PowerStation\u cbot\category;); // znajdÂŸ stacjÃª
+\s;	\l;goto\u cbot\goto;(item.position);   // idÂŸ do stacji energetycznej
 \s;	
 \s;	\l;while\u cbot\while; ( \l;energyCell.energyLevel\u cbot\object; < 1 )
 \s;	{
-\s;		\l;wait\u cbot\wait;(1);           // poczekaj a¿ siê na³aduje
+\s;		\l;wait\u cbot\wait;(1);           // poczekaj aÂ¿ siÃª naÂ³aduje
 \s;	}
 \s;	
-\s;	\l;goto\u cbot\goto;(start);           // wróæ do pozycji startowej
-\s;	\l;message\u cbot\message;("£adowanie zakoñczone");
+\s;	\l;goto\u cbot\goto;(start);           // wrÃ³Ã¦ do pozycji startowej
+\s;	\l;message\u cbot\message;("Â£adowanie zakoÃ±czone");
 \s;}
 \n;
 \b;Archiwum
-Lista programów przys³anych w poprzednich misjach:
+Lista programÃ³w przysÂ³anych w poprzednich misjach:
 
 o  \c;\l;SwitchCell1\u mllune1;\n;
 o  \c;\l;Recharge1\u mllune4;\n;

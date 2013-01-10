@@ -1,13 +1,13 @@
-\b;Rozwi¹zanie
-1) Na zachód od Twojej obecnej pozycji znajdziesz \l;kostkê tytanu\u object\titan;, w pobli¿u niebieskiej flagi/niebieskiego plusa na mapce. Nie przenoœ tytanu ale w³aœnie tam zbuduj \l;stacjê energetyczn¹\u object\station;.
+\b;RozwiÂ¹zanie
+1) Na zachÃ³d od Twojej obecnej pozycji znajdziesz \l;kostkÃª tytanu\u object\titan;, w pobliÂ¿u niebieskiej flagi/niebieskiego plusa na mapce. Nie przenoÂœ tytanu ale wÂ³aÂœnie tam zbuduj \l;stacjÃª energetycznÂ¹\u object\station;.
 
-2) U¿yj kostki tytanu ze statku kosmicznego do zbudowania \l;centrum badawczego\u object\research;, a nastêpnie wykonaj <program badawczy dzia³ka> \button 67;.
+2) UÂ¿yj kostki tytanu ze statku kosmicznego do zbudowania \l;centrum badawczego\u object\research;, a nastÃªpnie wykonaj <program badawczy dziaÂ³ka> \button 67;.
 
-3) Zbuduj \l;fabrykê robotów\u object\factory; oraz \l;dzia³o lataj¹ce\u object\botfj;. Jeœli robot ten zostanie zniszczony przez ogieñ wroga, kilka dodatkowych \l;kostek tytanu\u object\titan; znajdziesz w ma³ej mglistej dolinie na pó³nocny zachód od statku kosmicznego. Mo¿esz je przywieŸæ \l;transporterem lataj¹cym\u object\botgj;\n;.
+3) Zbuduj \l;fabrykÃª robotÃ³w\u object\factory; oraz \l;dziaÂ³o latajÂ¹ce\u object\botfj;. JeÂœli robot ten zostanie zniszczony przez ogieÃ± wroga, kilka dodatkowych \l;kostek tytanu\u object\titan; znajdziesz w maÂ³ej mglistej dolinie na pÃ³Â³nocny zachÃ³d od statku kosmicznego. MoÂ¿esz je przywieÂŸÃ¦ \l;transporterem latajÂ¹cym\u object\botgj;\n;.
 
-4) Zbuduj \l;radar\u object\radar;, aby poznaæ pozycje mrówek na mapce i rozpocz¹æ polowanie. Uwa¿aj, aby robot nie zosta³ bez energii ani nie przegrza³ reaktora nad wod¹. Jeœli spadnie do g³êbokiej wody, wybuchnie.
+4) Zbuduj \l;radar\u object\radar;, aby poznaÃ¦ pozycje mrÃ³wek na mapce i rozpoczÂ¹Ã¦ polowanie. UwaÂ¿aj, aby robot nie zostaÂ³ bez energii ani nie przegrzaÂ³ reaktora nad wodÂ¹. JeÂœli spadnie do gÂ³Ãªbokiej wody, wybuchnie.
 
-5) Gdy zabijesz wszystkie mrówki, wróæ na pok³ad i odleæ.
+5) Gdy zabijesz wszystkie mrÃ³wki, wrÃ³Ã¦ na pokÂ³ad i odleÃ¦.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

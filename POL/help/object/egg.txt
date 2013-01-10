@@ -1,8 +1,8 @@
 \b;Jajo obcych
-Jaja sk³adane s¹ przez \l;Królow¹ Obcych\u object\mother;. Po krótkim czasie wykluwaj¹ siê z nich \l;mrówki\u object\ant;, \l;osy\u object\wasp;, \l;paj¹ki\u object\spider; lub \l;robale\u object\worm;.
+Jaja skÂ³adane sÂ¹ przez \l;KrÃ³lowÂ¹ Obcych\u object\mother;. Po krÃ³tkim czasie wykluwajÂ¹ siÃª z nich \l;mrÃ³wki\u object\ant;, \l;osy\u object\wasp;, \l;pajÂ¹ki\u object\spider; lub \l;robale\u object\worm;.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;AlienEgg\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

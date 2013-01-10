@@ -1,39 +1,39 @@
-\b;Æwiczenie
-Pokieruj zdalnie robotem, u¿ywaj¹c \l;stacji przekaŸnikowej informacji\u object\exchange;, aby przetransportowaæ \l;rudê uranu\u object\uranore;.
-G³ównymi postaciami tego æwiczenia s¹¦:
+\b;Ã†wiczenie
+Pokieruj zdalnie robotem, uÂ¿ywajÂ¹c \l;stacji przekaÂŸnikowej informacji\u object\exchange;, aby przetransportowaÃ¦ \l;rudÃª uranu\u object\uranore;.
+GÂ³Ã³wnymi postaciami tego Ã¦wiczenia sÂ¹Â¦:
 
-1) Robot \l;szperacz\u object\botsr; (nie mo¿e niczego przenosiæ).
-2) \l;Stacja przekaŸnikowa informacji\u object\exchange;, otrzymuj¹ca informacje od nadawcy i przekazuj¹ca je do odbiorcy.
-3) \l;Transporter\u object\botgr;, czekaj¹cy na rozkazy ze stacji przekaŸnikowej. Nie jest mo¿liwe bezpoœrednie kontrolowania tego robota.
+1) Robot \l;szperacz\u object\botsr; (nie moÂ¿e niczego przenosiÃ¦).
+2) \l;Stacja przekaÂŸnikowa informacji\u object\exchange;, otrzymujÂ¹ca informacje od nadawcy i przekazujÂ¹ca je do odbiorcy.
+3) \l;Transporter\u object\botgr;, czekajÂ¹cy na rozkazy ze stacji przekaÂŸnikowej. Nie jest moÂ¿liwe bezpoÂœrednie kontrolowania tego robota.
 
 \image tremot1a 16 8;
-Stacja przekaŸnikowa informacji przechowuje pary "nazwa/wartoœæ". Aby kontrolowaæ robota podleg³ego wystarczy u¿yæ tylko jednej pary¦:
+Stacja przekaÂŸnikowa informacji przechowuje pary "nazwa/wartoÂœÃ¦". Aby kontrolowaÃ¦ robota podlegÂ³ego wystarczy uÂ¿yÃ¦ tylko jednej paryÂ¦:
 
     nazwa="order", wartoscr=numer rozkazu
 
-Robot odbiorca rozumie nastêpuj¹ce rozkazy¦:
+Robot odbiorca rozumie nastÃªpujÂ¹ce rozkazyÂ¦:
 \c;
-    1 -> grab();     // podnieœ obiekt
-    2 -> drop();     // upuœæ obiekt
-    3 -> move(10);   // przesuñ robota 10 metrów naprzód
-    4 -> move(-10);  // cofnij robota o 10 metrów
+    1 -> grab();     // podnieÂœ obiekt
+    2 -> drop();     // upuÂœÃ¦ obiekt
+    3 -> move(10);   // przesuÃ± robota 10 metrÃ³w naprzÃ³d
+    4 -> move(-10);  // cofnij robota o 10 metrÃ³w
 \n;
-Aby rozkazaæ robotowi podleg³emu przemieœciæ siê 10 metrów naprzód, wystarczy napisaæ¦:
+Aby rozkazaÃ¦ robotowi podlegÂ³emu przemieÂœciÃ¦ siÃª 10 metrÃ³w naprzÃ³d, wystarczy napisaÃ¦Â¦:
 \c;\s;	\l;send\u cbot\send;("order", 3, 100);  // order 3 -> "move(10)"
 \n;
-Po wys³aniu instrukcji odczekaj 5 sekund, aby upewniæ siê, ¿e ruch zosta³ wykonany.
+Po wysÂ³aniu instrukcji odczekaj 5 sekund, aby upewniÃ¦ siÃª, Â¿e ruch zostaÂ³ wykonany.
 \c;\s;	\l;wait\u cbot\wait;(5);
 \n;
-Wskazówka: Jest lepszy sposób na czekanie na zakoñczenie wykonywania rozkazu, ale zobaczymy to w póŸniejszym æwiczeniu "Kontrola zdalna #2".
+WskazÃ³wka: Jest lepszy sposÃ³b na czekanie na zakoÃ±czenie wykonywania rozkazu, ale zobaczymy to w pÃ³ÂŸniejszym Ã¦wiczeniu "Kontrola zdalna #2".
 
-Aby zakoñczyæ æwiczenie, robot musi¦:
+Aby zakoÃ±czyÃ¦ Ã¦wiczenie, robot musiÂ¦:
 
-1) Podnieœæ rudê uranu
-2) Iœæ od przodu o 10 metrów
-3) Zostawiæ rudê uranu
-4) Cofn¹æ siê o 10 metrów
+1) PodnieÂœÃ¦ rudÃª uranu
+2) IÂœÃ¦ od przodu o 10 metrÃ³w
+3) ZostawiÃ¦ rudÃª uranu
+4) CofnÂ¹Ã¦ siÃª o 10 metrÃ³w
 
-Do Ciebie nale¿y dokoñczenie programu...
+Do Ciebie naleÂ¿y dokoÃ±czenie programu...
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

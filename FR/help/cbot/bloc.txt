@@ -1,5 +1,5 @@
 \b;Les blocs
-Les accolades \c;{ }\n; permettent de grouper plusieurs instructions dans un bloc. Par exemple¦:
+Les accolades \c;{ }\n; permettent de grouper plusieurs instructions dans un bloc. Par exempleÂ¦:
 \c;
 \s;	{
 \s;		float  t;
@@ -8,16 +8,16 @@ Les accolades \c;{ }\n; permettent de grouper plusieurs instructions dans un blo
 \s;		b = t;  // permute a et b
 \s;	}
 \n;
-Chaque instruction dans le bloc est terminée par un \l;point-virgule\u cbot\term;, mais pas le bloc lui-même.
-Considérons l'exemple suivant utilisant l'instruction \c;\l;if\u cbot\if;\n;¦:
+Chaque instruction dans le bloc est terminÃ©e par un \l;point-virgule\u cbot\term;, mais pas le bloc lui-mÃªme.
+ConsidÃ©rons l'exemple suivant utilisant l'instruction \c;\l;if\u cbot\if;\n;Â¦:
 \c;
 \s;	if ( a < b )
 \s;		\n;instruction 1\c;;
 \s;		\n;instruction 2\c;;
 \s;	\n;instruction 3\c;;
 \n;
-Si la \l;condition\u cbot\cond; est vraie, les instructions 1, 2 et 3 sont exécutées. En revanche, si la condition est fausse, seule l'instruction 1 est sautée (on exécute donc les instructions 2 et 3). Le fait que l'instruction 2 soit alignée avec la 1 n'y change rien.
-Pour n'exécuter les instructions 1 et 2 que si la condition est vraie, il faut les grouper dans un bloc¦:
+Si la \l;condition\u cbot\cond; est vraie, les instructions 1, 2 et 3 sont exÃ©cutÃ©es. En revanche, si la condition est fausse, seule l'instruction 1 est sautÃ©e (on exÃ©cute donc les instructions 2 et 3). Le fait que l'instruction 2 soit alignÃ©e avec la 1 n'y change rien.
+Pour n'exÃ©cuter les instructions 1 et 2 que si la condition est vraie, il faut les grouper dans un blocÂ¦:
 \c;
 \s;	if ( a < b )
 \s;	{
@@ -26,8 +26,8 @@ Pour n'exécuter les instructions 1 et 2 que si la condition est vraie, il faut l
 \s;	}
 \s;	\n;instruction 3\c;;
 \n;
-Les blocs sont très utilisés avec les instructions \c;\l;if\u cbot\if;\n;, \c;\l;while\u cbot\while;\n; et \c;\l;for\u cbot\for;\n;, pour grouper plusieurs instructions à exécuter ou à répéter.
-On imbrique très souvent des blocs dans d'autres blocs, et ceci à autant de niveaux que nécessaire. Voici un exemple d'imbrication à deux niveaux¦:
+Les blocs sont trÃ¨s utilisÃ©s avec les instructions \c;\l;if\u cbot\if;\n;, \c;\l;while\u cbot\while;\n; et \c;\l;for\u cbot\for;\n;, pour grouper plusieurs instructions Ã  exÃ©cuter ou Ã  rÃ©pÃ©ter.
+On imbrique trÃ¨s souvent des blocs dans d'autres blocs, et ceci Ã  autant de niveaux que nÃ©cessaire. Voici un exemple d'imbrication Ã  deux niveauxÂ¦:
 \c;
 \s;	if ( a > b )
 \s;	{
@@ -40,10 +40,10 @@ On imbrique très souvent des blocs dans d'autres blocs, et ceci à autant de nive
 \s;		}
 \s;	}
 \n;
-En général, pour des questions de lisibilité, on aligne verticalement l'accolade ouvrante \c;{\n; avec sa partenaire fermante \c;}\n;. Mais cela n'est pas obligatoire. L'exemple suivant, beaucoup plus compact mais déconseillé, est strictement équivalent à l'exemple précédent¦:
+En gÃ©nÃ©ral, pour des questions de lisibilitÃ©, on aligne verticalement l'accolade ouvrante \c;{\n; avec sa partenaire fermante \c;}\n;. Mais cela n'est pas obligatoire. L'exemple suivant, beaucoup plus compact mais dÃ©conseillÃ©, est strictement Ã©quivalent Ã  l'exemple prÃ©cÃ©dentÂ¦:
 \c;
 \s;	if(a>b) { int i=0; while(i<18) {
 \s;	move(10);turn(5);i=i+1; }}
 \n;
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

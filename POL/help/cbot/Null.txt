@@ -1,7 +1,7 @@
 \b;Typ \c;null\n;
-Specjalna wartoœæ oznaczaj¹ca, ¿e zmienna, która j¹ zawiera nie wskazuje na ¿adn¹ instancjê.
+Specjalna wartoÂœÃ¦ oznaczajÂ¹ca, Â¿e zmienna, ktÃ³ra jÂ¹ zawiera nie wskazuje na Â¿adnÂ¹ instancjÃª.
 
-\t;Zobacz równie¿
-\l;WskaŸniki\u cbot\pointer;
+\t;Zobacz rÃ³wnieÂ¿
+\l;WskaÂŸniki\u cbot\pointer;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
 

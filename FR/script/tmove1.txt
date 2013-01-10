@@ -6,5 +6,5 @@ extern void object::Solution( )
 	turn(-90);
 	move(20);  // va sur borne 3
 	turn(-90);
-	move(20);  // va sur arrivée
+	move(20);  // va sur arrivÃ©e
 }

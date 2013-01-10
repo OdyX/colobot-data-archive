@@ -1,21 +1,21 @@
-\b;Instrukcja \c;public\n; (dla specjalistów)
-Instrukcja ta ma dwa podstawowe zadania¦:
+\b;Instrukcja \c;public\n; (dla specjalistÃ³w)
+Instrukcja ta ma dwa podstawowe zadaniaÂ¦:
 
-1) Czyni funkcjê dostêpn¹ dla innych robotów.
-2) Sprawia, ¿e element klasy jest widoczny poza definicj¹ klasy.
+1) Czyni funkcjÃª dostÃªpnÂ¹ dla innych robotÃ³w.
+2) Sprawia, Â¿e element klasy jest widoczny poza definicjÂ¹ klasy.
 
 \b;Instrukcja \c;public\n; dla funkcji
-Umieszczenie instrukcji \c;public\n; przed definicj¹ \l;funkcji\u cbot\function; sprawi, ¿e funkcja bêdzie dostêpna dla innych robotów podczas tej misji.
+Umieszczenie instrukcji \c;public\n; przed definicjÂ¹ \l;funkcji\u cbot\function; sprawi, Â¿e funkcja bÃªdzie dostÃªpna dla innych robotÃ³w podczas tej misji.
 
-Na przyk³ad pierwszy robot mo¿e zawieraæ¦:
+Na przykÂ³ad pierwszy robot moÂ¿e zawieraÃ¦Â¦:
 \c;
-\s;public void object::Segment(float odl, float k¹t)
+\s;public void object::Segment(float odl, float kÂ¹t)
 \s;{
 \s;	move(odl);
-\s;	turn(k¹t);
+\s;	turn(kÂ¹t);
 \s;}
 \n;
-A inny¦:
+A innyÂ¦:
 \c;
 \s;extern void object::Kwadrat( )
 \s;{
@@ -26,26 +26,26 @@ A inny¦:
 \s;	}
 \s;}
 \n;
-Jeœli funkcjê zadeklarowano jako \c;public\n;, nie mo¿na zadeklarowaæ funkcji o tej samej nazwie i parametrach w innym robocie podczas tej samej misji.
+JeÂœli funkcjÃª zadeklarowano jako \c;public\n;, nie moÂ¿na zadeklarowaÃ¦ funkcji o tej samej nazwie i parametrach w innym robocie podczas tej samej misji.
 
-Jeœli robot zawieraj¹cy funkcjê zadeklarowan¹ jako \c;public\n; zostanie zniszczony, inne roboty u¿ywaj¹ce tej funkcji zatrzymaj¹ siê sygnalizuj¹c wyst¹pienie b³êdu.
+JeÂœli robot zawierajÂ¹cy funkcjÃª zadeklarowanÂ¹ jako \c;public\n; zostanie zniszczony, inne roboty uÂ¿ywajÂ¹ce tej funkcji zatrzymajÂ¹ siÃª sygnalizujÂ¹c wystÂ¹pienie bÂ³Ãªdu.
 
 \b;Instrukcja \c;public\n; dla klas
-Elementy \l;klasy\u cbot\class; mog¹ byæ publiczne (domyœlnie) lub \l;prywatne\u cbot\private;. Aby zadeklarowaæ element jako prywatny, nale¿y umieœciæ instrukcjê \c;private\n; przed deklaracj¹ jego typu. Elementy prywatne nie s¹ dostêpne poza definicj¹ klasy.
+Elementy \l;klasy\u cbot\class; mogÂ¹ byÃ¦ publiczne (domyÂœlnie) lub \l;prywatne\u cbot\private;. Aby zadeklarowaÃ¦ element jako prywatny, naleÂ¿y umieÂœciÃ¦ instrukcjÃª \c;private\n; przed deklaracjÂ¹ jego typu. Elementy prywatne nie sÂ¹ dostÃªpne poza definicjÂ¹ klasy.
 \c;
 \s;public class MojaKlasa
 \s;{
-\s;	int    b;                // publiczna domyœlnie
-\s;	public int a;            // równie¿ publiczna 
+\s;	int    b;                // publiczna domyÂœlnie
+\s;	public int a;            // rÃ³wnieÂ¿ publiczna 
 \s;	private point position;  // prywatna
 \s;}
 \s;void Test()
 \s;{
 \s;	MojaKlasa item;
 \s;	item.a = item.b = 12;      // ok
-\s;	message( item.position );  // powoduje b³¹d
+\s;	message( item.position );  // powoduje bÂ³Â¹d
 \s;}
 \n;
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \c;\l;class\u cbot\class;\n;, \c;\l;private\u cbot\private;\n;, \c;\l;funkcje\u cbot\function;\n;
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

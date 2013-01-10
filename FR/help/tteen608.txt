@@ -1,15 +1,15 @@
-\b;Libérer le passage
-Un petit malin a déposé des déchets dans le labyrinthe, qui empêchent le robot de passer. Heureusement, avec le bras manipulateur du robot, tu peux déplacer les déchets et libérer le passage.
+\b;LibÃ©rer le passage
+Un petit malin a dÃ©posÃ© des dÃ©chets dans le labyrinthe, qui empÃªchent le robot de passer. Heureusement, avec le bras manipulateur du robot, tu peux dÃ©placer les dÃ©chets et libÃ©rer le passage.
 
 \b;Le programme
-Le programme de l'exercice précédent convient très bien comme base. Il faut simplement lui ajouter au début, juste après le \c;repeat(100)\n; et l'accolade ouvrante \c;{\n;, un test pour voir si un déchet est devant le robot. Pour poser la question "Y a-t-il un déchet¦?", il faut écrire \c;if(¦detect(Scrap)¦)\n; puis mettre les accolades \c;{}\n; comme d'habitude. Entre les accolades, tu dois écrire les 4 instructions suivantes¦:
+Le programme de l'exercice prÃ©cÃ©dent convient trÃ¨s bien comme base. Il faut simplement lui ajouter au dÃ©but, juste aprÃ¨s le \c;repeat(100)\n; et l'accolade ouvrante \c;{\n;, un test pour voir si un dÃ©chet est devant le robot. Pour poser la question "Y a-t-il un dÃ©chetÂ¦?", il faut Ã©crire \c;if(Â¦detect(Scrap)Â¦)\n; puis mettre les accolades \c;{}\n; comme d'habitude. Entre les accolades, tu dois Ã©crire les 4 instructions suivantesÂ¦:
 
-\s;o  Prendre le déchet avec \c;grab();\n;
+\s;o  Prendre le dÃ©chet avec \c;grab();\n;
 \s;o  Faire demi-tour
-\s;o  Déposer le déchet avec \c;drop();\n;
+\s;o  DÃ©poser le dÃ©chet avec \c;drop();\n;
 \s;o  Faire demi-tour
 
-Donc, si le robot détecte un déchet devant lui, il le prend et le dépose derrière, libérant ainsi le passage¦...
+Donc, si le robot dÃ©tecte un dÃ©chet devant lui, il le prend et le dÃ©pose derriÃ¨re, libÃ©rant ainsi le passageÂ¦...
 
 \b;Rappel
-Pour faire demi-tour, il faut écrire \c;turn(180);\n;.
+Pour faire demi-tour, il faut Ã©crire \c;turn(180);\n;.

@@ -1,7 +1,7 @@
 \b;Instructions de Houston
-Cette planète est inadaptée à une colonisation durable. Ramenez la \l;boîte noire\u object\bbox; de la première expédition sur le \l;vaisseau\u object\base;, et décollez.
+Cette planÃ¨te est inadaptÃ©e Ã  une colonisation durable. Ramenez la \l;boÃ®te noire\u object\bbox; de la premiÃ¨re expÃ©dition sur le \l;vaisseau\u object\base;, et dÃ©collez.
 
-En raison de la température très élevée dans cette région, le vol est impossible.
+En raison de la tempÃ©rature trÃ¨s Ã©levÃ©e dans cette rÃ©gion, le vol est impossible.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

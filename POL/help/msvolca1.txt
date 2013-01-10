@@ -1,15 +1,15 @@
-\b;Rozwi¹zanie
-1) Zacznij od na³adowania \l;zwyk³ego ogniwa elektrycznego\u object\power; i zasilenia \l;centrum badawczego\u object\research;. U¿yj go do opracowania technologii budowy \l;elektrowni atomowej\u object\nuclear; \button 170;.
+\b;RozwiÂ¹zanie
+1) Zacznij od naÂ³adowania \l;zwykÂ³ego ogniwa elektrycznego\u object\power; i zasilenia \l;centrum badawczego\u object\research;. UÂ¿yj go do opracowania technologii budowy \l;elektrowni atomowej\u object\nuclear; \button 170;.
 
-2) Zbuduj \l;dzia³o na ko³ach\u object\botgr;.
+2) Zbuduj \l;dziaÂ³o na koÂ³ach\u object\botgr;.
 
-3) Na pó³nocnym zachodzie znajdziesz nieco \l;rudy uranu\u object\uranore;. Elektrownia atomowa przetworzy j¹ w \l;atomowe ogniwa elektryczne\u object\atomic;, dzia³aj¹ce d³u¿ej od zwyk³ych.
+3) Na pÃ³Â³nocnym zachodzie znajdziesz nieco \l;rudy uranu\u object\uranore;. Elektrownia atomowa przetworzy jÂ¹ w \l;atomowe ogniwa elektryczne\u object\atomic;, dziaÂ³ajÂ¹ce dÂ³uÂ¿ej od zwykÂ³ych.
 
-4) Zasil \l;dzia³o na ko³ach\u object\botfr; w jedno z nowych ogniw atomowych. Wyœlij je i zabij wszystkie \l;paj¹ki\u object\spider; wzd³u¿ trasy.
+4) Zasil \l;dziaÂ³o na koÂ³ach\u object\botfr; w jedno z nowych ogniw atomowych. WyÂœlij je i zabij wszystkie \l;pajÂ¹ki\u object\spider; wzdÂ³uÂ¿ trasy.
 
-5) U¿ycie \l;radaru\u object\radar; nie jest konieczne, ale mo¿e byæ pomocne w oznaczeniu pozycji paj¹ków na mapce.
+5) UÂ¿ycie \l;radaru\u object\radar; nie jest konieczne, ale moÂ¿e byÃ¦ pomocne w oznaczeniu pozycji pajÂ¹kÃ³w na mapce.
 
-6) Transporter na ko³ach powinien byæ czêœci¹ ekspedycji. Oczyœci on drogê z porozrzucanych kawa³ków \l;rudy tytanu\u object\titanore; oraz dostarczy \l;³adunek wybuchowy\u object\tnt; na statek.
+6) Transporter na koÂ³ach powinien byÃ¦ czÃªÂœciÂ¹ ekspedycji. OczyÂœci on drogÃª z porozrzucanych kawaÂ³kÃ³w \l;rudy tytanu\u object\titanore; oraz dostarczy \l;Â³adunek wybuchowy\u object\tnt; na statek.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

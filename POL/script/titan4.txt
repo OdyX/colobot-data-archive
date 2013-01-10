@@ -3,43 +3,43 @@ extern void object::CollectTitanium3()
 	// 1) Definicja zmiennej
 	object  item;            // informacja o obiekcie
 	
-	while (true)             // powtarzaj w nieskoñczonoœæ
+	while (true)             // powtarzaj w nieskoÃ±czonoÂœÃ¦
 	{
-		// 2) IdŸ do rudy tytanu i podnieœ j¹
-		item = radar(TitaniumOre);// znajdŸ rudê tytanu
-		goto(item.position);     // idŸ do pozycji
-		grab();                  // podnieœ porcjê rudy
+		// 2) IdÂŸ do rudy tytanu i podnieÂœ jÂ¹
+		item = radar(TitaniumOre);// znajdÂŸ rudÃª tytanu
+		goto(item.position);     // idÂŸ do pozycji
+		grab();                  // podnieÂœ porcjÃª rudy
 		
-		// 3) IdŸ do huty i zostaw rudê
-		item = radar(Converter); // znajdŸ hutê
-		goto(item.position);     // idŸ do pozycji
-		drop();                  // zostaw rudê
-		move(-2.5);              // cofnij siê o 2,5 m
+		// 3) IdÂŸ do huty i zostaw rudÃª
+		item = radar(Converter); // znajdÂŸ hutÃª
+		goto(item.position);     // idÂŸ do pozycji
+		drop();                  // zostaw rudÃª
+		move(-2.5);              // cofnij siÃª o 2,5 m
 		
 		// 4) Poczekaj na przetopienie rudy i zabierz tytan
 		do
 		{
-			wait(1);              // poczekaj na kostkê tytanu
+			wait(1);              // poczekaj na kostkÃª tytanu
 			item = radar(Titanium, 0, 45, 0, 5);
 		}
 		while ( item == null );
 
 		goto(item.position);
-		grab();                   // weŸ j¹
+		grab();                   // weÂŸ jÂ¹
 		
-		// 5) IdŸ do wolnego miejsca i zostaw j¹
-		goto(space(position));    // idŸ do wolnego miejsca
+		// 5) IdÂŸ do wolnego miejsca i zostaw jÂ¹
+		goto(space(position));    // idÂŸ do wolnego miejsca
 		drop();                   // zostaw tytan
 		
-		// Na³aduj ogniwo elektryczne, jeœli jest w po³owie zu¿yte
+		// NaÂ³aduj ogniwo elektryczne, jeÂœli jest w poÂ³owie zuÂ¿yte
 		if ( energyCell.energyLevel < 0.5 )
-		{                         // jeœli tak:
+		{                         // jeÂœli tak:
 			item = radar(PowerCaptor);
-			if ( item != null )   // czy znaleziono stacjê?
+			if ( item != null )   // czy znaleziono stacjÃª?
 			{
-				goto(item.position); // idŸ tam
+				goto(item.position); // idÂŸ tam
 				while ( energyCell.energyLevel < 1 )
-				{	// do czasu na³adowania:
+				{	// do czasu naÂ³adowania:
 					wait(1);      // czekaj
 				}
 			}

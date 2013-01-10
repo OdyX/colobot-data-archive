@@ -1,17 +1,17 @@
-\b;Clés A, B, C et D
+\b;ClÃ©s A, B, C et D
 \image key 4 4;
-Les clés permettent d'ouvrir le \l;coffre-fort\u object\safe; où la première expédition a mis en sécurité un nouveau système d'armement. Pour cela, il faut 4 clés¦:
+Les clÃ©s permettent d'ouvrir le \l;coffre-fort\u object\safe; oÃ¹ la premiÃ¨re expÃ©dition a mis en sÃ©curitÃ© un nouveau systÃ¨me d'armement. Pour cela, il faut 4 clÃ©sÂ¦:
 
-o  Clé A, bleue en forme de triangle
-o  Clé B, rouge en forme de pentagone
-o  Clé C, verte en forme d'étoile à 6 branches
-o  Clé D, jaune de forme octogonale
+o  ClÃ© A, bleue en forme de triangle
+o  ClÃ© B, rouge en forme de pentagone
+o  ClÃ© C, verte en forme d'Ã©toile Ã  6 branches
+o  ClÃ© D, jaune de forme octogonale
 
 \t;Transport
-Tous les \l;robots déménageurs\u object\botgr; ou le \l;cosmomaute\u object\human;.
+Tous les \l;robots dÃ©mÃ©nageurs\u object\botgr; ou le \l;cosmomaute\u object\human;.
 
-\t;\l;Catégories\u cbot\category; des objets
+\t;\l;CatÃ©gories\u cbot\category; des objets
 \c;KeyA\n;, \c;KeyB\n;, \c;KeyC\n; et \c;KeyD\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

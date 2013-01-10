@@ -1,15 +1,15 @@
 \b;Warunki
-Warunek, to \l;wyra¿enie\u cbot\expr; daj¹ce w wyniku wartoœæ \l;logiczn¹\u cbot\bool;, któr¹ mo¿e byæ \c;\l;true\u cbot\true;\n; (prawda) lub \c;\l;false\u cbot\false;\n; (fa³sz). U¿ywaj¹c warunku mo¿na wybraæ czy instrukcje w pêtli \c;\l;while\u cbot\while;\n; powinny byæ wykonane jeszcze raz lub czy instrukcje w bloku \c;\l;if\u cbot\if;\n; powinny byæ wykonywane.
-Oto kilka operatorów, których mo¿na u¿ywaæ do porównywania dwóch wartoœci:
+Warunek, to \l;wyraÂ¿enie\u cbot\expr; dajÂ¹ce w wyniku wartoÂœÃ¦ \l;logicznÂ¹\u cbot\bool;, ktÃ³rÂ¹ moÂ¿e byÃ¦ \c;\l;true\u cbot\true;\n; (prawda) lub \c;\l;false\u cbot\false;\n; (faÂ³sz). UÂ¿ywajÂ¹c warunku moÂ¿na wybraÃ¦ czy instrukcje w pÃªtli \c;\l;while\u cbot\while;\n; powinny byÃ¦ wykonane jeszcze raz lub czy instrukcje w bloku \c;\l;if\u cbot\if;\n; powinny byÃ¦ wykonywane.
+Oto kilka operatorÃ³w, ktÃ³rych moÂ¿na uÂ¿ywaÃ¦ do porÃ³wnywania dwÃ³ch wartoÂœci:
 
-\c;a == b  \n;\c;a\n; równe \c;b\n;
-\c;a != b  \n;\c;a\n; ró¿ne od \c;b\n;
+\c;a == b  \n;\c;a\n; rÃ³wne \c;b\n;
+\c;a != b  \n;\c;a\n; rÃ³Â¿ne od \c;b\n;
 \c;a <  b  \n;\c;a\n; mniejsze od \c;b\n;
-\c;a <= b  \n;\c;a\n; mniejsze od lub równe \c;b\n;
-\c;a >  b  \n;\c;a\n; wiêksze od \c;b\n;
-\c;a >= b  \n;\c;a\n; wiêksze od lub równe \c;b\n;
+\c;a <= b  \n;\c;a\n; mniejsze od lub rÃ³wne \c;b\n;
+\c;a >  b  \n;\c;a\n; wiÃªksze od \c;b\n;
+\c;a >= b  \n;\c;a\n; wiÃªksze od lub rÃ³wne \c;b\n;
 
-Na przyk³ad:
+Na przykÂ³ad:
 
 \c;12 == 12  \n;daje w wyniku true
 \c;45 != 47  \n;daje w wyniku true 
@@ -19,11 +19,11 @@ Na przyk³ad:
 \c;12 >= 12  \n;daje w wyniku true 
 
 \t;Uwaga
-Nie nale¿y myliæ operatora porównania \c;==\n; z operatorem przypisania wartoœci \l;zmiennej\u cbot\var; \c;=\n;.
+Nie naleÂ¿y myliÃ¦ operatora porÃ³wnania \c;==\n; z operatorem przypisania wartoÂœci \l;zmiennej\u cbot\var; \c;=\n;.
 
-\c;a == b\n; jest wyra¿eniem porównuj¹cym \c;a\n; z \c;b\n;.
-\c;a = b\n; jest wyra¿eniem kopiuj¹cym wartoœæ \c;b\n; do \c;a\n;.
+\c;a == b\n; jest wyraÂ¿eniem porÃ³wnujÂ¹cym \c;a\n; z \c;b\n;.
+\c;a = b\n; jest wyraÂ¿eniem kopiujÂ¹cym wartoÂœÃ¦ \c;b\n; do \c;a\n;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.
 

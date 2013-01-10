@@ -1,17 +1,17 @@
 \b;Klucze A, B, C i D
 \image key 4 4;
-Dziêki kluczom, \l;astronauta\u object\human; mo¿e uzyskaæ dostêp do \l;skrytki\u object\safe;. Potrzebne s¹ to tego cztery klucze:
+DziÃªki kluczom, \l;astronauta\u object\human; moÂ¿e uzyskaÃ¦ dostÃªp do \l;skrytki\u object\safe;. Potrzebne sÂ¹ to tego cztery klucze:
 
-o  Klucz A, niebieski, trójk¹tny
-o  Klucz B, czerwony, piêciok¹tny
-o  Klucz C, zielony, w kszta³cie szeœcioramiennej gwiazdy
-o  Klucz D, ¿ó³ty, okr¹g³y
+o  Klucz A, niebieski, trÃ³jkÂ¹tny
+o  Klucz B, czerwony, piÃªciokÂ¹tny
+o  Klucz C, zielony, w ksztaÂ³cie szeÂœcioramiennej gwiazdy
+o  Klucz D, Â¿Ã³Â³ty, okrÂ¹gÂ³y
 
 \t;Transport
 Wszystkie \l;transportery\u object\botgr; oraz \l;astronauta\u object\human;.
 
-\t;\l;Kategorie \u cbot\category; obiektów
+\t;\l;Kategorie \u cbot\category; obiektÃ³w
 \c;KeyA\n;, \c;KeyB\n;, \c;KeyC\n; i \c;KeyD\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

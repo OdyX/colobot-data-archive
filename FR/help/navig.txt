@@ -1,21 +1,21 @@
 \b;Navigation
-Les trois boutons en haut à gauche de cette fenêtre permettent de naviguer dans les différentes pages¦:
+Les trois boutons en haut Ã  gauche de cette fenÃªtre permettent de naviguer dans les diffÃ©rentes pagesÂ¦:
 
 \button 30; Page initiale
-Revient à la page initiale, qui était affichée en début de mission, ou lorsque vous avez appuyé sur \key;\key help;\norm; ou \key;\key prog;\norm;.
+Revient Ã  la page initiale, qui Ã©tait affichÃ©e en dÃ©but de mission, ou lorsque vous avez appuyÃ© sur \key;\key help;\norm; ou \key;\key prog;\norm;.
 
-\button 55; Page précédente 
-Revient à la page précédente, affichée avant d'avoir cliqué sur un lien.
+\button 55; Page prÃ©cÃ©dente 
+Revient Ã  la page prÃ©cÃ©dente, affichÃ©e avant d'avoir cliquÃ© sur un lien.
 
 \button 48; Page suivante
-Retourne à la page suivante, après utilisation du bouton "page initiale" ou "page précédente".
+Retourne Ã  la page suivante, aprÃ¨s utilisation du bouton "page initiale" ou "page prÃ©cÃ©dente".
 
 \t;Remarque
-Lorsqu'un bouton est gris, cela signifie qu'il ne peut pas être utilisé à cet instant. Par exemple, si vous être dans la page initiale, le bouton "page initiale" est gris, car cela n'a pas de sens d'y revenir, puisque vous y êtes déjà.
+Lorsqu'un bouton est gris, cela signifie qu'il ne peut pas Ãªtre utilisÃ© Ã  cet instant. Par exemple, si vous Ãªtre dans la page initiale, le bouton "page initiale" est gris, car cela n'a pas de sens d'y revenir, puisque vous y Ãªtes dÃ©jÃ .
 Cette remarque est valable pour tous les boutons dans COLOBOT.
 
-\t;Défilement du texte
-Si votre souris dispose d'une molette, vous pouvez l'utiliser pour faire défiler ce texte. Vous pouvez également utiliser les touches flèches, ou cliquer dans l'ascenseur à droite.
+\t;DÃ©filement du texte
+Si votre souris dispose d'une molette, vous pouvez l'utiliser pour faire dÃ©filer ce texte. Vous pouvez Ã©galement utiliser les touches flÃ¨ches, ou cliquer dans l'ascenseur Ã  droite.
 
 \t;Dimensions du texte
-Le curseur en haut à gauche permet d'ajuster la taille des caractères à votre convenance.
+Le curseur en haut Ã  gauche permet d'ajuster la taille des caractÃ¨res Ã  votre convenance.

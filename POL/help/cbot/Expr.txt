@@ -1,13 +1,13 @@
-\b;Wyra¿enia
-Wyra¿enia mog¹ zawieraæ nastêpuj¹ce operatory: 
+\b;WyraÂ¿enia
+WyraÂ¿enia mogÂ¹ zawieraÃ¦ nastÃªpujÂ¹ce operatory: 
 
 \c;+\n;  dodawanie
 \c;-\n;  odejmowanie
-\c;*\n;  mno¿enie
+\c;*\n;  mnoÂ¿enie
 \c;/\n;  dzielenie
-\c;%\n;  reszta z dzielenia (tylko dla typu ca³kowitego \c;\l;int\u cbot\int;\n;)
+\c;%\n;  reszta z dzielenia (tylko dla typu caÂ³kowitego \c;\l;int\u cbot\int;\n;)
 
-Dodatkowo operator \c;+\n; nie tylko dodaje liczby ale równie¿ z³¹cza \l;³añcuchy\u cbot\string;.
+Dodatkowo operator \c;+\n; nie tylko dodaje liczby ale rÃ³wnieÂ¿ zÂ³Â¹cza \l;Â³aÃ±cuchy\u cbot\string;.
 \c;
 \s;	int    i = 12+3;      // daje w wyniku 15
 \s;	string s = "a"+"bc";  // daje w wyniku "abc"
@@ -15,23 +15,23 @@ Dodatkowo operator \c;+\n; nie tylko dodaje liczby ale równie¿ z³¹cza \l;³añcuch
 \s;	float  f = 3.01*10;   // daje w wyniku 30.1
 \s;	int    i = 5/3;       // daje w wyniku 1
 \s;	float  f = 5/3;       // daje w wyniku 1.67
-\s;	float  f = 5/0;       // powoduje wyst¹pienie b³êdu
+\s;	float  f = 5/0;       // powoduje wystÂ¹pienie bÂ³Ãªdu
 \s;	int    i = 13%5;      // daje w wyniku 3
 \s;	int    i = -8%3;      // daje w wyniku -2
 \n;
-Wyra¿enie mo¿e zawieraæ sta³e lub \l;zmienne\u cbot\var;. Na przyk³ad:
+WyraÂ¿enie moÂ¿e zawieraÃ¦ staÂ³e lub \l;zmienne\u cbot\var;. Na przykÂ³ad:
 
-\s;\c;	12+odleg³oœæ\n;
+\s;\c;	12+odlegÂ³oÂœÃ¦\n;
 
-Mno¿enie i dzielenie wykonywane jest przed dodawaniem i odejmowaniem. Aby zapewniæ w³aœciw¹ kolejnoœæ wykonywania dzia³añ, nale¿y u¿yæ nawiasów: 
+MnoÂ¿enie i dzielenie wykonywane jest przed dodawaniem i odejmowaniem. Aby zapewniÃ¦ wÂ³aÂœciwÂ¹ kolejnoÂœÃ¦ wykonywania dziaÂ³aÃ±, naleÂ¿y uÂ¿yÃ¦ nawiasÃ³w: 
 \c;
-\s;	12*a+b/c \n;jest równowa¿ne\c; (12*a)+(b/c)
-\s;	2.5*(odleg³oœæ+zasiêg)
+\s;	12*a+b/c \n;jest rÃ³wnowaÂ¿ne\c; (12*a)+(b/c)
+\s;	2.5*(odlegÂ³oÂœÃ¦+zasiÃªg)
 \n;
-W celu poprawienia czytelnoœci, mo¿na dodaæ dowoln¹ liczbê spacji: 
+W celu poprawienia czytelnoÂœci, moÂ¿na dodaÃ¦ dowolnÂ¹ liczbÃª spacji: 
 \c;
 \s;	12*a + b/c
-\s;	2.5 * (odleg³oœæ+zasiêg)
+\s;	2.5 * (odlegÂ³oÂœÃ¦+zasiÃªg)
 \n;
 Oto lista funkcji matematycznych: 
 
@@ -42,47 +42,47 @@ Oto lista funkcji matematycznych:
 \c;acos(value)   \n;arcus cosinus
 \c;atan(value)   \n;arcus tangens
 \c;sqrt(value)   \n;pierwiastek kwadratowy
-\c;pow(x, y)     \n;x do potêgi y
-\c;rand()        \n;losowa wartoœæ pomiêdzy 0 i 1
+\c;pow(x, y)     \n;x do potÃªgi y
+\c;rand()        \n;losowa wartoÂœÃ¦ pomiÃªdzy 0 i 1
 
-K¹ty podawane s¹ w stopniach.
+KÂ¹ty podawane sÂ¹ w stopniach.
 
-\t;Z³o¿one operatory przypisania (dla specjalistów)
-Poza operatorem przypisania wartoœci zmiennej \c;=\n; jest kilka z³o¿onych operatorów przypisania.
+\t;ZÂ³oÂ¿one operatory przypisania (dla specjalistÃ³w)
+Poza operatorem przypisania wartoÂœci zmiennej \c;=\n; jest kilka zÂ³oÂ¿onych operatorÃ³w przypisania.
 
-Z³o¿one operatory przypisania to operator przypisania \c;=\n; z innym operatorem binarnym, takim jak \c;+\n; lub \c;-\n;. Z³o¿one operatory przypisania wykonuj¹ dzia³anie okreœlona przez dodatkowy operator a wynik przypisuj¹ lewej stronie dzia³ania. Na przyk³ad poni¿sze wyra¿enie:   
+ZÂ³oÂ¿one operatory przypisania to operator przypisania \c;=\n; z innym operatorem binarnym, takim jak \c;+\n; lub \c;-\n;. ZÂ³oÂ¿one operatory przypisania wykonujÂ¹ dziaÂ³anie okreÂœlona przez dodatkowy operator a wynik przypisujÂ¹ lewej stronie dziaÂ³ania. Na przykÂ³ad poniÂ¿sze wyraÂ¿enie:   
 
-\c;\s;wyra¿enie1 += wyra¿enie2
+\c;\s;wyraÂ¿enie1 += wyraÂ¿enie2
   
-jest równowa¿ne
+jest rÃ³wnowaÂ¿ne
 
-\c;\s;wyra¿enie1 = wyra¿enie1 + wyra¿enie2
+\c;\s;wyraÂ¿enie1 = wyraÂ¿enie1 + wyraÂ¿enie2
 
 \c;+=\n;  dodawanie
 \c;-=\n;  odejmowanie
-\c;*=\n;  mno¿enie
+\c;*=\n;  mnoÂ¿enie
 \c;/=\n;  dzielenie
-\c;%=\n;  reszta z dzielenia (tylko dla typu ca³kowitego \c;\l;int\u cbot\int;\n;)
+\c;%=\n;  reszta z dzielenia (tylko dla typu caÂ³kowitego \c;\l;int\u cbot\int;\n;)
 
-\t;Przedrostkowe i przyrostkowe operatory zwiêkszania i zmniejszania (dla specjalistów)
-Operatory \c;++\n; i \c;--\n; umo¿liwiaj¹ wygodny i zwarty zapis zwiêkszania (++) lub zmiejszania (--) zmiennych.
+\t;Przedrostkowe i przyrostkowe operatory zwiÃªkszania i zmniejszania (dla specjalistÃ³w)
+Operatory \c;++\n; i \c;--\n; umoÂ¿liwiajÂ¹ wygodny i zwarty zapis zwiÃªkszania (++) lub zmiejszania (--) zmiennych.
 
-Na przyk³ad aby zwiêkszyæ zmienn¹ \c;a\n; mo¿na napisaæ
+Na przykÂ³ad aby zwiÃªkszyÃ¦ zmiennÂ¹ \c;a\n; moÂ¿na napisaÃ¦
 \c;\s;	a++ ;
 \n;zamiast
 \c;\s;	a = a + 1 ;
 \n;
-Wartoœci¹ wyra¿enia \c;a++\n; jest wartoœæ zmiennej \c;a\n; przed jej zwiêkszeniem. U¿ycie operatora przedrostkowego \c;++a\n; powoduje, ¿e wartoœci¹ wyra¿enia jest wartoœæ zmiennej \c;a\n; po jej zwiêkszeniu. To samo dotyczy operatora zmniejszania \c;--\n;.
+WartoÂœciÂ¹ wyraÂ¿enia \c;a++\n; jest wartoÂœÃ¦ zmiennej \c;a\n; przed jej zwiÃªkszeniem. UÂ¿ycie operatora przedrostkowego \c;++a\n; powoduje, Â¿e wartoÂœciÂ¹ wyraÂ¿enia jest wartoÂœÃ¦ zmiennej \c;a\n; po jej zwiÃªkszeniu. To samo dotyczy operatora zmniejszania \c;--\n;.
 
-Przyk³ady:
+PrzykÂ³ady:
 \c;\s;	a = 2 ;
 \s;	b = a++ ;
-\s;	// teraz b jest równe 2, a jest równe 3
+\s;	// teraz b jest rÃ³wne 2, a jest rÃ³wne 3
 
 \c;\s;	a = 2 ;
 \s;	b = ++a ;
-\s;	// a teraz b jest równe 3 i a jest równe 3
+\s;	// a teraz b jest rÃ³wne 3 i a jest rÃ³wne 3
 \n;
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

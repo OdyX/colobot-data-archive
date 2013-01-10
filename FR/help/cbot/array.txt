@@ -1,35 +1,35 @@
-\b;Les tableaux (pour spécialistes)
-CBOT gère des tableaux de N dimensions, mais limités volontairement à un maximum de 9999 éléments par dimension. Les tableaux peuvent être de chaque type de base et même avec des éléments d'une classe quelconque. Pour déclarer un tableau, il faut mettre des crochets \c;[]\n; après le type, ou/et après le nom de la variable déclarée.
+\b;Les tableaux (pour spÃ©cialistes)
+CBOT gÃ¨re des tableaux de N dimensions, mais limitÃ©s volontairement Ã  un maximum de 9999 Ã©lÃ©ments par dimension. Les tableaux peuvent Ãªtre de chaque type de base et mÃªme avec des Ã©lÃ©ments d'une classe quelconque. Pour dÃ©clarer un tableau, il faut mettre des crochets \c;[]\n; aprÃ¨s le type, ou/et aprÃ¨s le nom de la variable dÃ©clarÃ©e.
 \c;
 \s;int    [ ] a;   // un tableau de nombre entier
-\s;int    a [12];  // idem limité à 12 éléments
-\s;string s[3];    // un tableau de 3 chaînes
-\s;float  xy[][];  // un tableau à 2 dimensions
+\s;int    a [12];  // idem limitÃ© Ã  12 Ã©lÃ©ments
+\s;string s[3];    // un tableau de 3 chaÃ®nes
+\s;float  xy[][];  // un tableau Ã  2 dimensions
 \n;
-En vérité, lors de la déclaration d'un tableau, CBOT attribue juste une \l;référence\u cbot\pointer; nulle initialement¦:
+En vÃ©ritÃ©, lors de la dÃ©claration d'un tableau, CBOT attribue juste une \l;rÃ©fÃ©rence\u cbot\pointer; nulle initialementÂ¦:
 \c;
-\s;int a[5];  // a est une référence nulle
+\s;int a[5];  // a est une rÃ©fÃ©rence nulle
 \n;
-Dès que l'on met une valeur dans le tableau, CBOT crée les éléments nécessaires et initialise la référence¦:
+DÃ¨s que l'on met une valeur dans le tableau, CBOT crÃ©e les Ã©lÃ©ments nÃ©cessaires et initialise la rÃ©fÃ©renceÂ¦:
 \c;
-\s;a[2] = 213;  // a est une référence sur
-\s;             // 3 éléments [0], [1] et [2]
+\s;a[2] = 213;  // a est une rÃ©fÃ©rence sur
+\s;             // 3 Ã©lÃ©ments [0], [1] et [2]
 \n;
-Après cette opération, \c;a\n; contient une référence vers les éléments du tableau. Les éléments \c;[0]\n; et \c;[1]\n; sont créés (non initialisés) car un tableau ne peut pas avoir d'éléments vides.
-L'instruction \c;\l;sizeof\u cbot\sizeof;\n; permet de connaître le nombre d'éléments d'un tableau.
+AprÃ¨s cette opÃ©ration, \c;a\n; contient une rÃ©fÃ©rence vers les Ã©lÃ©ments du tableau. Les Ã©lÃ©ments \c;[0]\n; et \c;[1]\n; sont crÃ©Ã©s (non initialisÃ©s) car un tableau ne peut pas avoir d'Ã©lÃ©ments vides.
+L'instruction \c;\l;sizeof\u cbot\sizeof;\n; permet de connaÃ®tre le nombre d'Ã©lÃ©ments d'un tableau.
 
-Lorsqu'un tableau est déclaré avec une taille maximale, le programme donne une erreur lors de l'exécution si on essaie de mettre un élément de trop. Aucune erreur n'est signalée lors de la compilation même si l'erreur paraît évidente¦:
+Lorsqu'un tableau est dÃ©clarÃ© avec une taille maximale, le programme donne une erreur lors de l'exÃ©cution si on essaie de mettre un Ã©lÃ©ment de trop. Aucune erreur n'est signalÃ©e lors de la compilation mÃªme si l'erreur paraÃ®t Ã©videnteÂ¦:
 \c;
 \s;{
 \s;	int a[5];
-\s;	a[7] = 123;  // pas d'erreur à la compilation
-\s;	             // mais erreur lors de l'exécution
+\s;	a[7] = 123;  // pas d'erreur Ã  la compilation
+\s;	             // mais erreur lors de l'exÃ©cution
 \s;}
 \n;
-Lorsqu'on donne un tableau comme paramètre d'une \l;fonction\u cbot\function;, c'est toujours une \l;référence\u cbot\pointer; qui est passée.
+Lorsqu'on donne un tableau comme paramÃ¨tre d'une \l;fonction\u cbot\function;, c'est toujours une \l;rÃ©fÃ©rence\u cbot\pointer; qui est passÃ©e.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;array\n; = tableau
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

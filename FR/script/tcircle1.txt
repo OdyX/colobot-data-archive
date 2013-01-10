@@ -2,7 +2,7 @@ extern void object::Solution( )
 {
 	pendown(Blue);
 
-	repeat ( 36 )  // répète 36x
+	repeat ( 36 )  // rÃ©pÃ¨te 36x
 	{
 		move(2);
 		turn(10);

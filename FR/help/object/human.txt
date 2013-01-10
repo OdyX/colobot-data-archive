@@ -1,20 +1,20 @@
 \b;\button 136; Cosmonaute
 \image human 8 8;
-Le cosmonaute vous reprÈsente dans le jeu. Si vous mourez, la mission Èchoue immÈdiatement.
+Le cosmonaute vous repr√©sente dans le jeu. Si vous mourez, la mission √©choue imm√©diatement.
 
-Pour sÈlectionner le cosmonaute, cliquez le bouton \button 136; en haut ‡ gauche ou appuyez sur la touche \key;\key human;\norm;.
-Les touches \key;\key gup;\norm; et \key;\key gdown;\norm; permettent de voler. Cliquez \l;ici\u command; pour voir le dÈtail des commandes de dÈplacement.
+Pour s√©lectionner le cosmonaute, cliquez le bouton \button 136; en haut √† gauche ou appuyez sur la touche \key;\key human;\norm;.
+Les touches \key;\key gup;\norm; et \key;\key gdown;\norm; permettent de voler. Cliquez \l;ici\u command; pour voir le d√©tail des commandes de d√©placement.
 
-Le sac de survie que vous portez sur le dos vous permet de nager dans l'eau sans limite de temps. Le rÈacteur placÈ sous ce sac vous permet de voler dans la plupart des missions. 
+Le sac de survie que vous portez sur le dos vous permet de nager dans l'eau sans limite de temps. Le r√©acteur plac√© sous ce sac vous permet de voler dans la plupart des missions. 
 
-Vous pouvez transporter la plupart des objets, mais vos dÈplacements sont alors fortement ralentis. Quand vous portez un objet, vous ne pouvez ni voler, ni vous dÈplacer sous l'eau. Utilisez dans ce cas un \l;robot dÈmÈnageur\u object\botgr;. A cause de la radioactivitÈ, vous ne pouvez pas transporter du minerai d'uranium.
+Vous pouvez transporter la plupart des objets, mais vos d√©placements sont alors fortement ralentis. Quand vous portez un objet, vous ne pouvez ni voler, ni vous d√©placer sous l'eau. Utilisez dans ce cas un \l;robot d√©m√©nageur\u object\botgr;. A cause de la radioactivit√©, vous ne pouvez pas transporter du minerai d'uranium.
 
-Vous pouvez construire plusieurs types de b‚timents ‡ l'aide du pistolet ‡ neutrons accrochÈ ‡ votre sac de survie. Un bouton \button 111; permet de vÈrifier si le sol est suffisamment plat pour construire des b‚timents. Les zones plates sont vertes, les zones inclinÈes rouges.
+Vous pouvez construire plusieurs types de b√¢timents √† l'aide du pistolet √† neutrons accroch√© √† votre sac de survie. Un bouton \button 111; permet de v√©rifier si le sol est suffisamment plat pour construire des b√¢timents. Les zones plates sont vertes, les zones inclin√©es rouges.
 
-Deux boutons \button 118; et \button 119; permettent de poser ou d'enlever des \l;drapeaux de couleur\u object\flag;. Ils sont utiles pour trouver votre chemin, pour retrouver des positions importantes ou pour indiquer des positions ‡ des robots programmÈs. Il est possible de poser au maximum 5 drapeaux par couleur.
+Deux boutons \button 118; et \button 119; permettent de poser ou d'enlever des \l;drapeaux de couleur\u object\flag;. Ils sont utiles pour trouver votre chemin, pour retrouver des positions importantes ou pour indiquer des positions √† des robots programm√©s. Il est possible de poser au maximum 5 drapeaux par couleur.
 
-\t;\l;CatÈgorie\u cbot\category; de l'objet
+\t;\l;Cat√©gorie\u cbot\category; de l'objet
 \c;Me\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÈgories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;cat√©gories\u cbot\category;.

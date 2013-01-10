@@ -6,7 +6,7 @@ extern void object::ServiceTour1()
 	tour = radar(DefenseTower);  // cherche une tour
 	goto(tour.position);         // va vers tour
 	
-	while ( true )               // répète toujours :
+	while ( true )               // rÃ©pÃ¨te toujours :
 	{
 		// attend que la pile se vide
 		while ( tour.energyCell.energyLevel > 0.2 )
@@ -23,8 +23,8 @@ extern void object::ServiceTour1()
 			wait(1);             // attend recharge
 		}
 		
-		// va vers la tour de défense
+		// va vers la tour de dÃ©fense
 		goto(tour.position);     // va vers tour
-		drop();                  // dépose pile
+		drop();                  // dÃ©pose pile
 	}
 }

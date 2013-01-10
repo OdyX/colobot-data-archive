@@ -1,5 +1,5 @@
 \b;Raport z satelity
-Obecnie na orbicie geostacjonarnej Ksiê¿yca.
+Obecnie na orbicie geostacjonarnej KsiÃªÂ¿yca.
 \c;
 \s;-> POWIERZCHNIA\c;
 \tab;Temperatura:      -58,9C
@@ -9,7 +9,7 @@ Obecnie na orbicie geostacjonarnej Ksiê¿yca.
 \tab;Ruda uranu:       brak
 
 \s;-> PODGLEBIE\c;
-\tab;ród³o energii:   brak
+\tab;ÂrÃ³dÂ³o energii:   brak
 \tab;Ruda tytanu:      brak
 \tab;Ruda uranu:       brak
 \n;

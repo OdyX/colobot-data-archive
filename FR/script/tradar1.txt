@@ -13,11 +13,11 @@ extern void object::Solution( )
 		}
 
 		dir = direction(spot.position);
-		if ( dir < 0 )  // à droite ?
+		if ( dir < 0 )  // Ã  droite ?
 		{
 			motor(1, 1+dir/90);
 		}
-		else  // à gauche ?
+		else  // Ã  gauche ?
 		{
 			motor(1-dir/90, 1);
 		}

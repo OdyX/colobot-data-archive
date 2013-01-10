@@ -1,16 +1,16 @@
 \b;Instruction \c;recycle\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;recycle ( );\n;
 
-Récupère l'épave placée devant le \l;robot\u object\botrecy;, qui sera transformée en \l;titanium\u object\titan;.
+RÃ©cupÃ¨re l'Ã©pave placÃ©e devant le \l;robot\u object\botrecy;, qui sera transformÃ©e en \l;titanium\u object\titan;.
 
-\t;Valeur retournée: \c;\l;int\u cbot\int;\n;
-Zéro si tout est ok, ou valeur non nulle si une erreur est intervenue.
-\c;== 0 \n;épave recyclée
+\t;Valeur retournÃ©e: \c;\l;int\u cbot\int;\n;
+ZÃ©ro si tout est ok, ou valeur non nulle si une erreur est intervenue.
+\c;== 0 \n;Ã©pave recyclÃ©e
 \c;!= 0 \n;recyclage impossible
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;recycle\n; = recycler
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

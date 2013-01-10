@@ -1,8 +1,8 @@
 \b;Exercice
-Détruire les quatre \l;cibles\u object\bottarg; à l'aide d'un programme utilisant une boucle \c;for\n;. Il faut avancer de 10 mètres pour passer d'une cible à l'autre.
+DÃ©truire les quatre \l;cibles\u object\bottarg; Ã  l'aide d'un programme utilisant une boucle \c;for\n;. Il faut avancer de 10 mÃ¨tres pour passer d'une cible Ã  l'autre.
 
 \b;Instructions utiles
-\c;\l;for\u cbot\for;\n; boucle pour répéter des instructions
+\c;\l;for\u cbot\for;\n; boucle pour rÃ©pÃ©ter des instructions
 \c;\l;move\u cbot\move;\n; pour avancer le robot
 \c;\l;turn\u cbot\turn;\n; pour tourner le robot
 \c;\l;fire\u cbot\fire;\n; pour faire tirer le robot

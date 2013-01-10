@@ -1,18 +1,18 @@
-\b;Æwiczenie
-Zdalnie pokieruj robotem bez u¿ywania \l;stacji przekaŸnikowej informacji\u object\exchange;. Robot powinien przejœæ przez 6 niebieskich plusów. Musisz u¿yæ \l;³añcucha\u cbot\string; do przekazania rozkazów podleg³emu robotowi. £añcuch zawiera rozkaz, który powinien byæ wykonany przez tego robota, na przyk³ad \c;"move(20)"\n;. Mo¿esz u¿yæ tej samej sk³adni co w jêzyku CBOT, choæ mo¿esz te¿ wybraæ dowoln¹ inn¹, na przyk³ad podobn¹ do tej: \c;"advance=20"\n;. £añcuch bêdzie elementem klasy zdefiniowanym jako \c;\l;static\u cbot\static;\n;, u¿ywanym do komunikacji pomiêdzy robotem nadrzêdnym i podleg³ym.
+\b;Ã†wiczenie
+Zdalnie pokieruj robotem bez uÂ¿ywania \l;stacji przekaÂŸnikowej informacji\u object\exchange;. Robot powinien przejÂœÃ¦ przez 6 niebieskich plusÃ³w. Musisz uÂ¿yÃ¦ \l;Â³aÃ±cucha\u cbot\string; do przekazania rozkazÃ³w podlegÂ³emu robotowi. Â£aÃ±cuch zawiera rozkaz, ktÃ³ry powinien byÃ¦ wykonany przez tego robota, na przykÂ³ad \c;"move(20)"\n;. MoÂ¿esz uÂ¿yÃ¦ tej samej skÂ³adni co w jÃªzyku CBOT, choÃ¦ moÂ¿esz teÂ¿ wybraÃ¦ dowolnÂ¹ innÂ¹, na przykÂ³ad podobnÂ¹ do tej: \c;"advance=20"\n;. Â£aÃ±cuch bÃªdzie elementem klasy zdefiniowanym jako \c;\l;static\u cbot\static;\n;, uÂ¿ywanym do komunikacji pomiÃªdzy robotem nadrzÃªdnym i podlegÂ³ym.
 
-Dwoma g³ównymi postaciami tego æwiczenia s¹¦:
-1) \l;Transporter na ko³ach\u object\botgr; bez ogniwa elektrycznego, wobec czego unieruchomiony. Jest to robot nadrzêdny, który powinien zostaæ zaprogramowany aby móg³ przesy³aæ rozkazy do podleg³ego mu robota.
-2) Podleg³y \l;robot treningowy\u object\bottr;, który jest ju¿ zaprogramowany i tylko czeka na rozkazy od robota nadrzêdnego.
+Dwoma gÂ³Ã³wnymi postaciami tego Ã¦wiczenia sÂ¹Â¦:
+1) \l;Transporter na koÂ³ach\u object\botgr; bez ogniwa elektrycznego, wobec czego unieruchomiony. Jest to robot nadrzÃªdny, ktÃ³ry powinien zostaÃ¦ zaprogramowany aby mÃ³gÂ³ przesyÂ³aÃ¦ rozkazy do podlegÂ³ego mu robota.
+2) PodlegÂ³y \l;robot treningowy\u object\bottr;, ktÃ³ry jest juÂ¿ zaprogramowany i tylko czeka na rozkazy od robota nadrzÃªdnego.
 
-\b;Robot podleg³y
-Najpierw musisz zrozumieæ jak dzia³a program robota podleg³ego. \l;Klasa\u cbot\class; \c;exchange\n; zawiera mechanizmy przekazywania rozkazów. Nale¿y zadeklarowaæ element klasy \c;m_order\n; jako \c;\l;static\u cbot\static;\n;, bêdzie on zawiera³ rozkazy do wykonania. S³owo \c;static\n; zapewnia, ¿e element \c;m_order\n; jest wspó³u¿ytkowany przez wszystkie instancje \l;klasy\u cbot\class; exchange.
+\b;Robot podlegÂ³y
+Najpierw musisz zrozumieÃ¦ jak dziaÂ³a program robota podlegÂ³ego. \l;Klasa\u cbot\class; \c;exchange\n; zawiera mechanizmy przekazywania rozkazÃ³w. NaleÂ¿y zadeklarowaÃ¦ element klasy \c;m_order\n; jako \c;\l;static\u cbot\static;\n;, bÃªdzie on zawieraÂ³ rozkazy do wykonania. SÂ³owo \c;static\n; zapewnia, Â¿e element \c;m_order\n; jest wspÃ³Â³uÂ¿ytkowany przez wszystkie instancje \l;klasy\u cbot\class; exchange.
 
 \c;\s;\l;public\u cbot\public; \l;class\u cbot\class; exchange
 \s;{
 \s;	\l;static\u cbot\static; \l;private\u cbot\private; \l;string\u cbot\string; m_order = "";
 
-\n;Metoda \c;put\n; bêdzie u¿ywana przez robota nadrzêdnego do przesy³ania rozkazów. Jeœli ³añcuch \c;m_order\n; nie jest pusty, robot podleg³y nie zakoñczy³ wykonywania rozkazu a metoda \c;put\n; zwróci wartoœæ \c;false\n; i niczego nie zrobi.
+\n;Metoda \c;put\n; bÃªdzie uÂ¿ywana przez robota nadrzÃªdnego do przesyÂ³ania rozkazÃ³w. JeÂœli Â³aÃ±cuch \c;m_order\n; nie jest pusty, robot podlegÂ³y nie zakoÃ±czyÂ³ wykonywania rozkazu a metoda \c;put\n; zwrÃ³ci wartoÂœÃ¦ \c;false\n; i niczego nie zrobi.
 
 \c;\s;	\l;synchronized\u cbot\synchro; \l;bool\u cbot\bool; put(string order)
 \s;	{
@@ -27,7 +27,7 @@ Najpierw musisz zrozumieæ jak dzia³a program robota podleg³ego. \l;Klasa\u cbot\
 \s;		}
 \s;	}
 \n;
-Inna metoda \c;get\n; zostanie u¿yta przez robota podleg³ego do pobrania rozkazów. Metoda ta zwraca ³añcuch zawarty w zmiennej \c;m_order\n; i opró¿nia j¹, aby móg³ byæ przyjêty nowy rozkaz:
+Inna metoda \c;get\n; zostanie uÂ¿yta przez robota podlegÂ³ego do pobrania rozkazÃ³w. Metoda ta zwraca Â³aÃ±cuch zawarty w zmiennej \c;m_order\n; i oprÃ³Â¿nia jÂ¹, aby mÃ³gÂ³ byÃ¦ przyjÃªty nowy rozkaz:
 
 \c;\s;	\l;synchronized\u cbot\synchro; string get()
 \s;	{
@@ -37,14 +37,14 @@ Inna metoda \c;get\n; zostanie u¿yta przez robota podleg³ego do pobrania rozkazó
 \s;	}
 \s;}
 \n;
-G³ówny program niewolnika zawiera instancjê klasy \c;exchange\n; nazwan¹ \c;list\n;.
+GÂ³Ã³wny program niewolnika zawiera instancjÃª klasy \c;exchange\n; nazwanÂ¹ \c;list\n;.
 
 \c;\s;\l;extern\u cbot\extern; void object::Slave3( )
 \s;{
 \s;	exchange list();
 \s;	string   todo;
 \n;
-Zewnêtrzna pêtla \c;while\n; dzia³a w nieskoñczonoœæ. Wewnêtrzna pêtla \c;while\n; czeka na rozkaz u¿ywaj¹c metody \c;get\n; z klasy \c;exchange\n;. Pêtla zatrzymuje siê gdy metoda \c;get\n; zwróci pusty ³añcuch.
+ZewnÃªtrzna pÃªtla \c;while\n; dziaÂ³a w nieskoÃ±czonoÂœÃ¦. WewnÃªtrzna pÃªtla \c;while\n; czeka na rozkaz uÂ¿ywajÂ¹c metody \c;get\n; z klasy \c;exchange\n;. PÃªtla zatrzymuje siÃª gdy metoda \c;get\n; zwrÃ³ci pusty Â³aÃ±cuch.
 
 \c;\s;	\l;while\u cbot\while; ( true )
 \s;	{
@@ -55,7 +55,7 @@ Zewnêtrzna pêtla \c;while\n; dzia³a w nieskoñczonoœæ. Wewnêtrzna pêtla \c;while\
 \s;			wait(1);
 \s;		}
 \n;
-Po otrzymaniu rozkazu i zapisaniu go w zmiennej \c;todo\n; wystarczy jedynie go wykonaæ:
+Po otrzymaniu rozkazu i zapisaniu go w zmiennej \c;todo\n; wystarczy jedynie go wykonaÃ¦:
 
 \c;\s;		if ( \l;strfind\u cbot\strfind;(todo, "move") == 0 )
 \s;		{
@@ -68,8 +68,8 @@ Po otrzymaniu rozkazu i zapisaniu go w zmiennej \c;todo\n; wystarczy jedynie go 
 \s;	}
 \s;}
 \n;
-\b;Robot nadrzêdny
-W robocie nadrzêdnym nale¿y napisaæ funkcjê nazwan¹ \c;SendOrder\n;, która wyœle rozkaz do robota podleg³ego:
+\b;Robot nadrzÃªdny
+W robocie nadrzÃªdnym naleÂ¿y napisaÃ¦ funkcjÃª nazwanÂ¹ \c;SendOrder\n;, ktÃ³ra wyÂœle rozkaz do robota podlegÂ³ego:
 
 \c;\s;void object::SendOrder(string order)
 \s;{
@@ -81,8 +81,8 @@ W robocie nadrzêdnym nale¿y napisaæ funkcjê nazwan¹ \c;SendOrder\n;, która wyœle
 \s;	}
 \s;}
 \n;
-Pêtla \c;while\n; czeka na zakoñczenie oczekuj¹cego rozkazu, czyli na wyjœcie przez robota podleg³ego z metody \c;get\n;.
-G³ówny program robota nadrzêdnego jest bardzo prosty:
+PÃªtla \c;while\n; czeka na zakoÃ±czenie oczekujÂ¹cego rozkazu, czyli na wyjÂœcie przez robota podlegÂ³ego z metody \c;get\n;.
+GÂ³Ã³wny program robota nadrzÃªdnego jest bardzo prosty:
 
 \c;\s;extern void object::Remote3( )
 \s;{
@@ -97,7 +97,7 @@ G³ówny program robota nadrzêdnego jest bardzo prosty:
 \s;	SendOrder("move(10)");
 \s;}
 \n;
-Klawisz \key;\key help;\norm; umo¿liwia wyœwietlenie tych informacji w dowolnej chwili.
+Klawisz \key;\key help;\norm; umoÂ¿liwia wyÂœwietlenie tych informacji w dowolnej chwili.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command; i \l;programowanie\u cbot;.

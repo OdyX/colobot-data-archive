@@ -13,7 +13,7 @@ extern void object::Remote( )
 
 void object::SendToPost(float order, float param)
 {
-	// wyœlij polecenie i parametr
+	// wyÂœlij polecenie i parametr
 	send("order", order, 100);
 	send("param", param, 100);
 

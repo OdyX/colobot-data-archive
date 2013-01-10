@@ -1,27 +1,27 @@
 \b;Z Centrum Szkoleniowego NASA
-Mi³o nam poinformowaæ, ¿e zosta³eœ wybrany do misji eksploracji kosmosu, nazwanej Colobot.
+MiÂ³o nam poinformowaÃ¦, Â¿e zostaÂ³eÂœ wybrany do misji eksploracji kosmosu, nazwanej Colobot.
 
-Twój profil psychologiczny zosta³ zosta³ uznany za korzystny w ponad 98,84%, a Twoje uzdolnienia podczas okresu obszernych badañ by³y niezaprzeczalne. Szczegó³owe wyniki s¹ do Twojej dyspozycji w komputerze centralnym pod przypisanym Ci numerem rejestracyjnym.
+TwÃ³j profil psychologiczny zostaÂ³ zostaÂ³ uznany za korzystny w ponad 98,84%, a Twoje uzdolnienia podczas okresu obszernych badaÃ± byÂ³y niezaprzeczalne. SzczegÃ³Â³owe wyniki sÂ¹ do Twojej dyspozycji w komputerze centralnym pod przypisanym Ci numerem rejestracyjnym.
 
-W sprawie wskazówek dotycz¹cych Twoich nadchodz¹cych misji, zg³oœ siê do\l; Centrum Kontroli Misji Houston\u object\Huston;.
+W sprawie wskazÃ³wek dotyczÂ¹cych Twoich nadchodzÂ¹cych misji, zgÂ³oÂœ siÃª do\l; Centrum Kontroli Misji Houston\u object\Huston;.
 
 \b;Z Centrum Kontroli Misji Houston
-Jak wiesz, Ziemiê czeka nieuchronna zag³ada, spowodowanego rosn¹cym zanieczyszczeniem atmosfery.
+Jak wiesz, ZiemiÃª czeka nieuchronna zagÂ³ada, spowodowanego rosnÂ¹cym zanieczyszczeniem atmosfery.
 
-\l;Twoja\u object\human; misja polega na zbadaniu s¹siednich galaktyk z nadziej¹ znalezienia planety odpowiedniej dla cz³owieka i mog¹cej s³u¿yæ jako przysz³e schronienie dla ludzkoœci. Podczas misji mo¿esz liczyæ tylko na siebie, choæ na Twoim statku kosmicznym bêdzie te¿ kilka robotów.
+\l;Twoja\u object\human; misja polega na zbadaniu sÂ¹siednich galaktyk z nadziejÂ¹ znalezienia planety odpowiedniej dla czÂ³owieka i mogÂ¹cej sÂ³uÂ¿yÃ¦ jako przyszÂ³e schronienie dla ludzkoÂœci. Podczas misji moÂ¿esz liczyÃ¦ tylko na siebie, choÃ¦ na Twoim statku kosmicznym bÃªdzie teÂ¿ kilka robotÃ³w.
 
-Osiem miesiêcy temu zosta³a wys³ana ekspedycja maj¹ca ten sam cel, sk³adaj¹ca siê jedynie z robotów. Napotka³a ona wiele przeszkód na swej drodze, zwykle l¹duj¹c na planetach nieodpowiednich do kolonizacji, a nawet wyraŸnie wrogich. Ca³kiem niedawno ³¹cznoœæ zosta³a zupe³nie zerwana.
+Osiem miesiÃªcy temu zostaÂ³a wysÂ³ana ekspedycja majÂ¹ca ten sam cel, skÂ³adajÂ¹ca siÃª jedynie z robotÃ³w. NapotkaÂ³a ona wiele przeszkÃ³d na swej drodze, zwykle lÂ¹dujÂ¹c na planetach nieodpowiednich do kolonizacji, a nawet wyraÂŸnie wrogich. CaÂ³kiem niedawno Â³Â¹cznoÂœÃ¦ zostaÂ³a zupeÂ³nie zerwana.
 
-Powody niepowodzenia tamtej misji wci¹¿ s¹ nieznane, g³ównie z powodu powtarzaj¹cych siê problemów z transmisj¹. Mamy jednak nadziejê, ¿e uda Ci siê wykorzystaæ czêœæ zebranych przez ni¹ danych.
+Powody niepowodzenia tamtej misji wciÂ¹Â¿ sÂ¹ nieznane, gÂ³Ã³wnie z powodu powtarzajÂ¹cych siÃª problemÃ³w z transmisjÂ¹. Mamy jednak nadziejÃª, Â¿e uda Ci siÃª wykorzystaÃ¦ czÃªÂœÃ¦ zebranych przez niÂ¹ danych.
 
-\b;Bezpoœredni cel
-Pustynia Nevada wre aktywnoœci¹. Roboty buduj¹ stacjê kosmiczn¹, która bêdzie troszczyæ siê o zaspokojenie Twoich specyficznych potrzeb.
+\b;BezpoÂœredni cel
+Pustynia Nevada wre aktywnoÂœciÂ¹. Roboty budujÂ¹ stacjÃª kosmicznÂ¹, ktÃ³ra bÃªdzie troszczyÃ¦ siÃª o zaspokojenie Twoich specyficznych potrzeb.
 
-Aby zapoznaæ Ciê ze skafandrem i wyposa¿eniem, przygotowaliœmy kilka æwiczeñ treningowych.
+Aby zapoznaÃ¦ CiÃª ze skafandrem i wyposaÂ¿eniem, przygotowaliÂœmy kilka Ã¦wiczeÃ± treningowych.
 
-W pierwszym æwiczeniu musisz znaleŸæ swój zestaw przetrwania, zawieraj¹cy wszystkie narzêdzia niezbêdne do stawienia czo³a zimnej przestrzeni kosmicznej. Jest on ³atwy do zauwa¿enia, gdy¿ zawiera dwa pojemniki: pomarañczowy i niebieski.
+W pierwszym Ã¦wiczeniu musisz znaleÂŸÃ¦ swÃ³j zestaw przetrwania, zawierajÂ¹cy wszystkie narzÃªdzia niezbÃªdne do stawienia czoÂ³a zimnej przestrzeni kosmicznej. Jest on Â³atwy do zauwaÂ¿enia, gdyÂ¿ zawiera dwa pojemniki: pomaraÃ±czowy i niebieski.
 
-Naciœniêcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeæ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
+NaciÂœniÃªcie klawisza \key;\key help;\norm; pozwala ponownie przejrzeÃ¦ te instrukcje na Twoim osobistym komunikatorze SatCom \button 63;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Sterowanie\u command;

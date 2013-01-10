@@ -1,9 +1,9 @@
 extern void object::Solution( )
 {
 	point  start;
-	start = position;  // mémorise départ
+	start = position;  // mÃ©morise dÃ©part
 
-	motor(1, 1);  // départ à donf !
+	motor(1, 1);  // dÃ©part Ã  donf !
 
 	while ( true )  // boucle infinie
 	{

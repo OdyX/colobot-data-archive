@@ -2,7 +2,7 @@ extern void object::Slave( )
 {
 	float	order;
 
-	errmode(0);  // nie zatrzymuj przy b³êdach
+	errmode(0);  // nie zatrzymuj przy bÂ³Ãªdach
 
 	while ( true )
 	{

@@ -1,22 +1,22 @@
-\b;\button 165; Wie¿a obronna
+\b;\button 165; WieÂ¿a obronna
 \image tower 8 8;
-Wie¿a umo¿liwia najlepsz¹ obronê przeciwko atakom \l;wrogów\u object\mother;, zarówno naziemnych, jak i powietrznych.
+WieÂ¿a umoÂ¿liwia najlepszÂ¹ obronÃª przeciwko atakom \l;wrogÃ³w\u object\mother;, zarÃ³wno naziemnych, jak i powietrznych.
 
-Do dzia³ania wie¿y potrzebne jest \l;zwyk³e\u object\power; lub \l;atomowe\u object\atomic; ogniwo elektryczne. Zwyk³e ogniwo elektryczne umo¿liwia oddanie 8 strza³ów. Oczywiœcie du¿o lepsze jest ogniwo atomowe. Gdy skoñczy siê energia, wie¿a sygnalizuje to miganiem.
+Do dziaÂ³ania wieÂ¿y potrzebne jest \l;zwykÂ³e\u object\power; lub \l;atomowe\u object\atomic; ogniwo elektryczne. ZwykÂ³e ogniwo elektryczne umoÂ¿liwia oddanie 8 strzaÂ³Ã³w. OczywiÂœcie duÂ¿o lepsze jest ogniwo atomowe. Gdy skoÃ±czy siÃª energia, wieÂ¿a sygnalizuje to miganiem.
 
-Wie¿a ma zasiêg 40 metrów. Aby go wyœwietliæ na powierzchni planety, nale¿y zaznaczyæ wie¿ê i nacisn¹æ przycisk <zasiêgu> \button 41;. Czerwone kropki wyró¿ni¹ kolist¹ strefê przez 20 sekund.
+WieÂ¿a ma zasiÃªg 40 metrÃ³w. Aby go wyÂœwietliÃ¦ na powierzchni planety, naleÂ¿y zaznaczyÃ¦ wieÂ¿Ãª i nacisnÂ¹Ã¦ przycisk <zasiÃªgu> \button 41;. Czerwone kropki wyrÃ³Â¿niÂ¹ kolistÂ¹ strefÃª przez 20 sekund.
 
 \t;Wymagania
-P³aska powierzchnia szeroka na minimum 3,5 metra.
+PÂ³aska powierzchnia szeroka na minimum 3,5 metra.
 
-\t;ród³o zasilania
-Zwyk³e lub atomowe ogniwo elektryczne.
+\t;ÂrÃ³dÂ³o zasilania
+ZwykÂ³e lub atomowe ogniwo elektryczne.
 
-\t;Czas dzia³ania
+\t;Czas dziaÂ³ania
 1 sekunda.
 
 \t;\l;Kategoria\u cbot\category; obiektu
 \c;DefenseTower\n;
 
-\t;Zobacz równie¿
-\l;Jêzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.
+\t;Zobacz rÃ³wnieÂ¿
+\l;JÃªzyk CBOT\u cbot;, \l;zmienne\u cbot\type; i \l;kategorie\u cbot\category;.

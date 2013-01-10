@@ -1,9 +1,9 @@
-\b;Æwiczenie
-\l;Robot\u object\bottr; musi przejœæ przez wszystkie \l;niebieskie plusy\u object\waypoint; znajduj¹ce siê na ziemi. Jego droga sk³ada siê z dwóch kwadratów. Pierwszy ma 15, a drugi 25 metrów.
+\b;Ã†wiczenie
+\l;Robot\u object\bottr; musi przejÂœÃ¦ przez wszystkie \l;niebieskie plusy\u object\waypoint; znajdujÂ¹ce siÃª na ziemi. Jego droga skÂ³ada siÃª z dwÃ³ch kwadratÃ³w. Pierwszy ma 15, a drugi 25 metrÃ³w.
 
 \image tproc1a 8 8;
-\b;Ogólny algorytm
-Najbardziej efektywne rozwi¹zanie tego problemu polega na utworzeniu \l;funkcji\u cbot\function; polecaj¹cej robotowi poruszanie siê po kwadracie o okreœlonym rozmiarze. Znacznie upraszcza to g³ówny program:\c;
+\b;OgÃ³lny algorytm
+Najbardziej efektywne rozwiÂ¹zanie tego problemu polega na utworzeniu \l;funkcji\u cbot\function; polecajÂ¹cej robotowi poruszanie siÃª po kwadracie o okreÂœlonym rozmiarze. Znacznie upraszcza to gÂ³Ã³wny program:\c;
 \c;
 \s;	extern void object::Funkcja3( )
 \s;	{
@@ -12,9 +12,9 @@ Najbardziej efektywne rozwi¹zanie tego problemu polega na utworzeniu \l;funkcji\
 \s;	}
 \n;
 \b;Przydatne instrukcje
-\c;\l;for\u cbot\for;\n; pêtla powtarzaj¹ca instrukcje
+\c;\l;for\u cbot\for;\n; pÃªtla powtarzajÂ¹ca instrukcje
 \c;\l;move\u cbot\move;\n; poruszanie robotem
 \c;\l;turn\u cbot\turn;\n; obracanie robota
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

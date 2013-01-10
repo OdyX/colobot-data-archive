@@ -1,20 +1,20 @@
 \b;Instruction \c;send\n;
-Syntaxe¦:
+SyntaxeÂ¦:
 \s;\c;send ( name, value, power );\n;
 
 Envoie une information dans la \l;borne\u object\exchange; la plus proche.
 
 \t;name: \c;string\n;
-Nom de l'information à écrire dans la borne. Ce nom est une chaîne de caractères; il doit donc être donné entre guillemets "¦".
-S'il n'existe aucune information ayant ce nom, une nouvelle entrée est créée, pour autant que le nombre total d'entrées ne dépasse pas 10. S'il existe déjà une information ayant ce nom, la valeur est simplement remplacée par la nouvelle.
+Nom de l'information Ã  Ã©crire dans la borne. Ce nom est une chaÃ®ne de caractÃ¨res; il doit donc Ãªtre donnÃ© entre guillemets "Â¦".
+S'il n'existe aucune information ayant ce nom, une nouvelle entrÃ©e est crÃ©Ã©e, pour autant que le nombre total d'entrÃ©es ne dÃ©passe pas 10. S'il existe dÃ©jÃ  une information ayant ce nom, la valeur est simplement remplacÃ©e par la nouvelle.
 
 \t;value: \c;float\n;
-Valeur de l'information à envoyer.
+Valeur de l'information Ã  envoyer.
 
 \t;power: \c;float\n;
-Puissance de l'émetteur, qui correspond à la distance maximale jusqu'où peut être la borne. La valeur par défaut est de 10 mètres.
+Puissance de l'Ã©metteur, qui correspond Ã  la distance maximale jusqu'oÃ¹ peut Ãªtre la borne. La valeur par dÃ©faut est de 10 mÃ¨tres.
 
-\t;Dictionnaire anglais-français
+\t;Dictionnaire anglais-franÃ§ais
 \c;receive\n; = recevoir
 \c;name   \n; = nom
 \c;value  \n; = valeur
@@ -22,4 +22,4 @@ Puissance de l'émetteur, qui correspond à la distance maximale jusqu'où peut êtr
 
 \t;Voir aussi
 \c;\l;receive\u cbot\receive;\n;, \c;\l;testinfo\u cbot\testinfo;\n; et \c;\l;deleteinfo\u cbot\delinfo;\n;.
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

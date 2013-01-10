@@ -1,7 +1,7 @@
 \b;Instructions de Houston
-Retrouvez et ramenez la \l;boÓte noire\u object\bbox; de l'expÈdition prÈcÈdente.
+Retrouvez et ramenez la \l;bo√Æte noire\u object\bbox; de l'exp√©dition pr√©c√©dente.
 
-Le satellite d'observation semble l'avoir localisÈe sous l'eau. Cette eau est sans danger pour votre scaphandre, mais vous ne pouvez pas porter des objets sous l'eau. Pour cette t‚che, vous aurez besoin d'un robot \l;sous-marin\u object\botsub;.
+Le satellite d'observation semble l'avoir localis√©e sous l'eau. Cette eau est sans danger pour votre scaphandre, mais vous ne pouvez pas porter des objets sous l'eau. Pour cette t√¢che, vous aurez besoin d'un robot \l;sous-marin\u object\botsub;.
 
 \key;\key help;\norm; permet de revoir ces instructions sur votre SatCom.
 

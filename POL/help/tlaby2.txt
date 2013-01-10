@@ -1,28 +1,28 @@
-\b;Æwiczenie
-To æwiczenie jest bardzo podobne do poprzedniego. Tym razem robot powinien samodzielnie znaleŸæ drogê od startu do celu; musisz uruchomiæ program tylko jeden raz.
+\b;Ã†wiczenie
+To Ã¦wiczenie jest bardzo podobne do poprzedniego. Tym razem robot powinien samodzielnie znaleÂŸÃ¦ drogÃª od startu do celu; musisz uruchomiÃ¦ program tylko jeden raz.
 
 \b;Uwaga
-Labirynt nie jest dok³adnie taki sam ale powinno to byæ bez znaczenia, gdy¿ program przystosowuje siê do tego co "widzi".
+Labirynt nie jest dokÂ³adnie taki sam ale powinno to byÃ¦ bez znaczenia, gdyÂ¿ program przystosowuje siÃª do tego co "widzi".
 
 \image tlaby1 10 10;
-\b;Ogólny algorytm
-U¿yj nieskoñczonej pêtli \c;\l;while\u cbot\while;\n; aby wielokrotnie wykonaæ poprzedni program:
+\b;OgÃ³lny algorytm
+UÂ¿yj nieskoÃ±czonej pÃªtli \c;\l;while\u cbot\while;\n; aby wielokrotnie wykonaÃ¦ poprzedni program:
 \s;\c;while ( true )
 \s;{
-\s;	\n;Jeœli nie ma niczego z przodu, idŸ naprzód\c;
-\s;	\n;Jeœli nie ma niczego po lewej, skrêæ w lewo\c;
-\s;	\n;Jeœli nie ma niczego po prawej, skrêæ w prawo\c;
+\s;	\n;JeÂœli nie ma niczego z przodu, idÂŸ naprzÃ³d\c;
+\s;	\n;JeÂœli nie ma niczego po lewej, skrÃªÃ¦ w lewo\c;
+\s;	\n;JeÂœli nie ma niczego po prawej, skrÃªÃ¦ w prawo\c;
 \s;}
 \n;
-Wewn¹trz pêtli \c;while\n; zast¹p instrukcje \c;return\n; instrukcjami \c;\l;continue\u cbot\continue;\n;. \c;return\n; koñczy dzia³anie programu, co nie jest po¿¹dane w tym przypadku. \c;continue\n; wznawia wykonywanie na pocz¹tku pêtli \c;\l;while\u cbot\while;\n;:
+WewnÂ¹trz pÃªtli \c;while\n; zastÂ¹p instrukcje \c;return\n; instrukcjami \c;\l;continue\u cbot\continue;\n;. \c;return\n; koÃ±czy dziaÂ³anie programu, co nie jest poÂ¿Â¹dane w tym przypadku. \c;continue\n; wznawia wykonywanie na poczÂ¹tku pÃªtli \c;\l;while\u cbot\while;\n;:
 \s;\c;if ( front == null )
 \s;{
 \s;	move(5);
 \s;	continue;
 \s;}
 \n;
-\b;Zapamiêtaj
-Oto jeszcze raz program z poprzedniego æwiczenia:
+\b;ZapamiÃªtaj
+Oto jeszcze raz program z poprzedniego Ã¦wiczenia:
 \c;
 \s;object   front, left, right;
 \s;
@@ -49,7 +49,7 @@ Oto jeszcze raz program z poprzedniego æwiczenia:
 \s;}
 \n;
 \b;Pomoc
-Jeœli potrzebujesz pomocy, kliknij na hiper³¹czu instrukcji \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; lub \c;\l;turn\u cbot\turn;\n;.
+JeÂœli potrzebujesz pomocy, kliknij na hiperÂ³Â¹czu instrukcji \c;\l;radar\u cbot\radar;\n;, \c;\l;if\u cbot\if;\n;, \c;\l;move\u cbot\move;\n; lub \c;\l;turn\u cbot\turn;\n;.
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

@@ -1,47 +1,47 @@
-\b;Programy przys³ane z Houston
-Napisaliœmy program zajmuj¹cy siê ³adowaniem ogniwa elektrycznego \l;wie¿y obronnej\u object\tower;:
+\b;Programy przysÂ³ane z Houston
+NapisaliÂœmy program zajmujÂ¹cy siÃª Â³adowaniem ogniwa elektrycznego \l;wieÂ¿y obronnej\u object\tower;:
 
-1) IdŸ do \l;wie¿y obronnej\u object\tower;.
-2) Poczekaj a¿ \l;ogniwo elektryczne\u object\power; bêdzie w 80% puste.
-3) Zabierz \l;ogniwo elektryczne\u object\power; i do³aduj je w \l;stacji energetycznej\u object\station;.
-4) Odnieœ je do \l;wie¿y obronnej\u object\tower;.
+1) IdÂŸ do \l;wieÂ¿y obronnej\u object\tower;.
+2) Poczekaj aÂ¿ \l;ogniwo elektryczne\u object\power; bÃªdzie w 80% puste.
+3) Zabierz \l;ogniwo elektryczne\u object\power; i doÂ³aduj je w \l;stacji energetycznej\u object\station;.
+4) OdnieÂœ je do \l;wieÂ¿y obronnej\u object\tower;.
 
-W celu zredukowania czasu gdy wie¿a pozostaje bez zasilania, zbuduj \l;stacjê energetyczn¹\u object\station; mo¿liwie najbli¿ej wie¿y. Przydatn¹ sztuczk¹ jest zostawienie ogniwa elektrycznego na ziemi przed wie¿¹. Osy bêd¹ atakowa³y ogniwo i jeœli pierwszy strza³ bêdzie niecelny lub osa przybêdzie gdy wie¿a bêdzie bez zasilania, zniszczone zostanie tylko ogniw, a nie wie¿a obronna.
+W celu zredukowania czasu gdy wieÂ¿a pozostaje bez zasilania, zbuduj \l;stacjÃª energetycznÂ¹\u object\station; moÂ¿liwie najbliÂ¿ej wieÂ¿y. PrzydatnÂ¹ sztuczkÂ¹ jest zostawienie ogniwa elektrycznego na ziemi przed wieÂ¿Â¹. Osy bÃªdÂ¹ atakowaÂ³y ogniwo i jeÂœli pierwszy strzaÂ³ bÃªdzie niecelny lub osa przybÃªdzie gdy wieÂ¿a bÃªdzie bez zasilania, zniszczone zostanie tylko ogniw, a nie wieÂ¿a obronna.
 \c;
 \s;extern void object::ServiceTower1()
 \s;{
-\s;	\l;object\u cbot\object;  tower;               // informacje o wie¿y
+\s;	\l;object\u cbot\object;  tower;               // informacje o wieÂ¿y
 \s;	\l;object\u cbot\object;  station;             // informacje o stacji
 \s;	
-\s;	// 1) idŸ do wie¿y obronnej
-\s;	tower = \l;radar\u cbot\radar;(DefenseTower); // znajdŸ wie¿ê
-\s;	\l;goto\u cbot\goto;(tower.position);        // i idŸ tam
+\s;	// 1) idÂŸ do wieÂ¿y obronnej
+\s;	tower = \l;radar\u cbot\radar;(DefenseTower); // znajdÂŸ wieÂ¿Ãª
+\s;	\l;goto\u cbot\goto;(tower.position);        // i idÂŸ tam
 \s;	
-\s;	\l;while\u cbot\while; ( true )               // powtarzaj w nieskoñczonoœæ
+\s;	\l;while\u cbot\while; ( true )               // powtarzaj w nieskoÃ±czonoÂœÃ¦
 \s;	{
 \s;		// 2) poczekaj na wyczerpanie ogniwa elektrycznego
 \s;		\l;while\u cbot\while; ( tower.energyCell.energyLevel > 0.2 )
 \s;		{
 \s;			\l;wait\u cbot\wait;(2);
 \s;		}
-\s;		\l;grab\u cbot\grab;();                  // weŸ ogniwo elektryczne
+\s;		\l;grab\u cbot\grab;();                  // weÂŸ ogniwo elektryczne
 \s;		
-\s;		// 3) idŸ do elektrowni i na³aduj je
+\s;		// 3) idÂŸ do elektrowni i naÂ³aduj je
 \s;		station = \l;radar\u cbot\radar;(PowerStation);
-\s;		\l;goto\u cbot\goto;(station.position);  // idŸ tam
+\s;		\l;goto\u cbot\goto;(station.position);  // idÂŸ tam
 \s;		\l;while\u cbot\while; ( load.energyLevel < 1 )
 \s;		{
-\s;			\l;wait\u cbot\wait;(1);             // poczekaj a¿ siê na³aduje
+\s;			\l;wait\u cbot\wait;(1);             // poczekaj aÂ¿ siÃª naÂ³aduje
 \s;		}
 \s;		
-\s;		// 4) wróæ do wie¿y obronnej
-\s;		\l;goto\u cbot\goto;(tower.position);    // idŸ do wie¿y
+\s;		// 4) wrÃ³Ã¦ do wieÂ¿y obronnej
+\s;		\l;goto\u cbot\goto;(tower.position);    // idÂŸ do wieÂ¿y
 \s;		\l;drop\u cbot\drop;();                  // zostaw ogniwo elektryczne
 \s;	}
 \s;}
 \n;
 \b;Archiwum
-Lista programów przys³anych w poprzednich misjach:
+Lista programÃ³w przysÂ³anych w poprzednich misjach:
 
 o  \c;\l;CollectTitanium3\u mlvolca1;\n;
 o  \c;\l;KillAnt1\u mlsaari2;\n;

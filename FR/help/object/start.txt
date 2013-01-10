@@ -1,8 +1,8 @@
-\b;Plate-forme de départ
-La plate-forme de départ est utilisée dans les exercices.
+\b;Plate-forme de dÃ©part
+La plate-forme de dÃ©part est utilisÃ©e dans les exercices.
 
-\t;\l;Catégorie\u cbot\category; de l'objet
+\t;\l;CatÃ©gorie\u cbot\category; de l'objet
 \c;StartArea\n;
 
 \t;Voir aussi
-\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catégories\u cbot\category;.
+\l;Programmation\u cbot;, \l;types\u cbot\type; et \l;catÃ©gories\u cbot\category;.

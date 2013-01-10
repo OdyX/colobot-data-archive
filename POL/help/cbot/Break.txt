@@ -1,13 +1,13 @@
 \b;Instrukcja \c;break\n;
-Sk³adnia:
+SkÂ³adnia:
 \s;\c;while ( warunek )
 \s;{
 \s;	break;
 \s;}
 \n;
-Instrukcja break koñczy wykonywanie pêtli \c;\l;while\u cbot\while;\n; lub \c;\l;for\u cbot\for;\n;.
+Instrukcja break koÃ±czy wykonywanie pÃªtli \c;\l;while\u cbot\while;\n; lub \c;\l;for\u cbot\for;\n;.
 
-Oto przyk³ad:
+Oto przykÂ³ad:
 \s;\c;int i = 0;
 \s;while ( true )
 \s;{
@@ -17,9 +17,9 @@ Oto przyk³ad:
 \s;	{
 \s;		break;
 \s;	}
-\s;	\n;wiêcej instrukcji ...\c;
+\s;	\n;wiÃªcej instrukcji ...\c;
 \s;}
 \n; 
 
-\t;Zobacz równie¿
+\t;Zobacz rÃ³wnieÂ¿
 \l;Programowanie\u cbot;, \l;typy\u cbot\type; i \l;kategorie\u cbot\category;.

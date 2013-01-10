@@ -1,21 +1,21 @@
 \b;Dents de scie bicolores
-On va maintenant dessiner les mêmes dents de scie bleues et rouges, mais avec un principe différent.
+On va maintenant dessiner les mÃªmes dents de scie bleues et rouges, mais avec un principe diffÃ©rent.
 
 \image teen904 12 4;
-\b;Variable bonne à tout faire
-Lorsque tu écris¦...
+\b;Variable bonne Ã  tout faire
+Lorsque tu Ã©crisÂ¦...
 \c;
 \s;int compteur = 0;
 \n;
-...¦tu utilises une variable appelée \c;compteur\n; pour lui assigner la valeur zéro. Mais tu peux aussi utiliser une variable pour stocker une couleur directement. Par exemple¦:
+...Â¦tu utilises une variable appelÃ©e \c;compteur\n; pour lui assigner la valeur zÃ©ro. Mais tu peux aussi utiliser une variable pour stocker une couleur directement. Par exempleÂ¦:
 \c;
 \s;int couleur = Blue;
 \n;
-Puis, au lieu d'écrire \c;pendown(Blue);\n;, tu peux écrire¦:
+Puis, au lieu d'Ã©crire \c;pendown(Blue);\n;, tu peux Ã©crireÂ¦:
 \c;
 \s;pendown(couleur);
 \n;
-Après cela, il ne reste qu'à changer le contenu de la variable \c;couleur\n;¦:
+AprÃ¨s cela, il ne reste qu'Ã  changer le contenu de la variable \c;couleur\n;Â¦:
 \c;
 \s;if( couleur == Blue )
 \s;{
@@ -28,4 +28,4 @@ Après cela, il ne reste qu'à changer le contenu de la variable \c;couleur\n;¦:
 \n;
 Si la variable contient \c;Blue\n;, on lui met \c;Red\n;. Dans le cas contraire, on lui met \c;Blue\n;.
 
-Voilà, à toi de terminer le programme¦...
+VoilÃ , Ã  toi de terminer le programmeÂ¦...

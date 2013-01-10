@@ -2,9 +2,9 @@ extern void object::Solution( )
 {
 	errmode(0);
 	int    table[5];
-	float  dir = 90;    // direction où poser
+	float  dir = 90;    // direction oÃ¹ poser
 
-	// première action, chercher les éléments
+	// premiÃ¨re action, chercher les Ã©lÃ©ments
 	for ( int i=1 ; i<6 ; i=i+1 )
 	{
 		move(5);  // avance au prochain
@@ -18,7 +18,7 @@ extern void object::Solution( )
 			// le place dans le tableau
 			table[i-1] = load.category;
 
-			// recule à la plateforme
+			// recule Ã  la plateforme
 			move(-i*5);
 			turn(dir);
 			drop();  // le pose
@@ -31,7 +31,7 @@ extern void object::Solution( )
 	}
 
 	errmode(1);
-	// seconde action, les remettre inversé
+	// seconde action, les remettre inversÃ©
 	for ( int i=0 ; i<5 ; i=i+1 )
 	{
 		if ( table[i] == 0 )  continue;
@@ -42,8 +42,8 @@ extern void object::Solution( )
 		turn(dir);      // se retourne vers lui
 		grab();         // le prend
 		turn(-dir);     // face au couloir
-		move(5*(5-i));  // avance à la position
-		drop();         // dépose l'objet là-bas
+		move(5*(5-i));  // avance Ã  la position
+		drop();         // dÃ©pose l'objet lÃ -bas
 		move(5*(i-5));  // revient.
 	}
 }

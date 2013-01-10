@@ -2,7 +2,7 @@
 Tu vas maintenant dessiner une dent de scie bleue, puis une rouge, puis de nouveau une bleue, etc.
 
 \image teen904 12 4;
-Le programme ressemblera à ceci¦:
+Le programme ressemblera Ã  ceciÂ¦:
 \c;
 \s;repeat(6)
 \s;{
@@ -13,10 +13,10 @@ Le programme ressemblera à ceci¦:
 \s;	turn(gauche);
 \s;}
 \n;
-Evidemment, l'instruction \c;pendown(Blue¦puis¦Red);\n; n'existe pas. Il faut programmer quelque chose d'un peu plus compliqué¦!
+Evidemment, l'instruction \c;pendown(BlueÂ¦puisÂ¦Red);\n; n'existe pas. Il faut programmer quelque chose d'un peu plus compliquÃ©Â¦!
 
-\b;Idée
-Tu vas utiliser une variable pour compter les dents de scie, comme cela¦:
+\b;IdÃ©e
+Tu vas utiliser une variable pour compter les dents de scie, comme celaÂ¦:
 \c;
 \s;int compteur = 0;
 \s;repeat(6)
@@ -28,14 +28,14 @@ Tu vas utiliser une variable pour compter les dents de scie, comme cela¦:
 \s;	turn(gauche);
 \s;}
 \n;
-Il ne reste plus qu'à choisir la couleur bleue si le compteur est pair, et la couleur rouge dans le cas contraire¦:
+Il ne reste plus qu'Ã  choisir la couleur bleue si le compteur est pair, et la couleur rouge dans le cas contraireÂ¦:
 
-\s;o  Est-ce que le compteur est pair¦?
+\s;o  Est-ce que le compteur est pairÂ¦?
 \s;	o  Abaisser le crayon bleu
 \s;o  Sinon :
 \s;	o  Abaisser le crayon rouge
 
-Sans entrer dans les détails, sache que la question "Est-ce que le compteur est pair¦?" s'écrit \c;if(¦compteur%2¦==¦0¦)\n;.
+Sans entrer dans les dÃ©tails, sache que la question "Est-ce que le compteur est pairÂ¦?" s'Ã©crit \c;if(Â¦compteur%2Â¦==Â¦0Â¦)\n;.
 \c;
 \s;if( compteur%2 == 0 )
 \s;{
@@ -46,4 +46,4 @@ Sans entrer dans les détails, sache que la question "Est-ce que le compteur est 
 \s;	pendown(Red);
 \s;}
 \n;
-Voilà, à toi de compléter le programme¦...
+VoilÃ , Ã  toi de complÃ©ter le programmeÂ¦...
